@@ -1,7 +1,5 @@
-name="Royal Eagle UI"
+name="Royal Eagle UI (dev)"
 path="mod/Royal_Eagle_UI"
-dependencies={
-}
 tags={
 	"Graphics"
 	"Fixes"
