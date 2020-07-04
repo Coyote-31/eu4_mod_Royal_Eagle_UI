@@ -1,5 +1,5 @@
-name="Royal Eagle UI (Dev)"
-path="E:/Downloads/_Jeux PC/EU4 Mods/eu4_mod_Royal_Eagle_UI/Royal_Eagle_UI"
+name="Royal Eagle UI"
+path="mod/Royal_Eagle_UI"
 dependencies={
 }
 tags={
