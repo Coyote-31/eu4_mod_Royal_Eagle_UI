@@ -8,7 +8,7 @@ spriteTypes = {
 		name = "GFX_popup_edittextbox_bg"
 		texturefile = "gfx/interface/popup_edittextbox_bg.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_client_font_flag_overlay"
 		texturefile = "gfx/interface/client_state_symbols_trade_flags.dds"
@@ -16,7 +16,7 @@ spriteTypes = {
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
-	
+
 
 	spriteType = {
 		name = "GFX_unsafe_savegame_icon"
@@ -27,13 +27,13 @@ spriteTypes = {
 		name = "forum"
 		texturefile = "gfx//interface//icon_forum.dds"
 		noOfFrames = 1
-		
+
 	}
 	spriteType = {
 		name = "facebook"
 		texturefile = "gfx//interface//icon_facebook.dds"
 		noOfFrames = 1
-		
+
 	}
 	spriteType = {
 		name = "twitter"
@@ -129,7 +129,7 @@ spriteTypes = {
 		name = "homepage"
 		texturefile = "gfx//interface//icon_homepage.dds"
 		noOfFrames = 1
-		
+
 	}
 	spriteType = {
 		name = "GFX_icon_font_gold"
@@ -157,19 +157,19 @@ spriteTypes = {
 		texturefile = "gfx//interface//checkbox.tga"
 		noOfFrames = 4
 	}
-	
+
 	spriteType = {
 		name = "GFX_checkbox_button"
 		texturefile = "gfx//interface//checkbox.tga"
 		noOfFrames = 4
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
+
 	textSpriteType = {
 		name = "ToolTip"
 		texturefile = "gfx//interface//tiles_dialog.tga"
 		noOfFrames = 1
-		
+
 	}
 
 	corneredTileSpriteType = {
@@ -184,23 +184,23 @@ spriteTypes = {
 		name = "GFX_leader_stats_icons"
 		texturefile = "gfx//interface//leader_stats_icons.tga"
 		noOfFrames = 4
-		
+
 	}
 
 	spriteType = {
 		name = "cursor"
 		texturefile = "gfx//interface//textcursor.tga"
 		noOfFrames = 1
-		
+
 	}
 
-	
-	
+
+
 	corneredTileSpriteType = {
 		name = "gfx_transp_black"
 		texturefile = "gfx//interface//transp_black.tga"
 		noOfFrames = 1
-		
+
 	}
 
 	corneredTileSpriteType = {
@@ -212,19 +212,19 @@ spriteTypes = {
 		name = "gfx_transparency"
 		texturefile = "gfx//interface//transparency.tga"
 		noOfFrames = 1
-		
+
 	}
 
 	corneredTileSpriteType = {
 		name = "gfx_message_bg"
-		size= {x=720 y=100 }		
+		size= {x=720 y=100 }
 		textureFile ="gfx//interface//transp_black.tga"
 		borderSize = { x=8 y=8 }
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "gfx_transparency_white"
-		size= {x=0 y=0 }		
+		size= {x=0 y=0 }
 		textureFile ="gfx//interface//transp_white.dds"
 		borderSize = { x=1 y=1 }
 	}
@@ -236,12 +236,12 @@ spriteTypes = {
 		borderSize = { x=8 y=8 }
 	}
 
-	
+
 	spriteType = {
 		name = "default_cursor"
 		texturefile = "gfx//interface//cursor.tga"
 		noOfFrames = 1
-		
+
 	}
 
 	spriteType = {
@@ -255,43 +255,43 @@ spriteTypes = {
 		texturefile = "gfx//interface//checkbox_small.tga"
 		noOfFrames = 2
 	}
-	
+
 	spriteType = {
 		name = "GFX_checkbox_logfilter_me"
 		texturefile = "gfx//interface//checkbox_logfilter_me.tga"
 		noOfFrames = 2
 	}
-	
+
 	spriteType = {
 		name = "GFX_messages_logfilter_me"
 		texturefile = "gfx//interface//messages_logfilter_me.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_checkbox_logfilter_interesting"
 		texturefile = "gfx//interface//checkbox_logfilter_interesting.tga"
 		noOfFrames = 2
 	}
-	
+
 	spriteType = {
 		name = "GFX_messages_logfilter_interesting"
 		texturefile = "gfx//interface//messages_logfilter_interesting.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_checkbox_logfilter_other"
 		texturefile = "gfx//interface//checkbox_logfilter_other.tga"
 		noOfFrames = 2
 	}
-	
+
 	spriteType = {
 		name = "GFX_messages_logfilter_other"
 		texturefile = "gfx//interface//messages_logfilter_other.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	maskedShieldType = {
 		name = "GFX_minishield_greydown"
 		textureFile1 = "gfx//interface//minishield.tga"
@@ -315,21 +315,21 @@ spriteTypes = {
 		name = "GFX_status_message_window_bg"
 		texturefile = "gfx/interface/status_message_window_bg.dds"
 		noOfFrames = 1
-		
-	}	
-	
+
+	}
+
 	spriteType = {
 		name = "button_right"
 		texturefile = "gfx//interface//button_right.tga"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
-		
+
 	}
 
 	textSpriteType = {
 		name = "button_type_1"
 		texturefile = "gfx//interface//button_type_1.tga"
-		
+
 		clicksound = click
 	}
 
@@ -352,35 +352,35 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_6"
 		texturefile = "gfx//interface//button_type_6.tga"
-		
+
 		clicksound = click
 	}
-	
+
 	textSpriteType = {
 		name = "button_type_7"
 		texturefile = "gfx//interface//button_type_7.tga"
-		
+
 		clicksound = click
 	}
-	
+
 	textSpriteType = {
 		name = "button_type_8"
 		texturefile = "gfx//interface//button_type_8.dds"
-		
+
 		clicksound = click
-	}	
-	
+	}
+
 	textSpriteType = {
 		name = "button_type_9"
 		texturefile = "gfx//interface//button_type_9.tga"
-		
+
 		clicksound = click
 	}
 
 	textSpriteType = {
 		name = "button_type_4"
 		texturefile = "gfx//interface//button_type_4.tga"
-		
+
 		clicksound = click
 	}
 
@@ -388,32 +388,32 @@ spriteTypes = {
 		name = "GFX_stars"
 		texturefile = "gfx//interface//stars.tga"
 		noOfFrames = 7
-		
+
 	}
 
 	spriteType = {
 		name = "GFX_stars_small_3"
 		texturefile = "gfx//interface//stars_small_3.dds"
 		noOfFrames = 3
-		
+
 	}
 
 	#spriteType = {
 	#	name = "GFX_stars_small"
 	#	texturefile = "gfx//interface//stars_small.tga"
 	#	noOfFrames = 7
-	#	
+	#
 	#}
 
 
 
-	
-	
-	
+
+
+
 }
 
 objectTypes = {
-		
+
 	animatedmaptext = {
 		name = "MessageMapText"
 		speed = 0.05
@@ -440,7 +440,7 @@ objectTypes = {
 			format = centre
 		}
 	}
-	
+
 	animatedmaptext = {
 		name = "ProvinceNoMoreLootText"
 		speed = 0.05
@@ -478,7 +478,7 @@ objectTypes = {
 			format = centre
 		}
 	}
-	
+
 	animatedmaptext = {
 		name = "siegeinfo"
 		speed = 0.05
@@ -499,7 +499,7 @@ bitmapfonts = {
 
 	##c Global text colorings
 	textcolors = {
-		
+
 		B = { 40 40 220 }
 		R = { 230 30 30 }
 		G = { 30 225 30 }
@@ -519,14 +519,14 @@ bitmapfonts = {
 		path = "gfx/fonts/garamond_16"
 		color = 0xffffffff
 
-		
+
 	}
-	
+
 	bitmapfont = {
 		name = "ToolTip_Font_Big"
 		path = "gfx/fonts/garamond_16_bold"
 		color = 0xffffffff
-	}	
+	}
 
 	bitmapfont = {
 		name = "tahoma_60"
@@ -541,19 +541,19 @@ bitmapfonts = {
 		path = "gfx/fonts/standard_18"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "standard_22"
 		path = "gfx/fonts/standard_22"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "mapfont_small"
 		path = "gfx/fonts/vic_22_bl"
-		color = 0xff000000	
+		color = 0xff000000
 	}
-	
+
 	bitmapfont = {
 		name = "AnimatedMapText"
 		path = "gfx/fonts/tahoma_20_bold"
@@ -566,7 +566,7 @@ bitmapfonts = {
 		path = "gfx/fonts/tahoma_20_bold"
 		color = 0xffffffff
 	}
-	
+
 	bitmapfont = {
 		name = "Main_24"
 		path = "gfx/fonts/garamond_24"
@@ -593,7 +593,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_16" ##c mainscreen btn saves
-		path = "gfx/fonts/verdana12b" #cc garamond_16_bold
+		path = "gfx/fonts/test_red" #cc garamond_16_bold
 		color = 0xffffffff
 	}
 
@@ -612,30 +612,30 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_14"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia12b" #cc garamond_14
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_14"
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_plain"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia12b" #cc garamond_14
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_14"
 		color = 0xff000000
 	}
 
 
 	bitmapfont = {
 		name = "Main_14_grey"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia12b" #cc garamond_14
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_14"
 		color = 0xffbbbbbb
 	}
 
 	bitmapfont = {
 		name = "Main_16_plain"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia13b" #cc garamond_16
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_16"
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_black"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia12b" #cc  garamond_14_bold
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_14_bold"
 		color = 0xff000000
 	}
 	bitmapfont = {
@@ -645,7 +645,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "Main_14_bold"
-		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/georgia12b" #cc "garamond_14_bold"
+		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/garamond_14_bold"
 		color = 0xffffffff
 	}
 	bitmapfont = {
@@ -700,21 +700,21 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "vic_18_black"
 		path = "gfx/fonts/test" #c tested #cc vic_18
-		color = 0xff000000	
+		color = 0xff000000
 
 		textcolors = {
-		
+
 			G = { 30 225 30 }
 			R = { 230 30 30 }
 			Y = { 0 0 0 } #cc Y = { 0 0 0 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_18" ##c ? Main Text
-		path = "gfx/fonts/verdana12b" #cc vic_18"
+		path = "gfx/fonts/test_red" #cc vic_18"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -724,32 +724,8 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_18s" ##c SubRulersName & Advisors & no Edit
-		path = "gfx/fonts/georgia14b" #cc vic_18s
+		path = "gfx/fonts/test_red" #cc vic_18s
 		color = 0xffffffff
-				
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	bitmapfont = {
-		name = "vic_18_grey" ##c revenu % & units subtext
-		path = "gfx/fonts/verdana13b_grey" #cc path = "gfx/fonts/vic_18_grey"
-		color = 0xffffffff
-				
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	bitmapfont = {
-		name = "vic_22_black"
-		path = "gfx/fonts/verdana14b_grey" #c tested #cc vic_22
-		color = 0xff000000	
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -757,13 +733,37 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
-	
+
+	bitmapfont = {
+		name = "vic_18_grey" ##c revenu % & units subtext
+		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_18_grey"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+		name = "vic_22_black"
+		path = "gfx/fonts/test_red" #c tested #cc vic_22
+		color = 0xff000000
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
 	##c Mainscreen starting-date-up & Ladder & Coutry name & Country menus sub titles
 	##c Total recettes and depense & Institutions and tech num and % & num decisions & OE & estates
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/verdana14b" #cc vic_22
+		path = "gfx/fonts/test_red" #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -774,7 +774,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_22s" ##c & nom territoire & king name
-		path = "gfx/fonts/georgia16b_ct" #cc vic_22s
+		path = "gfx/fonts/test_red" #cc vic_22s
 		color = 0xffffffff
 
 		textcolors = {
@@ -787,7 +787,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "vic_29_black"
 		path = "gfx/fonts/test" #c tested #cc path = "gfx/fonts/vic_29"
-		color = 0xff000000	
+		color = 0xff000000
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -795,30 +795,30 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_29" ##c #todo Religion tab main title
 		path = "gfx/fonts/vic_29s" #cc path = "gfx/fonts/vic_29"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
 			Y = { 250 235 15 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
 		path = "gfx/fonts/cloister_32-ol" #cc path = "gfx/fonts/vic_29s"
 		#c color = 0xffffffff
 		color = 0xffd12323
-		
+
 		cursor_offset = {
             0
             -4
         }
-		
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -837,12 +837,12 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
-	
+
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips
 		path = "gfx/fonts/vic_36" #cc path = "gfx/fonts/vic_36"
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -851,10 +851,10 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/verdana16b_ct" #cc path = "gfx/fonts/vic_36s"
+		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_36s"
 		color = 0xffffffff
-		
-		
+
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -864,7 +864,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Arial12" ##c Subtext saves & Units number
-		path = "gfx/fonts/verdana13b_grey" #cc Arial12
+		path = "gfx/fonts/test_red" #cc Arial12
 		color = 0xffffffff
 
 		textcolors = {
@@ -878,68 +878,16 @@ bitmapfonts = {
 		name = "FPS_Font"
 		path = "gfx/fonts/test" #c tested #cc Arial12
 		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}	
-	
-	### Customs fonts by Coyote
-	
-	#cc
-	bitmapfont = {
-		name = "test"
-		path = "gfx/fonts/test"
-		color = 0xffffffff
-		
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
 			Y = { 250 235 15 }
 		}
 	}
-	
-	#cc
-	bitmapfont = {
-		name = "test_red"
-		path = "gfx/fonts/test_red" 
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "test_green"
-		path = "gfx/fonts/test_green"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "test_blue"
-		path = "gfx/fonts/test_blue"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
+
+
+
 	#cc
 	bitmapfont = {
 		name = "garamond_24"
@@ -947,222 +895,6 @@ bitmapfonts = {
 		color = 0xffffffff
 	}
 
-	
-	#cc
-	bitmapfont = {
-		name = "georgia12b"
-		path = "gfx/fonts/georgia12b"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "georgia13b"
-		path = "gfx/fonts/georgia13b"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "georgia13b_grey"
-		path = "gfx/fonts/georgia13b_grey"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "georgia14b"
-		path = "gfx/fonts/georgia14b"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-
-	#cc
-	bitmapfont = {
-		name = "georgia14b_grey"
-		path = "gfx/fonts/georgia14b_grey"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-
-	#cc
-	bitmapfont = {
-		name = "georgia16b_ct"
-		path = "gfx/fonts/georgia16b_ct"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "verdana12b"
-		path = "gfx/fonts/verdana12b"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "verdana12m"
-		path = "gfx/fonts/verdana12m"
-		color = 0xffffffff
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-	
-		##c Intermediaire
-		##c Mainscreen continue-btn datewidget-daymonth
-		name = "verdana13b"
-		path = "gfx/fonts/verdana13b"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-	
-		##c Mainscreen version
-		name = "verdana13b_grey"
-		path = "gfx/fonts/verdana13b_grey"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-	
-		##c Middle-size-bold
-		##c Mainscreen mains-sub-btns
-		name = "verdana14b"
-		path = "gfx/fonts/verdana14b" 
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "verdana14b_grey"
-		path = "gfx/fonts/verdana14b_grey"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-
-	#cc
-	bitmapfont = {
-		
-		##c 
-		name = "verdana_15"
-		path = "gfx/fonts/verdana_15"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		
-		##c 
-		name = "verdana_15b"
-		path = "gfx/fonts/verdana_15b"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-		name = "Verdana15"
-		path = "gfx/fonts/Verdana15"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	#cc
-	bitmapfont = {
-	
-		##c Mainscreen mains-btns datewidget-years-num
-		name = "verdana16b_ct"
-		path = "gfx/fonts/verdana16b_ct"
-		color = 0xffffffff
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	
 	##################################
 	###c      Fonts by Coyote      ###
 	##################################
@@ -1180,12 +912,12 @@ bitmapfonts = {
 	#font-xl
 	#
 	bitmapfont = {
-	
+
 		name = "coyote-xl"
 		path = "gfx/fonts/cambria_18"
-		
+
 		color = 0xffffffff
-		
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -1196,10 +928,10 @@ bitmapfonts = {
 	#font-xl-b
 	#mainscreen_mains-sub-btns
 	bitmapfont = {
-	
+
 		name = "coyote-xl-b"
 		path = "gfx/fonts/cambria_18b"
-		
+
 		color = 0xffffffff
 
 		textcolors = {
@@ -1208,21 +940,21 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
-	
+
 	#font-xl-b-ol
 	#?
 	bitmapfont = {
-	
+
 		name = "coyote-xl-b-ol"
 		path = "gfx/fonts/cambria_18b_ol"
-		
+
 		cursor_offset = {
             2
             2
         }
-		
+
 		color = 0xffffffff
-		
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -1235,41 +967,18 @@ bitmapfonts = {
 	#font-xxl-ol
 	#Titles
 	bitmapfont = {
-	
+
 		name = "coyote-xxl-ol"
 		path = "gfx/fonts/cloister_32-ol"
-		
+
 		cursor_offset = {
             10
             10
         }
-		
+
 		#cc color = 0xffffffff
 		color = 0xff000000
-		
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
-	
-	
-	#font-xxl-ol-red
-	#Titles colors
-	bitmapfont = {
-	
-		name = "coyote-xxl-ol-red"
-		path = "gfx/fonts/cloister_32-ol-red"
-		
-		cursor_offset = {
-            -10
-            -10
-        }
-		
-		#cc color = 0xffffffff
-		color = 0xff000000
-		
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -1277,9 +986,86 @@ bitmapfonts = {
 		}
 	}
 
-	###   End - Fonts by Coyote   c###@=()i#
+
+	#font-xxl-ol-red
+	#Titles colors
+	bitmapfont = {
+
+		name = "coyote-xxl-ol-red"
+		path = "gfx/fonts/cloister_32-ol-red"
+
+		cursor_offset = {
+            -10
+            -10
+        }
+
+		#cc color = 0xffffffff
+		color = 0xff000000
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+###c testing fonts
+
+	#cc
+	bitmapfont = {
+		name = "test"
+		path = "gfx/fonts/test"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	#cc
+	bitmapfont = {
+		name = "test_red"
+		path = "gfx/fonts/test_red"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	#cc
+	bitmapfont = {
+		name = "test_green"
+		path = "gfx/fonts/test_green"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	#cc
+	bitmapfont = {
+		name = "test_blue"
+		path = "gfx/fonts/test_blue"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	###   End - Fonts by Coyote   c###
 	##################################
-	
+
 }
 
 
@@ -1291,7 +1077,7 @@ spriteTypes = {
 		name = "GFX_nullobject"
 		texturefile = "gfx/interface/placeholder.dds"
 	}
-	
+
 }
 
 bitmapfonts = {
@@ -1300,7 +1086,7 @@ bitmapfonts = {
 		name = "null_font"
 		path = "gfx/fonts/test" #c tested #cc gfx/fonts/vic_18
 		color = 0xffffffff
-				
+
 		textcolors = {
 			G = { 30 225 30 }
 			R = { 230 30 30 }
@@ -1309,5 +1095,5 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-	
+
 }
