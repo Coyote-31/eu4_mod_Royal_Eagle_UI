@@ -712,7 +712,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18" ##c ? Main Text
-		path = "gfx/fonts/test_red" #cc vic_18"
+		path = "gfx/fonts/cambria_13" #cc vic_18"
 		color = 0xffffffff
 
 		textcolors = {
@@ -903,8 +903,49 @@ bitmapfonts = {
 
 ###c font-small :
 
+	bitmapfont = {
+
+		name = "coyote-small"
+		path = "gfx/fonts/cambria_13"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+
+		name = "coyote-small"
+		path = "gfx/fonts/cambria_14"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
 ###c font-medium :
 
+	bitmapfont = {
+
+		name = "coyote-medium"
+		path = "gfx/fonts/cambria_15"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
 ###c font-large :
 
 ###c font-xl :
