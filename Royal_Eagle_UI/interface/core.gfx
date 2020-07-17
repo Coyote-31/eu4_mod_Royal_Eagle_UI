@@ -697,20 +697,20 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_black"	##c Text event description
-		path = "gfx/fonts/test_red" #c tested #cc vic_18
-		color = 0xff000000
+		path = "gfx/fonts/cambria_12b" #c cambria_12b #cc vic_18
+		color = 0xff000000 #cc 0xff000000
 
 		textcolors = {
 
 			G = { 30 225 30 }
 			R = { 230 30 30 }
-			Y = { 0 0 0 } #cc Y = { 0 0 0 }
+			Y = { 250 235 15 } #cc Y = { 0 0 0 }
 		}
 	}
 
 	bitmapfont = {
 		name = "vic_18" ##c ? Main Text
-		path = "gfx/fonts/cambria_12" #c cambria_12 #cc vic_18"
+		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18"
 		color = 0xffffffff
 
 		textcolors = {
@@ -722,7 +722,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_18s" ##c no Edit
-		path = "gfx/fonts/test_red" #cc vic_18s
+		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18s
 		color = 0xffffffff
 
 		textcolors = {
@@ -734,7 +734,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_grey" ##c revenu % & units subtext & unit build time
-		path = "gfx/fonts/cambria_12" #cc vic_18_grey
+		path = "gfx/fonts/cambria_12b_ol" #cc vic_18_grey
 		#cc color = 0xffffffff
 		color = 0xffa9a9a9
 
@@ -763,7 +763,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_18" #c cambria_18 #cc vic_22
+		path = "gfx/fonts/cambria_12b" #c cambria_18 #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -903,8 +903,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_12"
-		path = "gfx/fonts/cambria_12"
+		name = "cambria_12b_ol"
+		path = "gfx/fonts/cambria_12b_ol"
 
 		color = 0xffffffff
 
@@ -914,6 +914,22 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
+
+	bitmapfont = {
+
+		name = "cambria_12b"
+		path = "gfx/fonts/cambria_12b"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+###c font-small :
 
 	bitmapfont = {
 
