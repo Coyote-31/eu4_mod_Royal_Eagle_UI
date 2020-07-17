@@ -698,7 +698,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "vic_18_black"	##c Text event description
 		path = "gfx/fonts/cambria_12b" #c cambria_12b #cc vic_18
-		color = 0xff000000 #cc 0xff000000
+		color = 0xff000000
 
 		textcolors = {
 
@@ -763,7 +763,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_12b" #c cambria_18 #cc vic_22
+		path = "gfx/fonts/cambria_12b" #c cambria_18b_ol #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -933,8 +933,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_18"
-		path = "gfx/fonts/cambria_18"
+		name = "cambria_18b_ol"
+		path = "gfx/fonts/cambria_18b_ol"
 
 		color = 0xffffffff
 
