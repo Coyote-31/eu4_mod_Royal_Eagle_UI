@@ -17,7 +17,6 @@ spriteTypes = {
 		overlay_rows = 4
 	}
 
-
 	spriteType = {
 		name = "GFX_unsafe_savegame_icon"
 		texturefile = "gfx/interface/unsafe_savegame_icon.dds"
@@ -27,24 +26,26 @@ spriteTypes = {
 		name = "forum"
 		texturefile = "gfx//interface//icon_forum.dds"
 		noOfFrames = 1
-
 	}
+
 	spriteType = {
 		name = "facebook"
 		texturefile = "gfx//interface//icon_facebook.dds"
 		noOfFrames = 1
-
 	}
+
 	spriteType = {
 		name = "twitter"
 		texturefile = "gfx//interface//icon_twitter.dds"
 		noOfFrames = 1
 	}
+
 	spriteType = {
 		name = "login_logout"
 		texturefile = "gfx//interface//button_login_logout.dds"
 		noOfFrames = 1
 	}
+
 	spriteType = {
 		name = "GFX_button_60_29"
 		texturefile = "gfx/interface/buttons/button_60_animated.dds"
@@ -64,6 +65,7 @@ spriteTypes = {
 			animationframes = { 1 2 3 }
 		}
 	}
+
 	spriteType = {
 		name = "GFX_standard_button_142_34_button"
 		texturefile = "gfx/interface/buttons/button_142_animated.dds"
@@ -83,6 +85,7 @@ spriteTypes = {
 			animationframes = { 1 2 3 }
 		}
 	}
+
 	spriteType = {
 		name = "GFX_button_150_24"
 		texturefile = "gfx/interface/buttons/button_150_24_animated.dds"
@@ -102,6 +105,7 @@ spriteTypes = {
 			animationframes = { 1 2 3 }
 		}
 	}
+
 	spriteType = {
 		name = "GFX_close"
 		texturefile = "gfx/interface/buttons/close_button.dds"
@@ -121,37 +125,44 @@ spriteTypes = {
 			animationframes = { 1 2 3 }
 		}
 	}
+
 	spriteType = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
 	}
+
 	spriteType = {
 		name = "homepage"
 		texturefile = "gfx//interface//icon_homepage.dds"
 		noOfFrames = 1
-
 	}
+
 	spriteType = {
 		name = "GFX_icon_font_gold"
 		texturefile = "gfx//interface//icon_gold_font.tga"
 	}
+
 	spriteType = {
 		name = "GFX_icon_font_development"
 		texturefile = "gfx//interface//icon_development_font.tga"
 	}
+
 	spriteType = {
 		name = "GFX_icon_font_province"
 		texturefile = "gfx//interface//icon_province_font.tga"
 	}
+
 	spriteType = {
 		name = "GFX_icon_font_governing_capacity"
 		texturefile = "gfx//interface//icon_font_governing_capacity.dds"
 	}
+
 	spriteType = {
 		name = "GFX_alliance_leader"
 		texturefile = "gfx//interface//alliance_leader.tga"
 		noOfFrames = 1
 	}
+
 	spriteType = {
 		name = "GFX_checkbox"
 		texturefile = "gfx//interface//checkbox.tga"
@@ -169,7 +180,6 @@ spriteTypes = {
 		name = "ToolTip"
 		texturefile = "gfx//interface//tiles_dialog.tga"
 		noOfFrames = 1
-
 	}
 
 	corneredTileSpriteType = {
@@ -184,23 +194,18 @@ spriteTypes = {
 		name = "GFX_leader_stats_icons"
 		texturefile = "gfx//interface//leader_stats_icons.tga"
 		noOfFrames = 4
-
 	}
 
 	spriteType = {
 		name = "cursor"
 		texturefile = "gfx//interface//textcursor.tga"
 		noOfFrames = 1
-
 	}
-
-
 
 	corneredTileSpriteType = {
 		name = "gfx_transp_black"
 		texturefile = "gfx//interface//transp_black.tga"
 		noOfFrames = 1
-
 	}
 
 	corneredTileSpriteType = {
@@ -212,7 +217,6 @@ spriteTypes = {
 		name = "gfx_transparency"
 		texturefile = "gfx//interface//transparency.tga"
 		noOfFrames = 1
-
 	}
 
 	corneredTileSpriteType = {
@@ -236,12 +240,10 @@ spriteTypes = {
 		borderSize = { x=8 y=8 }
 	}
 
-
 	spriteType = {
 		name = "default_cursor"
 		texturefile = "gfx//interface//cursor.tga"
 		noOfFrames = 1
-
 	}
 
 	spriteType = {
@@ -323,7 +325,6 @@ spriteTypes = {
 		texturefile = "gfx//interface//button_right.tga"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
-
 	}
 
 	textSpriteType = {
@@ -388,14 +389,12 @@ spriteTypes = {
 		name = "GFX_stars"
 		texturefile = "gfx//interface//stars.tga"
 		noOfFrames = 7
-
 	}
 
 	spriteType = {
 		name = "GFX_stars_small_3"
 		texturefile = "gfx//interface//stars_small_3.dds"
 		noOfFrames = 3
-
 	}
 
 	#spriteType = {
@@ -404,11 +403,6 @@ spriteTypes = {
 	#	noOfFrames = 7
 	#
 	#}
-
-
-
-
-
 
 }
 
@@ -466,6 +460,7 @@ objectTypes = {
 			format = centre
 		}
 	}
+
 	animatedmaptext = {
 		name = "CombatLoss"
 		speed = 0.05
@@ -516,18 +511,16 @@ bitmapfonts = {
 		name = "ToolTip_Font"
 		path = "gfx/fonts/garamond_16"
 		color = 0xffffffff
-
-
 	}
 
 	bitmapfont = {
-		name = "ToolTip_Font_Big"
+		name = "ToolTip_Font_Big" ##c not-used
 		path = "gfx/fonts/garamond_16_bold"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
-		name = "tahoma_60"
+		name = "tahoma_60" ##c not-used
 		path = "gfx/fonts/Mapfont"
 		color = 0xff333333
 		#path = "gfx/fonts/tahoma_60"
@@ -541,19 +534,19 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "standard_22"
+		name = "standard_22" ##c not-used
 		path = "gfx/fonts/standard_22"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
-		name = "mapfont_small"
+		name = "mapfont_small" ##c not-used
 		path = "gfx/fonts/vic_22_bl"
 		color = 0xff000000
 	}
 
 	bitmapfont = {
-		name = "AnimatedMapText"
+		name = "AnimatedMapText" ##c not-used
 		path = "gfx/fonts/tahoma_20_bold"
 		color = 0xff7799ff
 		border_color = 0xe0000000
@@ -572,119 +565,122 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "Main_24_black"
+		name = "Main_24_black" ##c not-used
 		path = "gfx/fonts/garamond_24"
 		color = 0xff000000
 	}
 
 	bitmapfont = {
-		name = "pie_headline_20"
+		name = "pie_headline_20" ##c not-used
 		path = "gfx/fonts/garamond_24"
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "messagelog"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/garamond_16_bold"
 		color = 0xffffff99
 	}
 
 	bitmapfont = {
-		name = "Main_16" ##c mainscreen btn saves
-		path = "gfx/fonts/test_red" #cc garamond_16_bold
+		name = "Main_16" ##c mainscreen btn saves ...
+		path = "gfx/fonts/garamond_16_bold"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
-		name = "Main_16_white_bold"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_16_bold"
+		name = "Main_16_white_bold" ##c not-used
+		path = "gfx/fonts/garamond_16_bold"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
-		name = "Main_16_black"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_16_bold"
+		name = "Main_16_black" ##c not-used
+		path = "gfx/fonts/garamond_16_bold"
 		color = 0xff000000
 	}
 
-
 	bitmapfont = {
-		name = "Main_14"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
+		name = "Main_14" ##c Peace-score & Pwd-action-view
+		path = "gfx/fonts/garamond_14"
 		color = 0xffffffff
 	}
+
 	bitmapfont = {
-		name = "Main_14_plain"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
+		name = "Main_14_plain" ##c popup-settings
+		path = "gfx/fonts/garamond_14"
 		color = 0xff000000
 	}
 
-
 	bitmapfont = {
-		name = "Main_14_grey"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
+		name = "Main_14_grey" ##c not-used
+		path = "gfx/fonts/garamond_14"
 		color = 0xffbbbbbb
 	}
 
 	bitmapfont = {
-		name = "Main_16_plain"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_16"
+		name = "Main_16_plain" ##c not-used
+		path = "gfx/fonts/garamond_16"
 		color = 0xffffffff
 	}
+
 	bitmapfont = {
-		name = "Main_14_black"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "Main_14_black" ##c Menu-bar
+		path = "gfx/fonts/garamond_14_bold"
 		color = 0xff000000
 	}
+
 	bitmapfont = {
-		name = "Main_14_red"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "Main_14_red" ##c not-used
+		path = "gfx/fonts/garamond_14_bold" #c tested #cc path = "gfx/fonts/garamond_14_bold"
 		color = 0xffff0000
 	}
+
 	bitmapfont = {
-		name = "Main_14_bold"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "Main_14_bold" ##c Cassusbelli-name
+		path = "gfx/fonts/garamond_14_bold"
 		color = 0xffffffff
 	}
+
 	bitmapfont = {
-		name = "Main_14_orange"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "Main_14_orange" ##c not-used
+		path = "gfx/fonts/garamond_14_bold"
 		color = 0xffffbb00
 	}
 
 	bitmapfont = {
-		name = "Main_14_eu"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
+		name = "Main_14_eu" ##c Metaserver
+		path = "gfx/fonts/garamond_14"
 		color = 0xffaaffff
 	}
 
-
 	bitmapfont = {
-		name = "garamond_14"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
-		color = 0xffffffff
-	}
-	bitmapfont = {
-		name = "garamond_14_bold"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "garamond_14" ##c Menu-bar
+		path = "gfx/fonts/garamond_14"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
-		name = "garamond_14_bold_orange"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		name = "garamond_14_bold" ##c not-used
+		path = "gfx/fonts/garamond_14_bold"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "garamond_14_bold_orange" ##c not-used
+		path = "gfx/fonts/garamond_14_bold"
 		color = 0xffffc000
 	}
 
 	bitmapfont = {
-		name = "ledger"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_14"
+		name = "ledger" ##c not-used
+		path = "gfx/fonts/garamond_14"
 		color = 0xff000000
 	}
 
 	bitmapfont = {
-		name = "ledger_headline"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/garamond_16_bold"
+		name = "ledger_headline" ##c Papacy-TableHeaderText
+		path = "gfx/fonts/garamond_16_bold"
 		color = 0xff000000
 	}
 
@@ -694,14 +690,12 @@ bitmapfonts = {
 ##		color = 0xffffff99
 ##	}
 
-
 	bitmapfont = {
 		name = "vic_18_black"	##c Text event description
 		path = "gfx/fonts/cambria_12b" #c cambria_12b #cc vic_18
 		color = 0xff000000
 
 		textcolors = {
-
 			G = { 30 225 30 }
 			R = { 230 30 30 }
 			Y = { 250 235 15 } #cc Y = { 0 0 0 }
@@ -720,6 +714,7 @@ bitmapfonts = {
 			g = { 210 210 210} #cc
 		}
 	}
+
 	bitmapfont = {
 		name = "vic_18s" ##c no Edit
 		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18s
@@ -772,6 +767,7 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
+
 	bitmapfont = {
 		name = "vic_22s" ##c & nom territoire & king name
 		path = "gfx/fonts/test_green" #cc vic_22s
@@ -811,12 +807,12 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
 		path = "gfx/fonts/cloister_32-ol" #cc path = "gfx/fonts/vic_29s"
-		#c color = 0xffffffff
 		color = 0xffffffff
 
+		##c TODO test offset
 		cursor_offset = {
-            0
-            -4
+          0
+          -4
         }
 
 		textcolors = {
@@ -849,11 +845,11 @@ bitmapfonts = {
 			Y = { 250 235 15 }
 		}
 	}
+
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
 		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_36s"
 		color = 0xffffffff
-
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -897,9 +893,9 @@ bitmapfonts = {
 	###c      Fonts by Coyote      ###
 	##################################
 
-###c font-xs :
+	###c font-xs :
 
-###c font-small :
+	###c font-small :
 
 	bitmapfont = {
 
@@ -929,7 +925,7 @@ bitmapfonts = {
 		}
 	}
 
-###c font-small :
+	###c font-small :
 
 	bitmapfont = {
 
@@ -945,11 +941,11 @@ bitmapfonts = {
 		}
 	}
 
-###c font-large :
+	###c font-large :
 
-###c font-xl :
+	###c font-xl :
 
-###c font-xxl :
+	###c font-xxl :
 
 	#font-xxl-ol
 	bitmapfont = {
@@ -972,9 +968,8 @@ bitmapfonts = {
 		}
 	}
 
-###c testing fonts
+	###c testing fonts
 
-	#cc
 	bitmapfont = {
 		name = "test"
 		path = "gfx/fonts/test"
@@ -987,7 +982,6 @@ bitmapfonts = {
 		}
 	}
 
-	#cc
 	bitmapfont = {
 		name = "test_red"
 		path = "gfx/fonts/test_red"
@@ -1000,7 +994,6 @@ bitmapfonts = {
 		}
 	}
 
-	#cc
 	bitmapfont = {
 		name = "test_green"
 		path = "gfx/fonts/test_green"
@@ -1013,7 +1006,6 @@ bitmapfonts = {
 		}
 	}
 
-	#cc
 	bitmapfont = {
 		name = "test_blue"
 		path = "gfx/fonts/test_blue"
@@ -1046,7 +1038,7 @@ spriteTypes = {
 bitmapfonts = {
 
 	bitmapfont = {
-		name = "null_font"
+		name = "null_font" ##c not-used
 		path = "gfx/fonts/test_red" #c tested #cc gfx/fonts/vic_18
 		color = 0xffffffff
 
