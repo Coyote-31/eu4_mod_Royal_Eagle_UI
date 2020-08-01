@@ -935,6 +935,20 @@ bitmapfonts = {
 
 	###c font-large :
 
+	bitmapfont = {
+
+		name = "cambria_22b_ol"
+		path = "gfx/fonts/cambria_22b_ol"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
 	###c font-xl :
 
 	###c testing fonts
@@ -1008,7 +1022,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "null_font" ##c not-used
-		path = "gfx/fonts/test_red" #c tested #cc gfx/fonts/vic_18
+		path = "gfx/fonts/test_red" #cc gfx/fonts/vic_18
 		color = 0xffffffff
 
 		textcolors = {
