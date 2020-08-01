@@ -691,7 +691,7 @@ bitmapfonts = {
 ##	}
 
 	bitmapfont = {
-		name = "vic_18_black"	##c Text event description
+		name = "vic_18_black"	##c Event text-description
 		path = "gfx/fonts/cambria_12b" #c cambria_12b #cc vic_18
 		color = 0xff000000
 
@@ -703,7 +703,7 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_18" ##c ? Main Text
+		name = "vic_18" ##c Main Text
 		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18"
 		color = 0xffffffff
 
@@ -741,8 +741,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_22_black"
-		path = "gfx/fonts/test_red" #c tested #cc vic_22
+		name = "vic_22_black" ##c not-used
+		path = "gfx/fonts/test_red" #cc vic_22
 		color = 0xff000000
 
 		textcolors = {
@@ -758,7 +758,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_12b" #c cambria_18b_ol #cc vic_22
+		path = "gfx/fonts/cambria_18b_ol" #c cambria_18b_ol #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -770,7 +770,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_22s" ##c & nom territoire & king name
-		path = "gfx/fonts/test_green" #cc vic_22s
+		path = "gfx/fonts/test_red" #cc vic_22s
 		color = 0xffffffff
 
 		textcolors = {
@@ -781,8 +781,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_29_black"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/vic_29"
+		name = "vic_29_black" ##c not-used
+		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_29"
 		color = 0xff000000
 
 		textcolors = {
@@ -794,7 +794,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29" ##c #todo Religion tab main title
-		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_29"
+		path = "gfx/fonts/cambria_22b_ol" #cc path = "gfx/fonts/vic_29"
 		color = 0xffffffff
 
 		textcolors = {
@@ -806,14 +806,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/cloister_32-ol" #cc path = "gfx/fonts/vic_29s"
+		path = "gfx/fonts/cambria_22b_ol" #cc path = "gfx/fonts/vic_29s"
 		color = 0xffffffff
-
-		##c TODO test offset
-		cursor_offset = {
-          0
-          -4
-        }
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -823,8 +817,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_36_black"
-		path = "gfx/fonts/test_red" #c tested #cc path = "gfx/fonts/vic_36"
+		name = "vic_36_black" ##c not-used
+		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_36"
 		color = 0xff000000
 
 		textcolors = {
@@ -836,7 +830,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/cambria_28" #cc path = "gfx/fonts/vic_36"
+		path = "gfx/fonts/vic_36" #cc path = "gfx/fonts/vic_36"
 		color = 0xffffffff
 
 		textcolors = {
@@ -893,8 +887,6 @@ bitmapfonts = {
 	###c      Fonts by Coyote      ###
 	##################################
 
-	###c font-xs :
-
 	###c font-small :
 
 	bitmapfont = {
@@ -925,7 +917,7 @@ bitmapfonts = {
 		}
 	}
 
-	###c font-small :
+	###c font-medium :
 
 	bitmapfont = {
 
@@ -944,29 +936,6 @@ bitmapfonts = {
 	###c font-large :
 
 	###c font-xl :
-
-	###c font-xxl :
-
-	#font-xxl-ol
-	bitmapfont = {
-
-		name = "coyote-xxl-ol"
-		path = "gfx/fonts/cloister_32-ol"
-
-		cursor_offset = {
-            10
-            10
-        }
-
-		#cc color = 0xffffffff
-		color = 0xff000000
-
-		textcolors = {
-			G = { 30 225 30 }
-			R = { 230 30 30 }
-			Y = { 250 235 15 }
-		}
-	}
 
 	###c testing fonts
 
