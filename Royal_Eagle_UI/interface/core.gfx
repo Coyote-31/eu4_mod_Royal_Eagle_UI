@@ -793,8 +793,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_29" ##c #todo Religion tab main title
-		path = "gfx/fonts/cambria_22b_ol" #cc vic_29
+		name = "vic_29" ##c Religion tab main title
+		path = "gfx/fonts/cambria_26b_ol" #cc vic_29
 		color = 0xffffffff
 
 		textcolors = {
@@ -806,7 +806,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/cambria_22b_ol" #cc vic_29s
+		path = "gfx/fonts/cambria_26b_ol" #cc vic_29s
 		color = 0xffffffff
 
 		textcolors = {
@@ -830,7 +830,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/cambria_26b_ol" #cc path = "gfx/fonts/vic_36"
+		path = "gfx/fonts/vic_36" #cc path = "gfx/fonts/vic_36"
 		color = 0xffffffff
 
 		textcolors = {
@@ -842,7 +842,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/cambria_26b_ol" #cc path = "gfx/fonts/vic_36s"
+		path = "gfx/fonts/vic_36s" #cc path = "gfx/fonts/vic_36s"
 		color = 0xffffffff
 
 		textcolors = {
@@ -937,8 +937,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_22b_ol"
-		path = "gfx/fonts/cambria_22b_ol"
+		name = "cambria_26b_ol"
+		path = "gfx/fonts/cambria_26b_ol"
 
 		color = 0xffffffff
 
