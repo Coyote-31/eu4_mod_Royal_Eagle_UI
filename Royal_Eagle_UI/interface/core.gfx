@@ -692,7 +692,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_black"	##c Event text-description
-		path = "gfx/fonts/cambria_12b" #c cambria_12b #cc vic_18
+		path = "gfx/fonts/cambria_12b" #cc vic_18
 		color = 0xff000000
 
 		textcolors = {
@@ -704,7 +704,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18" ##c Main Text
-		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18"
+		path = "gfx/fonts/cambria_12b_ol" #cc vic_18"
 		color = 0xffffffff
 
 		textcolors = {
@@ -742,7 +742,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_22_black" ##c not-used
-		path = "gfx/fonts/test_red" #cc vic_22
+		path = "gfx/fonts/vic_22" #cc vic_22
 		color = 0xff000000
 
 		textcolors = {
@@ -769,8 +769,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_22s" ##c & nom territoire & king name
-		path = "gfx/fonts/test_red" #cc vic_22s
+		name = "vic_22s" ##c nom territoire & king name
+		path = "gfx/fonts/cambria_18b_ol" #cc vic_22s
 		color = 0xffffffff
 
 		textcolors = {
@@ -782,7 +782,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29_black" ##c not-used
-		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_29"
+		path = "gfx/fonts/vic_29" #cc vic_29
 		color = 0xff000000
 
 		textcolors = {
@@ -794,7 +794,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29" ##c #todo Religion tab main title
-		path = "gfx/fonts/cambria_22b_ol" #cc path = "gfx/fonts/vic_29"
+		path = "gfx/fonts/cambria_22b_ol" #cc vic_29
 		color = 0xffffffff
 
 		textcolors = {
@@ -806,7 +806,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/cambria_22b_ol" #cc path = "gfx/fonts/vic_29s"
+		path = "gfx/fonts/cambria_22b_ol" #cc vic_29s
 		color = 0xffffffff
 
 		textcolors = {
@@ -830,7 +830,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/vic_36" #cc path = "gfx/fonts/vic_36"
+		path = "gfx/fonts/cambria_26b_ol" #cc path = "gfx/fonts/vic_36"
 		color = 0xffffffff
 
 		textcolors = {
@@ -842,7 +842,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_36s"
+		path = "gfx/fonts/cambria_26b_ol" #cc path = "gfx/fonts/vic_36s"
 		color = 0xffffffff
 
 		textcolors = {
@@ -891,8 +891,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_12b_ol"
-		path = "gfx/fonts/cambria_12b_ol"
+		name = "cambria_12b"
+		path = "gfx/fonts/cambria_12b"
 
 		color = 0xffffffff
 
@@ -905,8 +905,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_12b"
-		path = "gfx/fonts/cambria_12b"
+		name = "cambria_12b_ol"
+		path = "gfx/fonts/cambria_12b_ol"
 
 		color = 0xffffffff
 
