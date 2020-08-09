@@ -818,7 +818,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36_black" ##c not-used
-		path = "gfx/fonts/test_red" #cc path = "gfx/fonts/vic_36"
+		path = "gfx/fonts/vic_36" #cc vic_36
 		color = 0xff000000
 
 		textcolors = {
@@ -830,7 +830,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/vic_36" #cc path = "gfx/fonts/vic_36"
+		path = "gfx/fonts/cambria_26b_ol" #cc vic_36
 		color = 0xffffffff
 
 		textcolors = {
@@ -842,7 +842,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/vic_36s" #cc path = "gfx/fonts/vic_36s"
+		path = "gfx/fonts/vic_36s" #cc vic_36s
 		color = 0xffffffff
 
 		textcolors = {
