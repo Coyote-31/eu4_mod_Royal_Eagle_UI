@@ -758,7 +758,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_18b_ol" #c cambria_18b_ol #cc vic_22
+		path = "gfx/fonts/cambria_16b_ol2" #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -770,7 +770,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_22s" ##c nom territoire & king name
-		path = "gfx/fonts/cambria_18b_ol" #cc vic_22s
+		path = "gfx/fonts/cambria_16b_ol2" #cc vic_22s
 		color = 0xffffffff
 
 		textcolors = {
@@ -793,8 +793,8 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "vic_29" ##c Religion tab main title
-		path = "gfx/fonts/cambria_26b_ol" #cc vic_29
+		name = "vic_29" ##c Headers labels & Religion tab main title
+		path = "gfx/fonts/cambria_18b_ol2" #cc vic_29
 		color = 0xffffffff
 
 		textcolors = {
@@ -806,7 +806,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/cambria_26b_ol" #cc vic_29s
+		path = "gfx/fonts/cambria_26b_ol2" #cc vic_29s
 		color = 0xffffffff
 
 		textcolors = {
@@ -830,7 +830,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/cambria_26b_ol" #cc vic_36
+		path = "gfx/fonts/cambria_26b_ol2" #cc vic_36
 		color = 0xffffffff
 
 		textcolors = {
@@ -842,7 +842,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/cambria_26b_ol" #cc vic_36s
+		path = "gfx/fonts/cambria_26b_ol2" #cc vic_36s
 		color = 0xffffffff
 
 		textcolors = {
@@ -921,8 +921,22 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_18b_ol"
-		path = "gfx/fonts/cambria_18b_ol"
+		name = "cambria_16b_ol"
+		path = "gfx/fonts/cambria_16b_ol"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+
+		name = "cambria_16b_ol2"
+		path = "gfx/fonts/cambria_16b_ol2"
 
 		color = 0xffffffff
 
@@ -937,8 +951,22 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_26b_ol"
-		path = "gfx/fonts/cambria_26b_ol"
+		name = "cambria_18b_ol"
+		path = "gfx/fonts/cambria_18b_ol"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 230 30 30 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+
+		name = "cambria_18b_ol2"
+		path = "gfx/fonts/cambria_18b_ol2"
 
 		color = 0xffffffff
 
@@ -953,8 +981,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_26b_ol_lh36"
-		path = "gfx/fonts/cambria_26b_ol_lh36"
+		name = "cambria_26b_ol2"
+		path = "gfx/fonts/cambria_26b_ol2"
 
 		color = 0xffffffff
 
