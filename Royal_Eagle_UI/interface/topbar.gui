@@ -77,8 +77,8 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
-		
+
+
 		guiButtonType = {
 			name = "player_shield"
 			quadTextureSprite ="GFX_shield_fancy"
@@ -198,7 +198,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_merchants"
-			position = { x = 732 y = 34 }
+			#c position = { x = 732 y = 34 }
+			position = { x = 732 y = 36 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -211,7 +212,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_settlers"
-			position = { x = 773 y = 34 }
+			#c position = { x = 773 y = 34 }
+			position = { x = 773 y = 36 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -224,7 +226,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_diplomats"
-			position = { x = 814 y = 34 }
+			#c position = { x = 814 y = 34 }
+			position = { x = 814 y = 36 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -237,7 +240,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_missionaries"
-			position = { x = 855 y = 34 }
+			#c position = { x = 855 y = 34 }
+			position = { x = 855 y = 36 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
