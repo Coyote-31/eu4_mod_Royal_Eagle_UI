@@ -602,19 +602,19 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_14" ##c Peace-score & Pwd-action-view
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_14_plain" ##c popup-settings
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b" #cc garamond_14
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "Main_14_grey" ##c not-used
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
 		color = 0xffbbbbbb
 	}
 
@@ -626,55 +626,55 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_14_black" ##c Menu-bar
-		path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b" #cc garamond_14_bold
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "Main_14_red" ##c not-used
-		path = "gfx/fonts/garamond_14_bold" #c tested #cc path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffff0000
 	}
 
 	bitmapfont = {
 		name = "Main_14_bold" ##c Cassusbelli-name
-		path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_14_orange" ##c not-used
-		path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffffbb00
 	}
 
 	bitmapfont = {
 		name = "Main_14_eu" ##c Metaserver
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
 		color = 0xffaaffff
 	}
 
 	bitmapfont = {
 		name = "garamond_14" ##c Menu-bar
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "garamond_14_bold" ##c not-used
-		path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "garamond_14_bold_orange" ##c not-used
-		path = "gfx/fonts/garamond_14_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffffc000
 	}
 
 	bitmapfont = {
 		name = "ledger" ##c not-used
-		path = "gfx/fonts/garamond_14"
+		path = "gfx/fonts/cambria_12b" #cc garamond_14
 		color = 0xff000000
 	}
 
@@ -717,7 +717,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18s" ##c no Edit
-		path = "gfx/fonts/cambria_12b_ol" #c cambria_12b_ol #cc vic_18s
+		path = "gfx/fonts/cambria_12b_ol" #cc vic_18s
 		color = 0xffffffff
 
 		textcolors = {
@@ -758,7 +758,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_16b_ol2" #cc vic_22
+		path = "gfx/fonts/cambria_16b_ol2" #c cambria_16b_ol2 #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
