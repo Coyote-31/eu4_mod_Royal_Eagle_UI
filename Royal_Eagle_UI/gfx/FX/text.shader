@@ -126,7 +126,7 @@ VertexShader =
 		VS_FLAG_OUTPUT main(const VS_FLAG_INPUT v )
 		{
 		    VS_FLAG_OUTPUT Out;
-		    Out.vPosition  	= mul( Matrix, v.vPosition + float4(0,1,0,0) );
+		    Out.vPosition  	= mul( Matrix, v.vPosition + float4(-1,1,0,0) );
 
 
 		    Out.vTexCoord  	= v.vTexCoord;
