@@ -656,7 +656,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 24 y  = 29 }
-			position = {x = 24 y  = 28 }
+			position = {x = 23 y  = 28 }
 			name = "unit_strenght"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1051,7 +1051,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 18  y  = 15 }
+			position = {x = 20  y  = 15 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1063,7 +1063,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 74 y  = 16 }
-			position = {x = 74 y  = 15 }
+			position = {x = 75 y  = 15 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1174,7 +1174,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 18  y  = 15 }
+			position = {x = 19  y  = 15 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1186,7 +1186,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 74 y  = 16 }
-			position = {x = 74 y  = 15 }
+			position = {x = 75 y  = 15 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
