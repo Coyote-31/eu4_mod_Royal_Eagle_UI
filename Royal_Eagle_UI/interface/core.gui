@@ -16,7 +16,8 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			priority = 100
 			size = { x=500 y=365 }
-			borderSize = { x=0 y=0 }
+			#c borderSize = { x=0 y=0 }
+			borderSize = { x=5 y=0 }
 			scrollbartype = "standardlistbox_slider"
 			allwaystransparent = yes
 		}
@@ -27,8 +28,10 @@ guiTypes = {
 			name = "console_edit"
 			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 			font = "Arial12"
-			borderSize = { x=4 y=4 }
-			cursor = { x=0 y=6 }
+			#c borderSize = { x=4 y=4 }
+			borderSize = { x=13 y=0 }
+			#c cursor = { x=0 y=6 }
+			cursor = { x=0 y=10 }
 			size = { x=500 y=40 }
 			text = " "
 			orientation = "UPPER_LEFT"
@@ -73,7 +76,7 @@ guiTypes = {
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles_dialog.tga"
-		font = "cambria_12b_ol" #c vic_18
+		font = "vic_18"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #320
