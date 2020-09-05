@@ -847,7 +847,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 108 y = 28 }
-			position = {x = 108 y = 27 }
+			position = {x = 109 y = 28 }
 			name = "siege_progress"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
