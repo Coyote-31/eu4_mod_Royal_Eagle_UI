@@ -758,7 +758,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_16b_ol2" #c cambria_16b_ol2 #cc vic_22
+		path = "gfx/fonts/cambria_12b_ol" #c cambria_16b_ol2 #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -854,7 +854,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Arial12" ##c Subtext saves & Units number
-		path = "gfx/fonts/test_red" #cc Arial12
+		path = "gfx/fonts/cambria_12b_ol" #cc Arial12
 		color = 0xffffffff
 
 		textcolors = {
@@ -866,7 +866,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "FPS_Font"
-		path = "gfx/fonts/test_red" #c tested #cc Arial12
+		path = "gfx/fonts/cambria_12b_ol" #c tested #cc Arial12
 		color = 0xffffffff
 
 		textcolors = {
