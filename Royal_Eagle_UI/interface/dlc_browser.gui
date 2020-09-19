@@ -38,9 +38,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "country_name"
+			font="vic_18"
 			position = { x=30 y=4 }
 			borderSize = { x=4 y=4 }
-			maxWidth = 158
+			maxWidth = 96
 			maxHeight = 42
 			format = left
 		}
@@ -82,8 +83,10 @@ guiTypes = {
 
         instantTextBoxType = {
             name = "dlc_title"
-            position = { x=90 y=330 }
-            font = "vic_22"
+            #c position = { x=90 y=330 }
+						position = { x=90 y=329 }
+            #c font = "vic_22"
+						font = "vic_29"
             borderSize = { x=4 y=4 }
             text = "STATISTICS"
             maxWidth = 736
@@ -92,9 +95,10 @@ guiTypes = {
         }
         instantTextBoxType = {
             name = "dlc_desc_title"
-            position = { x=200 y=380 }
-            font = "vic_20"
-			text = "Features"
+            #c position = { x=200 y=380 }
+						position = { x=200 y=381 }
+            font = "vic_18"
+						text = "Features"
             maxWidth = 400
             maxHeight = 330
         }
@@ -102,15 +106,15 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc"
             position = { x=30 y=410 }
-            font = "vic_20"
+            font = "vic_18"
             maxWidth = 400
             maxHeight = 330
         }
 		instantTextBoxType = {
             name = "dlc_flavor_title"
             position = { x=650 y=380 }
-            font = "vic_20"
-			text = "Description"
+            font = "vic_18"
+						text = "Description"
             maxWidth = 400
             maxHeight = 330
         }
@@ -118,16 +122,17 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_flavor"
             position = { x=490 y=410 }
-            font = "vic_20"
+            font = "vic_18"
             maxWidth = 400
             maxHeight = 330
         }
 		instantTextBoxType = {
             name = "recommended_dlcs"
-            position = { x=23 y=157 }
-            font = "vic_20"
-			format = center
-			text = "Recommended DLCs"
+            #c position = { x=23 y=157 }
+						position = { x=23 y=159 }
+            font = "vic_18"
+						format = center
+						text = "Recommended DLCs"
             maxWidth = 100
             maxHeight = 330
         }
@@ -169,15 +174,17 @@ guiTypes = {
 			shortcut = "ESCAPE"
 			Orientation = "CENTER"
 		}
+
 		instantTextBoxType = {
-            name = "recommended_countries"
-            position = { x=793 y=157 }
-            font = "vic_20"
+      name = "recommended_countries"
+      #c position = { x=793 y=157 }
+			position = { x=793 y=159 }
+      font = "vic_18"
 			format = center
 			text = "Recommended Countries"
-            maxWidth = 100
-            maxHeight = 330
-        }
+      maxWidth = 100
+      maxHeight = 330
+    }
 
 		listboxType =  {
 			# List of interesting countries
@@ -219,7 +226,8 @@ guiTypes = {
 
         instantTextBoxType = {
             name = "dlc_title"
-            position = { x=105 y=257 }
+            #c position = { x=105 y=257 }
+						position = { x=90 y=256 }
             font = "vic_22"
             borderSize = { x=4 y=4 }
             text = "STATISTICS"
@@ -231,7 +239,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc"
             position = { x=250 y=300 }
-            font = "vic_20"
+            font = "vic_18"
             maxWidth = 430
             maxHeight = 330
         }
@@ -239,15 +247,16 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_flavor"
             position = { x=250 y=400 }
-            font = "vic_20"
+            font = "vic_18"
             maxWidth = 430
             maxHeight = 330
         }
 
 		instantTextBoxType = {
             name = "dlc_recommended"
-            position = { x=307 y=530 }
-            font = "vic_20"
+            #c position = { x=307 y=530 }
+						position = { x=307 y=531 }
+            font = "vic_18"
             borderSize = { x=4 y=4 }
             text = "Recommended DLCs"
             maxWidth = 300

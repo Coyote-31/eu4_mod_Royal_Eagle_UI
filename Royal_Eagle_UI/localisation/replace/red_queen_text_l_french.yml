@@ -208,7 +208,7 @@
  RED_QUEEN_DLC_DISABLED:0 "§Rdésactivé§!"
  RED_QUEEN_DLC_DISABLED_BY_HOST:0 "§Rdésactivé par l'hébergeur de la partie§!"
  RED_QUEEN_DLC_NOT_OWNED:0 "§Rnon possédé§!"
- VIEW_ON_STORE:0 "Voir dans la boutique"
+ VIEW_ON_STORE:0 "Voir la boutique"
  LANDING_INTERESTING_NATION:0 "$TAG|Y$ est un pays intéressant à jouer avec $DLC|Y$."
  LANDING_dlc010_TEXT:0 "Apports principaux :\n– un Nouveau Monde aléatoire ;\n– possibilité de créer & jouer des nations coloniales ;\n– des mécanismes étoffés pour les Amérindiens."
  LANDING_dlc010_FLAVOR_TEXT:2 "Envoyez vos navires explorer l'inconnu et découvrir le Nouveau Monde – et peut-être même un monde entièrement nouveau, totalement aléatoire.\n\n§YÀ la conquête du Paradis§! (§YConquest of Paradise§!) offre aussi la possibilité de jouer les Amérindiens, en utilisant les mécanismes des fédérations et des doctrines nationales uniques à chacune.\n\nQuant aux colonisateurs, ils se voient offrir la possibilité de jouer des nations coloniales et de contrôler directement la destinée de ces colons qui s'établissent au Nouveau Monde."
