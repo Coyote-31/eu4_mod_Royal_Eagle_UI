@@ -552,7 +552,7 @@
  SELECT:0 "Choisir"
  RIGHT_CLICK_TO_CENTER:0 "Clic droit pour centrer sur cette armée."
  CLICK_TO_CENTER:0 "Centrer sur cette armée."
- GAMESETUP_SHOW_UNSAFE:0 "Afficher les sauvegardes incompatibles"
+ GAMESETUP_SHOW_UNSAFE:0 "Voir les sauvegardes incompatibles"
  MENU_BAR_LOCALGAMES:0 "Local"
  MENU_BAR_CLOUDGAMES:0 "Cloud"
  MENU_BAR_DELETE_ALL:0 "Tout supprimer"

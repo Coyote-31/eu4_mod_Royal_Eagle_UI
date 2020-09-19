@@ -1185,7 +1185,8 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "bookmarks_label"
-					position = { x = 45 y = 59 }
+					#c position = { x = 45 y = 59 }
+					position = { x = 46 y = 60 }
 
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -1201,7 +1202,8 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "savedgames_label"
-					position = { x = 152 y = 59 }
+					#c position = { x = 152 y = 59 }
+					position = { x = 153 y = 60 }
 
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -1255,11 +1257,13 @@ guiTypes = {
 					}
 
 					instantTextBoxType={
-						position = {x = 62 y = 93 }
+						#c position = {x = 62 y = 93 }
+						position = {x = 60 y = 95 }
 						name = "show_unsafe_text"
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 200
+						#c maxWidth = 200
+						maxWidth = 225
 						maxHeight = 10
 						text = "GAMESETUP_SHOW_UNSAFE"
 						orientation = "UPPER_LEFT"
@@ -1348,7 +1352,8 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "startdatelabel"
-						position = { x = 6 y = 9 }
+						#c position = { x = 6 y = 9 }
+						position = { x = 10 y = 11 }
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = "FE_STARTING_DATE"
@@ -1359,7 +1364,8 @@ guiTypes = {
 
 					editBoxType = {
 						name = "year"
-						position = { x = 120 y = 57 }
+						#c position = { x = 120 y = 57 }
+						position = { x = 121 y = 57 }
 						font = "vic_22s"
 						size = { x=80 y=30 }
 						text = ""
@@ -1369,12 +1375,14 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "daymonth"
-						position = { x = 82 y = 113 }
+						#c position = { x = 82 y = 113 }
+						position = { x = 66 y = 111 }
 
-						font = "vic_18"
+						#c font = "vic_18"
+						font = "cambria_16b_ol2"
 						borderSize = {x = 0 y = 0}
 						text = ""
-						maxWidth = 110
+						maxWidth = 148
 						maxHeight = 20
 						format = centre
 						fixedsize = yes
@@ -1418,25 +1426,29 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "month_down"
-						position = { x = 20 y = 109 }
+						#c position = { x = 20 y = 109 }
+						position = { x = 20 y = 110 }
 						quadTextureSprite ="GFX_arrow_left_big"
 					}
 
 					guiButtonType = {
 						name = "day_down"
-						position = { x = 42 y = 109 }
+						#c position = { x = 42 y = 109 }
+						position = { x = 42 y = 110 }
 						quadTextureSprite ="GFX_arrow_left_small"
 					}
 
 					guiButtonType = {
 						name = "month_up"
-						position = { x = 237 y = 109 }
+						#c position = { x = 237 y = 109 }
+						position = { x = 237 y = 110 }
 						quadTextureSprite ="GFX_arrow_right_big"
 					}
 
 					guiButtonType = {
 						name = "day_up"
-						position = { x = 215 y = 109 }
+						#c position = { x = 215 y = 109 }
+						position = { x = 215 y = 110 }
 						quadTextureSprite ="GFX_arrow_right_small"
 					}
 				}
@@ -2877,7 +2889,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 20 y = 5 }
+			#c position = { x = 20 y = 5 }
+			position = { x = 22 y = 6 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2891,7 +2904,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "date"
-			position = { x = 21 y = 22 }
+			#c position = { x = 21 y = 22 }
+			position = { x = 22 y = 21 }
 
 			#c font = "Arial12"
 			font = "vic_18_grey"
@@ -3002,7 +3016,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "save_game_title"
-			position = { x = 52 y = 5 }
+			#c position = { x = 52 y = 5 }
+			position = { x = 54 y = 6 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -3016,7 +3031,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "save_game_date"
-			position = { x = 52 y = 22 }
+			#c position = { x = 52 y = 22 }
+			position = { x = 54 y = 21 }
 
 			#c font = "Arial12"
 			font = "vic_18_grey"
