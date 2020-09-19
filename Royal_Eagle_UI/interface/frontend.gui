@@ -1866,12 +1866,14 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_label"
-						position = { x = 24 y = 130 }
+						#c position = { x = 24 y = 130 }
+						position = { x = 16 y = 130 }
 
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = "FE_NO_COUNTRY_SELECTED"
-						maxWidth = 160
+						#c maxWidth = 160
+						maxWidth = 180
 						maxHeight = 24
 						fixedsize = yes
 						format = centre

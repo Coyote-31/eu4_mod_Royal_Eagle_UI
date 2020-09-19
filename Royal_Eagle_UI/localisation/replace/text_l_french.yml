@@ -2597,7 +2597,7 @@
  FE_SAVED_GAMES:0 "Sauvegardes"
  FE_THE_WORLD_1453:0 "Le monde en 1453"
  FE_SELECT_NATION:0 "Cliquez sur la carte pour choisir un pays"
- FE_NO_COUNTRY_SELECTED:0 "Aucun pays sélectionné"
+ FE_NO_COUNTRY_SELECTED:0 "Sélectionnez un pays"
  FE_SELECT_CUSTOM_NATION_CAPITAL:0 "Cliquez sur une province de la carte\npour choisir votre capitale"
  FE_ADD_CUSTOM_NATION_PROVINCE:0 "Cliquez sur la carte pour retirer\nou ajouter des provinces à votre pays"
  FE_MILITARY:0 "Militaire"
