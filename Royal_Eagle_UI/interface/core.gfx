@@ -509,7 +509,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "ToolTip_Font"
-		path = "gfx/fonts/garamond_16"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16
 		color = 0xffffffff
 	}
 
@@ -529,7 +529,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "standard_18"
-		path = "gfx/fonts/standard_18"
+		path = "gfx/fonts/cambria_12b_ol" #cc standard_18
 		color = 0xffffffff
 	}
 
@@ -554,13 +554,13 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "chat_largefont"
-		path = "gfx/fonts/tahoma_20_bold"
+		path = "gfx/fonts/cambria_16b_ol" #cc tahoma_20_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_24"
-		path = "gfx/fonts/garamond_24"
+		path = "gfx/fonts/cambria_18b_ol2" #cc garamond_24
 		color = 0xffffffff
 	}
 
@@ -578,25 +578,25 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "messagelog"
-		path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
 		color = 0xffffff99
 	}
 
 	bitmapfont = {
 		name = "Main_16" ##c mainscreen btn saves ...
-		path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_white_bold" ##c not-used
-		path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_black" ##c not-used
-		path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/cambria_12b" #cc garamond_16_bold
 		color = 0xff000000
 	}
 
@@ -620,7 +620,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_16_plain" ##c not-used
-		path = "gfx/fonts/garamond_16"
+		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16
 		color = 0xffffffff
 	}
 
@@ -637,7 +637,7 @@ bitmapfonts = {
 	}
 
 	bitmapfont = {
-		name = "Main_14_bold" ##c Cassusbelli-name
+		name = "Main_14_bold" ##c Cassusbelli-name / PeaceScore /
 		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
 		color = 0xffffffff
 	}
@@ -680,7 +680,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "ledger_headline" ##c Papacy-TableHeaderText
-		path = "gfx/fonts/garamond_16_bold"
+		path = "gfx/fonts/cambria_12b" #cc garamond_16_bold
 		color = 0xff000000
 	}
 
@@ -758,7 +758,7 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_12b_ol" #c cambria_16b_ol2 #cc vic_22
+		path = "gfx/fonts/cambria_16b_ol2" #c cambria_16b_ol2 #cc vic_22
 		color = 0xffffffff
 
 		textcolors = {
@@ -874,13 +874,6 @@ bitmapfonts = {
 			R = { 240 25 25 }
 			Y = { 250 235 15 }
 		}
-	}
-
-	#c
-	bitmapfont = {
-		name = "garamond_24"
-		path = "gfx/fonts/garamond_24"
-		color = 0xffffffff
 	}
 
 	##################################
@@ -1064,7 +1057,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "null_font" ##c not-used
-		path = "gfx/fonts/test_red" #cc gfx/fonts/vic_18
+		path = "gfx/fonts/cambria_12b_ol" #cc vic_18
 		color = 0xffffffff
 
 		textcolors = {
