@@ -109,8 +109,8 @@ char id=138  x=0     y=21    width=14    height=20    xoffset=-3    yoffset=-3  
 char id=139  x=45    y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
 char id=140  x=132   y=0     width=17    height=20    xoffset=-3    yoffset=-3    xadvance=12    page=0  chnl=15
 char id=142  x=105   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=7     page=0  chnl=15
-char id=145  x=435   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
-char id=146  x=30    y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
+char id=145  x=435   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=5     page=0  chnl=15
+char id=146  x=30    y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=5     page=0  chnl=15
 char id=147  x=285   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
 char id=148  x=225   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
 char id=149  x=150   y=21    width=14    height=20    xoffset=-3    yoffset=-3    xadvance=8     page=0  chnl=15
