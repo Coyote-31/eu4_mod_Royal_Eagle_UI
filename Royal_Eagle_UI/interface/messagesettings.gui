@@ -22,11 +22,14 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name = "title_text"
-			position = { x = 35 y = 25 }
-			font = "vic_18"
+			#c position = { x = 35 y = 25 }
+			position = { x = 21 y = 25 }
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = { x = 2 y = 2 }
 			text = ""
-			maxWidth = 330
+			#c maxWidth = 330
+			maxWidth = 358
 			maxHeight = 32
 
 			#fixedsize = yes
