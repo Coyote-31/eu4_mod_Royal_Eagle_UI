@@ -13,7 +13,7 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "UPPER_LEFT"
 	}
-	
+
 	guiButtonType =
 	{
 		name ="ButtonMenuButton"
@@ -445,12 +445,16 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 209 y = 91 }
+				#c position = {x = 209 y = 91 }
+				position = {x = 170 y = 89 }
 				name = "messagesettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_22"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 100
-				maxHeight = 18
+				#c maxWidth = 100
+				maxWidth = 180
+				#c maxHeight = 18
+				maxHeight = 24
 				text = "MENU_BAR_MESSAGE_SETTINGS"
 				orientation = "UPPER_LEFT"
 				format = center
@@ -480,7 +484,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -129 y = 119 }
+				#c position = {x = -129 y = 119 }
+				position = {x = -125 y = 119 }
 				name = "messagesettings_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -505,7 +510,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -50 y = 119 }
+				#c position = {x = -50 y = 119 }
+				position = {x = -49 y = 119 }
 				name = "messagesettings_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -529,7 +535,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 29 y = 119 }
+				#c position = {x = 29 y = 119 }
+				position = {x = 31 y = 119 }
 				name = "messagesettings_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -553,7 +560,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 108 y = 119 }
+				#c position = {x = 108 y = 119 }
+				position = {x = 110 y = 119 }
 				name = "messagesettings_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -577,7 +585,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 187 y = 119 }
+				#c position = {x = 187 y = 119 }
+				position = {x = 189 y = 119 }
 				name = "messagesettings_label_05"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -602,7 +611,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 266 y = 119 }
+				#c position = {x = 266 y = 119 }
+				position = {x = 268 y = 119 }
 				name = "messagesettings_label_06"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -627,7 +637,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 345 y = 119 }
+				#c position = {x = 345 y = 119 }
+				position = {x = 347 y = 119 }
 				name = "messagesettings_label_07"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -651,7 +662,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 424 y = 119 }
+				#c position = {x = 424 y = 119 }
+				position = {x = 426 y = 119 }
 				name = "messagesettings_label_08"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -676,7 +688,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 503 y = 119 }
+				#c position = {x = 503 y = 119 }
+				position = {x = 505 y = 119 }
 				name = "messagesettings_label_09"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -701,7 +714,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 579 y = 119 }
+				#c position = {x = 579 y = 119 }
+				position = {x = 582 y = 119 }
 				name = "messagesettings_label_10"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -713,7 +727,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				position = {x = 30 y = 143 }
+				#c position = {x = 30 y = 143 }
+				position = {x = 40 y = 143 }
 				name = "header_search"
 				font = "vic_22"
 				maxWidth = 60
@@ -724,21 +739,26 @@ guiTypes = {
 			}
 
 			editBoxType = {
-				position = { x = 90 y = 140}
+				#c position = { x = 90 y = 140}
+				position = { x = 124 y = 139}
+
 				name = "search_edit"
 				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 				instantTextBoxType = no
 				font = "vic_18"
 				borderSize = { x = 8 y = 4  }
-				size = { x=240 y=34 }
+				#c size = { x=240 y=34 }
+				size = { x=240 y=33 }
 				text = ""
 				orientation = "UPPER_LEFT"
 			}
 
 			guiButtonType = {
 				name = "button_search"
-				position = { x = 323 y = 136 }
-				quadTextureSprite ="button_type_6"
+				#c position = { x = 323 y = 136 }
+				position = { x = 355 y = 137 }
+				#c quadTextureSprite ="button_type_6"
+				quadTextureSprite ="button_type_9"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -748,7 +768,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "button_clear"
-				position = { x = 392 y = 136 }
+				#c position = { x = 392 y = 136 }
+				position = { x = 462 y = 137 }
 				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
@@ -763,7 +784,8 @@ guiTypes = {
 
 			checkboxType = {
 				name = "filter_button_01"
-				position = { x = -120 y = 165 }
+				#c position = { x = -120 y = 165 }
+				position = { x = -126 y = 165 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
@@ -773,7 +795,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 175 }
+				#c position = {x = -85 y = 175 }
+				position = {x = -90 y = 173 }
 				name = "messagesettings_filter_button_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -787,7 +810,8 @@ guiTypes = {
 
 			checkboxType = {
 				name = "filter_button_02"
-				position = { x = -120 y = 195 }
+				#c position = { x = -120 y = 195 }
+				position = { x = -126 y = 195 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
@@ -797,7 +821,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 205 }
+				#c position = {x = -85 y = 205 }
+				position = {x = -90 y = 203 }
 				name = "messagesettings_filter_button_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -811,7 +836,8 @@ guiTypes = {
 
 			checkboxType = {
 				name = "filter_button_03"
-				position = { x = -120 y = 225 }
+				#c position = { x = -120 y = 225 }
+				position = { x = -126 y = 225 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
@@ -821,7 +847,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 235 }
+				#c position = {x = -85 y = 235 }
+				position = {x = -90 y = 233 }
 				name = "messagesettings_filter_button_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -835,7 +862,8 @@ guiTypes = {
 
 			checkboxType = {
 				name = "filter_button_04"
-				position = { x = -120 y = 255 }
+				#c position = { x = -120 y = 255 }
+				position = { x = -126 y = 255 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
@@ -845,7 +873,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 265 }
+				#c position = {x = -85 y = 265 }
+				position = {x = -90 y = 263 }
 				name = "messagesettings_filter_button_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -923,53 +952,54 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "reset"
-				position = { x = -120 y = 360 }
+				#c position = { x = -120 y = 360 }
+				position = { x = -126 y = 360 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-
+				buttonText = "PW_RESET" #c
 				buttonFont = "vic_18"
 			}
 
-			instantTextBoxType={
-				position = {x = -85 y = 368 }
-				name = "reset_label"
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 79
-				maxHeight = 18
-				text = "PW_RESET"
-				orientation = "UPPER_LEFT"
-				format = center
-			}
-
-
+#c 		instantTextBoxType={
+#c 			#c position = {x = -85 y = 368 }
+#c 			position = {x = -90 y = 368 }
+#c 			name = "reset_label"
+#c 			font = "vic_18"
+#c 			borderSize = {x = 0 y = 0}
+#c 			maxWidth = 79
+#c 			maxHeight = 18
+#c 			text = "PW_RESET"
+#c 			orientation = "UPPER_LEFT"
+#c 			format = center
+#c 		}
 
 			guiButtonType = {
 				name = "close"
-				position = { x = -120 y = 390 }
+				#c position = { x = -120 y = 390 }
+				position = { x = -126 y = 390 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				shortcut = "ESCAPE"
+				buttonText = "MENU_BAR_CLOSE" #c
 				buttonFont = "vic_18"
 			}
 
-			instantTextBoxType={
-				position = {x = -85 y = 398 }
-				name = "close_label"
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				maxWidth = 79
-				maxHeight = 18
-				text = "MENU_BAR_CLOSE"
-				orientation = "UPPER_LEFT"
-				format = center
-			}
-
-
+#c		instantTextBoxType={
+#c			#c position = {x = -85 y = 398 }
+#c			position = {x = -90 y = 398 }
+#c			name = "close_label"
+#c			font = "vic_18"
+#c			borderSize = {x = 0 y = 0}
+#c			maxWidth = 79
+#c			maxHeight = 18
+#c			text = "MENU_BAR_CLOSE"
+#c			orientation = "UPPER_LEFT"
+#c			format = center
+#c		}
 
 			guiButtonType = {
 				name = "disable_all_messages"
