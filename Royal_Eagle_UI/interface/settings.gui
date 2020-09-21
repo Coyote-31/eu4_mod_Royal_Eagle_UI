@@ -946,7 +946,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_VISUAL_ALERTS"
 					orientation = "UPPER_LEFT"
@@ -961,7 +962,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_CHAT_LARGE_FONTS"
 					orientation = "UPPER_LEFT"
@@ -976,7 +978,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_TTS"
 					orientation = "UPPER_LEFT"
@@ -990,7 +993,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_STT"
 					orientation = "UPPER_LEFT"
@@ -1005,7 +1009,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					orientation = "UPPER_LEFT"
@@ -1020,7 +1025,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_STT_SHORTCUT_INPUT"
 					orientation = "UPPER_LEFT"
@@ -2435,7 +2441,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_VISUAL_ALERTS"
 					orientation = "UPPER_LEFT"
@@ -2450,7 +2457,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_CHAT_LARGE_FONTS"
 					orientation = "UPPER_LEFT"
@@ -2465,7 +2473,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_TTS"
 					orientation = "UPPER_LEFT"
@@ -2479,7 +2488,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_STT"
 					orientation = "UPPER_LEFT"
@@ -2494,7 +2504,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_USE_STT_SHORTCUT"
 					orientation = "UPPER_LEFT"
@@ -2509,7 +2520,8 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y =0}
-					maxWidth = 256
+					#c maxWidth = 256
+					maxWidth = 276
 					maxHeight = 20
 					text = "SETTINGS_ACCESSIBILITY_STT_SHORTCUT_INPUT"
 					orientation = "UPPER_LEFT"
