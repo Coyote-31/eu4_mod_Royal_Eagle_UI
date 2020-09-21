@@ -3,7 +3,7 @@ guiTypes = {
 	windowType = {
 		name ="menu_load"
 		backGround=""
-		position = { x= -224 y = -262 }	
+		position = { x= -224 y = -262 }
 		size = { x=473 y = 524 }
 		moveable = 0
 		dontRender = ""
@@ -22,28 +22,31 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 		}
-		
+
 		guiButtonType = {
 			name = "localgames_tab"
-			position = { x = 109  y = 102 }
-			quadTextureSprite ="GFX_tab_small_116"	
+			#c position = { x = 109  y = 102 }
+			position = { x = 109  y = 101 }
+			quadTextureSprite ="GFX_tab_small_116"
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "cloudgames_tab"
-			position = { x = 230 y = 102 }
-			quadTextureSprite ="GFX_tab_small_116"	
+			#c position = { x = 230 y = 102 }
+			position = { x = 230 y = 101 }
+			quadTextureSprite ="GFX_tab_small_116"
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "localgames_label"
-			position = { x = 115 y = 112 }
-			
+			#c position = { x = 115 y = 112 }
+			position = { x = 115 y = 113 }
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "MENU_BAR_LOCALGAMES"	
+			text = "MENU_BAR_LOCALGAMES"
 			maxWidth = 100
 			maxHeight = 20
 			fixedsize = yes
@@ -54,21 +57,21 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cloudgames_label"
-			position = { x = 236 y = 112 }
-			
+			#c position = { x = 236 y = 112 }
+			position = { x = 236 y = 113 }
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "MENU_BAR_CLOUDGAMES"	
+			text = "MENU_BAR_CLOUDGAMES"
 			maxWidth = 100
-			maxHeight = 20	
+			maxHeight = 20
 			fixedsize = yes
 
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
-		
-		listboxType = 
-		{
+
+		listboxType =	{
 			name ="games"
 			position = { x=61 y =141}
 			backGround=""
@@ -81,13 +84,14 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 108 y = 368 }
+			#c position = {x = 108 y = 368 }
+			position = {x = 108 y = 370 }
 			name = "show_unsafe_text"
 			font = "vic_18"
-			borderSize = {x = 8 y = 0}	
+			borderSize = {x = 8 y = 0}
 			maxWidth = 260
 			maxHeight = 10
-			text = "GAMESETUP_SHOW_UNSAFE"	
+			text = "GAMESETUP_SHOW_UNSAFE"
 			orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -95,7 +99,7 @@ guiTypes = {
 		checkboxType = {
 			name = "show_unsafe_checkbox"
 			position = { x = 80 y = 361 }
-			quadTextureSprite ="GFX_checkbox_gold_32"	
+			quadTextureSprite ="GFX_checkbox_gold_32"
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 		}
@@ -103,14 +107,14 @@ guiTypes = {
 		guiButtonType = {
 			name = "load"
 			position = { x = 292 y = 402 }
-			quadTextureSprite ="button_type_7"	
+			quadTextureSprite ="button_type_7"
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "Main_16"
-		}			
+		}
 		guiButtonType = {
 			name = "cancel"
 			position = { x = 11 y = 402 }
-			quadTextureSprite ="button_type_7"	
+			quadTextureSprite ="button_type_7"
 			buttonText = "SM_BACK"
 			buttonFont = "Main_16"
 			clicksound = back_click
@@ -118,15 +122,16 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 155 y = 405 }
+			#c position = {x = 155 y = 405 }
+			position = {x = 155 y = 402 }
 			name = "disk_quota"
 			font = "vic_18"
-			borderSize = {x = 8 y = 0}	
+			borderSize = {x = 8 y = 0}
 			maxWidth = 130
 			maxHeight = 18
-			text = "MENU_BAR_DISK_QUOTA"	
+			text = "MENU_BAR_DISK_QUOTA"
 			orientation = "UPPER_LEFT"
 			format = centre
-		}		
+		}
 	}
 }
