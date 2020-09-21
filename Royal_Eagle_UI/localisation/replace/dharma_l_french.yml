@@ -961,7 +961,7 @@
  revolutionary_empire_reform:0 "Empire révolutionnaire"
  NO_TEMPLATES_IN_COMBAT:0 "§RLes armées ne peuvent se conformer à un modèle pendant une bataille.§!"
  NO_TEMPLATES_IN_COMBAT_NAVY:0 "§RLes flottes ne peuvent se conformer à un modèle pendant une bataille.§!"
- PRIVACY_POLICY:0 "Politique de confidentialité"
+ PRIVACY_POLICY:0 "Pol. de confidentialité"
  EST_VAL_RAJPUT_DOMINANCE:1 "Domination des Râjpoutes : $VAL|Y$"
  EST_VAL_MARATHA_DOMINANCE:1 "Domination des Marathes : $VAL|Y$"
  NO_CAPITAL_MOVE_SHOGUN:0 "Le shôgun ne peut transférer la capitale."
