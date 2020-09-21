@@ -2,7 +2,7 @@ guiTypes = {
 		windowType = {
 			name ="menu_save"
 			backGround=""
-			position = { x= -224 y = -262 }	
+			position = { x= -224 y = -262 }
 			size = { x=473 y = 524 }
 			moveable = 0
 			dontRender = ""
@@ -12,8 +12,8 @@ guiTypes = {
 			downsound = ""
 			fullscreen=no
 			Orientation = "CENTER"
-			
-			
+
+
 		iconType =
 		{
 			name ="save_load_game_bg"
@@ -22,50 +22,54 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 		}
-			
-			#guiButtonType = 
+
+			#guiButtonType =
 			#{
 			#	name = "back"
 			#	position = { x = 330 y = 105 }
-			#	quadTextureSprite ="button_type_7"	
+			#	quadTextureSprite ="button_type_7"
 			#	buttonText = "MENU_BAR_BACK"
 			#	buttonFont = "vic_18"
 			#}
-			
+
 			instantTextBoxType={
-				position = {x = 155 y = 405 }
+				#c position = {x = 155 y = 405 }
+				position = {x = 154 y = 403 }
 				name = "disk_quota"
 				font = "vic_18"
-				borderSize = {x = 8 y = 0}	
+				borderSize = {x = 8 y = 0}
 				maxWidth = 130
 				maxHeight = 18
-				text = "MENU_BAR_DISK_QUOTA"	
+				text = "MENU_BAR_DISK_QUOTA"
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
-			
-			
+
+
 			guiButtonType = {
 				name = "localgames_tab"
-				position = { x = 109  y = 102 }
-				quadTextureSprite ="GFX_tab_small_116"	
+				#c position = { x = 109  y = 102 }
+				position = { x = 109  y = 101 }
+				quadTextureSprite ="GFX_tab_small_116"
 				Orientation = "UPPER_LEFT"
 			}
 
 			guiButtonType = {
 				name = "cloudgames_tab"
-				position = { x = 230 y = 102 }
-				quadTextureSprite ="GFX_tab_small_116"	
+				#c position = { x = 230 y = 102 }
+				position = { x = 230 y = 101 }
+				quadTextureSprite ="GFX_tab_small_116"
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "localgames_label"
-				position = { x = 115 y = 112 }
-				
+				#c position = { x = 115 y = 112 }
+				position = { x = 115 y = 113 }
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "MENU_BAR_LOCALGAMES"	
+				text = "MENU_BAR_LOCALGAMES"
 				maxWidth = 100
 				maxHeight = 20
 				fixedsize = yes
@@ -76,20 +80,21 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "cloudgames_label"
-				position = { x = 236 y = 112}
-				
+				#c position = { x = 236 y = 112}
+				position = { x = 236 y = 113}
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "MENU_BAR_CLOUDGAMES"	
+				text = "MENU_BAR_CLOUDGAMES"
 				maxWidth = 100
-				maxHeight = 20	
+				maxHeight = 20
 				fixedsize = yes
 
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
-			
-			listboxType = 
+
+			listboxType =
 			{
 				name ="games"
 				position = { x=61 y =141}
@@ -101,48 +106,51 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 				Orientation = "UPPER_LEFT"
 			}
-			
 
-			
+
+
 			instantTextBoxType={
-				position = {x = 125 y = 350 }
+				#c position = {x = 125 y = 350 }
+				position = {x = 125 y = 351 }
 				name = "filename_label"
 				font = "vic_18"
-				borderSize = {x = 8 y = 0}	
+				borderSize = {x = 8 y = 0}
 				maxWidth = 188
 				maxHeight = 18
-				text = "MENU_BAR_SAVE_GAME_FILENAME"	
+				text = "MENU_BAR_SAVE_GAME_FILENAME"
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
-			
+
 			editBoxType = {
-				position = { x = 80 y = 370 }
+				#c position = { x = 80 y = 370 }
+				position = { x = 82 y = 370 }
 				name = "game_name"
 				font = "vic_18"
-				borderSize = { x = 8 y = 8  }	
+				borderSize = { x = 8 y = 8  }
 				size = { x=275 y=42 }
-				text = ""	
+				text = ""
 				orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType={
-				position = {x = 342 y = 350 }
+				#c position = {x = 342 y = 350 }
+				position = {x = 342 y = 351 }
 				name = "compressed_label"
 				font = "vic_18"
-				borderSize = {x = 8 y = 0}	
+				borderSize = {x = 8 y = 0}
 				maxWidth = 100
 				maxHeight = 18
-				text = "MENU_BAR_SAVE_GAME_COMPRESSED"	
+				text = "MENU_BAR_SAVE_GAME_COMPRESSED"
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
 
-			
+
 			checkboxType = {
 				name = "checkbox_compressed"
 				position = { x = 384 y = 370 }
-				quadTextureSprite = "GFX_checkbox_gold_32"	
+				quadTextureSprite = "GFX_checkbox_gold_32"
 				buttonFont = "vic_18"
 				pdx_tooltip = "CHECKBOX_COMPRESSED_SAVEGAMES"
 				orientation = "UPPER_LEFT"
@@ -151,7 +159,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "cancel"
 				position = { x = 11 y = 402 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				buttonText = "SM_BACK"
 				buttonFont = "Main_16"
 				clicksound = back_click
@@ -160,7 +168,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "save"
 				position = { x = 291 y = 402 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				buttonText = "MENU_BAR_SAVE"
 				buttonFont = "Main_16"
 			}
