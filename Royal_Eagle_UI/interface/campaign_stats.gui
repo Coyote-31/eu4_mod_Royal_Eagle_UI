@@ -48,9 +48,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x= -194 y = -226 }
+			#c position = { x= -194 y = -226 }
+			position = { x= -191 y = -227 }
 
-			font = "vic_29"
+			#c font = "vic_29"
+			font = "vic_29s"
 			borderSize = {x = 4 y = 4}
 			text = "STATISTICS"
 			maxWidth = 460
