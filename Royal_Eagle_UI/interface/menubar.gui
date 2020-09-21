@@ -324,8 +324,10 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "menu_close_button"
-				position = { x = 142 y = 395 }
-				quadTextureSprite ="button_type_6"
+				#c position = { x = 142 y = 395 }
+				position = { x = 126 y = 395 }
+				#c quadTextureSprite ="button_type_6"
+				quadTextureSprite ="button_type_9"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
