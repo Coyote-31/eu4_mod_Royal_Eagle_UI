@@ -867,7 +867,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "army_size_place"
-			position = { x = 560 y = 389 }
+			#c position = { x = 560 y = 389 }
+			position = { x = 562 y = 389 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -879,7 +880,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "navy_size_place"
-			position = { x = 560 y = 419 }
+			#c position = { x = 560 y = 419 }
+			position = { x = 562 y = 419 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -891,7 +893,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "provinces_place"
-			position = { x = 560 y = 449 }
+			#c position = { x = 560 y = 449 }
+			position = { x = 562 y = 449 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -903,7 +906,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "province_value_place"
-			position = { x = 560 y = 479 }
+			#c position = { x = 560 y = 479 }
+			position = { x = 562 y = 479 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -915,7 +919,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_place"
-			position = { x = 560 y = 509 }
+			#c position = { x = 560 y = 509 }
+			position = { x = 562 y = 509 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -927,7 +932,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "trade_income_place"
-			position = { x = 560 y = 539 }
+			#c position = { x = 560 y = 539 }
+			position = { x = 562 y = 539 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
