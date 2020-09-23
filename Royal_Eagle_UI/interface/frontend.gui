@@ -405,7 +405,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name ="text"
 						#c position = { x = 50 y = 7 }
-						position = { x = 26 y = 13 }
+						position = { x = 24 y = 13 }
 						font = "vic_18"
 						#c format = left
 						format = center
