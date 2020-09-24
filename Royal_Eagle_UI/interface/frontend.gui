@@ -365,10 +365,10 @@ guiTypes = {
 
 					name ="single_player_button_text"
 					#c position = { x = 380 y = -16 }
-					position = { x = 380 y = -19 }
+					position = { x = 380 y = -17 }
 
 					#c font = "vic_22"
-					font = "cambria_26b_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_SINGLE_PLAYER"
 					format = centre
@@ -433,10 +433,10 @@ guiTypes = {
 
 					name ="multi_player_button_text"
 					#c position = { x = 563 y = -16 }
-					position = { x = 565 y = -19 }
+					position = { x = 565 y = -17 }
 
 					#c font = "vic_22"
-					font = "cambria_26b_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_MULTI_PLAYER"
 					format = centre
@@ -485,7 +485,7 @@ guiTypes = {
 					position = { x = 290 y = 42 }
 
 					#c font = "vic_22"
-					font = "cambria_18b_ol2"
+					font = "vic_22s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_TUTORIAL"
 					format = centre
@@ -495,22 +495,50 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
+				#c Add instantTextBoxType
 				guiButtonType = {
 					name = "credits_button"
 					position = { x = 413 y = 27	 }
 					quadTextureSprite ="GFX_frontend_panel_button_center"
-					buttonText = "FE_CREDITS"
+					#c buttonText = "FE_CREDITS"
 					#c buttonFont = "vic_22"
-					buttonFont = "cambria_18b_ol2"
 				}
+				instantTextBoxType = {
+
+					name ="credits_button_text"
+					position = { x = 422 y = 42 }
+
+					font = "vic_22s"
+					borderSize = {x = 0 y = 0}
+					text = "FE_CREDITS"
+					format = centre
+					maxWidth = 125
+					maxHeight = 20
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+
 
 				guiButtonType = {
 					name = "settings_button"
 					position = { x = 553 y = 27 }
 					quadTextureSprite ="GFX_frontend_panel_button_center"
-					buttonText = "FE_OPTIONS"
+					#c buttonText = "FE_OPTIONS"
 					#c buttonFont = "vic_22"
-					buttonFont = "cambria_18b_ol2"
+				}
+				instantTextBoxType = {
+
+					name ="settings_button_text"
+					position = { x = 563 y = 42 }
+
+					font = "vic_22s"
+					borderSize = {x = 0 y = 0}
+					text = "FE_OPTIONS"
+					format = centre
+					maxWidth = 125
+					maxHeight = 20
+					fixedsize = yes
+					alwaystransparent = yes
 				}
 
 				guiButtonType = {
@@ -524,7 +552,7 @@ guiTypes = {
 					position = { x = 692 y = 42 }
 
 					#c font = "vic_22"
-					font = "cambria_18b_ol2"
+					font = "vic_22s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_EXIT"
 					format = centre
