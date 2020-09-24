@@ -29,6 +29,20 @@ guiTypes = {
 			#	Orientation = "UPPER_LEFT"
 			#}
 
+##c	Moved to the correct section to be displayed
+#c
+#c	instantTextBoxType={
+#c		position = {x = 60 y = 30 }
+#c		name = "settings_label"
+#c		font = "vic_22"
+#c		borderSize = {x = 0 y = 0}
+#c		maxWidth = 172
+#c		maxHeight = 18
+#c		text = "SM_SETTINGS"
+#c		orientation = "UPPER_LEFT"
+#c		format = centre
+#c	}
+
 			##### Subwindow AUDIO settings ############################################
 
 			windowType = {
@@ -294,8 +308,11 @@ guiTypes = {
 						position = { x=30 y =120}
 					}
 
+
+
 				}
 			}
+
 
 
 			##### Subwindow Controls settings ############################################
@@ -470,6 +487,10 @@ guiTypes = {
 				}
 
 			}
+
+
+
+
 
 
 			##### Subwindow Video settings ############################################
@@ -1230,6 +1251,7 @@ guiTypes = {
 				}
 			}
 
+			##c Placed here to be correctly displayed
 			instantTextBoxType={
 				#c position = {x = 60 y = 30 }
 				position = {x = 58 y = 34 }

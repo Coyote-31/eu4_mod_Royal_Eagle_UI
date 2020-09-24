@@ -743,7 +743,6 @@ guiTypes = {
 			editBoxType = {
 				#c position = { x = 90 y = 140}
 				position = { x = 124 y = 139}
-
 				name = "search_edit"
 				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 				instantTextBoxType = no

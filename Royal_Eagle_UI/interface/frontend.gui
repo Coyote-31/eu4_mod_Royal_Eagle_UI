@@ -406,6 +406,7 @@ guiTypes = {
 						name ="text"
 						#c position = { x = 50 y = 7 }
 						position = { x = 24 y = 13 }
+						#c font = "vic_22"
 						font = "vic_18"
 						#c format = left
 						format = center
@@ -1412,6 +1413,7 @@ guiTypes = {
 						font = "cambria_16b_ol2"
 						borderSize = {x = 0 y = 0}
 						text = ""
+						#c maxWidth = 110
 						maxWidth = 148
 						maxHeight = 20
 						format = centre

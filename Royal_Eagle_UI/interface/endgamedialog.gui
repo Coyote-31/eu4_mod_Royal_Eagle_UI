@@ -106,7 +106,7 @@ guiTypes = {
 			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "YOUR_SCORE"
-			#c maxWidth = 512s
+			#c maxWidth = 512
 			maxWidth = 144
 			maxHeight = 32
 			#c format = left

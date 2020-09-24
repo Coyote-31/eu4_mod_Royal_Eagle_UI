@@ -217,11 +217,14 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
+			#c position = { x=8 y=84}
 			position = { x=6 y=86}
 			name = "mission_title"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
+			#c maxWidth = 90
 			maxWidth = 94
+			#c maxHeight = 22
 			maxHeight = 24
 			text = "Subjective and a Noun"
 			orientation = "UPPER_LEFT"
