@@ -219,7 +219,7 @@ char id=252  x=289   y=78    width=16    height=25    xoffset=-3    yoffset=-3  
 char id=253  x=306   y=78    width=16    height=25    xoffset=-3    yoffset=-3    xadvance=10    page=0  chnl=15
 char id=254  x=323   y=78    width=16    height=25    xoffset=-3    yoffset=-3    xadvance=10    page=0  chnl=15
 char id=255  x=102   y=78    width=16    height=25    xoffset=-3    yoffset=-3    xadvance=10    page=0  chnl=15
-kernings count=2522
+kernings count=2511
 kerning first=97  second=118 amount=-1
 kerning first=224 second=118 amount=-1
 kerning first=225 second=118 amount=-1
