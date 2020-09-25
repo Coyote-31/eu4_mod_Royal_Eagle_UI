@@ -3918,7 +3918,7 @@
  SM_MOVING_UNITS:0 "Unités : mouvement"
  SM_MINIMAP_UNITS:0 "Unités : mini-carte"
  SM_DRAW_TERRAIN_IN_UNCOLONIZED:0 "Terrain inhabitées"
- SM_USE_STATE_BORDERS:0 "Frontières d'États"
+ SM_USE_STATE_BORDERS:0 "Frontières d'État"
  SM_REFLECTIONS:0 "Reflets"
  SM_COMPACT_BATTLE_RESULTS:0 "Rapport compact"
  SM_GUI_SCALE:0 "Taille de l'interface"
