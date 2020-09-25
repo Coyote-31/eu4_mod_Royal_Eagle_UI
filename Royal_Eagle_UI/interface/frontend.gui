@@ -405,7 +405,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name ="text"
 						#c position = { x = 50 y = 7 }
-						position = { x = 52 y = 13 }
+						position = { x = 57 y = 13 }
 						#c font = "vic_22"
 						font = "vic_18"
 						format = left
@@ -421,7 +421,8 @@ guiTypes = {
 					{
 						name ="ironman_icon"
 						spriteType = "GFX_ironman_icon"
-						position = { x= 275 y = 10 }
+						#c position = { x= 275 y = 10 }
+						position = { x= 29 y = 10 }
 					}
 				}
 
