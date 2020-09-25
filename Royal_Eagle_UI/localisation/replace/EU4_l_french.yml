@@ -3892,7 +3892,7 @@
  HOTJOIN_CLIENT_LOST:0 "Joueur $NAME$ déconnecté."
  HIGHEST_PROVINCE_VALUE:0 " province la plus riche"
  HIGHEST_INCOME:0 " revenu le plus important"
- HIGHEST_TRADE_INCOME:0 " revenu commercial le plus important"
+ HIGHEST_TRADE_INCOME:0 " commerce le plus important"
  REBELS_FIGHT_FOR:0 "Ces rebelles veulent passer à $NATION$."
  alert_reinforcing_units_instant:0 "§YNos unités ont subi des pertes.§!"
  ALERT_REINFORCING_UNITS:0 "Nos unités ont subi des pertes."
