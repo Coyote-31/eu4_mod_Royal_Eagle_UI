@@ -405,14 +405,14 @@ guiTypes = {
 					instantTextBoxType = {
 						name ="text"
 						#c position = { x = 50 y = 7 }
-						position = { x = 24 y = 13 }
+						position = { x = 52 y = 13 }
 						#c font = "vic_22"
 						font = "vic_18"
-						#c format = left
-						format = center
+						format = left
 						#c maxWidth = 400
-						maxWidth = 300
-						maxHeight = 100
+						maxWidth = 250
+						#c maxHeight = 100
+						maxHeight = 35
 						fixedsize = yes
 						alwaystransparent = yes
 					}
