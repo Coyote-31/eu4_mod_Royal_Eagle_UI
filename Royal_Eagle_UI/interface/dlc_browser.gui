@@ -85,9 +85,9 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_title"
             #c position = { x=90 y=330 }
-						position = { x=90 y=329 }
+						position = { x=90 y=327 }
             #c font = "vic_22"
-						font = "vic_29"
+						font = "vic_29s"
             borderSize = { x=4 y=4 }
             text = "STATISTICS"
             maxWidth = 736
@@ -97,9 +97,10 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc_title"
             #c position = { x=200 y=380 }
-						position = { x=200 y=381 }
-            font = "vic_18"
-						text = "Features"
+						position = { x=200 y=379 }
+            #c font = "vic_18"
+						font = "vic_22"
+						text = "LANDING_DLC_FEATURES"
             maxWidth = 400
             maxHeight = 330
         }
@@ -114,10 +115,11 @@ guiTypes = {
         }
 		instantTextBoxType = {
             name = "dlc_flavor_title"
-            position = { x=650 y=380 }
+            #c position = { x=650 y=380 }
+						position = { x=650 y=378 }
             #c font = "vic_20"
-						font = "vic_18"
-						text = "Description"
+						font = "vic_22"
+						text = "LANDING_DLC_DESCRIPTION"
             maxWidth = 400
             maxHeight = 330
         }
@@ -136,7 +138,7 @@ guiTypes = {
 						position = { x=23 y=159 }
             font = "vic_18"
 						format = center
-						text = "Recommended DLCs"
+						text = "LANDING_RECOMMENDED_DLC_2L"
             maxWidth = 100
             maxHeight = 330
         }
@@ -185,7 +187,7 @@ guiTypes = {
 			#c font = "vic_20"
 			font = "vic_18"
 			format = center
-			text = "Recommended Countries"
+			text = "LANDING_RECOMMENDED_COUNTRIES"
       maxWidth = 100
       maxHeight = 330
     }
@@ -263,7 +265,7 @@ guiTypes = {
 						#c font = "vic_20"
             font = "vic_18"
             borderSize = { x=4 y=4 }
-            text = "Recommended DLCs"
+            text = "LANDING_RECOMMENDED_DLC"
             maxWidth = 300
             maxHeight = 25
             format = center
