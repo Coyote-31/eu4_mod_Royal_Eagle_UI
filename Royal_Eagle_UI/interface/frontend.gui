@@ -1177,7 +1177,8 @@ guiTypes = {
 				show_position = { x=0 y =-28 }
 				hide_position = { x=-1100 y =-28}
 				animation_type = "decelerated"
-				animation_time = 300
+				#c animation_time = 300
+				animation_time = 0
 				size = { x=420 y =500}
 				moveable = 0
 				dontRender = ""
@@ -1546,6 +1547,36 @@ guiTypes = {
 					Orientation = "LOWER_LEFT"
 					clicksound = back_click
 				}
+
+				#c window for play_button bg
+				windowType = {
+					name ="play_button_bg_window"
+					backGround=""
+					position = { x=1500 y =588}
+					size = { x=420 y =500}
+					moveable = 0
+					dontRender = ""
+					horizontalBorder= ""
+					verticalBorder= ""
+					upsound = ""
+					downsound = ""
+					fullscreen=no
+
+					#c Fix font transparency
+					iconType = {
+						name ="play_button_bg_1"
+						position = { x= -196 y = -34 }
+						quadTextureSprite = "GFX_date_pause_bg"
+						Orientation = "LOWER_RIGHT"
+					}
+					iconType = {
+						name ="play_button_bg_2"
+						position = { x= -196 y = -16 }
+						quadTextureSprite = "GFX_date_pause_bg"
+						Orientation = "LOWER_RIGHT"
+					}
+				}
+
 			}
 
 			windowType = {
@@ -2406,12 +2437,11 @@ guiTypes = {
 					position = { x = -246 y = -40 }
 					quadTextureSprite ="GFX_big_button_232"
 					buttonText = "PLAY"
-					buttonFont = "vic_22"
+					#c buttonFont = "vic_22"
+					buttonFont = "cambria_16b_ol2"
 					Orientation = "LOWER_RIGHT"
 					clicksound = start_game
 				}
-
-
 			}
 		}
 }
