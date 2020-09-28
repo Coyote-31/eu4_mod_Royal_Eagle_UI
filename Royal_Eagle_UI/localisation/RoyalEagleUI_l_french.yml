@@ -15,6 +15,8 @@
  MENU_MESSAGES_EVENTS:0 "Événement"
  MENU_MESSAGES_GOVERNMENT:0 "Gouv."
  VIEW_ON_STORE:0 "Voir la boutique"
+ NAVY_NONE:0 "Aucune"
+ ARMY_NONE:0 "Aucune"
  ### NEW TRAD FROM ROYAL_EAGLE_UI ###
  LANDING_RECOMMENDED_DLC:0 "Extensions recommandées"
  LANDING_RECOMMENDED_DLC_2L:0 "Extensions Recommandées"

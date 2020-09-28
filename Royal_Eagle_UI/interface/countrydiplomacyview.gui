@@ -1497,7 +1497,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x = 35 y = 20 }
+				#c position = { x = 35 y = 20 }
+				position = { x = 35 y = 22 }
 				name = "rival_name_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1522,7 +1523,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x = 190 y = 20 }
+				#c position = { x = 190 y = 20 }
+				position = { x = 192 y = 22 }
 				name = "rival_relations_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1534,14 +1536,16 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "rival_relations_button"
-				position = { x = 190 y = 20 }
+				#c position = { x = 190 y = 20 }
+				position = { x = 192 y = 21 }
 				quadTextureSprite ="GFX_ledger_invisible_button60x17"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
 
 			instantTextBoxType= {
-				position = { x = 261 y = 20 }
+				#c position = { x = 261 y = 20 }
+				position = { x = 261 y = 22 }
 				name = "rival_army_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1553,14 +1557,16 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "rival_army_button"
-				position = { x = 245 y = 20 }
+				#c position = { x = 245 y = 20 }
+				position = { x = 265 y = 21 }
 				quadTextureSprite ="GFX_ledger_invisible_button60x17"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
 
 			instantTextBoxType= {
-				position = { x = 343 y = 20 }
+				#c position = { x = 343 y = 20 }
+				position = { x = 344 y = 22 }
 				name = "rival_navy_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1572,14 +1578,16 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "rival_navy_button"
-				position = { x = 328 y = 20 }
+				#c position = { x = 328 y = 20 }
+				position = { x = 347 y = 21 }
 				quadTextureSprite ="GFX_ledger_invisible_button60x17"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
 
 			instantTextBoxType= {
-				position = { x = 430 y = 20 }
+				#c position = { x = 430 y = 20 }
+				position = { x = 432 y = 22 }
 				name = "rival_rivals_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1591,7 +1599,8 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "rival_rivals_button"
-				position = { x = 410 y = 20 }
+				#c position = { x = 410 y = 20 }
+				position = { x = 432 y = 21 }
 				quadTextureSprite ="GFX_ledger_invisible_button60x17"
 				buttonFont = "vic_18"
 				clicksound = click
@@ -1898,18 +1907,21 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "flag"
-			position = { x= -65 y = 17 }
+			#c position = { x= -65 y = 17 }
+			position = { x= -64 y = 19 }
 			quadTextureSprite ="GFX_flag_small"
 		}
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = -30 y = 17 }
+			#c position = { x = -30 y = 17 }
+			position = { x = -30 y = 19 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 96
+			#c maxWidth = 96
+			maxWidth = 114
 			maxHeight = 20
 			format = left
 			fixedsize = yes
@@ -1919,7 +1931,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "opinion"
-			position = { x = 88 y = 17 }
+			#c position = { x = 88 y = 17 }
+			position = { x = 85 y = 19 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1933,12 +1946,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "army"
-			position = { x = 148 y = 17 }
+			#c position = { x = 148 y = 17 }
+			position = { x = 145 y = 19 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+100"
-			maxWidth = 77
+			#c maxWidth = 77
+			maxWidth = 78
 			maxHeight = 32
 			format = center
 			fixedsize = yes
@@ -1946,12 +1961,14 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "navy"
-			position = { x = 230 y = 17 }
+			#c position = { x = 230 y = 17 }
+			position = { x = 228 y = 19 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+100"
-			maxWidth = 77
+			#c maxWidth = 77
+			maxWidth = 78
 			maxHeight = 32
 			format = center
 			fixedsize = yes
