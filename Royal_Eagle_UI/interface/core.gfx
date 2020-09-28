@@ -1071,4 +1071,19 @@ bitmapfonts = {
 		}
 	}
 
+	#c Handle no-name fonts
+	bitmapfont = {
+		name = ""
+		path = "gfx/fonts/cambria_12b_ol"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 240 25 25 }
+			Y = { 250 235 15 }
+			H = { 219 203 71 }
+			T = { 255 255 255 }
+		}
+	}
+
 }
