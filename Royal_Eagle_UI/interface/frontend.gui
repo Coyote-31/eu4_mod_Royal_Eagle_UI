@@ -1177,8 +1177,7 @@ guiTypes = {
 				show_position = { x=0 y =-28 }
 				hide_position = { x=-1100 y =-28}
 				animation_type = "decelerated"
-				#c animation_time = 300
-				animation_time = 0
+				animation_time = 300
 				size = { x=420 y =500}
 				moveable = 0
 				dontRender = ""
@@ -1553,6 +1552,10 @@ guiTypes = {
 					name ="play_button_bg_window"
 					backGround=""
 					position = { x=1500 y =588}
+					show_position = { x=1500 y =588 }
+					hide_position = { x=2900 y =588}
+					animation_type = "decelerated"
+					animation_time = 0
 					size = { x=420 y =500}
 					moveable = 0
 					dontRender = ""
