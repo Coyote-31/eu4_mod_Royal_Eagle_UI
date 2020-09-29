@@ -17,6 +17,7 @@
  VIEW_ON_STORE:0 "Voir la boutique"
  NAVY_NONE:0 "Aucune"
  ARMY_NONE:0 "Aucune"
+ RANDOM_WORLD_START:0 "          Nouveau Monde aléatoire"
  ### NEW TRAD FROM ROYAL_EAGLE_UI ###
  LANDING_RECOMMENDED_DLC:0 "Extensions recommandées"
  LANDING_RECOMMENDED_DLC_2L:0 "Extensions Recommandées"
