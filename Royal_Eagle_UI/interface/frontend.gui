@@ -1547,38 +1547,7 @@ guiTypes = {
 					clicksound = back_click
 				}
 
-				#c window for play_button bg
-				windowType = {
-					name ="play_button_bg_window"
-					backGround=""
-					position = { x=1500 y =588}
-					show_position = { x=1500 y =588 }
-					hide_position = { x=2900 y =588}
-					animation_type = "decelerated"
-					animation_time = 0
-					size = { x=420 y =500}
-					moveable = 0
-					dontRender = ""
-					horizontalBorder= ""
-					verticalBorder= ""
-					upsound = ""
-					downsound = ""
-					fullscreen=no
 
-					#c Fix font transparency
-					iconType = {
-						name ="play_button_bg_1"
-						position = { x= -196 y = -34 }
-						quadTextureSprite = "GFX_date_pause_bg"
-						Orientation = "LOWER_RIGHT"
-					}
-					iconType = {
-						name ="play_button_bg_2"
-						position = { x= -196 y = -16 }
-						quadTextureSprite = "GFX_date_pause_bg"
-						Orientation = "LOWER_RIGHT"
-					}
-				}
 
 			}
 
