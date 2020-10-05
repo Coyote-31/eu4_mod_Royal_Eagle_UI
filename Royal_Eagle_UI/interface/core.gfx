@@ -514,7 +514,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "ToolTip_Font"
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16
 		color = 0xffffffff
 
 
@@ -536,7 +536,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "standard_18"
-		path = "gfx/fonts/cambria_12b_ol" #cc standard_18
+		path = "gfx/fonts/coyote_12b_ol" #cc standard_18
 		color = 0xffffffff
 	}
 
@@ -561,13 +561,13 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "chat_largefont"
-		path = "gfx/fonts/cambria_16b_ol" #cc tahoma_20_bold
+		path = "gfx/fonts/coyote_16b_ol" #cc tahoma_20_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_24"
-		path = "gfx/fonts/cambria_18b_ol2" #cc garamond_24
+		path = "gfx/fonts/coyote_18b_ol2" #cc garamond_24
 		color = 0xffffffff
 	}
 
@@ -585,106 +585,106 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "messagelog"
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
 		color = 0xffffff99
 	}
 
 	bitmapfont = {
 		name = "Main_16" ##c mainscreen btn saves ...
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_white_bold" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "Main_16_black" ##c not-used
-		path = "gfx/fonts/cambria_12b" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12b" #cc garamond_16_bold
 		color = 0xff000000
 	}
 
 
 	bitmapfont = {
 		name = "Main_14" ##c Peace-score & Pwd-action-view
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_plain" ##c popup-settings
-		path = "gfx/fonts/cambria_12b" #cc garamond_14
+		path = "gfx/fonts/coyote_12b" #cc garamond_14
 		color = 0xff000000
 	}
 
 
 	bitmapfont = {
 		name = "Main_14_grey" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
 		color = 0xffbbbbbb
 	}
 
 	bitmapfont = {
 		name = "Main_16_plain" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_16
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_black" ##c Menu-bar
-		path = "gfx/fonts/cambria_12b" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b" #cc garamond_14_bold
 		color = 0xff000000
 	}
 	bitmapfont = {
 		name = "Main_14_red" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
 		color = 0xffff0000
 	}
 	bitmapfont = {
 		name = "Main_14_bold" ##c Cassusbelli-name / PeaceScore /
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "Main_14_orange" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
 		color = 0xffffbb00
 	}
 
 	bitmapfont = {
 		name = "Main_14_eu" ##c Metaserver
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
 		color = 0xffaaffff
 	}
 
 
 	bitmapfont = {
 		name = "garamond_14" ##c Menu-bar
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
 		color = 0xffffffff
 	}
 	bitmapfont = {
 		name = "garamond_14_bold" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "garamond_14_bold_orange" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
 		color = 0xffffc000
 	}
 
 	bitmapfont = {
 		name = "ledger" ##c not-used
-		path = "gfx/fonts/cambria_12b" #cc garamond_14
+		path = "gfx/fonts/coyote_12b" #cc garamond_14
 		color = 0xff000000
 	}
 
 	bitmapfont = {
 		name = "ledger_headline" ##c Papacy-TableHeaderText
-		path = "gfx/fonts/cambria_12b" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12b" #cc garamond_16_bold
 		color = 0xff000000
 	}
 
@@ -697,7 +697,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_black"	##c Event text-description
-		path = "gfx/fonts/cambria_12b" #cc vic_18
+		path = "gfx/fonts/coyote_12b" #cc vic_18
 		color = 0xff000000
 
 		textcolors = {
@@ -709,19 +709,20 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18" ##c Main Text
-		path = "gfx/fonts/cambria_12b_ol" #cc vic_18"
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc vic_18
+		#c color = 0xffffffff
+		color = 0xfffcfcfc
 
 		textcolors = {
-			G = { 30 225 30 }
-			R = { 240 25 25 }
-			Y = { 250 235 15 }
+			G = { 32 216 32 }
+			R = { 234 53 53 }
+			Y = { 255 231 79 }
 			g = { 210 210 210} #cc
 		}
 	}
 	bitmapfont = {
 		name = "vic_18s" ##c no Edit
-		path = "gfx/fonts/cambria_12b_ol" #cc vic_18s
+		path = "gfx/fonts/coyote_12b_ol" #cc vic_18s
 		color = 0xffffffff
 
 		textcolors = {
@@ -733,7 +734,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_grey" ##c revenu % & units subtext & unit build time
-		path = "gfx/fonts/cambria_12b_ol" #cc vic_18_grey
+		path = "gfx/fonts/coyote_12b_ol" #cc vic_18_grey
 		#cc color = 0xffffffff
 		color = 0xffa9a9a9
 
@@ -762,18 +763,19 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/cambria_16b_ol2" #c cambria_16b_ol2 #cc vic_22
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_16b_ol2" #c coyote_16b_ol2 #cc vic_22
+		#c color = 0xffffffff
+		color = 0xfffcfcfc
 
 		textcolors = {
-			G = { 30 225 30 }
-			R = { 240 25 25 }
-			Y = { 250 235 15 }
+			G = { 32 216 32 }
+			R = { 234 53 53 }
+			Y = { 255 231 79 }
 		}
 	}
 	bitmapfont = {
 		name = "vic_22s" ##c nom territoire & king name
-		path = "gfx/fonts/cambria_16b_ol2" #cc vic_22s
+		path = "gfx/fonts/coyote_16b_ol2" #cc vic_22s
 		color = 0xffffffff
 
 		textcolors = {
@@ -797,7 +799,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29" ##c Headers labels & Religion tab main title
-		path = "gfx/fonts/cambria_18b_ol2" #cc vic_29
+		path = "gfx/fonts/coyote_18b_ol2" #cc vic_29
 		color = 0xffffffff
 
 		textcolors = {
@@ -809,7 +811,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/cambria_26b_ol2" #cc vic_29s
+		path = "gfx/fonts/coyote_26b_ol2" #cc vic_29s
 		color = 0xffffffff
 
 		textcolors = {
@@ -833,7 +835,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/cambria_26b_ol2" #cc vic_36
+		path = "gfx/fonts/coyote_26b_ol2" #cc vic_36
 		color = 0xffffffff
 
 		textcolors = {
@@ -844,7 +846,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/cambria_26b_ol2" #cc vic_36s
+		path = "gfx/fonts/coyote_26b_ol2" #cc vic_36s
 		color = 0xffffffff
 
 		textcolors = {
@@ -856,7 +858,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Arial12" ##c Subtext saves & Units number
-		path = "gfx/fonts/cambria_12b_ol" #cc Arial12
+		path = "gfx/fonts/coyote_12b_ol" #cc Arial12
 		color = 0xffffffff
 
 		textcolors = {
@@ -868,7 +870,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "FPS_Font"
-		path = "gfx/fonts/cambria_12b_ol" #c tested #cc Arial12
+		path = "gfx/fonts/coyote_12b_ol" #c tested #cc Arial12
 		color = 0xffffffff
 
 		textcolors = {
@@ -886,8 +888,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_12b"
-		path = "gfx/fonts/cambria_12b"
+		name = "coyote_12b"
+		path = "gfx/fonts/coyote_12b"
 
 		color = 0xffffffff
 
@@ -900,8 +902,22 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_12b_ol"
-		path = "gfx/fonts/cambria_12b_ol"
+		name = "coyote_12_ol"
+		path = "gfx/fonts/coyote_12_ol"
+
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 240 25 25 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+
+		name = "coyote_12b_ol"
+		path = "gfx/fonts/coyote_12b_ol"
 
 		color = 0xffffffff
 
@@ -916,8 +932,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_16b_ol"
-		path = "gfx/fonts/cambria_16b_ol"
+		name = "coyote_16b_ol"
+		path = "gfx/fonts/coyote_16b_ol"
 
 		color = 0xffffffff
 
@@ -930,8 +946,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_16b_ol2"
-		path = "gfx/fonts/cambria_16b_ol2"
+		name = "coyote_16b_ol2"
+		path = "gfx/fonts/coyote_16b_ol2"
 
 		color = 0xffffffff
 
@@ -946,8 +962,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_18b_ol"
-		path = "gfx/fonts/cambria_18b_ol"
+		name = "coyote_18b_ol"
+		path = "gfx/fonts/coyote_18b_ol"
 
 		color = 0xffffffff
 
@@ -960,8 +976,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_18b_ol2"
-		path = "gfx/fonts/cambria_18b_ol2"
+		name = "coyote_18b_ol2"
+		path = "gfx/fonts/coyote_18b_ol2"
 
 		color = 0xffffffff
 
@@ -976,8 +992,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "cambria_26b_ol2"
-		path = "gfx/fonts/cambria_26b_ol2"
+		name = "coyote_26b_ol2"
+		path = "gfx/fonts/coyote_26b_ol2"
 
 		color = 0xffffffff
 
@@ -1059,7 +1075,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "null_font" ##c not-used
-		path = "gfx/fonts/cambria_12b_ol" #cc vic_18
+		path = "gfx/fonts/coyote_12b_ol" #cc vic_18
 		color = 0xffffffff
 
 		textcolors = {
@@ -1074,7 +1090,7 @@ bitmapfonts = {
 	#c Handle no-name fonts
 	bitmapfont = {
 		name = ""
-		path = "gfx/fonts/cambria_12b_ol"
+		path = "gfx/fonts/coyote_12b_ol"
 		color = 0xffffffff
 
 		textcolors = {
