@@ -514,8 +514,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "ToolTip_Font"
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_16
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 
 	}
@@ -523,7 +524,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "ToolTip_Font_Big" ##c not-used
 		path = "gfx/fonts/garamond_16_bold"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
@@ -536,14 +538,16 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "standard_18"
-		path = "gfx/fonts/coyote_12b_ol" #cc standard_18
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc standard_18
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
 		name = "standard_22" ##c not-used
 		path = "gfx/fonts/standard_22"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
@@ -562,13 +566,15 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "chat_largefont"
 		path = "gfx/fonts/coyote_16b_ol" #cc tahoma_20_bold
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
 		name = "Main_24"
 		path = "gfx/fonts/coyote_18b_ol2" #cc garamond_24
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
@@ -585,20 +591,22 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "messagelog"
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_16_bold
 		color = 0xffffff99
 	}
 
 	bitmapfont = {
 		name = "Main_16" ##c mainscreen btn saves ...
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_16_bold
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
 		name = "Main_16_white_bold" ##c not-used
 		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16_bold
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
@@ -610,8 +618,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_14" ##c Peace-score & Pwd-action-view
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 	bitmapfont = {
 		name = "Main_14_plain" ##c popup-settings
@@ -622,14 +631,15 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Main_14_grey" ##c not-used
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14
 		color = 0xffbbbbbb
 	}
 
 	bitmapfont = {
 		name = "Main_16_plain" ##c not-used
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_16
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_16
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 	bitmapfont = {
 		name = "Main_14_black" ##c Menu-bar
@@ -638,36 +648,39 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "Main_14_red" ##c not-used
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14_bold
 		color = 0xffff0000
 	}
 	bitmapfont = {
 		name = "Main_14_bold" ##c Cassusbelli-name / PeaceScore /
 		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 	bitmapfont = {
 		name = "Main_14_orange" ##c not-used
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14_bold
 		color = 0xffffbb00
 	}
 
 	bitmapfont = {
 		name = "Main_14_eu" ##c Metaserver
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14
 		color = 0xffaaffff
 	}
 
 
 	bitmapfont = {
 		name = "garamond_14" ##c Menu-bar
-		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc garamond_14
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 	bitmapfont = {
 		name = "garamond_14_bold" ##c not-used
 		path = "gfx/fonts/coyote_12b_ol" #cc garamond_14_bold
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 	}
 
 	bitmapfont = {
@@ -711,7 +724,7 @@ bitmapfonts = {
 		name = "vic_18" ##c Main Text
 		path = "gfx/fonts/coyote_12_ol" #cc vic_18
 		#c color = 0xffffffff
-		color = 0xfffcfcfc
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 32 216 32 }
@@ -723,7 +736,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "vic_18s" ##c no Edit
 		path = "gfx/fonts/coyote_12b_ol" #cc vic_18s
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -734,8 +748,8 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_18_grey" ##c revenu % & units subtext & unit build time
-		path = "gfx/fonts/coyote_12b_ol" #cc vic_18_grey
-		#cc color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc vic_18_grey
+		#c color = 0xffffffff
 		color = 0xffa9a9a9
 
 		textcolors = {
@@ -763,9 +777,9 @@ bitmapfonts = {
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/coyote_16b_ol2" #c coyote_16b_ol2 #cc vic_22
+		path = "gfx/fonts/coyote_gothic_24_ol2" #c coyote_gothic_24_ol2 coyote_16b_ol2 #cc vic_22
 		#c color = 0xffffffff
-		color = 0xfffcfcfc
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 32 216 32 }
@@ -775,8 +789,9 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_22s" ##c nom territoire & king name
-		path = "gfx/fonts/coyote_16b_ol2" #cc vic_22s
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_gothic_24_ol2" #c coyote_gothic_24_ol2 coyote_16b_ol2 #cc vic_22s
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -799,8 +814,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29" ##c Headers labels & Religion tab main title
-		path = "gfx/fonts/coyote_18b_ol2" #cc vic_29
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_29
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -811,8 +827,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29s" ##c Main titles : Country's menus views
-		path = "gfx/fonts/coyote_26b_ol2" #cc vic_29s
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_gothic_31_ol2" #c coyote_26b_ol2 #cc vic_29s
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -835,8 +852,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_36" ##c loadding & loadding tips & Eco Total total
-		path = "gfx/fonts/coyote_26b_ol2" #cc vic_36
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_36
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -846,8 +864,9 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/coyote_26b_ol2" #cc vic_36s
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_36s
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -858,8 +877,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "Arial12" ##c Subtext saves & Units number
-		path = "gfx/fonts/coyote_12b_ol" #cc Arial12
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc Arial12
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -870,8 +890,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "FPS_Font"
-		path = "gfx/fonts/coyote_12b_ol" #c tested #cc Arial12
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #c tested #cc Arial12
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -891,7 +912,8 @@ bitmapfonts = {
 		name = "coyote_12b"
 		path = "gfx/fonts/coyote_12b"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -905,7 +927,8 @@ bitmapfonts = {
 		name = "coyote_12_ol"
 		path = "gfx/fonts/coyote_12_ol"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -919,7 +942,8 @@ bitmapfonts = {
 		name = "coyote_12b_ol"
 		path = "gfx/fonts/coyote_12b_ol"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -935,7 +959,8 @@ bitmapfonts = {
 		name = "coyote_16b_ol"
 		path = "gfx/fonts/coyote_16b_ol"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -949,7 +974,8 @@ bitmapfonts = {
 		name = "coyote_16b_ol2"
 		path = "gfx/fonts/coyote_16b_ol2"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -965,7 +991,8 @@ bitmapfonts = {
 		name = "coyote_18b_ol"
 		path = "gfx/fonts/coyote_18b_ol"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -979,7 +1006,8 @@ bitmapfonts = {
 		name = "coyote_18b_ol2"
 		path = "gfx/fonts/coyote_18b_ol2"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -988,6 +1016,21 @@ bitmapfonts = {
 		}
 	}
 
+
+	bitmapfont = {
+
+		name = "coyote_gothic_24_ol2"
+		path = "gfx/fonts/coyote_gothic_24_ol2"
+
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 240 25 25 }
+			Y = { 250 235 15 }
+		}
+	}
 	###c font-xl :
 
 	bitmapfont = {
@@ -995,7 +1038,23 @@ bitmapfonts = {
 		name = "coyote_26b_ol2"
 		path = "gfx/fonts/coyote_26b_ol2"
 
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
+
+		textcolors = {
+			G = { 30 225 30 }
+			R = { 240 25 25 }
+			Y = { 250 235 15 }
+		}
+	}
+
+	bitmapfont = {
+
+		name = "coyote_gothic_31_ol2"
+		path = "gfx/fonts/coyote_gothic_31_ol2"
+
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1009,7 +1068,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "test"
 		path = "gfx/fonts/test"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1021,7 +1081,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "test_red"
 		path = "gfx/fonts/test_red"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1033,7 +1094,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "test_green"
 		path = "gfx/fonts/test_green"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1045,7 +1107,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "test_blue"
 		path = "gfx/fonts/test_blue"
-		color = 0xffffffff
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1075,8 +1138,9 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "null_font" ##c not-used
-		path = "gfx/fonts/coyote_12b_ol" #cc vic_18
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol" #cc vic_18
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
@@ -1090,8 +1154,9 @@ bitmapfonts = {
 	#c Handle no-name fonts
 	bitmapfont = {
 		name = ""
-		path = "gfx/fonts/coyote_12b_ol"
-		color = 0xffffffff
+		path = "gfx/fonts/coyote_12_ol"
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
 
 		textcolors = {
 			G = { 30 225 30 }
