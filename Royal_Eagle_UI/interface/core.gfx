@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	#Global offset for all editboxes
-	cursor_offset = { -5 -4 }
+	cursor_offset = { -5 -3 }
 
 
 	spriteType = {
@@ -789,7 +789,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "vic_22s" ##c nom territoire & king name
-		path = "gfx/fonts/coyote_gothic_24_ol2" #c coyote_gothic_24_ol2 coyote_16b_ol2 #cc vic_22s
+		path = "gfx/fonts/coyote_18b_ol2" #c coyote_gothic_24_ol2 coyote_16b_ol2 #cc vic_22s
 		#c color = 0xffffffff
     color = 0xfff2f4f7
 
@@ -814,7 +814,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "vic_29" ##c Headers labels & Religion tab main title
-		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_29
+		path = "gfx/fonts/coyote_gothic_24_ol2" #cc vic_29
 		#c color = 0xffffffff
     color = 0xfff2f4f7
 
@@ -850,8 +850,9 @@ bitmapfonts = {
 		}
 	}
 
+	##c Mainscreen starting-date & Country MP & Economy total
 	bitmapfont = {
-		name = "vic_36" ##c loadding & loadding tips & Eco Total total
+		name = "vic_36"
 		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_36
 		#c color = 0xffffffff
     color = 0xfff2f4f7
@@ -863,8 +864,8 @@ bitmapfonts = {
 		}
 	}
 	bitmapfont = {
-		name = "vic_36s" ##c Mainscreen starting-date & Country MP & Economy total
-		path = "gfx/fonts/coyote_gothic_31_ol2" #cc vic_36s
+		name = "vic_36s" ##c Not-used
+		path = "gfx/fonts/coyote_26b_ol2" #cc vic_36s
 		#c color = 0xffffffff
     color = 0xfff2f4f7
 
