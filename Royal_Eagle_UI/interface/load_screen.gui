@@ -37,7 +37,8 @@ guiTypes = {
 				#c position = { x = -400 y = 13 }
 				position = { x = -400 y = 15 }
 				textureFile = ""
-				font = "vic_36"
+				#c font = "vic_36"
+				font = "coyote_gothic_31_ol2"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 800
@@ -71,9 +72,10 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "text"
 				#c position = { x = -400 y = -111 }
-				position = { x = -400 y = -105 }
+				position = { x = -400 y = -103 }
 				textureFile = ""
-				font = "vic_36"
+				#c font = "vic_36"
+				font = "coyote_26b_ol2"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 800
