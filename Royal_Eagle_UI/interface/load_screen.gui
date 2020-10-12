@@ -29,13 +29,14 @@ guiTypes = {
 			iconType = {
 				name ="bg_load_screen2"
 				spriteType = "GFX_loadingstatus_bg"
-				position = { x= -700 y = 0 }
+				#c position = { x= -700 y = 0 }
+				position = { x= -700 y = -2 }
 			}
 
 			instantTextBoxType = {
 				name = "text"
 				#c position = { x = -400 y = 13 }
-				position = { x = -400 y = 15 }
+				position = { x = -399 y = 15 }
 				textureFile = ""
 				#c font = "vic_36"
 				font = "coyote_gothic_31_ol2"
@@ -72,7 +73,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "text"
 				#c position = { x = -400 y = -111 }
-				position = { x = -400 y = -103 }
+				position = { x = -399 y = -103 }
 				textureFile = ""
 				#c font = "vic_36"
 				font = "coyote_26b_ol2"

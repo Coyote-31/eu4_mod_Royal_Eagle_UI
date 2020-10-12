@@ -365,10 +365,10 @@ guiTypes = {
 
 					name ="single_player_button_text"
 					#c position = { x = 380 y = -16 }
-					position = { x = 380 y = -17 }
+					position = { x = 380 y = -19 }
 
 					#c font = "vic_22"
-					font = "vic_29"
+					font = "vic_29s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_SINGLE_PLAYER"
 					format = centre
@@ -405,14 +405,14 @@ guiTypes = {
 					instantTextBoxType = {
 						name ="text"
 						#c position = { x = 50 y = 7 }
-						position = { x = 59 y = 13 }
+						position = { x = 57 y = 11 }
 						#c font = "vic_22"
-						font = "vic_18"
+						font = "coyote_12_ol"
 						format = left
 						#c maxWidth = 400
-						maxWidth = 256
+						maxWidth = 265
 						#c maxHeight = 100
-						maxHeight = 35
+						maxHeight = 40
 						fixedsize = yes
 						alwaystransparent = yes
 					}
@@ -435,10 +435,10 @@ guiTypes = {
 
 					name ="multi_player_button_text"
 					#c position = { x = 563 y = -16 }
-					position = { x = 565 y = -17 }
+					position = { x = 565 y = -19 }
 
 					#c font = "vic_22"
-					font = "vic_29"
+					font = "vic_29s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_MULTI_PLAYER"
 					format = centre
@@ -459,7 +459,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="version_label"
 					#c position = { x = 23 y = 38 }
-					position = { x = 23 y = 40 }
+					position = { x = 22 y = 38 }
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
 					text = "EU4 v0.00 (TODO)"
@@ -486,8 +486,7 @@ guiTypes = {
 					name ="tutorial_button_text"
 					position = { x = 290 y = 42 }
 
-					#c font = "vic_22"
-					font = "vic_22s"
+					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_TUTORIAL"
 					format = centre
@@ -510,7 +509,7 @@ guiTypes = {
 					name ="credits_button_text"
 					position = { x = 422 y = 42 }
 
-					font = "vic_22s"
+					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_CREDITS"
 					format = centre
@@ -533,7 +532,7 @@ guiTypes = {
 					name ="settings_button_text"
 					position = { x = 563 y = 42 }
 
-					font = "vic_22s"
+					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_OPTIONS"
 					format = centre
@@ -553,8 +552,7 @@ guiTypes = {
 					name ="exit_button_text"
 					position = { x = 692 y = 42 }
 
-					#c font = "vic_22"
-					font = "vic_22s"
+					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_EXIT"
 					format = centre
@@ -598,22 +596,26 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "homepage_button"
-					position = { x = -38 y = 14 }
+					#c position = { x = -38 y = 14 }
+					position = { x = -36 y = 13 }
 					quadTextureSprite ="homepage"
 				}
 				guiButtonType = {
 					name = "forum_button"
-					position = { x = 0 y = 14 }
+					#c position = { x = 0 y = 14 }
+					position = { x = 0 y = 13 }
 					quadTextureSprite ="forum"
 				}
 				guiButtonType = {
 					name = "facebook_button"
-					position = { x = 36 y = 14 }
+					#c position = { x = 36 y = 14 }
+					position = { x = 36 y = 13 }
 					quadTextureSprite ="facebook"
 				}
 				guiButtonType = {
 					name = "twitter_button"
-					position = { x = 72 y = 14 }
+					#c position = { x = 72 y = 14 }
+					position = { x = 72 y = 13 }
 					quadTextureSprite ="twitter"
 				}
 
@@ -626,7 +628,8 @@ guiTypes = {
 				iconType = {
 					name ="frontend_small_frame"
 					spriteType = "GFX_frontend_small_frame"
-					position = { x= -40 y = 12 }
+					#c position = { x= -40 y = 12 }
+					position = { x= -39 y = 11 }
 				}
 			}
 		}
@@ -669,9 +672,11 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="single_player_button_text"
-				position = { x = 81 y = 24 }
+				#c position = { x = 81 y = 24 }
+				position = { x = 81 y = 21 }
 
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29s"
 				borderSize = {x = 0 y = 0}
 				text = "FE_SINGLE_PLAYER"
 				format = centre
@@ -689,9 +694,11 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="multi_player_button_text"
-				position = { x = 316 y = 24 }
+				#c position = { x = 316 y = 24 }
+				position = { x = 316 y = 21 }
 
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29s"
 				borderSize = {x = 0 y = 0}
 				text = "FE_MULTI_PLAYER"
 				format = centre
@@ -1707,8 +1714,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "year_label"
-					#c position = { x = -150 y = 18 }
-					position = { x = -154 y = 18 }
+					position = { x = -150 y = 18 }
 					maxWidth = 300
 					maxHeight = 30
 					font = "vic_22"
@@ -1956,13 +1962,13 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "selected_nation_label"
 						#c position = { x = 24 y = 130 }
-						position = { x = 16 y = 130 }
+						position = { x = 17 y = 130 }
 
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = "FE_NO_COUNTRY_SELECTED"
 						#c maxWidth = 160
-						maxWidth = 180
+						maxWidth = 174
 						maxHeight = 24
 						fixedsize = yes
 						format = centre
@@ -2035,12 +2041,14 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_label"
-						position = { x = 24 y = 130 }
+						#c position = { x = 24 y = 130 }
+						position = { x = 17 y = 130 }
 
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = ""
-						maxWidth = 160
+						#c maxWidth = 160
+						maxWidth = 174
 						maxHeight = 24
 						format = centre
 						fixedsize = yes
@@ -2451,12 +2459,12 @@ guiTypes = {
 				guiButtonType = {
 					name = "play_button"
 					#c position = { x = -246 y = -40 }
-					position = { x = -266 y = -47 }
-					quadTextureSprite ="GFX_button_straight_148_46" #c
+					position = { x = -266 y = -46 }
+					#c quadTextureSprite ="GFX_button_straight_148_46"
 					quadTextureSprite ="GFX_big_button_232"
 					buttonText = "PLAY"
 					#c buttonFont = "vic_22"
-					buttonFont = "coyote_16b_ol2"
+					buttonFont = "coyote_gothic_31_ol2"
 					Orientation = "LOWER_RIGHT"
 					clicksound = start_game
 				}
