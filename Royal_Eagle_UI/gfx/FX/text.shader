@@ -234,6 +234,15 @@ BlendState BlendState
 	DestBlend = "INV_SRC_ALPHA"
 }
 
+BlendState BlendStateRGB
+{
+	AlphaTest = no
+	WriteMask = "RED|GREEN|BLUE"
+	SourceBlend = "src_alpha"
+	BlendEnable = yes
+	DestBlend = "inv_src_alpha"
+}
+
 ## Rasterizer States
 
 ## Depth Stencil States
@@ -249,6 +258,7 @@ Effect Text3D
 Effect Text
 {
 	VertexShader = "VertexShaderText"
+	BlendState = "BlendStateRGB"
 	PixelShader = "PixelShaderText"
 }
 
