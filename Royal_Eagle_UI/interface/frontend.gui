@@ -407,7 +407,7 @@ guiTypes = {
 						#c position = { x = 50 y = 7 }
 						position = { x = 57 y = 11 }
 						#c font = "vic_22"
-						font = "coyote_12_ol"
+						font = "vic_18"
 						format = left
 						#c maxWidth = 400
 						maxWidth = 265
@@ -484,10 +484,11 @@ guiTypes = {
 				instantTextBoxType = {
 
 					name ="tutorial_button_text"
-					position = { x = 290 y = 42 }
+					#c position = { x = 290 y = 42 }
+					position = { x = 290 y = 43 }
 
 					#c font = "vic_22"
-					font = "coyote_gothic_24_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_TUTORIAL"
 					format = centre
@@ -508,10 +509,11 @@ guiTypes = {
 				instantTextBoxType = {
 
 					name ="credits_button_text"
-					position = { x = 422 y = 42 }
+					#c position = { x = 422 y = 42 }
+					position = { x = 422 y = 43 }
 
 					#c font = "vic_22"
-					font = "coyote_gothic_24_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_CREDITS"
 					format = centre
@@ -532,10 +534,11 @@ guiTypes = {
 				instantTextBoxType = {
 
 					name ="settings_button_text"
-					position = { x = 563 y = 42 }
+					#c position = { x = 563 y = 42 }
+					position = { x = 563 y = 43 }
 
 					#c font = "vic_22"
-					font = "coyote_gothic_24_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_OPTIONS"
 					format = centre
@@ -553,10 +556,11 @@ guiTypes = {
 				instantTextBoxType = {
 
 					name ="exit_button_text"
-					position = { x = 692 y = 42 }
+					#c position = { x = 692 y = 42 }
+					position = { x = 692 y = 43 }
 
 					#c font = "vic_22"
-					font = "coyote_gothic_24_ol2"
+					font = "vic_29"
 					borderSize = {x = 0 y = 0}
 					text = "FE_EXIT"
 					format = centre
@@ -720,7 +724,8 @@ guiTypes = {
 		windowType = {
 			name ="tutorial_panel"
 			backGround=""
-			position = { x=-210 y =-380}
+			#c position = { x=-210 y =-380}
+			position = { x=-225 y =-465}
 			size = { x=420 y =500}
 			moveable = 0
 			dontRender = ""
@@ -820,7 +825,8 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_label"
-				position = { x = 100 y = 297 }
+				#c position = { x = 100 y = 297 }
+				position = { x = 100 y = 296 }
 
 				font = "vic_29s"
 				borderSize = {x = 19 y = -25}
@@ -846,7 +852,8 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_desc"
-				position = { x = 350 y = 480 }
+				#c position = { x = 350 y = 480 }
+				position = { x = 349 y = 482 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -859,7 +866,8 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_desc"
-				position = { x = 125 y = 380 }
+				#c position = { x = 125 y = 380 }
+				position = { x = 125 y = 386 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -881,7 +889,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x = -110 y = 635 }
+				#c position = { x = -110 y = 635 }
+				position = { x = -91 y = 638 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
@@ -892,7 +901,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "play_button"
-				position = { x = 400 y = 635 }
+				#c position = { x = 400 y = 635 }
+				position = { x = 391 y = 638 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
@@ -1445,7 +1455,7 @@ guiTypes = {
 						position = { x = 66 y = 111 }
 
 						#c font = "vic_18"
-						font = "coyote_16b_ol2"
+						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = ""
 						#c maxWidth = 110
@@ -1523,10 +1533,9 @@ guiTypes = {
 				instantTextBoxType = {
 						name = "observe_mode_title"
 						#c position = { x = 55 y = -145 }
-						position = { x = 87 y = -125 }
+						position = { x = 87 y = -127 }
 
-						#c font = "vic_22"
-						font = "coyote_12b_ol"
+						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = "OBSERVE_MODE"
 						maxWidth = 200
@@ -2468,7 +2477,7 @@ guiTypes = {
 					quadTextureSprite ="GFX_big_button_232"
 					buttonText = "PLAY"
 					#c buttonFont = "vic_22"
-					buttonFont = "coyote_gothic_31_ol2"
+					buttonFont = "vic_29s"
 					Orientation = "LOWER_RIGHT"
 					clicksound = start_game
 				}
