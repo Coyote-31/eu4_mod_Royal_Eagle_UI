@@ -1,15 +1,66 @@
 spriteTypes = {
 
-	##c frontend sprites
+	##c Frontend Backgrounds :
 
 	spriteType = {
-		name = "GFX_frontend_bg_bottom_left"
-		texturefile = "gfx/interface/frontend_bg_bottom_left.dds"
+		name = "GFX_COYOTE_frontend_bg_bottom_left"
+		texturefile = "gfx/interface/coyote_frontend_bg_bottom_left.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
 	}
 
 	spriteType = {
-		name = "GFX_frontend_bg_bottom_right"
-		texturefile = "gfx/interface/frontend_bg_bottom_right.dds"
+		name = "GFX_COYOTE_frontend_bg_bottom_right"
+		texturefile = "gfx/interface/coyote_frontend_bg_bottom_right.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	##c Logo Royal_Eagle_UI :
+
+	spriteType = {
+		name = "GFX_COYOTE_logo_Royal_Eagle_UI_background"
+		textureFile = "gfx/interface/coyote_logo_Royal_Eagle_UI_background.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_COYOTE_logo_Royal_Eagle_UI_button"
+		textureFile = "gfx/interface/coyote_logo_Royal_Eagle_UI_button.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_COYOTE_shield_fancy_overlay_animated"
+		texturefile = "gfx/interface/coyote_shield_fancy_overlay_animated.dds"
+		loadType = "FRONTEND"
+		noOfFrames = 44
+		transparencecheck = yes
+		animation_rate_fps = 16
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 1.5
+	}
+
+	spriteType = {
+		name = "GFX_COYOTE_logo_Royal_Eagle_UI_foreground"
+		textureFile = "gfx/interface/coyote_logo_Royal_Eagle_UI_foreground.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_COYOTE_alerticon_banner"
+		texturefile = "gfx//interface//alerticon_banner.tga"
+		noOfFrames = 20
+		loadType = "FRONTEND"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 2.0
 	}
 
 }

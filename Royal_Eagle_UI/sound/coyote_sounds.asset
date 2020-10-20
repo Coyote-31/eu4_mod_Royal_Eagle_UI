@@ -1,0 +1,4 @@
+sound = {
+	name = royal_eagle_ui
+	file = "amb/amb_30/amb_hawk_03.wav"
+}

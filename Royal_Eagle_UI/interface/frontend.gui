@@ -958,7 +958,8 @@ guiTypes = {
 				name ="bottom"
 				backGround=""
 				position = { x=0 y =0}
-				show_position = { x=-380 y =-172 }
+				#c show_position = { x=-380 y =-172 }
+				show_position = { x=-380 y =-174 }
 				hide_position = { x=-380 y =20}
 				animation_type = "decelerated"
 				animation_time = 300
@@ -1236,11 +1237,11 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-				#c bg for bottom left buttons
+				##c background for bottom left buttons
 				iconType = {
 					name ="frontend_bg_bottom_left"
-					spriteType = "GFX_frontend_bg_bottom_left"
-					position = { x= 4 y = -144 }
+					spriteType = "GFX_COYOTE_frontend_bg_bottom_left"
+					position = { x= 3 y = -147 }
 					Orientation = "LOWER_LEFT"
 				}
 
@@ -1533,7 +1534,7 @@ guiTypes = {
 				instantTextBoxType = {
 						name = "observe_mode_title"
 						#c position = { x = 55 y = -145 }
-						position = { x = 87 y = -127 }
+						position = { x = 85 y = -136 }
 
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
@@ -1547,7 +1548,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "observe_mode_button"
 					#c position = { x = 20 y = -152 }
-					position = { x = 49 y = -134 }
+					position = { x = 48 y = -142 }
 					quadTextureSprite ="GFX_checkbox_gold_32"
 					Orientation = "LOWER_LEFT"
 				}
@@ -1555,7 +1556,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "gameoptions_button"
 					#c position = { x = 18 y = -104 }
-					position = { x = 18 y = -106 }
+					position = { x = 37 y = -112 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "MENU_BAR_GAME_OPTIONS"
 					buttonFont = "vic_18"
@@ -1567,7 +1568,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "find_button"
 					#c position = { x = 18 y = -74 }
-					position = { x = 18 y = -76 }
+					position = { x = 37 y = -82 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "FIND"
 					buttonFont = "vic_18"
@@ -1579,7 +1580,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "option_button"
 					#c position = { x = 18 y = -44 }
-					position = { x = 18 y = -46 }
+					position = { x = 37 y = -52 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "Options"
 					buttonFont = "vic_18"
@@ -1590,7 +1591,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "back_button"
 					#c position = { x = 18 y = -12 }
-					position = { x = 18 y = -14 }
+					position = { x = 37 y = -19 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "FE_BACK"
 					buttonFont = "vic_18"
@@ -1790,22 +1791,96 @@ guiTypes = {
 				downsound = ""
 				fullscreen=yes
 
-				iconType =
-				{
+				iconType = {
 					name ="right_sidepanel"
 					spriteType = "GFX_lobby_right_bg"
 					position = { x= -266 y = 16 }
 					Orientation = "UPPER_RIGHT"
 				}
 
+				##c New sprites : start
+
 				#c bg for bottom right buttons
 				iconType = {
 					name ="frontend_bg_bottom_right"
-					spriteType = "GFX_frontend_bg_bottom_right"
-					position = { x= -299 y = -152 }
+					spriteType = "GFX_COYOTE_frontend_bg_bottom_right"
+					position = { x= -543 y = -222 }
 					Orientation = "LOWER_RIGHT"
 				}
 
+				iconType = {
+					name = "coyote_logo_Royal_Eagle_UI_background"
+					spriteType ="GFX_COYOTE_logo_Royal_Eagle_UI_background"
+					position = { x= -407 y = -286 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				guiButtonType = {
+					name = "coyote_logo_Royal_Eagle_UI_button"
+					quadTextureSprite ="GFX_COYOTE_logo_Royal_Eagle_UI_button"
+					position = { x= -407 y = -286 }
+					Orientation = "LOWER_RIGHT"
+					clicksound = "royal_eagle_ui"
+					hint_tag = ""
+					pdx_tooltip = ""
+					pdx_tooltip_delayed = ""
+					tooltipText ="FE_IRONMAN"
+					delayedTooltipText = ""
+				}
+
+				iconType = {
+					name = "coyote_shield_fancy_overlay_animated"
+					spriteType ="GFX_COYOTE_shield_fancy_overlay_animated"
+					position = { x= -348 y = -286 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				iconType = {
+					name = "coyote_iron_man_alerticon_banner"
+					spriteType ="GFX_COYOTE_alerticon_banner"
+					position = { x= -296 y = -165 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				iconType = {
+					name = "coyote_iron_man_icon"
+					spriteType ="GFX_ironman_icon"
+					position = { x= -284 y = -158 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				iconType = {
+					name = "coyote_iron_man_checkmark"
+					spriteType ="GFX_text_yes"
+					position = { x= -272 y = -142 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				iconType = {
+					name = "coyote_logo_Royal_Eagle_UI_foreground"
+					spriteType ="GFX_COYOTE_logo_Royal_Eagle_UI_foreground"
+					position = { x= -345 y = -337 }
+					alwaystransparent = yes
+					Orientation = "LOWER_RIGHT"
+				}
+
+				instantTextBoxType = {
+					name = "coyote_logo_Royal_Eagle_UI_label"
+					position = { x= -320 y = -181 }
+					font = "vic_18s"
+					text = "Royal Eagle UI"
+					maxWidth = 99
+					maxHeight = 32
+					format = center
+					Orientation = "LOWER_RIGHT"
+				}
+
+				##c New sprites : end
 
 				iconType =
 				{
@@ -2432,7 +2507,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "random_new_world_button"
 					#c position = { x = -241 y = -139 }
-					position = { x = -261 y = -138 }
+					position = { x = -499 y = -99 }
 					quadTextureSprite ="GFX_frontend_random_world"
 					buttonText = "RANDOM_WORLD_START"
 					buttonFont = "vic_18"
@@ -2443,7 +2518,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "enable_custom_nation_button"
 					#c position = { x = -275 y = -107 }
-					position = { x = -288 y = -109 }
+					position = { x = -527 y = -69 }
 					quadTextureSprite ="GFX_checkbox_gold_32"
 					Orientation = "LOWER_RIGHT"
 				}
@@ -2451,7 +2526,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "nation_designer_button"
 					#c position = { x = -241 y = -107 }
-					position = { x = -261 y = -109 }
+					position = { x = -499 y = -69 }
 					quadTextureSprite ="GFX_frontend_custom_nation"
 					buttonText = "CUSTOM_NATION"
 					buttonFont = "vic_18"
@@ -2461,7 +2536,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "random_country_button"
 					#c position = { x = -241 y = -75 }
-					position = { x = -261 y = -80 }
+					position = { x = -499 y = -39 }
 					quadTextureSprite ="GFX_frontend_random_nation"
 					buttonText = "RANDOM_COUNTRY"
 					buttonFont = "vic_18"
@@ -2472,7 +2547,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "play_button"
 					#c position = { x = -246 y = -40 }
-					position = { x = -266 y = -46 }
+					position = { x = -264 y = -79 }
 					#c quadTextureSprite ="GFX_button_straight_148_46"
 					quadTextureSprite ="GFX_big_button_232"
 					buttonText = "PLAY"
@@ -3676,7 +3751,7 @@ guiTypes = {
 	}
 
 
-
+	##c shields
 	guiButtonType = {
 		name ="shield"
 		position = { x = 0 y = 0 }
