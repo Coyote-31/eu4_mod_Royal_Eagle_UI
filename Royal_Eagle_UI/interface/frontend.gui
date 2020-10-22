@@ -1542,9 +1542,10 @@ guiTypes = {
 				instantTextBoxType = {
 						name = "observe_mode_title"
 						#c position = { x = 55 y = -145 }
-						position = { x = 85 y = -136 }
+						position = { x = 97 y = -134 }
 
-						font = "vic_22"
+						#c font = "vic_22"
+						font = "vic_18s"
 						borderSize = {x = 0 y = 0}
 						text = "OBSERVE_MODE"
 						maxWidth = 200
@@ -1556,8 +1557,9 @@ guiTypes = {
 				guiButtonType = {
 					name = "observe_mode_button"
 					#c position = { x = 20 y = -152 }
-					position = { x = 48 y = -142 }
-					quadTextureSprite ="GFX_checkbox_gold_32"
+					position = { x = 68 y = -137 }
+					#c quadTextureSprite ="GFX_checkbox_gold_32"
+					quadTextureSprite ="GFX_checkbox_gold_24"
 					Orientation = "LOWER_LEFT"
 				}
 
@@ -2587,8 +2589,9 @@ guiTypes = {
 				guiButtonType = {
 					name = "enable_custom_nation_button"
 					#c position = { x = -275 y = -107 }
-					position = { x = -527 y = -69 }
-					quadTextureSprite ="GFX_checkbox_gold_32"
+					position = { x = -523 y = -65 }
+					#c quadTextureSprite ="GFX_checkbox_gold_32"
+					quadTextureSprite ="GFX_checkbox_gold_24"
 					Orientation = "LOWER_RIGHT"
 				}
 
