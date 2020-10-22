@@ -34,6 +34,7 @@ guiTypes = {
 
 	windowType = {
 		# For dlc_icons_list in the main menu
+		#c right side
 		name = "dlc_entry"
 		backGround=""
 		position = { x=0 y=0 }
@@ -47,20 +48,23 @@ guiTypes = {
 		iconType = {
 			name = "dlc_icon_bg"
 			spriteType = "GFX_dlc_icon_even_bg_flip"
-			position = { x = -30 y = 0 }
+			#c position = { x = -30 y = 0 }
+			position = { x = -29 y = 125 }
 			allwaystransparent = yes
 		}
 
 		guiButtonType = {
 			name = "dlc_button"
 			quadTextureSprite = "GFX_dlc_default_icon"
-			position = { x = -30 y = 10 }
+			#c position = { x = -30 y = 10 }
+			position = { x = -29 y = 135 }
 		}
 
 		iconType ={
 			name = "dlc_icon"
 			spriteType = "GFX_dlc_default_icon"
-			position = { x = -30 y = 10 }
+			#c position = { x = -30 y = 10 }
+			position = { x = -29 y = 135 }
 		}
 	}
 
@@ -333,6 +337,7 @@ guiTypes = {
 				backGround=""
 				position = { x=-552 y =-84}
 				show_position = { x = -552 y = -84 }
+				#c hide_position = { x = -552 y = 100 }
 				hide_position = { x = -552 y = 100 }
 				animation_type = "decelerated"
 				animation_time = 300
@@ -960,7 +965,8 @@ guiTypes = {
 				position = { x=0 y =0}
 				#c show_position = { x=-380 y =-172 }
 				show_position = { x=-380 y =-174 }
-				hide_position = { x=-380 y =20}
+				#c hide_position = { x=-380 y =20}
+				hide_position = { x=-380 y =65}
 				animation_type = "decelerated"
 				animation_time = 300
 				size = { x=760 y =172}
@@ -976,23 +982,25 @@ guiTypes = {
 				iconType =
 				{
 					name ="chatpanel"
-					spriteType = "GFX_lobby_chat_bg"
-					position = { x= 0 y = 0 }
+					#c spriteType = "GFX_lobby_chat_bg"
+					spriteType = "GFX_COYOTE_lobby_chat_bg"
+					#c position = { x= 0 y = 0 }
+					position = { x= -21 y = -62 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name ="scenario_description"
-					position = { x = 16 y = 16 }
-					maxWidth = 728
-					maxHeight = 100
+					#c position = { x = 16 y = 16 }
+					position = { x = 16 y = 12 }
+					#c maxWidth = 728
+					maxWidth = 730
+					#c maxHeight = 100
+					maxHeight = 130
 					font = "vic_18"
 					borderSize = {x = 4 y = 4}
 					text = ""
 					Orientation = "UPPER_LEFT"
-
-					maxWidth = 728
-					maxHeight = 100
 				}
 
 				editBoxType = {
@@ -1607,7 +1615,8 @@ guiTypes = {
 				name ="top"
 				backGround=""
 				position = { x=0 y =0}
-				show_position = { x=0 y =0}
+				#c show_position = { x=0 y =0}
+				show_position = { x=0 y =-3}
 				hide_position = { x=0 y =-500}
 				animation_type = "decelerated"
 				animation_time = 300
@@ -1778,8 +1787,10 @@ guiTypes = {
 				name ="right"
 				backGround=""
 				position = { x=0 y =0}
-				show_position = { x=0 y =-20}
-				hide_position = { x=300 y =-20}
+				#c show_position = { x=0 y =-20}
+				show_position = { x=0 y =-19}
+				#c hide_position = { x=300 y =-20}
+				hide_position = { x=550 y =-20}
 				animation_type = "decelerated"
 				animation_time = 300
 				size = { x=420 y =500}
@@ -1811,7 +1822,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_logo_Royal_Eagle_UI_background"
 					spriteType ="GFX_COYOTE_logo_Royal_Eagle_UI_background"
-					position = { x= -407 y = -286 }
+					position = { x= -407 y = -280 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
@@ -1819,7 +1830,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "coyote_logo_Royal_Eagle_UI_button"
 					quadTextureSprite ="GFX_COYOTE_logo_Royal_Eagle_UI_button"
-					position = { x= -407 y = -286 }
+					position = { x= -407 y = -280 }
 					Orientation = "LOWER_RIGHT"
 					clicksound = "royal_eagle_ui"
 					hint_tag = ""
@@ -1832,7 +1843,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_shield_fancy_overlay_animated"
 					spriteType ="GFX_COYOTE_shield_fancy_overlay_animated"
-					position = { x= -348 y = -286 }
+					position = { x= -348 y = -280 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
@@ -1840,7 +1851,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_iron_man_alerticon_banner"
 					spriteType ="GFX_COYOTE_alerticon_banner"
-					position = { x= -296 y = -165 }
+					position = { x= -296 y = -159 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
@@ -1848,7 +1859,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_iron_man_icon"
 					spriteType ="GFX_ironman_icon"
-					position = { x= -284 y = -158 }
+					position = { x= -284 y = -152 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
@@ -1856,7 +1867,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_iron_man_checkmark"
 					spriteType ="GFX_text_yes"
-					position = { x= -272 y = -142 }
+					position = { x= -272 y = -136 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
@@ -1864,14 +1875,14 @@ guiTypes = {
 				iconType = {
 					name = "coyote_logo_Royal_Eagle_UI_foreground"
 					spriteType ="GFX_COYOTE_logo_Royal_Eagle_UI_foreground"
-					position = { x= -345 y = -337 }
+					position = { x= -345 y = -331 }
 					alwaystransparent = yes
 					Orientation = "LOWER_RIGHT"
 				}
 
 				instantTextBoxType = {
 					name = "coyote_logo_Royal_Eagle_UI_label"
-					position = { x= -320 y = -181 }
+					position = { x= -319 y = -175 }
 					font = "vic_18s"
 					text = "Royal Eagle UI"
 					maxWidth = 99
@@ -1886,13 +1897,15 @@ guiTypes = {
 				{
 					name ="ironman_icon"
 					spriteType = "GFX_ironman_icon"
-					position = { x= -200 y = 30 }
+					#c position = { x= -200 y = 30 }
+					position = { x= -202 y = 31 }
 					Orientation = "UPPER_RIGHT"
 				}
 
 				instantTextBoxType = {
 					name = "ironman_label"
-					position = { x= -170 y = 42 }
+					#c position = { x= -170 y = 42 }
+					position = { x= -168 y = 40 }
 					font = "vic_22"
 					text = "FE_IRONMAN"
 					maxWidth = 160
@@ -2052,7 +2065,8 @@ guiTypes = {
 						#c position = { x = 24 y = 130 }
 						position = { x = 17 y = 130 }
 
-						font = "vic_22"
+						#c font = "vic_22"
+						font = "vic_29"
 						borderSize = {x = 0 y = 0}
 						text = "FE_NO_COUNTRY_SELECTED"
 						#c maxWidth = 160
@@ -2080,9 +2094,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "diplomacy_banner_label"
-						position = { x = -5 y = 402 }
+						#c position = { x = -5 y = 402 }
+						position = { x = 4 y = 405 }
 
-						font = "vic_18"
+						#c font = "vic_18"
+						font = "vic_18s"
 						borderSize = {x = 4 y = 4}
 						text = "HEADER_DIPLOMACY"
 						maxWidth = 160
@@ -2132,7 +2148,8 @@ guiTypes = {
 						#c position = { x = 24 y = 130 }
 						position = { x = 17 y = 130 }
 
-						font = "vic_22"
+						#c font = "vic_22"
+						font = "vic_29"
 						borderSize = {x = 0 y = 0}
 						text = ""
 						#c maxWidth = 160
@@ -2144,9 +2161,11 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_fog"
+						#c position = { x = 20 y = 160 }
 						position = { x = 20 y = 160 }
 
-						font = "vic_18"
+						#c font = "vic_18"
+						font = "vic_18s"
 						borderSize = {x = 0 y = 0}
 						text = ""
 						maxWidth = 175
@@ -2157,12 +2176,14 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_nation_status_label"
-						position = { x = 20 y = 174 }
+						#c position = { x = 20 y = 174 }
+						position = { x = -2 y = 175 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
-						maxWidth = 175
+						#c maxWidth = 175
+						maxWidth = 214
 						maxHeight = 24
 						format = centre
 						fixedsize = yes
@@ -2170,12 +2191,14 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "selected_ruler"
-						position = { x = 20 y = 196 }
+						#c position = { x = 20 y = 196 }
+						position = { x = -2 y = 196 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
-						maxWidth = 175
+						#c maxWidth = 175
+						maxWidth = 214
 						maxHeight = 24
 						format = center
 						fixedsize = yes
@@ -2185,40 +2208,48 @@ guiTypes = {
 					{
 						name ="ruler_adm_icon"
 						spriteType = "GFX_icon_powers_administrative"
-						position = { x= 20 y = 210 }
+						#c position = { x= 20 y = 210 }
+						position = { x= 22 y = 211 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_adm_value"
-						position = { x = 40 y = 215 }
+						#c position = { x = 40 y = 215 }
+						position = { x = 50 y = 214 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 32
+						#c maxWidth = 32
+						maxWidth = 36
 						maxHeight = 16
-						format = centre
+						#c format = centre
+						format = left
 					}
 
 					iconType =
 					{
 						name ="ruler_dip_icon"
 						spriteType = "GFX_icon_powers_diplomatic"
-						position = { x= 79 y = 210 }
+						#c position = { x= 79 y = 210 }
+						position = { x= 81 y = 211 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_dip_value"
-						position = { x = 94 y = 215 }
+						#c position = { x = 94 y = 215 }
+						position = { x = 110 y = 214 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 32
+						#c maxWidth = 32
+						maxWidth = 36
 						maxHeight = 16
-						format = centre
+						#c format = centre
+						format = left
 					}
 
 
@@ -2226,20 +2257,24 @@ guiTypes = {
 					{
 						name ="ruler_mil_icon"
 						spriteType = "GFX_icon_powers_military"
-						position = { x= 129 y = 210 }
+						#c position = { x= 129 y = 210 }
+						position = { x= 139 y = 211 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_mil_value"
-						position = { x = 143 y = 215 }
+						#c position = { x = 143 y = 215 }
+						position = { x = 170 y = 214 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 32
+						#c maxWidth = 32
+						maxWidth = 36
 						maxHeight = 16
-						format = centre
+						#c format = centre
+						format = left
 					}
 
 
@@ -2247,85 +2282,104 @@ guiTypes = {
 					{
 						name ="admtech_icon"
 						spriteType = "GFX_icon_powers_administrative_tech"
-						position = { x= 25 y = 246 }
+						#c position = { x= 25 y = 246 }
+						position = { x= 24 y = 245 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "admtech_value"
-						position = { x = 5 y = 248 }
+						#c position = { x = 5 y = 248 }
+						position = { x = 50 y = 247 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 64
+						#c maxWidth = 64
+						maxWidth = 36
 						maxHeight = 16
-						format = right
+						#c format = right
+						format = left
 					}
 
 					iconType =
 					{
 						name ="diptech_icon"
 						spriteType = "GFX_icon_powers_diplomatic_tech"
-						position = { x= 80 y = 246 }
+						#c position = { x= 80 y = 246 }
+						position = { x= 83 y = 245 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "diptech_value"
-						position = { x = 60 y = 248 }
+						#c position = { x = 60 y = 248 }
+						position = { x = 110 y = 247 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 64
+						#c maxWidth = 64
+						maxWidth = 36
 						maxHeight = 16
-						format = right
+						#c format = right
+						format = left
 					}
 
 					iconType =
 					{
 						name ="miltech_icon"
 						spriteType = "GFX_icon_powers_military_tech"
-						position = { x= 140 y = 246 }
+						#c position = { x= 140 y = 246 }
+						position = { x= 142 y = 246 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "miltech_value"
-						position = { x = 120 y = 248 }
+						#c position = { x = 120 y = 248 }
+						position = { x = 170 y = 247 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 64
+						#c maxWidth = 64
+						maxWidth = 36
 						maxHeight = 16
-						format = right
+						#c format = right
+						format = left
 					}
 
 					instantTextBoxType = {
 						name = "national_ideagroup_name"
-						position = { x = -5 y = 286 }
+						#c position = { x = -5 y = 286 }
+						position = { x = -12 y = 278 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "Enlish Ideas"
-						maxWidth = 175
-						maxHeight = 16
-						format = left
+						#c maxWidth = 175
+						maxWidth = 230
+						#c maxHeight = 16
+						maxHeight = 18
+						#c format = left
+						format = center
+						fixedsize = yes #c
 					}
 
 					iconType =
 					{
 						name ="ideas_icon"
 						spriteType = "GFX_icon_ideas"
-						position = { x= 170 y = 286 }
+						#c position = { x= 170 y = 286 }
+						position = { x= 94 y = 308 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ideas_value"
-						position = { x = 143 y = 288 }
+						#c position = { x = 143 y = 288 }
+						position = { x= 140 y = 308 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
@@ -2339,7 +2393,8 @@ guiTypes = {
 					{
 						name ="national_idea1"
 						spriteType = "GFX_idea_empty"
-						position = { x= -7 y = 320 }
+						#c position = { x= -7 y = 320 }
+						position = { x= 0 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2347,7 +2402,8 @@ guiTypes = {
 					{
 						name ="national_idea2"
 						spriteType = "GFX_idea_empty"
-						position = { x= 25 y = 320 }
+						#c position = { x= 25 y = 320 }
+						position = { x= 30 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2355,7 +2411,8 @@ guiTypes = {
 					{
 						name ="national_idea3"
 						spriteType = "GFX_idea_empty"
-						position = { x= 57 y = 320 }
+						#c position = { x= 57 y = 320 }
+						position = { x= 60 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2363,7 +2420,8 @@ guiTypes = {
 					{
 						name ="national_idea4"
 						spriteType = "GFX_idea_empty"
-						position = { x= 89 y = 320 }
+						#c position = { x= 89 y = 320 }
+						position = { x= 90 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2371,7 +2429,8 @@ guiTypes = {
 					{
 						name ="national_idea5"
 						spriteType = "GFX_idea_empty"
-						position = { x= 121 y = 320 }
+						#c position = { x= 121 y = 320 }
+						position = { x= 120 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2379,7 +2438,8 @@ guiTypes = {
 					{
 						name ="national_idea6"
 						spriteType = "GFX_idea_empty"
-						position = { x= 153 y = 320 }
+						#c position = { x= 153 y = 320 }
+						position = { x= 150 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2387,7 +2447,8 @@ guiTypes = {
 					{
 						name ="national_idea7"
 						spriteType = "GFX_idea_empty"
-						position = { x= 185 y = 320 }
+						#c position = { x= 185 y = 320 }
+						position = { x= 180 y = 334 }
 						Orientation = "UPPER_LEFT"
 						scale = 0.5
 					}
@@ -2396,13 +2457,15 @@ guiTypes = {
 					{
 						name ="provinces_icon"
 						spriteType = "GFX_province_icon"
-						position = { x= -5 y = 366 }
+						#c position = { x= -5 y = 366 }
+						position = { x= 1 y = 370 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "provinces_value"
-						position = { x= -9 y = 372 }
+						#c position = { x= -9 y = 372 }
+						position = { x= 1 y = 378 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
@@ -2417,13 +2480,15 @@ guiTypes = {
 					{
 						name ="economy_icon"
 						spriteType = "GFX_development_icon"
-						position = { x= 70 y = 366 }
+						#c position = { x= 70 y = 366 }
+						position = { x= 73 y = 373 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "economy_value"
-						position = { x= 66 y = 372 }
+						#c position = { x= 66 y = 372 }
+						position = { x= 75 y = 378 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
@@ -2438,13 +2503,15 @@ guiTypes = {
 					{
 						name ="fort_icon"
 						spriteType = "GFX_fort_defense_icon"
-						position = { x= 150 y = 366 }
+						#c position = { x= 150 y = 366 }
+						position = { x= 150 y = 372 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "fort_value"
-						position = { x= 142 y = 372 }
+						#c position = { x= 142 y = 372 }
+						position = { x= 146 y = 378 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
@@ -2458,11 +2525,13 @@ guiTypes = {
 					listboxType = {
 						name = "diplomatic_listbox"
 						backGround = ""
-						position = { x=0 y=432 }
-						size = { x=200 y=120 }
+						#c position = { x=0 y=432 }
+						position = { x=6 y=434 }
+						#c size = { x=200 y=120 }
+						size = { x=198 y=114 }
 						Orientation = "UPPER_LEFT"
 						horizontal = 0
-						spacing = 1.5
+						spacing = 1.0
 						scrollbartype = "standardlistbox_slider"
 						borderSize = {x = 0 y = 0}
 					}
@@ -3775,12 +3844,14 @@ guiTypes = {
 	positionType = {
 		# Should be relative to lower center of screen
 		name = "shield_position"
-		position = { x = -13 y = -270 }
+		#c position = { x = -13 y = -270 }
+		position = { x = -13 y = -255 }
 	}
 
 	positionType = {
 		name = "shield_offset"
-		position = { x = 70 y = 00 }
+		#c position = { x = 70 y = 00 }
+		position = { x = 69 y = 00 }
 	}
 
 	windowType = {

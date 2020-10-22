@@ -10,6 +10,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_COYOTE_lobby_chat_bg"
+		texturefile = "gfx/interface/coyote_lobby_chat_bg.dds"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	spriteType = {
 		name = "GFX_COYOTE_frontend_bg_bottom_right"
 		texturefile = "gfx/interface/coyote_frontend_bg_bottom_right.dds"
 		loadType = "FRONTEND"

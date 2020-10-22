@@ -1,5 +1,6 @@
 ﻿l_french:
  ### FIX OFFICIAL TRAD ###
+ ## Frontend
  PLAY:0 "Jouer"
  GAMESETUP_SHOW_UNSAFE:0 "Voir les sauvegardes incompatibles"
  PRIVACY_POLICY:0 "Pol. de confidentialité"
@@ -19,6 +20,9 @@
  NAVY_NONE:0 "Aucune"
  ARMY_NONE:0 "Aucune"
  RANDOM_WORLD_START:0 "          Nouveau Monde aléatoire"
+ INDEPENDANT:0 "§GPays indépendant"
+ SUBJECT_OF:0 "§Y$SUBJECTTYPE$ de $LORD$"
+ INTERREGNUM:0 "§Y(Interrègne)"
  ### Fix [Root.GetDhimmiName] -> [Root.GetDhimmi]
  estate_dhimmi_land_rights:0 "Droits fonciers des [Root.GetDhimmi]"
  estate_dhimmi_give_us_money:0 "Dédommager les contributions des [Root.GetDhimmi]"

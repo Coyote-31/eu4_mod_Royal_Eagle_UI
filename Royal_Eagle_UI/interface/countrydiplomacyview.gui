@@ -812,7 +812,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_enemies"
-			position = { x = 40 y = 312 }
+			#c position = { x = 40 y = 312 }
+			position = { x = 36 y = 307 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -826,16 +827,19 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "enemies_box"
-				position = { x = 100 y = 305 }
+				# position = { x = 100 y = 305 }
+				position = { x = 98 y = 303 }
 				size = { x = 180 y = 32 }
 				Orientation = "UPPER_LEFT"
 				format = left
-				spacing = 1
+				#c spacing = 1
+				spacing = 5
 		}
 
 		instantTextBoxType = {
 			name = "label_rivals"
-			position = { x = 40 y = 346 }
+			#c position = { x = 40 y = 346 }
+			position = { x = 36 y = 350 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -850,26 +854,32 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "rivals_box"
-				position = { x = 100 y = 336 }
-				size = { x = 200 y = 32 }
+				#c position = { x = 100 y = 336 }
+				position = { x = 101 y = 336 }
+				#c size = { x = 200 y = 32 }
+				size = { x = 180 y = 32 }
 				Orientation = "UPPER_LEFT"
 				format = left
-				spacing = 1
+				#c spacing = 1
+				spacing = 5
 				hint_tag = "hint_rival"
 		}
 
 		instantTextBoxType = {
 			name = "label_rivals_not_possible"
-			position = { x = 40 y = 341 }
+			#c position = { x = 40 y = 341 }
+			position = { x = 25 y = 349 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "no_possible_rivals"
-			maxWidth = 200
+			#c maxWidth = 200
+			maxWidth = 250
 			maxHeight = 20
 			fixedsize = yes
 			truncate = yes
-			format = left
+			#c format = left
+			format = center
 			hint_tag = "hint_rival"
 		}
 
@@ -1724,7 +1734,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = -1 }
+			#c position = { x= 0 y = -1 }
+			position = { x= 3 y = 0 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1747,7 +1758,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = 8 }
+			#c position = { x= 0 y = 8 }
+			position = { x= 0 y = 10 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1764,7 +1776,8 @@ guiTypes = {
 		name = "countrydiplomacyview_shieldvalueitem"
 		backGround =""
 		position = { x=0 y=0 }
-		size = { x=62 y=38 }
+		#c size = { x=62 y=38 }
+		size = { x=66 y=38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -1772,7 +1785,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = 0 }
+			#c position = { x=0 y=0 }
+			position = { x=3 y=0 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1785,19 +1799,22 @@ guiTypes = {
 		{
 			name ="value_bg"
 			spriteType = "GFX_shield_value_bg"
-			position = { x= 29 y = 3 }
+			#c position = { x= 29 y = 3 }
+			position = { x= 28 y = 0 }
 		}
 
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 27  y = 2 }
+			#c position = { x = 27  y = 2 }
+			position = { x = 25  y = 0 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+??"
-			maxWidth = 64
+			maxWidth = 43
 			maxHeight = 26
-			format = left
+			#c format = left
+			format = center
 			allwaystransparent = yes
 		}
 	}
@@ -1814,7 +1831,8 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = 0 }
+			#c position = { x= 0 y = 0 }
+			position = { x= 3 y = 0 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1827,7 +1845,8 @@ guiTypes = {
 		{
 			name ="progress"
 			spriteType = "GFX_diplomacy_shields_progressbar"
-			position = { x= 32 y = 19 }
+			#c position = { x= 32 y = 19 }
+			position = { x= 35 y = 18 }
 			Orientation = "UPPER_LEFT"
 			rotation = 1.5708
 			scale = 0.5
@@ -1837,7 +1856,7 @@ guiTypes = {
 		{
 			name ="progressframe"
 			spriteType = "GFX_diplomacy_morale_frame"
-			position = { x= 27 y = 3 }
+			position = { x= 30 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -1879,7 +1898,8 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_icon_powers_military"
-			position = { x= 0 y = 0 }
+			#c position = { x= 0 y = 0 }
+			position = { x= -2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "placeholder"
 		}
