@@ -4,7 +4,8 @@ guiTypes = {
 	windowType = {
 		name = "EventWindow"
 		backGround="Background"
-		position = { x=-282 y=-310 }
+		#c position = { x=-282 y=-310 }
+		position = { x=-286 y=-350 }
 		size = { x=564 y=620 }
 		moveable = 1
 		dontRender = ""
@@ -25,7 +26,8 @@ guiTypes = {
 		{
 			name ="event_bg_top"
 			spriteType = "GFX_event_bg_top"
-			position = { x= -43 y = 0 }
+			#c position = { x= -43 y = 0 }
+			position = { x= -43 y = -47 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -33,7 +35,8 @@ guiTypes = {
 		{
 			name ="event_picture"
 			spriteType = "GFX_event_event_test"
-			position = { x = 30 y = 93 }
+			#c position = { x = 30 y = 93 }
+			position = { x = 30 y = 56 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -55,9 +58,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = -43 y = 39 }
+			#c position = { x = -43 y = 39 }
+			position = { x = -43 y = -1 }
 
-			font = "vic_29s"
+			#c font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
 			maxWidth = 656
@@ -75,7 +80,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Description"
-			position = { x = 31 y = 371 } # Was 230
+			#c position = { x = 31 y = 371 } # Was 230
+			position = { x = 31 y = 378 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
