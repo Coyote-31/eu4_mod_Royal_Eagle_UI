@@ -73,7 +73,8 @@ guiTypes = {
 		iconType = {
 			name = "government_reforms_button_base"
 			quadTextureSprite ="GFX_government_reforms_button_base"
-			position = { x= 93 y = 104 }
+			#c position = { x= 93 y = 104 }
+			position = { x= 93 y = 103 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -82,7 +83,8 @@ guiTypes = {
 		guiButtonType = {
 			name = "player_shield"
 			quadTextureSprite ="GFX_shield_fancy"
-			position = { x= -5 y = 2 }
+			#c position = { x= -5 y = 2 }
+			position = { x= -5 y = -2 }
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
 			tooltipText =""
@@ -93,14 +95,16 @@ guiTypes = {
 		iconType = {
 			name = "player_shield_glow"
 			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
-			position = { x= -5 y = 2 }
+			#c position = { x= -5 y = 2 }
+			position = { x= -4 y = -1 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 
 		guiButtonType = {
 			name = "open_build_interface_button"
-			position = { x = 6 y = 109 }
+			#c position = { x = 6 y = 109 }
+			position = { x = 6 y = 110 }
 			quadTextureSprite ="GFX_open_build_interface"
 			tooltip = ""
 			tooltipText =""
@@ -114,14 +118,16 @@ guiTypes = {
 		iconType = {
 			name = "great_power_button_base"
 			quadTextureSprite ="GFX_great_power_button_base"
-			position = { x= 111 y = 80 }
+			#c position = { x= 111 y = 80 }
+			position = { x= 102 y = 13 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 
 		guiButtonType = {
 			name = "great_power_button"
-			position = { x = 115 y = 84 }
+			#c position = { x = 115 y = 84 }
+			position = { x = 106 y = 17 }
 			quadTextureSprite ="GFX_great_power_button"
 			buttonFont = "Main_14_black"
 			clicksound = macro_build
@@ -130,7 +136,8 @@ guiTypes = {
 
 		iconType = {
 			name = "government_reforms_progress"
-			position = { x = 100 y = 110 }
+			#c position = { x = 100 y = 110 }
+			position = { x = 100 y = 109 }
 			quadTextureSprite ="GFX_government_reforms_progress"
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
@@ -138,6 +145,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "government_reforms_button"
+			#c position = { x = 100 y = 110 }
 			position = { x = 100 y = 110 }
 			quadTextureSprite ="GFX_government_reforms_button"
 			buttonFont = "Main_14_black"
@@ -199,7 +207,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "text_merchants"
 			#c position = { x = 732 y = 34 }
-			position = { x = 732 y = 36 }
+			position = { x = 732 y = 35 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -213,7 +221,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "text_settlers"
 			#c position = { x = 773 y = 34 }
-			position = { x = 773 y = 36 }
+			position = { x = 773 y = 35 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -227,7 +235,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "text_diplomats"
 			#c position = { x = 814 y = 34 }
-			position = { x = 814 y = 36 }
+			position = { x = 814 y = 35 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -241,7 +249,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "text_missionaries"
 			#c position = { x = 855 y = 34 }
-			position = { x = 855 y = 36 }
+			position = { x = 855 y = 35 }
 			textureFile = ""
 			font = "ToolTip_Font"
 			borderSize = {x = 0 y = 0}
@@ -259,40 +267,47 @@ guiTypes = {
 		{
 			name ="icon_gold"
 			spriteType = "GFX_icon_gold_strip"
-			position = { x= 146 y = 10 }
+			#c position = { x= 146 y = 10 }
+			position = { x= 145 y = 11 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ducats"
 		}
 		instantTextBoxType = {
 			name = "text_gold"
-			position = { x = 152 y = 13 }
+			#c position = { x = 152 y = 13 }
+			position = { x = 160 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 60
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		iconType =
 		{
 			name ="icon_manpower"
 			spriteType = "GFX_icon_manpower"
-			position = { x= 228 y = 11 }
+			#c position = { x= 228 y = 11 }
+			position = { x= 227 y = 10 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_manpower"
 		}
 		instantTextBoxType = {
 			name = "text_manpower"
-			position = { x = 248 y = 13 }
+			#c position = { x = 248 y = 13 }
+			position = { x = 242 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 50
+			#c maxWidth = 50
+			maxWidth = 60
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 
@@ -300,19 +315,23 @@ guiTypes = {
 		{
 			name ="icon_sailors"
 			spriteType = "GFX_icon_sailors"
-			position = { x= 311 y = 14 }
+			#c position = { x= 311 y = 14 }
+			position = { x= 311 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "text_sailors"
-			position = { x = 331 y = 13 }
+			#c position = { x = 331 y = 13 }
+			position = { x = 326 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 50
+			#c maxWidth = 50
+			maxWidth = 60
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 
@@ -320,20 +339,23 @@ guiTypes = {
 		{
 			name ="icon_stability"
 			spriteType = "GFX_icon_stability"
-			position = { x= 394 y = 10 }
+			#c position = { x= 394 y = 10 }
+			position = { x= 393 y = 10 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_stability"
 		}
 		instantTextBoxType = {
 			name = "text_stability"
-			position = { x = 405 y = 13 }
+			#c position = { x = 405 y = 13 }
+			position = { x = 409 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 
@@ -344,26 +366,29 @@ guiTypes = {
 		{
 			name ="icon_prestige"
 			spriteType = "GFX_icon_prestige"
+			#c position = { x= 524 y = 10 }
 			position = { x= 524 y = 10 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_prestige"
 		}
 		instantTextBoxType = {
 			name = "text_prestige"
-			position = { x = 536 y = 13 }
+			position = { x = 539 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		iconType =
 		{
 			name ="icon_dev"
 			spriteType = "GFX_icon_legitimacy"
+			#c position = { x= 588 y = 10 }
 			position = { x= 588 y = 10 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
@@ -378,28 +403,32 @@ guiTypes = {
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		iconType =
 		{
 			name ="icon_meritocracy"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 588 y = 10 }
+			#c position = { x= 588 y = 10 }
+			position = { x= 589 y = 11 }
 			Orientation = "UPPER_LEFT"
 			frame = 5
 			hint_tag = "hint_meritocracy"
 		}
 		instantTextBoxType = {
 			name = "text_meritocracy"
-			position = { x = 605 y = 13 }
+			#c position = { x = 605 y = 13 }
+			position = { x = 607 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 
@@ -407,62 +436,71 @@ guiTypes = {
 		{
 			name ="icon_leg"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 590 y = 10 }
+			#c position = { x= 590 y = 10 }
+			position = { x= 589 y = 11 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			hint_tag = "hint_legitimacy"
 		}
 		instantTextBoxType = {
 			name = "text_leg"
-			position = { x = 605 y = 13 }
+			#c position = { x = 605 y = 13 }
+			position = { x = 607 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		iconType =
 		{
 			name ="icon_rep"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 590 y = 10 }
+			#c position = { x= 590 y = 10 }
+			position = { x= 589 y = 11 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 			hint_tag = "hint_republican"
 		}
 		instantTextBoxType = {
 			name = "text_rep"
-			position = { x = 606 y = 13 }
+			#c position = { x = 606 y = 13 }
+			position = { x = 607 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		iconType =
 		{
 			name ="icon_unity"
 			spriteType = "GFX_icon_legitimacy"
-			position = { x= 590 y = 10 }
+			#c position = { x= 590 y = 10 }
+			position = { x= 589 y = 11 }
 			Orientation = "UPPER_LEFT"
 			frame = 4
 		}
 		instantTextBoxType = {
 			name = "text_unity"
-			position = { x = 606 y = 13 }
+			#c position = { x = 606 y = 13 }
+			position = { x = 607 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "100"
 			maxWidth = 40
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		windowType = {
@@ -488,13 +526,15 @@ guiTypes = {
 				{
 					name ="icon_powerprojection"
 					spriteType = "GFX_icon_powerprojection"
-					position = { x= 518 y = 10 }
+					#c position = { x= 518 y = 10 }
+					position = { x= 518 y = 11 }
 					Orientation = "UPPER_LEFT"
 					hint_tag = "hint_powerprojection"
 				}
 
 				instantTextBoxType = {
 					name = "text_powerprojection"
+					#c position = { x = 527 y = 13 }
 					position = { x = 527 y = 13 }
 					textureFile = ""
 					font = "vic_18"
@@ -502,7 +542,8 @@ guiTypes = {
 					text = ""
 					maxWidth = 40
 					maxHeight = 32
-					format = right
+					#c format = right
+					format = center
 				}
 
 		}
@@ -567,36 +608,43 @@ guiTypes = {
 		{
 			name ="icon_corruption"
 			spriteType = "GFX_icon_corruption_small"
-			position = { x= 458 y = 11 }
+			#c position = { x= 458 y = 11 }
+			position = { x= 459 y = 11 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "text_corruption"
-			position = { x = 463 y = 13 }
+			#c position = { x = 463 y = 13 }
+			position = { x = 472 y = 13 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 46
 			maxHeight = 32
-			format = right
+			#c format = right
+			format = center
 		}
 
 		instantTextBoxType = {
 			name = "text_ADM"
-			position = { x = 520 y = 52 }
+			#c position = { x = 520 y = 52 }
+			position = { x = 513 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "5"
-			maxWidth = 36
+			#c maxWidth = 36
+			maxWidth = 38
 			maxHeight = 32
-			format = left
+			#c format = left
+			format = center
 		}
 		iconType = {
 			name ="icon_ADM"
 			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 498 y = 49 }
+			#c position = { x= 498 y = 49 }
+			position = { x= 497 y = 49 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_adm"
 		}
@@ -604,38 +652,46 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text_DIP"
-			position = { x = 581 y = 52 }
+			#c position = { x = 581 y = 52 }
+			position = { x = 573 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "5"
-			maxWidth = 36
+			#c maxWidth = 36
+			maxWidth = 38
 			maxHeight = 32
-			format = left
+			#c format = left
+			format = center
 		}
 		iconType = {
 			name ="icon_DIP"
 			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 558 y = 49 }
+			#c position = { x= 558 y = 49 }
+			position = { x= 557 y = 49 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_dip"
 		}
 
 		instantTextBoxType = {
 			name = "text_MIL"
-			position = { x = 639 y = 52 }
+			#c position = { x = 639 y = 52 }
+			position = { x = 631 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "5"
-			maxWidth = 36
+			#c maxWidth = 36
+			maxWidth = 38
 			maxHeight = 32
-			format = left
+			#c format = left
+			format = center
 		}
 		iconType = {
 			name = "icon_MIL"
 			spriteType ="GFX_icon_powers_military"
-			position = { x= 616 y = 49 }
+			#c position = { x= 616 y = 49 }
+			position = { x= 615 y = 49 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
 		}
@@ -664,7 +720,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "age_title"
 			# position = { x = 740 y = 52 }
-			position = { x = 742 y = 54 }
+			position = { x = 744 y = 53 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -686,9 +742,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "PlayerNationText"
-			position = { x = 151 y = 50 }
+			#c position = { x = 151 y = 50 }
+			position = { x = 150 y = 50 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 340
@@ -725,9 +783,11 @@ guiTypes = {
 			#Needs localisation change
 			instantTextBoxType = {
 				name = "pause_banner_text"
-				position = { x = 140 y = 9 }
+				#c position = { x = 140 y = 9 }
+				position = { x = 138 y = 9 }
 				textureFile = ""
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				borderSize = {x = 4 y = 4}
 				text = "CORE_PAUSED"
 				maxWidth = 120
@@ -757,6 +817,7 @@ guiTypes = {
 	windowType = {
 		name = "hotkey_assign_parent"
 		backGround=""
+		#c position = { x=-202 y=-38 }
 		position = { x=-202 y=-38 }
 		size = { x=404 y=76 }
 		moveable = 0
@@ -772,10 +833,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "assign_hotkey_pick_button_hint_text"
-			position = { x = 40 y = 27 }
+			#c position = { x = 40 y = 27 }
+			position = { x = 82 y = 16 }
 			font = "vic_22"
 			text = "PICK_HOTKEY_BUTTON_HINT"
-			maxWidth = 320
+			#c maxWidth = 320
+			maxWidth = 270
 			maxHeight = 60
 			format = centre
 		}
