@@ -33,8 +33,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_COYOTE_unitPanel_rebel_supression_entry_bg"
-		texturefile = "gfx//interface//unitPanel_rebel_supression_entry_bg.dds"
+		name = "GFX_COYOTE_bg_rebel_330x33"
+		texturefile = "gfx//interface//coyote_bg_rebel_330x33.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		loadType = "FRONTEND"
 		transparencecheck = yes

@@ -1778,7 +1778,7 @@ guiTypes = {
 				iconType = {
 					name = "coyote_select_label_bg"
 					position = { x = -375 y = 81 }
-					quadTextureSprite ="GFX_COYOTE_unitPanel_rebel_supression_entry_bg"
+					quadTextureSprite ="GFX_COYOTE_bg_rebel_330x33"
 					Orientation = "CENTER_UP"
 					alwaystransparent = yes
 				}
@@ -1787,7 +1787,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "select_label"
 					#c position = { x = -375 y = 92 }
-					position = { x = -365 y = 87 }
+					position = { x = -365 y = 85 }
 
 					font = "vic_18"
 					borderSize = {x = 4 y = 4}
