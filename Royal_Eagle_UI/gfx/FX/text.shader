@@ -229,18 +229,10 @@ PixelShader =
 BlendState BlendState
 {
 	SourceBlend = "SRC_ALPHA"
+	WriteMask = "RED|GREEN|BLUE"
 	AlphaTest = no
 	BlendEnable = yes
 	DestBlend = "INV_SRC_ALPHA"
-}
-
-BlendState BlendStateRGB
-{
-	AlphaTest = no
-	WriteMask = "RED|GREEN|BLUE"
-	SourceBlend = "src_alpha"
-	BlendEnable = yes
-	DestBlend = "inv_src_alpha"
 }
 
 ## Rasterizer States
@@ -258,7 +250,6 @@ Effect Text3D
 Effect Text
 {
 	VertexShader = "VertexShaderText"
-	BlendState = "BlendStateRGB"
 	PixelShader = "PixelShaderText"
 }
 
