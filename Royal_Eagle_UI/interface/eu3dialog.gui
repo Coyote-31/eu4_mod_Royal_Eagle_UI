@@ -17,7 +17,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "DefaultDialog"
 		backGround="Background"
-		position = { x=-225 y=-160 }
+		#c position = { x=-225 y=-160 }
+		position = { x=-250 y=-280 }
 		#c size = { x=500 y=320 }
 		size = { x=500 y=350 }
 		orientation="CENTER"
@@ -42,10 +43,10 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "Title"
 				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 34 }
+				position = { x = 59 y = 35 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "coyote_gothic_24_ol2"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
@@ -97,7 +98,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=77 y =270}
+			#c position = { x=77 y =270}
+			position = { x=77 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
@@ -106,7 +108,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=274 y =270}
+			#c position = { x=274 y =270}
+			position = { x=274 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -117,7 +120,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "popup"
-			position = { x= 453 y = 274 }
+			#c position = { x= 453 y = 274 }
+			position = { x= 453 y = 304 }
 			quadTextureSprite = "GFX_alert_popup_choice_icon"
 		}
 	}
@@ -153,7 +157,7 @@ guiTypes = {
 				position = { x = 59 y = 34 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "coyote_gothic_24_ol2"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
@@ -230,7 +234,7 @@ guiTypes = {
 				position = { x = 59 y = 34 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "coyote_gothic_24_ol2"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
@@ -296,7 +300,7 @@ guiTypes = {
 				position = { x = 59 y = 34 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "coyote_gothic_24_ol2"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
@@ -405,7 +409,7 @@ guiTypes = {
 			position = { x = 59 y = 34 }
 			textureFile = ""
 			#c font = "vic_22"
-			font = "coyote_gothic_24_ol2"
+			font = "vic_29"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 380
@@ -558,7 +562,7 @@ guiTypes = {
 				position = { x = 59 y = 34 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "coyote_gothic_24_ol2"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
