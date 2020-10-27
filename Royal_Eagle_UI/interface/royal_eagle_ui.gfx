@@ -23,6 +23,23 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	spriteType = {
+		name = "GFX_COYOTE_mapmode_players_small_disable"
+		texturefile = "gfx/interface/coyote_mapmode_players_disable.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		noOfFrames = 1
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_COYOTE_unitPanel_rebel_supression_entry_bg"
+		texturefile = "gfx//interface//unitPanel_rebel_supression_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		loadType = "FRONTEND"
+		transparencecheck = yes
+	}
+
 	##c Logo Royal_Eagle_UI :
 
 	spriteType = {
