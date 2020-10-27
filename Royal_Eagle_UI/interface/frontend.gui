@@ -412,7 +412,7 @@ guiTypes = {
 						#c position = { x = 50 y = 7 }
 						position = { x = 57 y = 11 }
 						#c font = "vic_22"
-						font = "vic_18s"
+						font = "vic_18"
 						format = left
 						#c maxWidth = 400
 						maxWidth = 265
