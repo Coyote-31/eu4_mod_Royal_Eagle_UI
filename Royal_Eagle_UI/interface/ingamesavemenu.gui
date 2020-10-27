@@ -2,7 +2,8 @@ guiTypes = {
 		windowType = {
 			name ="menu_save"
 			backGround=""
-			position = { x= -224 y = -262 }
+			#c position = { x= -224 y = -262 }
+			position = { x= -227 y = -330 }
 			size = { x=473 y = 524 }
 			moveable = 0
 			dontRender = ""
@@ -34,7 +35,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 155 y = 405 }
-				position = {x = 154 y = 403 }
+				position = {x = 153 y = 403 }
 				name = "disk_quota"
 				font = "vic_18"
 				borderSize = {x = 8 y = 0}
@@ -64,8 +65,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "localgames_label"
-				#c position = { x = 115 y = 112 }
-				position = { x = 115 y = 113 }
+				position = { x = 115 y = 112 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -80,8 +80,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "cloudgames_label"
-				#c position = { x = 236 y = 112}
-				position = { x = 236 y = 113}
+				position = { x = 236 y = 112}
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -124,11 +123,13 @@ guiTypes = {
 
 			editBoxType = {
 				#c position = { x = 80 y = 370 }
-				position = { x = 82 y = 370 }
+				position = { x = 90 y = 378 }
 				name = "game_name"
 				font = "vic_18"
-				borderSize = { x = 8 y = 8  }
-				size = { x=275 y=42 }
+				#c borderSize = { x = 8 y = 8  }
+				borderSize = { x = 0 y = 0  }
+				#c size = { x=275 y=42 }
+				size = { x=270 y=42 }
 				text = ""
 				orientation = "UPPER_LEFT"
 			}
@@ -167,7 +168,8 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "save"
-				position = { x = 291 y = 402 }
+				#c position = { x = 291 y = 402 }
+				position = { x = 289 y = 402 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "MENU_BAR_SAVE"
 				buttonFont = "Main_16"

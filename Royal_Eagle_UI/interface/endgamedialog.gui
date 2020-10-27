@@ -65,7 +65,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "endgame_dialog"
 		backGround=""
-		position = { x=-600 y=-350 }
+		#c position = { x=-600 y=-350 }
+		position = { x=-603 y=-350 }
 		size = { x=1200 y=700 }
 		moveable = 0
 		dontRender = ""

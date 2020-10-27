@@ -29,7 +29,7 @@ guiTypes = {
 		name ="startup_screen"
 		backGround=""
 		#c position = { x=-464	y=-310 }
-		position = { x=-466	y=-310 }
+		position = { x=-466	y=-350 }
 		size = { x=929 y=645 }
 		moveable = 0
 		dontRender = ""

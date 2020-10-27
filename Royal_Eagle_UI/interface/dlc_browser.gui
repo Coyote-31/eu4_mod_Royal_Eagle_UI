@@ -64,7 +64,7 @@ guiTypes = {
 		name = "expansion_landing_page"
 		backGround = ""
 		#c position = { x=-464	y=-390 }
-		position = { x=-460	y=-378 }
+		position = { x=-460	y=-418 }
 		size = { x=929 y=645 }
 		moveable = 0
 		dontRender = ""
@@ -216,7 +216,8 @@ guiTypes = {
 	windowType = {
 		name = "minor_landing_page"
 		backGround= ""
-		position = { x=-464	y=-310 }
+		#c position = { x=-464	y=-310 }
+		position = { x=-464	y=-350 }
 		size = { x=929 y=645 }
 		moveable = 0
 		dontRender = ""

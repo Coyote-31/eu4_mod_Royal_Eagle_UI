@@ -3,7 +3,8 @@ guiTypes = {
 	windowType = {
 		name ="menu_load"
 		backGround=""
-		position = { x= -224 y = -262 }
+		#c position = { x= -224 y = -262 }
+		position = { x= -227 y = -330 }
 		size = { x=473 y = 524 }
 		moveable = 0
 		dontRender = ""
@@ -41,8 +42,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "localgames_label"
-			#c position = { x = 115 y = 112 }
-			position = { x = 115 y = 113 }
+			position = { x = 115 y = 112 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -57,8 +57,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cloudgames_label"
-			#c position = { x = 236 y = 112 }
-			position = { x = 236 y = 113 }
+			position = { x = 236 y = 112 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -85,7 +84,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 108 y = 368 }
-			position = {x = 108 y = 370 }
+			position = {x = 112 y = 368 }
 			name = "show_unsafe_text"
 			font = "vic_18"
 			borderSize = {x = 8 y = 0}
@@ -98,7 +97,8 @@ guiTypes = {
 
 		checkboxType = {
 			name = "show_unsafe_checkbox"
-			position = { x = 80 y = 361 }
+			#c position = { x = 80 y = 361 }
+			position = { x = 80 y = 360 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
@@ -123,7 +123,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 155 y = 405 }
-			position = {x = 155 y = 402 }
+			position = {x = 153 y = 402 }
 			name = "disk_quota"
 			font = "vic_18"
 			borderSize = {x = 8 y = 0}

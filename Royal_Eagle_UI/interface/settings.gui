@@ -13,7 +13,7 @@ guiTypes = {
 			name = "menu_settings"
 			backGround=""
 			#c position = { x= -145 y = -144 }
-			position = { x= -145 y = -208 }
+			position = { x= -145 y = -271 }
 			size = { x=240 y = 500 }
 			moveable = 0
 			dontRender = ""
@@ -1436,7 +1436,8 @@ guiTypes = {
 		windowType = {
 			name = "menu_settings_ingame"
 			backGround=""
-			position = { x= -113 y = -200 }
+			#c position = { x= -113 y = -200 }
+			position = { x= -116 y = -270 }
 			size = { x=240 y = 500 }
 			moveable = 0
 			dontRender = ""
