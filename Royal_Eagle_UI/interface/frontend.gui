@@ -730,7 +730,7 @@ guiTypes = {
 			name ="tutorial_panel"
 			backGround=""
 			#c position = { x=-210 y =-380}
-			position = { x=-225 y =-465}
+			position = { x=-225 y =-531}
 			size = { x=420 y =500}
 			moveable = 0
 			dontRender = ""
@@ -801,6 +801,7 @@ guiTypes = {
 				format = centre
 				maxWidth = 140
 				maxHeight = 104
+				alwaystransparent = yes #c
 			}
 			instantTextBoxType = {
 
@@ -813,6 +814,7 @@ guiTypes = {
 				format = centre
 				maxWidth = 140
 				maxHeight = 104
+				alwaystransparent = yes #c
 			}
 			instantTextBoxType = {
 
@@ -825,13 +827,14 @@ guiTypes = {
 				format = centre
 				maxWidth = 140
 				maxHeight = 104
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType = {
 
 				name ="tutorial_label"
 				#c position = { x = 100 y = 297 }
-				position = { x = 100 y = 296 }
+				position = { x = 105 y = 296 }
 
 				font = "vic_29s"
 				borderSize = {x = 19 y = -25}
@@ -1271,9 +1274,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "bookmarks_label"
 					#c position = { x = 45 y = 59 }
-					position = { x = 46 y = 60 }
+					position = { x = 46 y = 59 }
 
-					font = "vic_18"
+					#c font = "vic_18"
+					font = "vic_18s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_HISTORICAL_START"
 					maxWidth = 100
@@ -1288,9 +1292,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "savedgames_label"
 					#c position = { x = 152 y = 59 }
-					position = { x = 153 y = 60 }
+					position = { x = 153 y = 59 }
 
-					font = "vic_18"
+					#c font = "vic_18"
+					font = "vic_18s"
 					borderSize = {x = 0 y = 0}
 					text = "FE_SAVED_GAMES"
 					maxWidth = 100
@@ -3183,7 +3188,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			#c position = { x = 20 y = 5 }
-			position = { x = 26 y = 6 }
+			position = { x = 24 y = 6 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -3198,7 +3203,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "date"
 			#c position = { x = 21 y = 22 }
-			position = { x = 26 y = 21 }
+			position = { x = 24 y = 21 }
 
 			#c font = "Arial12"
 			font = "vic_18_grey"

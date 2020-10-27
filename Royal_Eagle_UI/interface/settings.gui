@@ -1370,6 +1370,7 @@ guiTypes = {
 				text = "SM_GAME"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
@@ -1384,6 +1385,7 @@ guiTypes = {
 				text =	 "SM_VIDEO"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
@@ -1398,6 +1400,7 @@ guiTypes = {
 				text = "SM_AUDIO"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
@@ -1412,6 +1415,7 @@ guiTypes = {
 				text = "SM_CONTROLS"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
@@ -1426,6 +1430,7 @@ guiTypes = {
 				text = "SETTINGS_ACCESSIBILITY"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 		}
@@ -2770,7 +2775,8 @@ guiTypes = {
 
 			guiButtonType = {
 					name = "ApplyButton"
-					position = { x = 113 y = 350 }
+					#c position = { x = 113 y = 350 }
+					position = { x = 115 y = 350 }
 					quadTextureSprite ="GFX_standard_button_105"
 					tooltip = ""
 					tooltipText =""
@@ -2858,67 +2864,77 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -134 y = 67 }
-				position = {x = -134 y = 70 }
+				position = {x = -134 y = 69 }
 				name = "gamesettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 64
 				maxHeight = 18
 				text = "SM_GAME"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
 				#c position = {x = -70 y = 67 }
-				position = {x = -69 y = 70 }
+				position = {x = -69 y = 69 }
 				name = "videosettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 64
 				maxHeight = 18
 				text =	 "SM_VIDEO"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
 				#c position = {x = -4 y = 67 }
-				position = {x = -4 y = 70 }
+				position = {x = -4 y = 69 }
 				name = "audiosettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 64
 				maxHeight = 18
 				text = "SM_AUDIO"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
 				#c position = {x = 75 y = 67 }
-				position = {x = 75 y = 70 }
+				position = {x = 75 y = 69 }
 				name = "controlssettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 64
 				maxHeight = 18
 				text = "SM_CONTROLS"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 
 			instantTextBoxType={
 				#c position = {x = 210 y = 67 }
-				position = {x = 210 y = 70 }
+				position = {x = 210 y = 69 }
 				name = "accessibilityssettings_label"
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 94
 				maxHeight = 18
 				text = "SETTINGS_ACCESSIBILITY"
 				orientation = "UPPER_LEFT"
 				format = centre
+				alwaystransparent = yes #c
 			}
 		}
 
