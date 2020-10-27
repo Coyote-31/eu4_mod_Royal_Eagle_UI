@@ -97,7 +97,6 @@ guiTypes =
 				size = { x=288 y=28 }
 				use_special_chars = no
 				textureFile = "pdx_online_assets/gfx/interface/online_accountcreate_line.dds"
-				cursor = { x=0 y=-2} #c
 			}
 
 			guiButtonType =	{
@@ -156,7 +155,6 @@ guiTypes =
 				size = { x=288 y=28 }
 				use_special_chars = no
 				textureFile = "pdx_online_assets/gfx/interface/online_accountcreate_line.dds"
-				cursor = { x=0 y=-2} #c
 			}
 
 			checkboxType = {
@@ -220,7 +218,6 @@ guiTypes =
 				size = { x=288 y=28 }
 				use_special_chars = no
 				textureFile = "pdx_online_assets/gfx/interface/online_accountcreate_line.dds"
-				cursor = { x=0 y=-2} #c
 			}
 
 			guiButtonType =	{
@@ -281,7 +278,6 @@ guiTypes =
 				size = { x=288 y=28 }
 				use_special_chars = no
 				textureFile = "pdx_online_assets/gfx/interface/online_accountcreate_line.dds"
-				cursor = { x=0 y=-2} #c
 			}
 
 			guiButtonType =	{

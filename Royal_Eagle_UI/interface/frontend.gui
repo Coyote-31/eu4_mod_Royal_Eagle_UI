@@ -1013,7 +1013,7 @@ guiTypes = {
 					borderSize = {x = 8 y = 1}
 					#c size = { x=520 y=32}
 					size = { x=520 y=34}
-					cursor = { x=0 y=6 } #c
+					cursor = { x=0 y=7 } #c
 					instantTextBoxType = no
 
 					orientation = "UPPER_LEFT"
@@ -1045,7 +1045,7 @@ guiTypes = {
 					borderSize = {x = 8 y = 1}
 					#c size = { x=520 y=32}
 					size = { x=520 y=34}
-					cursor = { x=0 y=6 } #c
+					cursor = { x=0 y=7 } #c
 					instantTextBoxType = no
 
 					orientation = "UPPER_LEFT"
@@ -3589,7 +3589,8 @@ guiTypes = {
 			name = "desc"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3612,7 +3613,8 @@ guiTypes = {
 			name = "tags"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3635,7 +3637,8 @@ guiTypes = {
 			name = "password"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3658,7 +3661,8 @@ guiTypes = {
 			name = "edit"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3757,7 +3761,8 @@ guiTypes = {
 			borderSize = {x = 12 y = 8}
 			size = { x=300 y=24 }
 			text = ""
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			orientation = "UPPER_LEFT"
 		}
 
@@ -3780,7 +3785,8 @@ guiTypes = {
 			borderSize = {x = 12 y = 8}
 			size = { x=300 y=24 }
 			text = ""
-			cursor = { x=0 y=-2 }
+			#c cursor = { x=0 y=-2 }
+			cursor = { x=0 y=-1 }
 			orientation = "UPPER_LEFT"
 		}
 

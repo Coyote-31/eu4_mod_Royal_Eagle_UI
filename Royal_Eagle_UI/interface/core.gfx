@@ -1,7 +1,8 @@
 spriteTypes = {
 
 	#Global offset for all editboxes
-	cursor_offset = { -5 -3 }
+	#c cursor_offset = { -5 -4 }
+	cursor_offset = { -5 -5 }
 
 
 	spriteType = {

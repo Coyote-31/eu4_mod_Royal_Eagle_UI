@@ -22,20 +22,34 @@ guiTypes = {
 			allwaystransparent = yes
 		}
 
+		#c Add background to the console edit box
+		listBoxType = {
+			name = "coyote_console_edit_bg"
+			position = { x=0 y=360 }
+			orientation = "UPPER_LEFT"
+			backGround ="console_background"
+			size = { x=488 y=32 }
+			borderSize = { x=5 y=0 }
+		}
+
 		# Text edit box
 		editBoxType = {
-			position = { x = 0 y = 360  }
+			#c position = { x = 0 y = 360  }
+			position = { x = 0 y = 364  }
 			name = "console_edit"
-			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			#c textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			textureFile = ""
 			font = "Arial12"
 			#c borderSize = { x=4 y=4 }
-			borderSize = { x=13 y=0 }
+			borderSize = { x=13 y=4 }
 			#c cursor = { x=0 y=6 }
-			cursor = { x=0 y=10 }
-			size = { x=500 y=40 }
-			text = " "
+			cursor = { x=0 y=0 }
+			#c size = { x=500 y=40 }
+			size = { x=500 y=30 }
+			#c text = " "
+			text = ""
 			orientation = "UPPER_LEFT"
-			instantTextBoxType = no
+			#c instantTextBoxType = no
 		}
 	}
 

@@ -276,7 +276,6 @@ guiTypes = {
 			size = { x=296 y=28 }
 			use_special_chars = no
 			textureFile = "pdx_online_assets/gfx/interface/online_accountlogin_line.dds"
-			cursor = { x=0 y=-2 } #c
 		}
 
 		# Password
@@ -305,7 +304,6 @@ guiTypes = {
 			size = { x=296 y=28 }
 			use_special_chars = no
 			textureFile = "pdx_online_assets/gfx/interface/online_accountlogin_line.dds"
-			cursor = { x=0 y=-2 } #c
 		}
 
 		checkboxType = {
