@@ -1331,7 +1331,8 @@ guiTypes = {
 
 					listboxType = {
 						name ="save_games_list"
-						position = { x = 16 y = 120 }
+						#c position = { x = 16 y = 120 }
+						position = { x = 16 y = 100 }
 						backGround=""
 						size = { x=254 y =330}
 						Orientation = "UPPER_LEFT"
@@ -1343,7 +1344,7 @@ guiTypes = {
 
 					instantTextBoxType={
 						#c position = {x = 62 y = 93 }
-						position = {x = 60 y = 95 }
+						position = {x = 55 y = 445 }
 						name = "show_unsafe_text"
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
@@ -1357,8 +1358,9 @@ guiTypes = {
 
 					checkboxType = {
 						name = "show_unsafe_checkbox"
-						position = { x = 25 y = 86 }
-						quadTextureSprite ="GFX_checkbox_gold_32"
+						position = { x = 23 y = 441 }
+						#c quadTextureSprite ="GFX_checkbox_gold_32"
+						quadTextureSprite ="GFX_checkbox_gold_24"
 						delayedTooltipText = ""
 						buttonFont = "vic_18"
 					}
@@ -1438,8 +1440,9 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "startdatelabel"
 						#c position = { x = 6 y = 9 }
-						position = { x = 10 y = 11 }
-						font = "vic_18"
+						position = { x = 10 y = 8 }
+						#c font = "vic_18"
+						font = "vic_22"
 						borderSize = {x = 0 y = 0}
 						text = "FE_STARTING_DATE"
 						maxWidth = 260
@@ -1450,8 +1453,9 @@ guiTypes = {
 					editBoxType = {
 						name = "year"
 						#c position = { x = 120 y = 57 }
-						position = { x = 121 y = 57 }
-						font = "vic_22s"
+						position = { x = 104 y = 54 }
+						#c font = "vic_22s"
+						font = "vic_29s"
 						size = { x=80 y=30 }
 						text = ""
 						orientation = "UPPER_LEFT"
@@ -1461,10 +1465,10 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "daymonth"
 						#c position = { x = 82 y = 113 }
-						position = { x = 66 y = 111 }
+						position = { x = 64 y = 113 }
 
 						#c font = "vic_18"
-						font = "vic_22"
+						font = "vic_29"
 						borderSize = {x = 0 y = 0}
 						text = ""
 						#c maxWidth = 110
@@ -1476,65 +1480,71 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_up1"
-						position = { x = 111 y = 34 }
+						#c position = { x = 111 y = 34 }
+						position = { x = 115 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down1"
-						position = { x = 111 y = 80 }
+						#c position = { x = 111 y = 80 }
+						position = { x = 115 y = 81 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "year_up2"
+						#c position = { x = 131 y = 34 }
 						position = { x = 131 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down2"
-						position = { x = 131 y = 80 }
+						#c position = { x = 131 y = 80 }
+						position = { x = 131 y = 81 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "year_up3"
-						position = { x = 151 y = 34 }
+						#c position = { x = 151 y = 34 }
+						position = { x = 147 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down3"
-						position = { x = 151 y = 80 }
+						#c position = { x = 151 y = 80 }
+						position = { x = 147 y = 81 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "month_down"
 						#c position = { x = 20 y = 109 }
-						position = { x = 20 y = 110 }
+						position = { x = 22 y = 111 }
 						quadTextureSprite ="GFX_arrow_left_big"
 					}
 
 					guiButtonType = {
 						name = "day_down"
 						#c position = { x = 42 y = 109 }
-						position = { x = 42 y = 110 }
+						position = { x = 44 y = 111 }
 						quadTextureSprite ="GFX_arrow_left_small"
 					}
 
 					guiButtonType = {
 						name = "month_up"
 						#c position = { x = 237 y = 109 }
-						position = { x = 237 y = 110 }
+						position = { x = 234 y = 111 }
 						quadTextureSprite ="GFX_arrow_right_big"
 					}
 
 					guiButtonType = {
 						name = "day_up"
 						#c position = { x = 215 y = 109 }
-						position = { x = 215 y = 110 }
+						position = { x = 212 y = 111 }
 						quadTextureSprite ="GFX_arrow_right_small"
 					}
 				}
@@ -3173,7 +3183,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			#c position = { x = 20 y = 5 }
-			position = { x = 22 y = 6 }
+			position = { x = 26 y = 6 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -3188,7 +3198,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "date"
 			#c position = { x = 21 y = 22 }
-			position = { x = 22 y = 21 }
+			position = { x = 26 y = 21 }
 
 			#c font = "Arial12"
 			font = "vic_18_grey"
@@ -3289,7 +3299,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="save_game_shield"
-			position = { x = 17 y = 5 }
+			#c position = { x = 17 y = 5 }
+			position = { x = 17 y = 4 }
 			quadTextureSprite = "GFX_shield_small"
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
@@ -3300,7 +3311,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "save_game_title"
 			#c position = { x = 52 y = 5 }
-			position = { x = 54 y = 6 }
+			position = { x = 52 y = 6 }
 
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -3315,7 +3326,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "save_game_date"
 			#c position = { x = 52 y = 22 }
-			position = { x = 54 y = 21 }
+			position = { x = 52 y = 21 }
 
 			#c font = "Arial12"
 			font = "vic_18_grey"
@@ -3331,19 +3342,22 @@ guiTypes = {
 		iconType = {
 			name = "cloud_file"
 			spriteType = "GFX_cloud_file"
-			position = { x = 168 y = 12 }
+			#c position = { x = 168 y = 12 }
+			position = { x = 174 y = 12 }
 		}
 
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
-			position = { x = 200 y = 7 }
+			#c position = { x = 200 y = 7 }
+			position = { x = 205 y = 7 }
 			scale = 0.8
 		}
 
 		guiButtonType = {
 			name ="delete_save_file_button"
-			position = { x = 218 y = 5 }
+			#c position = { x = 218 y = 5 }
+			position = { x = 220 y = 5 }
 			quadTextureSprite = "GFX_button_delete_savegame"
 			tooltip = ""
 			tooltipText =""
@@ -3353,7 +3367,8 @@ guiTypes = {
 		iconType = {
 			name = "unsafe_savegame_icon"
 			spriteType = "GFX_unsafe_savegame_icon"
-			position = { x = 182 y = 7 }
+			#c position = { x = 182 y = 7 }
+			position = { x = 191 y = 7 }
 		}
 
 	}

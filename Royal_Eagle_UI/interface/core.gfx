@@ -910,6 +910,7 @@ bitmapfonts = {
 	#
 	#   vic_18        =  coyote_12_ol
 	#   vic_18s       =  coyote_12b_ol
+	#   vic_18_grey   =  coyote_12_ol
 	#   vic_18_black  =  coyote_12b
   #
 	#   vic_22        =  coyote_16b_ol2
