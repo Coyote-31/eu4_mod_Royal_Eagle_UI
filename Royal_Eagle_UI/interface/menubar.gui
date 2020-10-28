@@ -1256,8 +1256,10 @@ guiTypes = {
 
 		checkboxType = {
 			name = "button"
-			position = { x=0 y =0}
-			quadTextureSprite ="GFX_list_button"
+			#c position = { x=0 y =0}
+			position = { x=-8 y =0}
+			#c quadTextureSprite ="GFX_list_button"
+			quadTextureSprite ="GFX_list_button_220"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -1268,19 +1270,22 @@ guiTypes = {
 		{
 			name = "area_icon"
 			spriteType = "GFX_estate_territory_L"
-			position = { x= 10 y = 7 }
+			#c position = { x= 10 y = 7 }
+			position = { x= 0 y = 5 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.75
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 34 y = 7 }
+			#c position = { x = 34 y = 7 }
+			position = { x = 24 y = 5 }
 
-			font = "Main_14_bold"
+			#c font = "Main_14_bold"
+			font = "vic_18"
 			borderSize = {x = 1 y = 1}
 			text = ""
-			maxWidth = 180
+			maxWidth = 182
 			maxHeight = 18
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
