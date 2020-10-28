@@ -2259,14 +2259,14 @@ guiTypes = {
 						name ="ruler_adm_icon"
 						spriteType = "GFX_icon_powers_administrative"
 						#c position = { x= 20 y = 210 }
-						position = { x= 22 y = 211 }
+						position = { x= 22 y = 212 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_adm_value"
 						#c position = { x = 40 y = 215 }
-						position = { x = 50 y = 214 }
+						position = { x = 50 y = 215 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
@@ -2283,14 +2283,14 @@ guiTypes = {
 						name ="ruler_dip_icon"
 						spriteType = "GFX_icon_powers_diplomatic"
 						#c position = { x= 79 y = 210 }
-						position = { x= 81 y = 211 }
+						position = { x= 81 y = 212 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_dip_value"
 						#c position = { x = 94 y = 215 }
-						position = { x = 110 y = 214 }
+						position = { x = 110 y = 215 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
@@ -2308,14 +2308,14 @@ guiTypes = {
 						name ="ruler_mil_icon"
 						spriteType = "GFX_icon_powers_military"
 						#c position = { x= 129 y = 210 }
-						position = { x= 139 y = 211 }
+						position = { x= 139 y = 212 }
 						Orientation = "UPPER_LEFT"
 					}
 
 					instantTextBoxType = {
 						name = "ruler_mil_value"
 						#c position = { x = 143 y = 215 }
-						position = { x = 170 y = 214 }
+						position = { x = 170 y = 215 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
