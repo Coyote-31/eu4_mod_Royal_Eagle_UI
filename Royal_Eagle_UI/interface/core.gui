@@ -35,13 +35,13 @@ guiTypes = {
 		# Text edit box
 		editBoxType = {
 			#c position = { x = 0 y = 360  }
-			position = { x = 0 y = 364  }
+			position = { x = 13 y = 364  }
 			name = "console_edit"
 			#c textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 			textureFile = ""
 			font = "Arial12"
 			#c borderSize = { x=4 y=4 }
-			borderSize = { x=13 y=4 }
+			borderSize = { x=0 y=4 }
 			#c cursor = { x=0 y=6 }
 			cursor = { x=0 y=0 }
 			#c size = { x=500 y=40 }
