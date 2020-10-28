@@ -439,7 +439,8 @@ guiTypes = {
 				position = { x=24 y =175}
 				#backGround="SandboxFloaterBackground"
 				backGround=""
-				size = { x=626 y =240}
+				#c size = { x=626 y =240}
+				size = { x=630 y =240}
 				horizontal = 0
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
@@ -450,7 +451,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 209 y = 91 }
-				position = {x = 170 y = 89 }
+				position = {x = 170 y = 93 }
 				name = "messagesettings_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -489,7 +490,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -129 y = 119 }
-				position = {x = -125 y = 119 }
+				position = {x = -125 y = 117 }
 				name = "messagesettings_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -515,7 +516,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -50 y = 119 }
-				position = {x = -49 y = 119 }
+				position = {x = -49 y = 117 }
 				name = "messagesettings_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -540,7 +541,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 29 y = 119 }
-				position = {x = 31 y = 119 }
+				position = {x = 31 y = 117 }
 				name = "messagesettings_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -565,7 +566,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 108 y = 119 }
-				position = {x = 110 y = 119 }
+				position = {x = 110 y = 117 }
 				name = "messagesettings_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -590,7 +591,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 187 y = 119 }
-				position = {x = 189 y = 119 }
+				position = {x = 189 y = 117 }
 				name = "messagesettings_label_05"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -616,7 +617,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 266 y = 119 }
-				position = {x = 268 y = 119 }
+				position = {x = 268 y = 117 }
 				name = "messagesettings_label_06"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -642,7 +643,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 345 y = 119 }
-				position = {x = 347 y = 119 }
+				position = {x = 347 y = 117 }
 				name = "messagesettings_label_07"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -667,7 +668,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 424 y = 119 }
-				position = {x = 426 y = 119 }
+				position = {x = 426 y = 117 }
 				name = "messagesettings_label_08"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -693,7 +694,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 503 y = 119 }
-				position = {x = 505 y = 119 }
+				position = {x = 505 y = 117 }
 				name = "messagesettings_label_09"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -719,7 +720,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 579 y = 119 }
-				position = {x = 582 y = 119 }
+				position = {x = 582 y = 117 }
 				name = "messagesettings_label_10"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -732,24 +733,39 @@ guiTypes = {
 
 			instantTextBoxType = {
 				#c position = {x = 30 y = 143 }
-				position = {x = 40 y = 143 }
+				position = {x = 37 y = 145 }
 				name = "header_search"
-				font = "vic_22"
-				maxWidth = 60
+				#c font = "vic_22"
+				font = "vic_18s"
+				#c maxWidth = 60
+				maxWidth = 70
 				maxHeight = 18
 				text = "MESSAGE_BUTTON_SEARCH"
 				orientation = "UPPER_LEFT"
-				format = left
+				#c format = left
+				format = right
+			}
+
+			#c Add background to the search_edit box
+			listBoxType = {
+				name = "coyote_search_edit_bg"
+				position = { x = 115 y = 139 }
+				orientation = "UPPER_LEFT"
+				backGround ="console_background"
+				size = { x=240 y=27 }
+				borderSize = { x=0 y=0 }
 			}
 
 			editBoxType = {
 				#c position = { x = 90 y = 140}
-				position = { x = 124 y = 139}
+				position = { x = 123 y = 145}
 				name = "search_edit"
-				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
-				instantTextBoxType = no
+				#c textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+				textureFile = ""
+				#c instantTextBoxType = no
 				font = "vic_18"
-				borderSize = { x = 8 y = 4  }
+				#c borderSize = { x = 8 y = 4  }
+				borderSize = { x = 0 y = 0  }
 				#c size = { x=240 y=34 }
 				size = { x=240 y=33 }
 				text = ""
@@ -799,7 +815,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -85 y = 175 }
-				position = {x = -90 y = 173 }
+				position = {x = -90 y = 172 }
 				name = "messagesettings_filter_button_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -825,7 +841,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -85 y = 205 }
-				position = {x = -90 y = 203 }
+				position = {x = -90 y = 202 }
 				name = "messagesettings_filter_button_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -851,7 +867,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -85 y = 235 }
-				position = {x = -90 y = 233 }
+				position = {x = -90 y = 232 }
 				name = "messagesettings_filter_button_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -877,7 +893,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -85 y = 265 }
-				position = {x = -90 y = 263 }
+				position = {x = -90 y = 262 }
 				name = "messagesettings_filter_button_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1139,7 +1155,8 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 0 y = -19 }
+			#c position = {x = 0 y = -19 }
+			position = {x = 0 y = -20 }
 			name = "text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1149,6 +1166,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			format = left
 			fixedsize = yes
+			alwaystransparent = yes #c
 		}
 
 
