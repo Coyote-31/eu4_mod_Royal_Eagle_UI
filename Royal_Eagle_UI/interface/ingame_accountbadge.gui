@@ -332,7 +332,8 @@ guiTypes = {
 			position = { x= -409 y = 185  }
 			Orientation = "UPPER_RIGHT"
 			buttonText = "FORGOT_PASSWORD"
-			buttonFont = "cg_12b"
+			#c buttonFont = "cg_12b"
+			buttonFont = "vic_18"
 			web_link = "https://accounts.paradoxplaza.com/profile/password/reset/new"
 		}
 
