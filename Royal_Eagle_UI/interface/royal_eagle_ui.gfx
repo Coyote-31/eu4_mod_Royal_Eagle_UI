@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	##c Frontend Backgrounds :
+	##c FRONTEND Backgrounds :
 
 	spriteType = {
 		name = "GFX_COYOTE_frontend_bg_bottom_left"
@@ -85,6 +85,21 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 2.0
+	}
+
+	##c INGAME Backgrounds
+	spriteType = {
+		name = "GFX_COYOTE_playeraiprefs_bg"
+		textureFile = "gfx/interface/coyote_playeraiprefs_bg.dds"
+		transparencecheck = yes
+	}
+
+	##c Slider / scroll
+	corneredTileSpriteType = {
+		name = "GFX_COYOTE_slider_bg"
+		size= {x=32 y=32 }
+		texturefile = "gfx//interface//small_tiles_dialog.dds"
+		borderSize = { x=8 y=8 }
 	}
 
 }

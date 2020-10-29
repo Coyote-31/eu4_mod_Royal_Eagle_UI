@@ -3,8 +3,9 @@ guiTypes = {
 	windowType = {
 		name = "playeraiprefs"
 		backGround=""
-		position = { x=-104 y=-170 }	
-		size = { x=256 y=256 }
+		#c position = { x=-104 y=-170 }
+		position = { x= -227 y = -330 }
+		size = { x=450 y=400 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -13,15 +14,24 @@ guiTypes = {
 		Orientation = "CENTER"
 
 		# Window Background
+		#c added bg
+		iconType = {
+			name ="coyote_playeraiprefs_bg"
+			spriteType = "GFX_COYOTE_playeraiprefs_bg"
+			position = { x= -24 y = -6 }
+			Orientation = "UPPER_LEFT"
 
-		
+		}
+
 
 		# Header Title
 		instantTextBoxType={
-			position = { x = -10 y = 30 }
+			#c position = { x = -10 y = 30 }
+			position = { x = 114 y = 103 }
 			name = "header"
-			font = "standard_font"
-			borderSize = {x = 0 y = 0}	
+			#c font = "standard_font"
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}
 			maxWidth = 223
 			maxHeight = 26
 			fixedsize = yes
@@ -34,18 +44,21 @@ guiTypes = {
 		{
 			name = "question"
 			quadTextureSprite = "GFX_playeraiprefs_question_mark"
-			position = { x = 141 y = 26 }
+			#c position = { x = 141 y = 26 }
+			position = { x = 401 y = 151 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "standard_font"
 			scale = 0.7
 		}
-		
-		listboxType = 
+
+		listboxType =
 		{
 			name ="aipref_listbox"
-			position = { x = 10 y = 58 }
+			#c position = { x = 10 y = 58 }
+			position = { x = 84 y = 146 }
 			backGround=""
-			size = { x=175 y =217}
+			#c size = { x=175 y =217}
+			size = { x=272 y =228}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -56,8 +69,10 @@ guiTypes = {
 		guiButtonType =
 		{
 			name = "apply"
-			position = { x = 5 y = 276 }
-			quadTextureSprite = "button_type_6"
+			#c position = { x = 5 y = 276 }
+			position = { x = 284 y = 394 }
+			#c quadTextureSprite = "button_type_6"
+			quadTextureSprite = "button_type_7"
 			buttonText = "SM_APPLY"
 			buttonFont = "vic_18"
 		}
@@ -66,8 +81,10 @@ guiTypes = {
 		guiButtonType =
 		{
 			name = "cancel"
-			position = { x = 63 y = 326 }
-			quadTextureSprite = "button_type_6"
+			#c position = { x = 63 y = 326 }
+			position = { x = 18 y = 394 }
+			#c quadTextureSprite = "button_type_6"
+			quadTextureSprite = "button_type_7"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
@@ -77,30 +94,35 @@ guiTypes = {
 		guiButtonType =
 		{
 			name = "default"
-			position = { x = 120 y = 276 }
-			quadTextureSprite = "button_type_6"
+			#c position = { x = 120 y = 276 }
+			position = { x = 172 y = 420 }
+			#c quadTextureSprite = "button_type_6"
+			quadTextureSprite = "button_type_9"
 			buttonText = "DEFAULT"
 			buttonFont = "vic_18"
 		}
 	}
-	
-	windowType = {	
+
+	windowType = {
 		name ="aipref_bool"
 		backGround=""
-		position = { x=0 y =0}	
-		size = { x=200 y = 40 }
+		position = { x=0 y =0}
+		#c size = { x=200 y = 40 }
+		size = { x=280 y = 38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullscreen = no
-			
+
 		instantTextBoxType={
-			position = { x = 42 y = 7 }
+			#c position = { x = 42 y = 7 }
+			position = { x = 42 y = 10 }
 			name = "title"
 			font = "standard_font"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 198
+			borderSize = {x = 0 y = 0}
+			#c maxWidth = 198
+			maxWidth = 240
 			maxHeight = 36
 			fixedsize = yes
 			format = left
@@ -108,43 +130,50 @@ guiTypes = {
 		}
 		checkboxType = {
 			name = "checkbox"
-			position = { x = 0 y = 0 }
+			#c position = { x = 0 y = 0 }
+			position = { x = 0 y = 3 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
 	}
-		
-	windowType = {	
+
+	windowType = {
 		name ="aipref_int"
 		backGround=""
-		position = { x=0 y =0}	
-		size = { x=200 y = 40 }
+		#c position = { x=0 y =0}
+		position = { x=0 y =-4}
+		#c size = { x=200 y = 40 }
+		size = { x=200 y = 38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullscreen = no
-			
+
 		instantTextBoxType = {
-			position = { x = 0 y = 0 }
+			#c position = { x = 0 y = 0 }
+			position = { x = 42 y = 0 }
 			name = "title"
 			font = "standard_font"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 198
+			borderSize = {x = 0 y = 0}
+			#c maxWidth = 198
+			maxWidth = 250
 			maxHeight = 36
 			fixedsize = yes
 			format = left
 			text = "PLAYER_AI_PREFS_TIMEOUT_TITLE"
 		}
 		scrollbarType = {
-			name = "slider"	
+			name = "slider"
 			slider = "landslider_SliderButton"
 			track= "landslider_TrackButton"
 			leftbutton = "landslider_upButton"
 			rightbutton = "landslider_downButton"
-			size = {x = 161 y = 16 }
-			position = {x= 3 y = 18}
-			priority = 100			
-			borderSize = {x =16 y = 16}	
+			#c size = {x = 161 y = 16 }
+			size = {x = 243 y = 16 }
+			#c position = {x= 3 y = 18}
+			position = {x= 17 y = 20}
+			priority = 100
+			borderSize = {x =16 y = 16}
 			maxValue = 2
 			minValue = 0
 			stepSize = 1
@@ -152,26 +181,27 @@ guiTypes = {
 			horizontal = 1
 
 			guiButtonType = {
-				name = "landslider_SliderButton"	
+				name = "landslider_SliderButton"
 				quadTextureSprite = "GFX_scroll_drager_blue"
 				position = { x=0 y =0}
 			}
 			guiButtonType = {
 				name = "landslider_TrackButton"
-				quadTextureSprite = "yearslider_background"
-				position = { x=0 y =20}	
+				#c quadTextureSprite = "yearslider_background"
+				quadTextureSprite = "GFX_COYOTE_slider_bg"
+				position = { x=0 y =20}
 			}
 			guiButtonType = {
 				parent = "landslider_SliderButton"
 				name = "landslider_upButton"
 				quadTextureSprite = "GFX_scroll_left_gold"
-				position = { x=0 y =0}	
+				position = { x=0 y =0}
 			}
 			guiButtonType = {
 				parent = "landslider_SliderButton"
 				name = "landslider_downButton"
 				quadTextureSprite = "GFX_scroll_right_gold"
-				position = { x=0 y =120}	
+				position = { x=0 y =120}
 			}
 		}
 	}
