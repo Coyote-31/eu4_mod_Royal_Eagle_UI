@@ -3607,7 +3607,8 @@ guiTypes = {
 	windowType = {
 		name = "host_window"
 		backGround=""
-		position = { x=-246 y=-144 }
+		#c position = { x=-246 y=-144 }
+		position = { x=-255 y=-230 }
 		size = { x=500 y=380 }
 		moveable = 0
 		dontRender = ""
@@ -3626,9 +3627,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = -200 y = 34 }
+			#c position = { x = -200 y = 34 }
+			position = { x = -200 y = 37 }
 			Orientation = "CENTER_UP"
-			font = "vic_29s"
+			#c font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 4 y = 0}
 			text = "MATCHMAKING_SERVER_HOST_TITLE"
 			maxWidth = 400
@@ -3652,12 +3655,13 @@ guiTypes = {
 		}
 
 		editBoxType = {
-			position = { x = 104 y = 250 }
+			#c position = { x = 104 y = 250 }
+			position = { x = 104 y = 249 }
 			name = "desc"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
 			#c cursor = { x=0 y=-2 }
-			cursor = { x=0 y=-1 }
+			cursor = { x=0 y=0 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3676,12 +3680,13 @@ guiTypes = {
 		}
 
 		editBoxType = {
-			position = { x = 104 y = 200 }
+			#c position = { x = 104 y = 200 }
+			position = { x = 104 y = 199 }
 			name = "tags"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
 			#c cursor = { x=0 y=-2 }
-			cursor = { x=0 y=-1 }
+			cursor = { x=0 y=0 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3724,12 +3729,13 @@ guiTypes = {
 		}
 
 		editBoxType = {
-			position = { x = 104 y = 100 }
+			#c position = { x = 104 y = 100 }
+			position = { x = 104 y = 99 }
 			name = "edit"
 			font = "Main_16"
 			borderSize = {x = 10 y = 8}
 			#c cursor = { x=0 y=-2 }
-			cursor = { x=0 y=-1 }
+			cursor = { x=0 y=0 }
 			size = { x=300 y=24 }
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -3761,7 +3767,8 @@ guiTypes = {
 		}
 		instantTextBoxType={
 			name = "private_title"
-			position = { x=250 y=292}
+			#c position = { x=250 y=292}
+			position = { x=255 y=292}
 			borderSize = {x = 0 y = 0}
 			maxWidth = 256
 			maxHeight = 24
@@ -3771,8 +3778,10 @@ guiTypes = {
 
 		checkboxType = {
 			name = "private_checkbox"
-			position = { x=215 y=285}
-			quadTextureSprite ="GFX_checkbox_gold_32"
+			#c position = { x=215 y=285}
+			position = { x=225 y=288}
+			#c quadTextureSprite ="GFX_checkbox_gold_32"
+			quadTextureSprite ="GFX_checkbox_gold_24"
 		}
 
 	}
@@ -3780,7 +3789,8 @@ guiTypes = {
 	windowType = {
 		name = "connect_window"
 		backGround=""
-		position = { x=-246 y=-144 }
+		#c position = { x=-246 y=-144 }
+		position = { x=-255 y=-159 }
 		size = { x=500 y=280 }
 		moveable = 0
 		dontRender = ""
@@ -3799,9 +3809,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Title"
-			position = { x = 0 y = 31 }
+			#c position = { x = 0 y = 31 }
+			position = { x = 0 y = 34 }
 
-			font = "vic_29s"
+			#c font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "MATCHMAKING_SERVER_CONNECT_TITLE"
 			maxWidth = 500
@@ -3822,14 +3834,15 @@ guiTypes = {
 		}
 
 		editBoxType = {
-			position = { x = 104 y = 100 }
+			#c position = { x = 104 y = 100 }
+			position = { x = 104 y = 99 }
 			name = "edit"
 			font = "Main_16"
 			borderSize = {x = 12 y = 8}
 			size = { x=300 y=24 }
 			text = ""
 			#c cursor = { x=0 y=-2 }
-			cursor = { x=0 y=-1 }
+			cursor = { x=0 y=0 }
 			orientation = "UPPER_LEFT"
 		}
 
@@ -3870,7 +3883,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "ok_join_button"
-			position = { x=264 y =200}
+			#c position = { x=264 y =200}
+			position = { x=263 y =200}
 			quadTextureSprite ="largefloaterbutton"
 			tooltip = ""
 			tooltipText =""
@@ -3883,7 +3897,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "back_button"
-			position = { x=101 y =200}
+			#c position = { x=101 y =200}
+			position = { x=100 y =200}
 			quadTextureSprite ="largefloaterbutton"
 			tooltip = ""
 			tooltipText =""
