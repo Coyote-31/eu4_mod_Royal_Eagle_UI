@@ -89,7 +89,8 @@ guiTypes = {
 		windowType = {
 			name ="multiplayer_menu"
 			backGround=""
-			position = { x=-511 y=-280 }
+			#c position = { x=-511 y=-280 }
+			position = { x=-511 y=-350 }
 			size = { x=1022 y=560 }
 			moveable = 0
 			dontRender = ""
@@ -102,7 +103,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "join_direct"
-				position = { x = 96 y = 506 }
+				#c position = { x = 96 y = 506 }
+				position = { x = 100 y = 506 }
 				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
@@ -112,11 +114,13 @@ guiTypes = {
 			}
 
 			editBoxType = {
-				position = { x = 25 y = 80 }
+				#c position = { x = 25 y = 80 }
+				position = { x = 25 y = 79 }
 				name = "playername"
 				font = "Main_16"
 				borderSize = {x = 10 y = 8}
-				size = { x=190 y=24 }
+				#c size = { x=190 y=24 }
+				size = { x=180 y=24 }
 				text = "FE_PLAYER"
 				orientation = "UPPER_LEFT"
 			}
@@ -124,13 +128,16 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="version_label"
-				position = { x = 52 y = 20 }
+				#c position = { x = 52 y = 20 }
+				position = { x = 39 y = 18 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "EU4 v0.00 (TODO)"
-				format = left
-				maxWidth = 150
+				#c format = left
+				format = center
+				#c maxWidth = 150
+				maxWidth = 197
 				maxHeight = 40
 			}
 		}

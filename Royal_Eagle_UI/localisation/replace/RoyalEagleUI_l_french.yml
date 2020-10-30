@@ -23,6 +23,11 @@
  INDEPENDANT:0 "§GPays indépendant"
  SUBJECT_OF:0 "§Y$SUBJECTTYPE$ de $LORD$"
  INTERREGNUM:0 "§Y(Interrègne)"
+ MATCHMAKING_SERVER_SLOTS:0 "Joueurs"
+ MATCHMAKING_SERVER_PASSWORD:0 "Mdp"
+ MATCHMAKING_SERVER_STATUS_STARTING:0 "§GDémarrage"
+ MATCHMAKING_SERVER_STATUS_RUNNING:0 "§YEn cours"
+ MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RArrêté"
  ### Fix [Root.GetDhimmiName] -> [Root.GetDhimmi]
  estate_dhimmi_land_rights:0 "Droits fonciers des [Root.GetDhimmi]"
  estate_dhimmi_give_us_money:0 "Dédommager les contributions des [Root.GetDhimmi]"
