@@ -1541,28 +1541,28 @@ guiTypes = {
 					guiButtonType = {
 						name = "month_down"
 						#c position = { x = 20 y = 109 }
-						position = { x = 22 y = 111 }
+						position = { x = 24 y = 111 }
 						quadTextureSprite ="GFX_arrow_left_big"
 					}
 
 					guiButtonType = {
 						name = "day_down"
 						#c position = { x = 42 y = 109 }
-						position = { x = 44 y = 111 }
+						position = { x = 46 y = 111 }
 						quadTextureSprite ="GFX_arrow_left_small"
 					}
 
 					guiButtonType = {
 						name = "month_up"
 						#c position = { x = 237 y = 109 }
-						position = { x = 234 y = 111 }
+						position = { x = 232 y = 111 }
 						quadTextureSprite ="GFX_arrow_right_big"
 					}
 
 					guiButtonType = {
 						name = "day_up"
 						#c position = { x = 215 y = 109 }
-						position = { x = 212 y = 111 }
+						position = { x = 210 y = 111 }
 						quadTextureSprite ="GFX_arrow_right_small"
 					}
 				}
