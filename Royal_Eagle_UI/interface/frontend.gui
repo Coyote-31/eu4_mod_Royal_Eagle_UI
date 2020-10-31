@@ -497,7 +497,7 @@ guiTypes = {
 
 					name ="tutorial_button_text"
 					#c position = { x = 290 y = 42 }
-					position = { x = 290 y = 43 }
+					position = { x = 289 y = 43 }
 
 					#c font = "vic_22"
 					font = "vic_29"
@@ -522,7 +522,7 @@ guiTypes = {
 
 					name ="credits_button_text"
 					#c position = { x = 422 y = 42 }
-					position = { x = 422 y = 43 }
+					position = { x = 419 y = 43 }
 
 					#c font = "vic_22"
 					font = "vic_29"
@@ -547,7 +547,7 @@ guiTypes = {
 
 					name ="settings_button_text"
 					#c position = { x = 563 y = 42 }
-					position = { x = 563 y = 43 }
+					position = { x = 560 y = 43 }
 
 					#c font = "vic_22"
 					font = "vic_29"
