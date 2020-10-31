@@ -2040,7 +2040,8 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "create_team_button"
-						position = { x = 18 y = 500 }
+						#c position = { x = 18 y = 500 }
+						position = { x = 18 y = 502 }
 						quadTextureSprite = "GFX_frontend_create_team"
 						Orientation = "UPPER_LEFT"
 						buttonText = "CREATE_TEAM"
@@ -2051,7 +2052,8 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "leave_team_button"
-						position = { x = 18 y = 500 }
+						#c position = { x = 18 y = 500 }
+						position = { x = 18 y = 502 }
 						quadTextureSprite = "GFX_frontend_leave_team"
 						Orientation = "UPPER_LEFT"
 						buttonText = "LEAVE_TEAM"
@@ -3083,7 +3085,8 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType = {
-			position = { x= -18 y = -8 }
+			#c position = { x= -18 y = -8 }
+			position = { x= -14 y = -2 }
 			name = "join_button"
 			quadTextureSprite ="GFX_frontend_join_team"
 			tooltip = ""
@@ -3092,7 +3095,8 @@ guiTypes = {
 		}
 
 		guiButtonType = {
-			position = { x= -20 y = 13 }
+			#c position = { x= -20 y = 13 }
+			position = { x= -16 y = 18 }
 			name = "edit_button"
 			quadTextureSprite ="GFX_frontend_edit_team"
 			tooltip = ""
@@ -3100,7 +3104,8 @@ guiTypes = {
 			delayedTooltipText = ""
 		}
 		guiButtonType = {
-			position = { x= -3 y = 13 }
+			#c position = { x= -3 y = 13 }
+			position = { x= 1 y = 18 }
 			name = "remove_button"
 			quadTextureSprite ="GFX_frontend_delete_team"
 			tooltip = ""
@@ -3110,7 +3115,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 20 y =0 }
+			#c position = { x = 20 y =0 }
+			position = { x = 24 y =-3 }
 			format = left
 			font = "Main_16"
 			maxWidth = 196
