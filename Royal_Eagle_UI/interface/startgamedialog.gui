@@ -35,38 +35,42 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "normal_label"
 			#c position = { x = 36 y =164 }
-			position = { x = 96 y =166 }
+			position = { x = 27 y =166 }
 			#c font = "vic_29s"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}
 			text = "NORMAL_MODE"
-			maxWidth = 300
+			#c maxWidth = 300
+			maxWidth = 250
 			maxHeight = 32
+			format = right #c
 		}
 
 		guiButtonType = {
 			name = "normal_checkbox"
 			#c position = { x = 416 y = 162 }
-			position = { x = 55 y = 161 }
+			position = { x = 293 y = 161 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
 
 		instantTextBoxType = {
 			name = "ironman_label"
 			#c position = { x = 36 y =204 }
-			position = { x = 96 y =210 }
+			position = { x = 27 y =211 }
 			#c font = "vic_29s"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}
 			text = "IRONMANMODE_START"
-			maxWidth = 300
+			#c maxWidth = 300
+			maxWidth = 250
 			maxHeight = 32
+			format = right #c
 		}
 
 		guiButtonType = {
 			name = "ironman_checkbox"
 			#c position = { x = 416 y = 202 }
-			position = { x = 55 y = 205 }
+			position = { x = 293 y = 205 }
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
 
