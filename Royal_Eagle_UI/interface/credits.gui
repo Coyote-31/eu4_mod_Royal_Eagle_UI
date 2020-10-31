@@ -6,8 +6,7 @@ guiTypes = {
 	instantTextBoxType = {
 		name = "CreditsText"
 		textureFile = ""
-		#c font = "vic_22"
-		font = "coyote_16b_ol2"
+		font = "vic_22"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
@@ -22,7 +21,7 @@ guiTypes = {
 		name = "CreditsTextBold"
 		textureFile = ""
 		#c font = "vic_29s"
-		font = "coyote_18b_ol2"
+		font = "vic_22s"
 		borderSize = {x = 0 y = 0}
 		position = { x= 0 y= 0 }
 		text = ""
@@ -70,7 +69,7 @@ guiTypes = {
 		name = "Title"
 		position = { x = -47 y = -108 }
 		textureFile = ""
-		font = "coyote_gothic_31_ol2"
+		font = "vic_29s"
 		borderSize = {x = 0 y = 0}
 		text = "FE_CREDITS"
 		maxWidth = 512

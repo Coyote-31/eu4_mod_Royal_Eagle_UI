@@ -39,7 +39,7 @@ guiTypes = {
 				position = { x = -399 y = 15 }
 				textureFile = ""
 				#c font = "vic_36"
-				font = "coyote_gothic_31_ol2"
+				font = "vic_36s"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 800
@@ -75,8 +75,7 @@ guiTypes = {
 				#c position = { x = -400 y = -111 }
 				position = { x = -399 y = -103 }
 				textureFile = ""
-				#c font = "vic_36"
-				font = "coyote_26b_ol2"
+				font = "vic_36"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 800

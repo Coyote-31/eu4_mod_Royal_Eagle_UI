@@ -906,7 +906,7 @@ bitmapfonts = {
 	####            Fonts by Coyote           ####
 	##############################################
 
-	###   Font name convertion rules :
+	###   Font name conversion rules :
 	#
 	#   vic_18        =  coyote_12_ol
 	#   vic_18s       =  coyote_12b_ol

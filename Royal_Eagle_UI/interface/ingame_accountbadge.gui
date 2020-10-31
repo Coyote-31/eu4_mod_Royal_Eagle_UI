@@ -229,7 +229,7 @@ guiTypes = {
 			position = { x= 110 y = 60 }
 			name = "login_description_bold"
 			#c font = "vic_18"
-			font = "coyote_16b_ol2"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0 }
 			maxWidth = 420
 			maxHeight = 20

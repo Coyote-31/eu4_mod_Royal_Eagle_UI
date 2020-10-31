@@ -50,7 +50,7 @@ guiTypes = {
 			name = "title"
 			position = { x= 200 y = 48 }
 			#c font = "vic_29"
-			font = "coyote_gothic_31_ol2"
+			font = "vic_29s"
 			borderSize = {x = 4 y = 4}
 			text = "STATISTICS"
 			maxWidth = 520
@@ -63,7 +63,7 @@ guiTypes = {
 			position = { x = 18 y = 98 }
 			buttonText = "LEDGER_COUNTRY"
 			#c buttonFont = "vic_22"
-			buttonFont = "coyote_gothic_24_ol2"
+			buttonFont = "vic_29"
 			format = center
 			quadTextureSprite ="GFX_startupscreen_tab"
 		}
@@ -81,7 +81,7 @@ guiTypes = {
 			position = { x = 242 y = 98 }
 			buttonText = "LEDGER_RELIGION"
 			#c buttonFont = "vic_22"
-			buttonFont = "coyote_gothic_24_ol2"
+			buttonFont = "vic_29"
 			format = center
 			quadTextureSprite ="GFX_startupscreen_tab"
 		}
@@ -101,7 +101,7 @@ guiTypes = {
 			position = { x = 466 y = 98 }
 			buttonText = "GOVERNMENT"
 			#c buttonFont = "vic_22"
-			buttonFont = "coyote_gothic_24_ol2"
+			buttonFont = "vic_29"
 			format = center
 			quadTextureSprite ="GFX_startupscreen_tab"
 		}
@@ -121,7 +121,7 @@ guiTypes = {
 			position = { x = 690 y = 98 }
 			buttonText = "ENVIRONMENT"
 			#c buttonFont = "vic_22"
-			buttonFont = "coyote_gothic_24_ol2"
+			buttonFont = "vic_29"
 			format = center
 			quadTextureSprite ="GFX_startupscreen_tab"
 		}
