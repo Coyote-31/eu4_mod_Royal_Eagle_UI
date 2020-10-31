@@ -145,7 +145,8 @@ guiTypes = {
 		windowType = {
 			name ="multiplayer_connect_menu"
 			backGround=""
-			position = { x=-210 y =-180}
+			#c position = { x=-210 y =-180}
+			position = { x=-228 y =-196}
 			size = { x=420 y =500}
 			moveable = 0
 			dontRender = ""
