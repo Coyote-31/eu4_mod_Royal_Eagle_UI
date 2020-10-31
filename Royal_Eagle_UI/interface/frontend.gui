@@ -1830,15 +1830,18 @@ guiTypes = {
 				iconType = {
 					name ="nation_designer_hint_bg"
 					spriteType = "GFX_nation_designer_hint_bg"
-					position = { x= -203 y = 90 }
+					#c position = { x= -203 y = 90 }
+					position = { x= -221 y = 80 }
 				}
 				instantTextBoxType = {
 					name = "nation_designer_hint"
-					position = { x = -353 y = 110 }
+					#c position = { x = -353 y = 110 }
+					position = { x = -373 y = 100 }
 
 					font = "vic_18"
 					text = "NATION_DESIGNER_HINT"
-					maxWidth = 320
+					#c maxWidth = 320
+					maxWidth = 360
 					maxHeight = 60
 					format = centre
 					Orientation = "CENTER_UP"
