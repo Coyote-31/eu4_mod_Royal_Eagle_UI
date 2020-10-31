@@ -914,9 +914,9 @@ bitmapfonts = {
 	#   vic_18_black  =  coyote_12b
   #
 	#   vic_22        =  coyote_16b_ol2
-	#   vic_22_l       =  coyote_16b_ol
+	#   vic_22_l      =  coyote_16b_ol
 	#   vic_22s       =  coyote_18b_ol2
-	#   vic_22s_l       =  coyote_18b_ol
+	#   vic_22s_l     =  coyote_18b_ol
   #
 	#   vic_29        =  coyote_gothic_24_ol2
 	#   vic_29s       =  coyote_gothic_31_ol2
@@ -934,7 +934,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "vic_18_l"
+		name = "vic_22_l"
 		path = "gfx/fonts/coyote_16b_ol"
 
 		#c color = 0xffffffff
@@ -949,7 +949,7 @@ bitmapfonts = {
 
 	bitmapfont = {
 
-		name = "vic_18s_l"
+		name = "vic_22s_l"
 		path = "gfx/fonts/coyote_18b_ol"
 
 		#c color = 0xffffffff
