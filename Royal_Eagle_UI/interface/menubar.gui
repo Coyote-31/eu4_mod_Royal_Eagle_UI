@@ -451,7 +451,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 209 y = 91 }
-				position = {x = 170 y = 93 }
+				position = {x = 170 y = 90 }
 				name = "messagesettings_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -490,7 +490,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -129 y = 119 }
-				position = {x = -125 y = 117 }
+				position = {x = -125 y = 118 }
 				name = "messagesettings_label_01"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -516,7 +516,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = -50 y = 119 }
-				position = {x = -49 y = 117 }
+				position = {x = -49 y = 118 }
 				name = "messagesettings_label_02"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -541,7 +541,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 29 y = 119 }
-				position = {x = 31 y = 117 }
+				position = {x = 31 y = 118 }
 				name = "messagesettings_label_03"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -566,7 +566,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 108 y = 119 }
-				position = {x = 110 y = 117 }
+				position = {x = 110 y = 118 }
 				name = "messagesettings_label_04"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -591,7 +591,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 187 y = 119 }
-				position = {x = 189 y = 117 }
+				position = {x = 189 y = 118 }
 				name = "messagesettings_label_05"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -617,7 +617,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 266 y = 119 }
-				position = {x = 268 y = 117 }
+				position = {x = 268 y = 118 }
 				name = "messagesettings_label_06"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -643,7 +643,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 345 y = 119 }
-				position = {x = 347 y = 117 }
+				position = {x = 347 y = 118 }
 				name = "messagesettings_label_07"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -668,7 +668,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 424 y = 119 }
-				position = {x = 426 y = 117 }
+				position = {x = 426 y = 118 }
 				name = "messagesettings_label_08"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -694,7 +694,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 503 y = 119 }
-				position = {x = 505 y = 117 }
+				position = {x = 505 y = 118 }
 				name = "messagesettings_label_09"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -720,7 +720,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 579 y = 119 }
-				position = {x = 582 y = 117 }
+				position = {x = 582 y = 118 }
 				name = "messagesettings_label_10"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
