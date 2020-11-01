@@ -3,12 +3,12 @@ guiTypes = {
 	windowType = {
 		name = "countrytradeview_embargoeitem"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=32 y=38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
-		
+
 		guiButtonType =
 		{
 			name ="shield"
@@ -21,13 +21,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
-		
-		
+
+
 	#### TRADE NODE ENTRY
 	windowType = {
 		name ="trade_node_item"
 		backGround=""
-		position = { x= 0 y =0 }	
+		position = { x= 0 y =0 }
 		size = { x=200 y = 30 }
 		moveable = 0
 		dontRender = ""
@@ -36,15 +36,15 @@ guiTypes = {
 		upsound = ""
 		downsound = ""
 		fullscreen=no
-		
-		
+
+
 		guiButtonType =
 		{
 			name ="goto_tradenode_button"
 			quadTextureSprite = "GFX_trade_view_node_entry_button"
 			position = { x= -32 y = 0 }
 		}
-		
+
 		guiButtonType =
 		{
 			name ="shield"
@@ -52,20 +52,20 @@ guiTypes = {
 			position = { x= -32 y = 0 }
 			orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 0 y  = 8 }
 			name = "location"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 116
 			maxHeight = 20
-			text = "Elbonien"	
+			text = "Elbonien"
 			orientation = "UPPER_LEFT"
 			format = left
 			fixedsize = yes
 		}
-		
+
 		iconType =
 		{
 			name ="trader_mission"
@@ -80,54 +80,54 @@ guiTypes = {
 			position = { x= 166 y = 1 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 195 y  = 8 }
 			name = "income"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 58
 			maxHeight = 18
-			text = "55"	
+			text = "55"
 			orientation = "UPPER_LEFT"
 			format = right
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 255 y  = 8 }
 			name = "total_power"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 38
 			maxHeight = 18
-			text = "5555"	
+			text = "5555"
 			orientation = "UPPER_LEFT"
 			format = center
 			fixedsize = yes
-		}		
-		
+		}
+
 		instantTextBoxType={
 			position = {x = 293 y  = 8 }
 			name = "current_power"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 34
 			maxHeight = 18
-			text = "55"	
+			text = "55"
 			orientation = "UPPER_LEFT"
 			format = centre
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 333 y  = 8 }
 			name = "current_value"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 55
 			maxHeight = 18
-			text = "55"	
+			text = "55"
 			orientation = "UPPER_LEFT"
 			format = right
 			fixedsize = yes
@@ -136,13 +136,13 @@ guiTypes = {
 		guiButtonType = {
 			name = "send_merchant"
 			position = { x= 387 y = -1 }
-			quadTextureSprite ="GFX_button_straight_87_32"	
+			quadTextureSprite ="GFX_button_straight_87_32"
 			buttonText = "SEND"
 			buttonFont = "vic_18"
 			clicksound = click
-		}		
+		}
 	}
-	
+
 	#x is minimum resolution height for this country view to increase to large size
 	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
 	positionType =
@@ -150,28 +150,31 @@ guiTypes = {
 		name ="countrytradeview_scaling_large_min_inc"
 		position = { x= 900 y = 150 }
 	}
-	
+
 	#x is minimum resolution height for this country view to increase to huge size
 	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
 	positionType = {
 		name ="countrytradeview_scaling_huge_min_inc"
 		position = { x= 1080 y = 302 }
 	}
-		
+
 	### COUNTRY TRADE VIEW
 	windowType = {
 		name = "countrytradeview"
-		#position = { x=0 y=140 }	
-		position = { x=-600 y=140 }	
-		show_position = { x=0 y =140 }
-		hide_position = { x=-600 y =140 }	
+		#position = { x=0 y=140 }
+		#c position = { x=-600 y=140 }
+		position = { x=-600 y=158 }
+		#c show_position = { x=0 y =140 }
+		show_position = { x=0 y =158 }
+		#c hide_position = { x=-600 y =140 }
+		hide_position = { x=-600 y =158 }
 		animation_type = "decelerated"
 		animation_time = 300
 		size = { x=1024 y=100 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
 		upsound = tab_trade
-		
+
 		iconType =
 		{
 			name ="domesticpanel_bg"
@@ -180,28 +183,28 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 		}
-		
+
 		guiButtonType = {
 			name = "close_button"
 			position = { x = 514 y = -1 }
-			quadTextureSprite ="GFX_closebutton2"	
+			quadTextureSprite ="GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
-		}		
-		
+		}
+
 		instantTextBoxType = {
 			name = "window_title"
 			position = { x = 19 y =82 }
 			textureFile = ""
-			font = "vic_29s"				
-			text = "HEADER_TRADE"	
+			font = "vic_29s"
+			text = "HEADER_TRADE"
 			maxWidth = 512
 			maxHeight = 32
 			format = centre
 		}
-		
-		
+
+
 		### TOP LEFT PART
 		iconType =
 		{
@@ -211,30 +214,30 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_tradeeff"
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_efficiency_label"
 			position = { x = 75 y =130 }
 			textureFile = ""
 			font = "vic_18"
-			text = "TRADE_EFFICIENCY_LABEL"	
+			text = "TRADE_EFFICIENCY_LABEL"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_efficiency_value"
 			position = { x = 200 y =130 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "55%"	
+			font = "vic_18"
+			text = "55%"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
 		}
-		
+
 		iconType =
 		{
 			name ="trade_range_icon"
@@ -244,30 +247,30 @@ guiTypes = {
 			hint_tag = "hint_traderange"
 
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_range_label"
 			position = { x = 75 y =154 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "TRADE_RANGE_LABEL"	
+			font = "vic_18"
+			text = "TRADE_RANGE_LABEL"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_range_value"
 			position = { x = 200 y =154 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "350"	
+			font = "vic_18"
+			text = "350"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
 		}
-		
+
 		iconType =
 		{
 			name ="trade_steering_icon"
@@ -276,30 +279,30 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_tradesteering"
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_steering_label"
 			position = { x = 75 y =178 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "TRADE_STEERING_LABEL"	
+			font = "vic_18"
+			text = "TRADE_STEERING_LABEL"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_steering_value"
 			position = { x = 200 y =178 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "-45%"	
+			font = "vic_18"
+			text = "-45%"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
 		}
-		
+
 		iconType =
 		{
 			name ="mercantilism_icon"
@@ -308,30 +311,30 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mercantilism"
 		}
-		
+
 		instantTextBoxType = {
 			name = "mercantilism_label"
 			position = { x = 75 y =226 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "MERCANTILISM_LABEL"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "mercantilism_value"
 			position = { x = 200 y =226 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "13.37%"	
+			font = "vic_18"
+			text = "13.37%"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
-		}		
-		
+		}
+
 		iconType =
 		{
 			name ="privateer_icon"
@@ -341,30 +344,30 @@ guiTypes = {
 			hint_tag = "hint_privateering"
 			scale = 0.6
 		}
-		
+
 		instantTextBoxType = {
 			name = "privateer_label"
 			position = { x = 75 y =251 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "MODIFIER_PRIVATEER_EFFICIENCY"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "privateer_value"
 			position = { x = 200 y =251 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "13.37%"	
+			font = "vic_18"
+			text = "13.37%"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
-		}	
-		
+		}
+
 		iconType =
 		{
 			name ="inland_merchant_icon"
@@ -374,29 +377,29 @@ guiTypes = {
 			hint_tag = "hint_trade"
 			scale = 0.75
 		}
-		
+
 		instantTextBoxType = {
 			name = "inland_merchant_label"
 			position = { x = 75 y =276 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "INLAND_BONUS"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "inland_merchant_value"
 			position = { x = 167 y =276 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "13.37%"	
+			font = "vic_18"
+			text = "13.37%"
 			maxWidth = 96
 			maxHeight = 20
 			format = right
 			fixedsize = yes
-		}	
+		}
 		iconType =
 		{
 			name ="global_tradegoods_icon"
@@ -406,41 +409,41 @@ guiTypes = {
 			hint_tag = "hint_tradegoods"
 			scale = 0.5
 		}
-		
+
 		instantTextBoxType = {
 			name = "global_tradegoods_label"
 			position = { x = 75 y =301 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "TRADE_GOODS_LBL"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "global_tradegoods_value"
 			position = { x = 167 y =301 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "13.37%"	
+			font = "vic_18"
+			text = "13.37%"
 			maxWidth = 96
 			maxHeight = 20
 			format = right
 			fixedsize = yes
 		}
-		
-		
+
+
 		guiButtonType =
 		{
 			name ="promote_mercantilism"
 			quadTextureSprite= "GFX_standard_button_224"
 			position = { x= 44 y = 328 }
 			buttonText = "PROMOTE_MERCANTILISM"
-			buttonFont = "vic_18"		
+			buttonFont = "vic_18"
 		}
-			
-		
+
+
 		iconType =
 		{
 			name ="global_trade_power_icon"
@@ -450,30 +453,30 @@ guiTypes = {
 			hint_tag = "hint_diplomat"
 			scale = 0.5
 		}
-		
+
 		instantTextBoxType = {
 			name = "global_trade_power_label"
 			position = { x = 75 y =202 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "MODIFIER_GLOBAL_TRADE_POWER"
 			maxWidth = 150
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "global_trade_power_value"
 			position = { x = 200 y =202 }
 			textureFile = ""
-			font = "vic_18"				
-			text = "13.37%"	
+			font = "vic_18"
+			text = "13.37%"
 			maxWidth = 65
 			maxHeight = 20
 			format = right
 			fixedsize = yes
-		}			
-		
+		}
+
 		### TOP RIGHT PART
 		iconType =
 		{
@@ -487,13 +490,13 @@ guiTypes = {
 			spriteType = "GFX_provinceView_chart_overlay"
 			position = { x= 291 y = 127 }
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_income_from_trade_value"
 			position = { x = 374 y =136 }
 			textureFile = ""
-			font = "vic_36"	
-			text = "52,0"	
+			font = "vic_36"
+			text = "52,0"
 			maxWidth = 120
 			maxHeight = 40
 			format = right
@@ -506,135 +509,135 @@ guiTypes = {
 			name = "trade_our_embargoes_label"
 			position = { x = 302 y =186 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "TRADE_OUR_EMBARGOES_LABEL"
 			maxWidth = 160
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		OverlappingElementsBoxType = {
-			name = "trade_our_embargoes_list"	
+			name = "trade_our_embargoes_list"
 			position = { x = 290  y = 207  }
 			size = { x=215 y= 30 }
 			spacing = 1.0
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_our_embargoes_none"
 			position = { x = 302 y =214 }
 			textureFile = ""
-			font = "vic_18_grey"				
+			font = "vic_18_grey"
 			text = "GO_NONE"
 			maxWidth = 160
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_our_embargoes_efficiency_value"
 			position = { x = 455 y =186 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "+10%"
 			maxWidth = 60
 			maxHeight = 20
 			format = right
 			fixedsize = yes
 		}
-		
+
 		####
-		
+
 		instantTextBoxType = {
 			name = "trade_embargoes_on_us_label"
 			position = { x = 302 y =238 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "TRADE_EMBARGOES_ON_US_LABEL"
 			maxWidth = 210
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		OverlappingElementsBoxType = {
-			name = "trade_embargoes_on_us_list"	
+			name = "trade_embargoes_on_us_list"
 			position = { x = 290  y = 258  }
 			size = { x=215 y= 30 }
 			spacing = 1.0
 		}
-		
+
 		instantTextBoxType = {
 			name = "trade_embargoes_on_us_none"
 			position = { x = 302 y =266 }
 			textureFile = ""
-			font = "vic_18_grey"				
+			font = "vic_18_grey"
 			text = "GO_NONE"
 			maxWidth = 160
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		#### NEW #### Trade Power
-		
+
 		instantTextBoxType = {
 			name = "transferring_trade_label"
 			position = { x = 302 y =290 }
 			textureFile = ""
-			font = "vic_18"				
+			font = "vic_18"
 			text = "TRANSFERRING_TRADE_TO_US_LABEL"
 			maxWidth = 210
 			maxHeight = 20
 			fixedsize = yes
 		}
-		
+
 		OverlappingElementsBoxType = {
-			name = "transferring_trade_list"	
+			name = "transferring_trade_list"
 			position = { x = 290  y = 310  }
 			size = { x=215 y= 30 }
 			spacing = 1.0
 		}
-		
+
 		instantTextBoxType = {
 			name = "transferring_trade_none"
 			position = { x = 302 y =318 }
 			textureFile = ""
-			font = "vic_18_grey"				
+			font = "vic_18_grey"
 			text = "GO_NONE"
 			maxWidth = 160
 			maxHeight = 20
 			fixedsize = yes
-		}		
-		
-		
-		
+		}
+
+
+
 		### BOTTOM PART
 		instantTextBoxType = {
 			name = "trade_node_label"
 			position = { x = 165 y =364 }
 			textureFile = ""
-			font = "vic_22"				
-			text = "TRADE_TRADE_NODES"	
+			font = "vic_22"
+			text = "TRADE_TRADE_NODES"
 			maxWidth = 220
 			maxHeight = 32
 			format = centre
 			fixedsize = yes
 		}
-		
+
 		### TRADE NODE LIST
 		windowType = {
 		name = "trade_node_list_window"
-		position = { x=0 y=400 }	
+		position = { x=0 y=400 }
 		size = { x=1024 y=100 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
-		
-		
+
+
 			guiButtonType = {
 				name ="sort_shield"
 				quadTextureSprite = "GFX_sort_shield"
 				position = { x = 20 y = 1 }
 			}
-		
+
 			guiButtonType = {
 				name ="sort_name"
 				quadTextureSprite = "GFX_sort_136"
@@ -678,8 +681,8 @@ guiTypes = {
 				position = { x = 304 y = 1 }
 				pdx_tooltip = "TRADE_TOTAL_POWER_SORT"
 				pdx_tooltip_delayed = "TRADE_TOTAL_POWER_SORT_DELAYED"
-			}			
-			
+			}
+
 			guiButtonType = {
 				name ="sort_current_value"
 				quadTextureSprite = "GFX_sort_trade_value"
@@ -696,7 +699,7 @@ guiTypes = {
 				pdx_tooltip = "ACTIVE_MISSION_TOOLTIP"
 				pdx_tooltip_delayed = ""
 			}
-			listboxType = 
+			listboxType =
 			{
 				name ="tradenode_list"
 				position = { x = 50 y = 23 }
@@ -710,11 +713,11 @@ guiTypes = {
 			}
 		}
 
-		
+
 		### SEND MERCHANT WINDOW
 		windowType = {
 		name = "send_merchant_window"
-		position = { x=0 y=383 }	
+		position = { x=0 y=383 }
 		size = { x=1024 y=100 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
@@ -729,17 +732,17 @@ guiTypes = {
 					position = { x= 10 y = -36 }
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="office_list"
 					position = { x = 33 y = 29 }
 					size = { x=219 y = 112}
 					Orientation = "UPPER_LEFT"
 					scrollbartype = "standardlistbox_slider"
-					
+
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="transit_list"
 					position = { x = 287 y = 29 }
@@ -758,7 +761,7 @@ guiTypes = {
 					pdx_tooltip_delayed = "TRADE_NAME_SORT_TOOLTIP_DELAYED"
 					clicksound = close_window
 				}
-				
+
 				guiButtonType = {
 					name ="recall_button"
 					quadTextureSprite = "GFX_standard_button_88"
@@ -781,17 +784,17 @@ guiTypes = {
 					position = { x= 10 y = -36 }
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="office_list"
 					position = { x = 33 y = 29 }
 					size = { x=219 y = 252}
 					Orientation = "UPPER_LEFT"
 					scrollbartype = "standardlistbox_slider"
-					
+
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="transit_list"
 					position = { x = 287 y = 29 }
@@ -810,7 +813,7 @@ guiTypes = {
 					pdx_tooltip_delayed = "TRADE_NAME_SORT_TOOLTIP_DELAYED"
 					clicksound = close_window
 				}
-				
+
 				guiButtonType = {
 					name ="recall_button"
 					quadTextureSprite = "GFX_standard_button_88"
@@ -833,7 +836,7 @@ guiTypes = {
 					position = { x= 10 y = -36 }
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="office_list"
 					position = { x = 33 y = 29 }
@@ -842,7 +845,7 @@ guiTypes = {
 					scrollbartype = "standardlistbox_slider"
 				}
 
-				listboxType = 
+				listboxType =
 				{
 					name ="transit_list"
 					position = { x = 287 y = 29 }
@@ -861,7 +864,7 @@ guiTypes = {
 					pdx_tooltip_delayed = "TRADE_NAME_SORT_TOOLTIP_DELAYED"
 					clicksound = close_window
 				}
-				
+
 				guiButtonType = {
 					name ="recall_button"
 					quadTextureSprite = "GFX_standard_button_88"
@@ -873,33 +876,33 @@ guiTypes = {
 					clicksound = close_window
 				}
 			}
-		
-			
-			
+
+
+
 			instantTextBoxType = {
 				name = "trade_node"
 				position = { x = 175 y =-32 }
 				textureFile = ""
-				font = "vic_22"				
-				text = ""	
+				font = "vic_22"
+				text = ""
 				maxWidth = 200
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
 			}
-		
+
 			iconType =
 			{
 				name ="icon_trade_office"
 				spriteType = "GFX_icon_trade_office"
 				position = { x= 32 y = -5 }
 			}
-			
+
 			instantTextBoxType = {
 				name = "office_label"
 				position = { x = 34 y = 7 }
 				textureFile = ""
-				font = "vic_22"				
+				font = "vic_22"
 				text = "TRADE_MISSION_OFFICE"
 				maxWidth = 220
 				maxHeight = 24
@@ -917,16 +920,16 @@ guiTypes = {
 				name = "transit_label"
 				position = { x = 288 y = 7 }
 				textureFile = ""
-				font = "vic_22"				
+				font = "vic_22"
 				text = "TRADE_MISSION_TRANSIT"
 				maxWidth = 220
 				maxHeight = 24
 				format = centre
 				fixedsize = yes
 			}
-						
-			
-						
+
+
+
 		}
 	}
 

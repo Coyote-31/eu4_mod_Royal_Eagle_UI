@@ -4,9 +4,12 @@ guiTypes = {
 		name = "countryview"
 		backGround=""
 		#position = { x=22 y=0 }
-		position = { x=-578 y=0 }
-		show_position = { x=22 y =0 }
-		hide_position = { x=-578 y =0 }
+		#c position = { x=-578 y=0 }
+		position = { x=-578 y=18 }
+		#c show_position = { x=22 y =0 }
+		show_position = { x=22 y =18 }
+		#c hide_position = { x=-578 y =0 }
+		hide_position = { x=-578 y =18 }
 		animation_type = "decelerated"
 		animation_time = 300
 		size = { x=1024 y=100 }
