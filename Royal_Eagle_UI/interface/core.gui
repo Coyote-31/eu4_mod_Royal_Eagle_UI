@@ -28,7 +28,7 @@ guiTypes = {
 			position = { x=0 y=360 }
 			orientation = "UPPER_LEFT"
 			backGround ="console_background"
-			size = { x=488 y=32 }
+			size = { x=500 y=32 }
 			borderSize = { x=5 y=0 }
 		}
 
