@@ -1,6 +1,6 @@
 ﻿l_french:
  ### FIX OFFICIAL TRAD ###
- ## Frontend
+ ## FRONTEND
  PLAY:0 "Jouer"
  GAMESETUP_SHOW_UNSAFE:0 "Voir les sauvegardes incompatibles"
  PRIVACY_POLICY:0 "Pol. de confidentialité"
@@ -28,7 +28,13 @@
  MATCHMAKING_SERVER_STATUS_STARTING:0 "§GDémarrage"
  MATCHMAKING_SERVER_STATUS_RUNNING:0 "§YEn cours"
  MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RArrêté"
- ### Fix [Root.GetDhimmiName] -> [Root.GetDhimmi]
+ ## INGAME
+ ST:0 "er"
+ ND:0 "e"
+ TH:0 "e"
+ RD:0 "e"
+ MODIFIER_GLOBAL_INSTITUTION_SPREAD:0 "Propag. des institutions"
+ ## Fix [Root.GetDhimmiName] -> [Root.GetDhimmi]
  estate_dhimmi_land_rights:0 "Droits fonciers des [Root.GetDhimmi]"
  estate_dhimmi_give_us_money:0 "Dédommager les contributions des [Root.GetDhimmi]"
  estate_dhimmi_build_university_in_y:0 "Construire une université pour les [Root.GetDhimmi] de [agenda_province.GetName]"
