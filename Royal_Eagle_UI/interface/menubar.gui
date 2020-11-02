@@ -767,7 +767,7 @@ guiTypes = {
 				#c borderSize = { x = 8 y = 4  }
 				borderSize = { x = 0 y = 0  }
 				#c size = { x=240 y=34 }
-				size = { x=240 y=33 }
+				size = { x=230 y=33 }
 				text = ""
 				orientation = "UPPER_LEFT"
 			}
