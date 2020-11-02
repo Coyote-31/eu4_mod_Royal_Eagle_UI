@@ -503,11 +503,11 @@ bitmapfonts = {
 		M = { 98 205 234 }
 		W = { 255 255 255 }
 		B = { 72 124 214 }
-		G = { 62 209 62 }
+		G = { 61 188 30 }
 		R = { 226 69 55 }
 		b = { 0 0 0 }
 		g = { 169 169 169 }
-		Y = { 255 226 49 }
+		Y = { 252 218 80 }
 		T = { 121 200 209 }
 		O = { 234 147 57 }
 		l = { 149 175 117 }
@@ -518,8 +518,6 @@ bitmapfonts = {
 		path = "gfx/fonts/coyote_12_ol" #cc garamond_16
 		#c color = 0xffffffff
     color = 0xfff2f4f7
-
-
 	}
 
 	bitmapfont = {
@@ -715,9 +713,9 @@ bitmapfonts = {
 		color = 0xff000000
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 } #cc Y = { 0 0 0 }
+			Y = { 252 218 80 } #cc Y = { 0 0 0 }
 		}
 	}
 
@@ -728,9 +726,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 	bitmapfont = {
@@ -740,9 +738,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -753,9 +751,9 @@ bitmapfonts = {
 		color = 0xffa9a9a9
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -765,9 +763,9 @@ bitmapfonts = {
 		color = 0xff000000
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 	##c For testing fonts
@@ -781,9 +779,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 	bitmapfont = {
@@ -793,9 +791,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -805,9 +803,9 @@ bitmapfonts = {
 		color = 0xff000000
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -818,9 +816,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -831,9 +829,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -843,9 +841,9 @@ bitmapfonts = {
 		color = 0xff000000
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -857,9 +855,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 	bitmapfont = {
@@ -869,9 +867,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -882,9 +880,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -895,9 +893,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -940,9 +938,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -955,9 +953,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -972,9 +970,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -987,9 +985,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1002,9 +1000,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1019,9 +1017,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1034,9 +1032,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1051,9 +1049,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1066,9 +1064,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1082,9 +1080,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 	###c font-xl :
@@ -1098,9 +1096,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1113,9 +1111,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1128,9 +1126,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1141,9 +1139,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1154,9 +1152,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1167,9 +1165,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 		}
 	}
 
@@ -1199,9 +1197,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 			H = { 219 203 71 }
 			T = { 121 200 209 }
 		}
@@ -1215,9 +1213,9 @@ bitmapfonts = {
     color = 0xfff2f4f7
 
 		textcolors = {
-			G = { 62 209 62 }
+			G = { 61 188 30 }
 			R = { 226 69 55 }
-			Y = { 255 226 49 }
+			Y = { 252 218 80 }
 			H = { 219 203 71 }
 			T = { 121 200 209 }
 		}
