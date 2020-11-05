@@ -94,9 +94,9 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
-	##c Slider / scroll
+	##c Slider / scroll / cornered
 	corneredTileSpriteType = {
-		name = "GFX_COYOTE_slider_bg"
+		name = "GFX_COYOTE_slider_bg" #c TODO change to GFX_COYOTE_small_tiles_dialog
 		size= {x=32 y=32 }
 		texturefile = "gfx//interface//small_tiles_dialog.dds"
 		borderSize = { x=8 y=8 }
@@ -107,6 +107,14 @@ spriteTypes = {
 		size= {x=32 y=32 }
 		texturefile = "gfx//interface//coyote_small_tiles_dialog_no_transparency.dds"
 		borderSize = { x=8 y=8 }
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_COYOTE_tiles_dialog"
+		size= {x=96 y=96 }
+		texturefile = "gfx//interface//tiles_dialog.dds"
+		borderSize = { x=32 y=32 }
+		allwaystransparent = yes
 	}
 
 }

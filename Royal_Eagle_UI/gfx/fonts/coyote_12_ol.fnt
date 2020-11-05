@@ -219,7 +219,7 @@ char id=252  x=350   y=63    width=13    height=20    xoffset=-2    yoffset=-2  
 char id=253  x=325   y=84    width=12    height=20    xoffset=-2    yoffset=-2    xadvance=7     page=0  chnl=15
 char id=254  x=364   y=63    width=13    height=20    xoffset=-3    yoffset=-2    xadvance=7     page=0  chnl=15
 char id=255  x=351   y=84    width=12    height=20    xoffset=-2    yoffset=-2    xadvance=7     page=0  chnl=15
-kernings count=1248
+kernings count=1249
 # Fix numbers
 kerning first=48  second=48  amount=-1
 kerning first=48  second=49  amount=-1
@@ -1473,3 +1473,5 @@ kerning first=216 second=217 amount=-1
 kerning first=216 second=218 amount=-1
 kerning first=216 second=219 amount=-1
 kerning first=216 second=220 amount=-1
+# MISC
+kerning first=46  second=46  amount=-1

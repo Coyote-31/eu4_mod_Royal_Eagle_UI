@@ -219,7 +219,7 @@ char id=252  x=84    y=84    width=13    height=20    xoffset=-3    yoffset=-2  
 char id=253  x=98    y=84    width=13    height=20    xoffset=-3    yoffset=-2    xadvance=7     page=0  chnl=15
 char id=254  x=300   y=42    width=14    height=20    xoffset=-3    yoffset=-2    xadvance=8     page=0  chnl=15
 char id=255  x=154   y=63    width=13    height=20    xoffset=-3    yoffset=-2    xadvance=7     page=0  chnl=15
-kernings count=182
+kernings count=183
 kerning first=48  second=43  amount=-1
 kerning first=48  second=45  amount=-1
 kerning first=48  second=46  amount=-1
@@ -402,3 +402,5 @@ kerning first=57  second=54  amount=-2
 kerning first=57  second=55  amount=-2
 kerning first=57  second=56  amount=-2
 kerning first=57  second=57  amount=-2
+# MISC
+kerning first=46  second=46  amount=-1

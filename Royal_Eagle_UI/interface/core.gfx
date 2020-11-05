@@ -500,17 +500,17 @@ bitmapfonts = {
 
 	# Global text colorings
 	textcolors = {
-		M = { 98 205 234 }
-		W = { 255 255 255 }
-		B = { 72 124 214 }
-		G = { 90 198 63 }
-		R = { 226 68 63 }
-		b = { 0 0 0 }
-		g = { 169 169 169 }
-		Y = { 252 218 80 }
-		T = { 121 200 209 }
-		O = { 234 147 57 }
-		l = { 149 175 117 }
+		W = { 255 255 255 } #c White
+		g = { 169 169 169 } #c Grey
+		b = { 0 0 0 } #c Black
+		R = { 226 68 63 } #c Red
+		G = { 90 198 63 } #c Green
+		l = { 149 175 117 } #c Green -
+		B = { 72 124 214 } #c Blue
+		T = { 121 200 209 } #c Blue-Teal
+		M = { 98 205 234 } #c Light-Blue
+		Y = { 252 218 80 } #c Yellow
+		O = { 234 147 57 } #c Orange
 	}
 
 	bitmapfont = {
@@ -902,6 +902,10 @@ bitmapfonts = {
 	##############################################
 	####            Fonts by Coyote           ####
 	##############################################
+
+	### Console commands :
+	#		- Reloads the entire interface : reloadinterface
+	#		- Reloads the specified texture : reloadtexture [texture file name]
 
 	###   Font name conversion rules :
 	#
