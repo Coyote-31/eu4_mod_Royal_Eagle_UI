@@ -70,6 +70,10 @@
  ## OUTLINER ##
  INCOME_IN_TRADE2:0 "Collecte $VAL|Y$¤"
  TRANSFER_IN_TRADE2:0 "$VAL|Y$¤-> $WHERE$"
+ BUILDSPYNETWORKTITLE:0 "Espionner"
+ CANCEL_BUILDSPYNETWORKTITLE:0 "Abandonner l'espionnage"
+ COUNTERESPIONAGETITLE:0 "Contre-espionner"
+ CANCEL_COUNTERESPIONAGETITLE:0 "Cesser le contre-espionnage"
  ## REBELS ##
  REBELS_FIGHT_FOR:0 "Ces rebelles veulent passer à $NATION$."
  REBELS_ARMY_BASE:1 "Base : $BASE|Y$ £icon_manpower_in_text£\n"
