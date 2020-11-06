@@ -10,7 +10,7 @@ guiTypes = {
 		name = "gov_view_reform_select"
 		backGround=""
 		#c position = { x=20 y=40 }
-		position = { x=20 y=58 }
+		position = { x=20 y=69 }
 		size = { x=1024 y=100 }
 		moveable = 0
 		dontRender = ""

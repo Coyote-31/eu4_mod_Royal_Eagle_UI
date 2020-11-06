@@ -246,11 +246,11 @@ guiTypes = {
 	windowType = {
 		name = "countryestatesview"
 		#c position = { x=-603 y=140 }
-		position = { x=-603 y=158 }
+		position = { x=-603 y=169 }
 		#c show_position = { x=-3 y =140 }
-		show_position = { x=-3 y =158 }
+		show_position = { x=-3 y =169 }
 		#c hide_position = { x=-603 y =140 }
-		hide_position = { x=-603 y =158 }
+		hide_position = { x=-603 y =169 }
 		animation_type = "decelerated"
 		animation_time = 300
 		size = { x=1024 y=100 }
