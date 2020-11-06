@@ -1,0 +1,27 @@
+﻿l_french:
+ #### FIX OFFICIAL TRAD ###
+ #### Reload localisation console cmd: reloadloc
+ ## FIX VARIABLE ##
+ # Fix [Root.GetDhimmiName] -> [Root.GetDhimmi]
+ estate_dhimmi_land_rights:0 "Droits fonciers des [Root.GetDhimmi]"
+ estate_dhimmi_give_us_money:0 "Dédommager les contributions des [Root.GetDhimmi]"
+ estate_dhimmi_build_university_in_y:0 "Construire une université pour les [Root.GetDhimmi] de [agenda_province.GetName]"
+ estate_dhimmi_stop_converting_province_x:0 "Protéger les [Root.GetDhimmi] de [agenda_province.GetName]"
+ estate_dhimmi_three_privileges:0 "Accorder davantage de privilèges aux [Root.GetDhimmi]"
+ estate_dhimmi_hire_advisor_desc:0 "Les [Root.GetDhimmi] souhaitent que [Root.GetLeLaLDir] [Root.Monarch.GetTitle] recrute à son service l'un d'entre eux pour le conseiller en matière administrative."
+ estate_dhimmi_fire_advisor_desc:0 "[Root.GetLeLaLAdmCap] [Root.GetAdm] [Root.Adm_Advisor.GetName] a insulté les [Root.GetDhimmi]. Ils exigent donc que [Root.GetLeLaLDir] [Root.Monarch.GetTitle] [Root.GetLeLaFAdm] congédie."
+ estate_dhimmi_develop_x_desc:0 "Les [Root.GetDhimmi] demandent que nous investissions pour assurer la prospérité de leurs domaines dans la province de [agenda_province.GetName]."
+ estate_dhimmi_build_temple_in_y_desc:0 "Les [Root.GetDhimmi] nous demandent de construire un magnifique sanctuaire dans la province de [agenda_province.GetName] afin que les fidèles puissent disposer d'un lieu où se réunir."
+ estate_dhimmi_build_university_in_y_desc:0 "Les [Root.GetDhimmi] nous demandent de financer la fondation d'une nouvelle université dans la province de [agenda_province.GetName], de manière à ce que leurs fidèles puissent recevoir la meilleure éducation que peuvent leur offrir leurs lettrés."
+ estate_dhimmi_stop_converting_province_x_desc:0 "Les [Root.GetDhimmi] sont mécontents que nous tentions de convertir les [agenda_province.GetRelMP] de la province de [agenda_province.GetName] [Root.GetAuAlaRel] [Root.GetRelN]. Ils exigent que nos missionnaires soient immédiatement rappelés."
+ estate_dhimmi_increase_autonomy_in_province_x_desc:0 "Les [Root.GetDhimmi] de la province de [agenda_province.GetName] se plaignent des ingérences trop fréquentes des autorités dans leurs affaires. Ils réclament à cor et à cri une plus grande autonomie."
+ estate_dhimmi_three_privileges_desc:0 "Étant une minorité [Root.GetAuEnNP] [Root.GetName], les [Root.GetDhimmi] se sentent désavantagés dans de nombreux aspects de la vie quotidienne. Ils demandent donc à ce que [Root.GetLeLaLDir] [Root.Monarch.GetTitle] réaffirme sa position à leur égard en leur accordant de nouveaux privilèges."
+ estate_dhimmi_relations_with_X_desc:0 "Les [Root.GetDhimmi] considèrent [agenda_country.GetLeLaLDir] [agenda_country.Monarch.GetTitle] [agenda_country.GetDuDeNP] [agenda_country.GetName] comme un[agenda_country.GetXEDir] possible allié[agenda_country.GetXEDir]. Ils recommandent que nous cherchions à nous rapprocher [agenda_country.GetDeluiDelleDir]."
+ estate_dhimmi_land_rights_desc:0 "Les [Root.GetDhimmi] sont certes des infidèles, mais s'ils sont convenablement circonvenus ils peuvent s'avérer fort utiles. Leur accorder davantage de terres ne peut être apprécié des plus fervents [Root.GetRelMP], mais assurerait [Root.GetLeLaNP] [Root.GetName] de nombreux avantages."
+ estate_dhimmi_lighter_dhimmi_taxes_desc:1 "Il est évident qu'ils vont protester, mais les [Root.GetDhimmi] pourraient être persuadés de verser davantage de taxes si des garanties suffisantes leur sont offertes en retour."
+ estate_dhimmi_dhimmi_nobles_desc:0 "L'un des souhaits les plus prégnants chez les [Root.GetDhimmi] est de voir leurs chefs jouir des mêmes droits et de la même prééminence que les [Root.GetNoblesName] [Root.GetRelMP]."
+ estate_dhimmi_manpower_desc:0 "Si des récompenses leur sont offertes sous la forme de terres, il ne fait aucun doute que les [Root.GetDhimmi] seront mieux disposés à servir dans nos armées."
+ estate_dhimmi_tolerance_desc:0 "Les discriminations et l'inégalité basées sur les différences religieuses causent de grandes souffrances aux [Root.GetDhimmi]. Nous devrions laisser de côté nos considérations de foi pour unifier le pays et permettre [Root.GetAuAlaNP] [Root.GetName] d'atteindre tout [Root.GetSonLeurNP] potentiel."
+ estate_dhimmi_guaranteed_autonomy_desc:0 "Assurer les [Root.GetDhimmi] qu'ils ne seront pas soumis aux ingérences des autorités permettra de libérer l'administration de leur gouvernance tout en les incitant à soutenir davantage les autorités."
+ dhimmi_loyalty_modifier:1 "Pt d'éq. de loy. des [Country.GetDhimmi]"
+ dhimmi_influence_modifier:0 "Influence des [Country.GetDhimmi]"
