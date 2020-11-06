@@ -174,7 +174,8 @@ guiTypes = {
 				name = "desc_country"
 				#c position = { x= -75 y= 100 }
 				position = { x= -70 y= 100 }
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_22_l"
 				#c maxWidth = 860
 				maxWidth = 855
 				maxHeight = 330
@@ -210,7 +211,8 @@ guiTypes = {
 				name = "desc_religion"
 				#c position = { x= -75 y= 100 }
 				position = { x= -70 y= 100 }
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_22_l"
 				#c maxWidth = 860
 				maxWidth = 855
 				maxHeight = 330
@@ -246,7 +248,8 @@ guiTypes = {
 				name = "desc_government"
 				#c position = { x= -75 y= 100 }
 				position = { x= -70 y= 100 }
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_22_l"
 				#c maxWidth = 860
 				maxWidth = 855
 				maxHeight = 330
@@ -281,7 +284,8 @@ guiTypes = {
 				name = "desc_environment"
 				#c position = { x= -75 y= 100 }
 				position = { x= -70 y= 100 }
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_22_l"
 				#c maxWidth = 860
 				maxWidth = 855
 				maxHeight = 330
@@ -293,15 +297,17 @@ guiTypes = {
 		checkboxType = {
 			name = "checkbox_dont_show_again"
 			#c position = { x= 364 y = 598 }
-			position = { x= 384 y = 598 }
-			quadTextureSprite = "GFX_checkbox_gold_32"
+			position = { x= 384 y = 602 }
+			#c quadTextureSprite = "GFX_checkbox_gold_32"
+			quadTextureSprite = "GFX_checkbox_gold_24"
 		}
 
 		instantTextBoxType = {
 			name = "title_checkbox_dont_show_again"
 			#c position = { x=398 y=603 }
-			position = { x=422 y=604 }
-			font = "vic_22"
+			position = { x=422 y=606 }
+			#c font = "vic_22"
+			font = "vic_18"
 			maxWidth = 315
 			maxHeight = 25
 			text = "DO_NOT_SHOW_AGAIN"
