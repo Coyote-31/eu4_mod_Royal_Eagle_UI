@@ -2159,7 +2159,8 @@ guiTypes = {
 	{
 		name ="minimap_pic"
 		spriteType = "GFX_minimap"
-		position = { x= -276 y = -145 }
+		#c position = { x= -276 y = -145 }
+		position = { x= -276 y = -143 }
 		Orientation = "UPPER_LEFT"
 	}
 

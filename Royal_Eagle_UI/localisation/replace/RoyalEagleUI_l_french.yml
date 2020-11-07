@@ -71,7 +71,7 @@
  # Flag #
  RELIGIOUS_SCHOOL_MAP_ICON_TOOLTIP:0 "$FLAG$ $COUNTRY$ se revendique du $SCHOOL|Y$"
  CARDINAL_MAPICON_DELAYED:0 "Il est loyal à $FLAG$ $COUNTRY|Y$."
- 
+
  ## FRONTEND ##
  PLAY:0 "Jouer"
  GAMESETUP_SHOW_UNSAFE:0 "Voir les sauvegardes incompatibles"
@@ -113,6 +113,21 @@
  MSG_FILTER_DESELECT:0 "§OTout désélectionner§!"
  SORT_BY_SELECTED:0 "Sélection"
  SORT_BY_NAME:1 "Nom"
+
+ ## MAP ##
+ PRIMARY_MAPMODES:0 "Ensemble de cartes"
+ SELECT_PRIMARY_MAPMODE:0 "Choisir une carte"
+ ADD_PRIMARY_MAPMODE:0 "Ajouter des cartes"
+ ADD_MAPMODE:0 "Ajouter une carte …"
+ REMOVE_MAPMODE_TT:0 "Retirer la carte de l'ensemble"
+ ADD_MAPMODE_TT:0 "Ouvre une liste dans laquelle peut être choisie une autre carte pour cet ensemble. Plusieurs cartes peuvent être stockées dans chaque ensemble, vous permettant de passer de l'une à l'autre d'un clic gauche ou en utilisant le raccourci clavier."
+ MAPMODE_NOTSELECTED:0 "Emplacement libre pour un ensemble de cartes"
+ MAPMODE_NOTSELECTED_DESC:0 "Cliquer pour sélectionner une nouvelle carte principale pour cet ensemble."
+ MAPMODE_RIGHTCLICK:0 "§GClic-gauche pour afficher la carte ou passer à la suivante\nClic-droit pour gérer l'ensemble de cartes§!"
+ MAPMODE_PRIMARY:0 "§GClic-gauche pour afficher la carte ou passer à la suivante\nClic-droit pour gérer l'ensemble de cartes§!"
+ MAPMODE_NON_PRIMARY:0 "§GClic-gauche pour afficher la carte ou passer à la suivante\nClic-droit pour gérer l'ensemble de cartes§!"
+ MAPMODE_PRIMARY_FULL:0 "§R(Vous devez d'abord retirer une carte de cet ensemble)§!"
+ LOCK_MORE_MAPMODES:0 "§YAfficher ou masquer d'autres cartes§!"
 
  ## MISCELLANEOUS ##
  ST:0 "er"
