@@ -1900,11 +1900,6 @@ guiTypes = {
 					position = { x= -407 y = -280 }
 					Orientation = "LOWER_RIGHT"
 					clicksound = "royal_eagle_ui"
-					hint_tag = ""
-					pdx_tooltip = ""
-					pdx_tooltip_delayed = ""
-					tooltipText ="FE_IRONMAN"
-					delayedTooltipText = ""
 				}
 
 				iconType = {
@@ -1956,6 +1951,7 @@ guiTypes = {
 					maxHeight = 32
 					format = center
 					Orientation = "LOWER_RIGHT"
+					alwaystransparent = yes
 				}
 
 				##c New sprites : end
