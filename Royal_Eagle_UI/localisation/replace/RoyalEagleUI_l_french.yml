@@ -68,7 +68,10 @@
  SCHOOL_HATE:0 "§RHaine§!"
  SCHOOL_AMBIVALENT:0 "§OMéfiance§!"
  SCHOOL_LIKE:0 "§TConsidération§!"
-
+ # Flag #
+ RELIGIOUS_SCHOOL_MAP_ICON_TOOLTIP:0 "$FLAG$ $COUNTRY$ se revendique du $SCHOOL|Y$"
+ CARDINAL_MAPICON_DELAYED:0 "Il est loyal à $FLAG$ $COUNTRY|Y$."
+ 
  ## FRONTEND ##
  PLAY:0 "Jouer"
  GAMESETUP_SHOW_UNSAFE:0 "Voir les sauvegardes incompatibles"
@@ -102,6 +105,14 @@
  CANCEL_BUILDSPYNETWORKTITLE:0 "Abandonner l'espionnage"
  COUNTERESPIONAGETITLE:0 "Contre-espionner"
  CANCEL_COUNTERESPIONAGETITLE:0 "Cesser le contre-espionnage"
+
+ ## MSG_FILTERS ##
+ MSG_FILTER_BEST_GUESS:0 "§YSelon le contexte§!"
+ MSG_FILTER_ALLIES:0 "§BAlliés§!"
+ MSG_FILTER_ENEMIES:0 "§REnnemis§!"
+ MSG_FILTER_DESELECT:0 "§OTout désélectionner§!"
+ SORT_BY_SELECTED:0 "Sélection"
+ SORT_BY_NAME:1 "Nom"
 
  ## MISCELLANEOUS ##
  ST:0 "er"
