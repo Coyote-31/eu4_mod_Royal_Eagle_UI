@@ -1678,10 +1678,13 @@ guiTypes = {
 
 			windowType = {
 				name = "message_window"
-				position = { x = 0 y = -60 }
+				#c position = { x = 0 y = -60 }
+				position = { x = 0 y = -40 }
 				show_position = { x= 0 y = -40 }
-				hide_position = { x= 210 y = -40 }
-				animation_type = "decelerated"
+				#c hide_position = { x= 210 y = -40 }
+				hide_position = { x= 250 y = -40 }
+				#c animation_type = "decelerated"
+				animation_type = "linear"
 				animation_time = 300
 				size = { x=241 y= 186 }
 				Orientation = "UPPER_LEFT"
@@ -1703,31 +1706,36 @@ guiTypes = {
 
 				checkboxType = {
 					name = "msg_icons_filter_me"
-					position = { x = -15 y = 222 }
+					#c position = { x = -15 y = 222 }
+					position = { x = -10 y = 221 }
 					quadTextureSprite ="GFX_messages_logfilter_me"
 					Orientation = "UPPER_LEFT"
 				}
 
 				checkboxType = {
 					name = "msg_icons_filter_interesting"
-					position = { x = 30 y = 222 }
+					#c position = { x = 30 y = 222 }
+					position = { x = 31 y = 221 }
 					quadTextureSprite ="GFX_messages_logfilter_interesting"
 					Orientation = "UPPER_LEFT"
 				}
 
 				checkboxType = {
 					name = "msg_icons_filter_other"
-					position = { x = 77 y = 222 }
+					#c position = { x = 77 y = 222 }
+					position = { x = 72 y = 221 }
 					quadTextureSprite ="GFX_messages_logfilter_other"
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name = "menubar_msg_settings"
-					position = { x = 122 y = 222 }
+					#c position = { x = 122 y = 222 }
+					position = { x = 124 y = 221 }
 					quadTextureSprite ="GFX_messages_settings"
 					Orientation = "UPPER_LEFT"
 					clicksound = click
+					pdx_tooltip = "MSG_FILTER_HEADER" #c
 				}
 
 				listBoxType =
