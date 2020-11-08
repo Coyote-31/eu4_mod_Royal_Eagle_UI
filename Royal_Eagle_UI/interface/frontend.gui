@@ -2596,7 +2596,7 @@ guiTypes = {
 						name = "diplomatic_listbox"
 						backGround = ""
 						#c position = { x=0 y=432 }
-						position = { x=6 y=434 }
+						position = { x=6 y=435 }
 						#c size = { x=200 y=120 }
 						size = { x=198 y=114 }
 						Orientation = "UPPER_LEFT"
@@ -2604,6 +2604,7 @@ guiTypes = {
 						spacing = 1.0
 						scrollbartype = "standardlistbox_slider"
 						borderSize = {x = 0 y = 0}
+						offset = { x=-1 y=-3 }#c
 					}
 
 					listboxType = {
