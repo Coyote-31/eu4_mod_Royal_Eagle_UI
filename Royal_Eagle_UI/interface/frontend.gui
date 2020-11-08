@@ -2796,7 +2796,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "button_co_host"
-			position = { x=136 y=0 }
+			#c position = { x=136 y=0 }
+			position = { x=136 y=4 }
 			tooltipText = "CO_HOST_TOOLTIP"
 			quadTextureSprite ="GFX_checkbox_gold_32"
 		}
@@ -2806,7 +2807,8 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x=160 y =0}
+			#c position = { x=160 y =0}
+			position = { x=163 y =5}
 		}
 		##### CODER REMOVE
 		guiButtonType = {
@@ -2815,7 +2817,8 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x=180 y =0}
+			#c position = { x=180 y =0}
+			position = { x=184 y =4}
 		}
 
 		instantTextBoxType = {
