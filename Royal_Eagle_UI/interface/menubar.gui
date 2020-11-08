@@ -1666,7 +1666,8 @@ guiTypes = {
 			#show_position = { x= -200 y = -460 }
 			#hide_position = { x= 10 y = -460 }
 			animation_type = "decelerated"
-			animation_time = 300
+			#c animation_time = 300
+			animation_time = 800
 			size = { x=241 y= 186 }
 			Orientation = "LOWER_RIGHT"
 			backGround=""
@@ -1683,9 +1684,9 @@ guiTypes = {
 				show_position = { x= 0 y = -40 }
 				#c hide_position = { x= 210 y = -40 }
 				hide_position = { x= 250 y = -40 }
-				#c animation_type = "decelerated"
-				animation_type = "linear"
-				animation_time = 300
+				animation_type = "decelerated"
+				#c animation_time = 300
+				animation_time = 800
 				size = { x=241 y= 186 }
 				Orientation = "UPPER_LEFT"
 				backGround=""
