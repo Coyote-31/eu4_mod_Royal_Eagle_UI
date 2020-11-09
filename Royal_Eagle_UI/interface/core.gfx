@@ -966,6 +966,19 @@ bitmapfonts = {
 	###c font-small :
 
 	bitmapfont = {
+		name = "log_msg" #c log msg
+		path = "gfx/fonts/Arial12" #cc Arial12
+		#c color = 0xffffffff
+    color = 0xfff2f4f7
+
+		textcolors = {
+			G = { 90 198 63 }
+			R = { 226 68 63 }
+			Y = { 252 218 80 }
+		}
+	}
+
+	bitmapfont = {
 
 		name = "coyote_12b"
 		path = "gfx/fonts/coyote_12b"
