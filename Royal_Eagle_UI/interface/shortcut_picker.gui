@@ -1,0 +1,114 @@
+guiTypes = {
+	windowType = {
+		name ="shortcut_picker"
+		backGround="shortcut_picker"
+		#c position = { x= 450 y =350 }
+		position = { x= 706 y =350 }
+		size = { x=508 y =276 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+
+		guiButtonType = {
+			name = "shortcut_picker"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_client_create_shield_small_bg"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType={
+			position = {x = 58 y = 24 }
+			name = "title"
+			#c font = "vic_22"
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 395
+			maxHeight = 21
+			text = "ASSIGN_HOTKEY_TITLE"
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		instantTextBoxType={
+			position = {x = 20 y = 82 }
+			name = "description"
+			#c font = "vic_22"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 466
+			maxHeight = 38
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		instantTextBoxType={
+			#c position = {x = 55 y = 144 }
+			position = {x = 45 y = 143 }
+			name = "hotkey_label"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 116
+			maxHeight = 24
+			text = "HOTKEY"
+			orientation = "UPPER_LEFT"
+			format = right
+		}
+
+		instantTextBoxType={
+			#c position = {x = 186 y = 144 }
+			position = {x = 186 y = 146 }
+			name = "hotkey_text"
+			#c font = "vic_22"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 284
+			maxHeight = 44
+			text = "HOTKEY_WAITING"
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "save"
+			#c position = { x = 330 y = 210 }
+			position = { x = 329 y = 206 }
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "SAVE"
+			buttonFont = "vic_18"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "cancel"
+			#c position = { x = 140 y = 210 }
+			position = { x = 177 y = 206 }
+			quadTextureSprite ="button_type_1"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			shortcut = "ESCAPE"
+			clicksound = click
+		}
+
+		guiButtonType = {
+			name = "reset_all"
+			#c position = { x = 40 y = 200 }
+			position = { x = 29 y = 197 }
+			quadTextureSprite ="GFX_button_reset_shortcuts"
+			pdx_tooltip ="RESET_SHORTCUTS_TOOLTIP"
+			delayedTooltipText = ""
+		}
+
+	}
+}
