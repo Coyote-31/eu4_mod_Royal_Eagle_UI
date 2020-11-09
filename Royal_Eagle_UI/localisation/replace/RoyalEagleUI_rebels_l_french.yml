@@ -2,7 +2,7 @@
  #### FIX OFFICIAL TRAD ###
  #### Reload localisation console cmd: reloadloc
  ## REBELS ##
- REBELS_FIGHT_FOR:0 "Ces rebelles veulent passer à $NATION$."
+ REBELS_FIGHT_FOR:0 "Ces rebelles veulent être de la nationalité du pays suivant : $NATION|Y$."
  REBELS_ARMY_BASE:1 "Base : $BASE|Y$ £icon_manpower_in_text£\n"
  REBELS_ARMY_PROV:1 "$NAME$ : $SIZE|Y$ £icon_manpower_in_text£\n"
  # Christian :
