@@ -107,10 +107,11 @@
  CANCEL_COUNTERESPIONAGETITLE:0 "Cesser le contre-espionnage"
 
  ## MSG_FILTERS ##
- MSG_FILTER_BEST_GUESS:0 "§YSelon le contexte§!"
+ MSG_FILTER_BEST_GUESS:0 "§GSelon le contexte§!"
+ MSG_FILTER_NEIGHBOURS:0 "§gVoisins§!"
  MSG_FILTER_ALLIES:0 "§BAlliés§!"
  MSG_FILTER_ENEMIES:0 "§REnnemis§!"
- MSG_FILTER_DESELECT:0 "§OTout désélectionner§!"
+ MSG_FILTER_DESELECT:0 "§YTout désélectionner§!"
  SORT_BY_SELECTED:0 "Sélection"
  SORT_BY_NAME:1 "Nom"
 
