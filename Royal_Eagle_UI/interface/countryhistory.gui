@@ -3,7 +3,8 @@ guiTypes = {
 	windowType = {
 		name = "country_history_window"
 		backGround=""
-		position = { x=-8 y=40 }	
+		#c position = { x=-8 y=40 }
+		position = { x=6 y=0 }
 		size = { x=1024 y=100 }
 		moveable = 0
 		dontRender = ""
@@ -18,7 +19,7 @@ guiTypes = {
 			position = { x= -271 y = -360 }
 			Orientation = "CENTER"
 		}
-		
+
 		textBoxType = {
 			name = "title"
 			position = { x = 0 y =-260 }
@@ -26,31 +27,50 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
-			text = "The History of France"	
+			text = "The History of France"
 			maxWidth = 400
-			maxHeight = 32	
-			
-			Orientation = "CENTER"		
+			maxHeight = 32
+
+			Orientation = "CENTER"
 		}
-		
-		listboxType = 
+
+		#c Add header title
+		instantTextBoxType = {
+			name = "fix_title"
+			position = { x = -240 y = -264 }
+			format = centre
+			textureFile = ""
+			font = "vic_29s"
+			borderSize = {x = 4 y = 4}
+			text = "M_HISTORY_BUTTON"
+			maxWidth = 460
+			maxHeight = 32
+
+			Orientation = "CENTER"
+		}
+
+		listboxType =
 		{
 			name ="kings"
-			position = { x = -250 y = -232 }
+			#c position = { x = -250 y = -232 }
+			position = { x = -224 y = -228 }
 			backGround=""
-			size = { x= 452 y = 463 }
+			#c size = { x= 452 y = 463 }
+			size = { x= 518 y = 460 }
 			Orientation = "CENTER"
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			offset = {x = -90 y = 18} #c
 		}
-		
+
 		guiButtonType = {
 			name = "close_button"
-			position = { x=-77 y =266}
+			#c position = { x=-77 y =266}
+			position = { x=-78 y =266}
 			Orientation = "CENTER"
-			quadTextureSprite ="button_type_7"	
+			quadTextureSprite ="button_type_7"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""

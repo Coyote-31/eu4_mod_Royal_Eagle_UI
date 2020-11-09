@@ -22,7 +22,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_name"
 			#c position = { x = 27 y = 1 }
-			position = { x = 31 y = 4 }
+			position = { x = 27 y = 4 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -204,7 +204,7 @@ guiTypes = {
 			position = { x = 430 y = 98 }
 
 			#c font = "vic_22"
-			font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			text = "STATISTICS"
 			maxWidth = 400
@@ -810,7 +810,8 @@ guiTypes = {
 			#c position = { x = 860 y = 331 }
 			position = { x = 858 y = 330 }
 
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			text = "HISTORICAL_SCORES"
 			maxWidth = 211
@@ -835,7 +836,8 @@ guiTypes = {
 			#c position = { x = 200 y = 331 }
 			position = { x = 200 y = 330 }
 
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			text = "M_HISTORY_BUTTON"
 			maxWidth = 293
@@ -848,13 +850,14 @@ guiTypes = {
 			position = { x=135 y =358}
 			backGround=""
 			#c size = { x=405 y =235}
-			size = { x=407 y =239}
+			size = { x=360 y =239}
 			horizontal = 0
 			#c spacing = 0
-			spacing = 2
+			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 			Orientation = "UPPER_LEFT"
+			offset = {x = 49 y = 1} #c
 		}
 
 		instantTextBoxType = {
@@ -862,7 +865,8 @@ guiTypes = {
 			#c position = { x = 560 y = 331 }
 			position = { x = 560 y = 330 }
 
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			text = "WE_HAD_THE"
 			maxWidth = 269
