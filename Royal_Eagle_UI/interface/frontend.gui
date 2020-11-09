@@ -2449,14 +2449,15 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "ideas_value"
 						#c position = { x = 143 y = 288 }
-						position = { x= 140 y = 308 }
+						position = { x= 132 y = 306 }
 
 						font = "vic_18"
 						borderSize = {x = 4 y = 4}
 						text = "?"
-						maxWidth = 64
+						maxWidth = 30
 						maxHeight = 16
-						format = right
+						#c format = right
+						format = center
 					}
 
 					iconType =
