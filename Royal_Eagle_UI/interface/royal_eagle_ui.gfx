@@ -117,4 +117,10 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 
+	##c modifier_interface
+	spriteType = {
+		name = "GFX_COYOTE_modifier_entry_bg"
+		texturefile = "gfx//interface//coyote_modifier_entry_bg.dds"
+	}
+
 }
