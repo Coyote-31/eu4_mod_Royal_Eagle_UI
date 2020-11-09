@@ -28,7 +28,8 @@ guiTypes = {
 	windowType = {
 		name ="campaign_stats_win"
 		backGround=""
-		position = { x=-540 y=-325 }
+		#c position = { x=-540 y=-325 }
+		position = { x=-543 y=-325 }
 		size = { x=1000 y=500 }
 		moveable = 0
 		dontRender = ""
@@ -49,7 +50,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			#c position = { x= -194 y = -226 }
-			position = { x= -191 y = -227 }
+			position = { x= -193 y = -225 }
 
 			#c font = "vic_29"
 			font = "vic_29s"
@@ -63,7 +64,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "not_logged_in_text"
-			position = { x= -306 y = -180 }
+			#c position = { x= -306 y = -180 }
+			position = { x= -310 y = -152 }
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = ""
