@@ -68,7 +68,7 @@
  SCHOOL_HATE:0 "§RHaine§!"
  SCHOOL_AMBIVALENT:0 "§OMéfiance§!"
  SCHOOL_LIKE:0 "§TConsidération§!"
- # Flag #
+ # Flag spacing #
  RELIGIOUS_SCHOOL_MAP_ICON_TOOLTIP:0 "$FLAG$ $COUNTRY$ se revendique du $SCHOOL|Y$"
  CARDINAL_MAPICON_DELAYED:0 "Il est loyal à $FLAG$ $COUNTRY|Y$."
 
@@ -129,6 +129,11 @@
  MAPMODE_NON_PRIMARY:0 "§GClic-gauche pour afficher la carte ou passer à la suivante\nClic-droit pour gérer l'ensemble de cartes§!"
  MAPMODE_PRIMARY_FULL:0 "§R(Vous devez d'abord retirer une carte de cet ensemble)§!"
  LOCK_MORE_MAPMODES:0 "§YAfficher ou masquer d'autres cartes§!"
+
+ ## COUNTRY COURT VIEW ##
+ NO_HEIR:0 "§YPas d'héritier légitime§!"
+ SPY_OFFENCE:0 "Const. du réseau d'espions"
+ GLOBAL_MANPOWER:0 "Modif. de réserve nationale"
 
  ## MISCELLANEOUS ##
  ST:0 "er"
