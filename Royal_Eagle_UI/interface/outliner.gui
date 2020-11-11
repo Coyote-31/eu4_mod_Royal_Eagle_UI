@@ -707,12 +707,13 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 104 y = 0 }
+				position = { x = 112 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
 				text = ""
-				maxWidth = 154
+				#c maxWidth = 154
+				maxWidth = 146
 				maxHeight = 32
 				alwaystransparent = yes
 				#c format = right
