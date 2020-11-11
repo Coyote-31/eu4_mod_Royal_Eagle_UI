@@ -135,6 +135,9 @@
  SPY_OFFENCE:0 "Const. du réseau d'espions"
  GLOBAL_MANPOWER:0 "Modif. de réserve nationale"
 
+ ## COUNTRY GOVERNMENT VIEW ##
+ MODIFIER_RESERVES_ORGANIZATION:0 "Réduc. de dégât moral subit par les réserves"
+
  ## MISCELLANEOUS ##
  ST:0 "er"
  ND:0 "e"

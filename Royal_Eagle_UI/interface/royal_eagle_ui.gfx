@@ -94,6 +94,56 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	##c Add fix transparence check
+	# GOUV
+	spriteType = {
+		name = "GFX_reform_government_bg_large"
+		texturefile = "gfx//interface//reform_government_bg_large.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_reform_government_bg_huge"
+		texturefile = "gfx//interface//reform_government_bg_huge.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_reform_government_bg_legacy"
+		texturefile = "gfx//interface//reform_government_bg_legacy.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_reform_government_bg"
+		texturefile = "gfx//interface//reform_government_bg.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_country_gov_view_bg_top"
+		texturefile = "gfx/interface/country_diplomacy_view_bg_top.dds"
+		transparencecheck = yes
+	}
+
+	# DIPLO
+	spriteType = {
+		name = "GFX_country_diplomacy_view_bg_bottom_huge"
+		texturefile = "gfx//interface//country_diplomacy_view_bg_bottom_huge.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_country_diplomacy_view_bg_bottom_large"
+		texturefile = "gfx//interface//country_diplomacy_view_bg_bottom_large.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_country_diplomacy_view_bg_bottom_standard"
+		texturefile = "gfx//interface//country_diplomacy_view_bg_bottom_standard.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_country_diplomacy_view_bg_top"
+		texturefile = "gfx//interface//country_diplomacy_view_bg_top.dds"
+		transparencecheck = yes
+	}
+
 	##c Slider / scroll / cornered
 	corneredTileSpriteType = {
 		name = "GFX_COYOTE_slider_bg" #c TODO change to GFX_COYOTE_small_tiles_dialog

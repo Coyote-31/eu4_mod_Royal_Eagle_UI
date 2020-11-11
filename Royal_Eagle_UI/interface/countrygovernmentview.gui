@@ -102,7 +102,8 @@ guiTypes = {
 		{
 			name ="government_type_icon"
 			spriteType = "GFX_government_type_icon_big"
-			position = { x = 60 y = 116 }
+			#c position = { x = 60 y = 116 }
+			position = { x = 63 y = 114 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 			hint_tag = "hint_govtype"
@@ -110,12 +111,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "government_name"
-			position = { x = 95 y =118 }
+			#c position = { x = 95 y =118 }
+			position = { x = 98 y =117 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = "GOVERNMENTYPE"
-			maxWidth = 200
+			#c maxWidth = 200
+			maxWidth = 250
 			maxHeight = 32
 			format = left
 			hint_tag = "hint_govname"
@@ -206,16 +209,19 @@ guiTypes = {
 		{
 			name ="absolutism_icon"
 			spriteType = "GFX_icon_absolutism"
-			position = { x= 294 y = 160 }
+			#c position = { x= 294 y = 160 }
+			position = { x= 295 y = 159 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
 
 		}
 		instantTextBoxType = {
 			name = "absolutism_value"
-			position = { x = 320 y = 160 }
+			#c position = { x = 320 y = 160 }
+			position = { x = 316 y = 158 }
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 42
@@ -227,16 +233,19 @@ guiTypes = {
 		{
 			name ="max_absolutism_icon"
 			spriteType = "GFX_icon_max_absolutism"
-			position = { x= 294 y = 192 }
+			#c position = { x= 294 y = 192 }
+			position = { x= 295 y = 191 }
 			Orientation = "UPPER_LEFT"
 			scale = 1
 
 		}
 		instantTextBoxType = {
 			name = "max_absolutism_value"
-			position = { x = 320 y = 192 }
+			#c position = { x = 320 y = 192 }
+			position = { x = 316 y = 190 }
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 42
@@ -499,12 +508,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_cultures"
-			position = { x = 50 y = 314 }
+			#c position = { x = 50 y = 314 }
+			position = { x = 52 y = 314 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = "Castillian"
-			maxWidth = 350
+			#c maxWidth = 350
+			maxWidth = 330
 			maxHeight = 40
 			format = left
 			fixedsize = yes
@@ -526,9 +537,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "accepted_cultures_label"
-				position = { x = 57 y = 352 }
+				#c position = { x = 57 y = 352 }
+				position = { x = 40 y = 351 }
 				format = centre
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				maxWidth = 180
 				maxHeight = 32
 				text = "MAPMODE_ACCEPTEDCULTURES"
@@ -586,9 +599,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "non_accepted_cultures_label"
-				position = { x = 317 y = 352 }
+				#c position = { x = 317 y = 352 }
+				position = { x = 336 y = 351 }
 				format = centre
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				maxWidth = 180
 				maxHeight = 32
 				text = "NON_ACCEPTED_CULTURES"
@@ -646,10 +661,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "accepted_culture_slots"
-				position = { x = 57 y =547 }
+				#c position = { x = 57 y =547 }
+				position = { x = 52 y =551 }
 				format = center
 				font = "vic_18"
-				maxWidth = 180
+				#c maxWidth = 180
+				maxWidth = 190
 				maxHeight = 32
 				Orientation = "UPPER_LEFT"
 			}
@@ -661,9 +678,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "assimilated_cultures_label"
-				position = { x = 57 y = 352 }
+				#c position = { x = 57 y = 352 }
+				position = { x = 40 y = 351 }
 				format = centre
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				maxWidth = 180
 				maxHeight = 32
 				text = "ASSIMILATED_CULTURES"
@@ -734,9 +753,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "assimilated_culture_groups_label"
-				position = { x = 317 y = 352 }
+				#c position = { x = 317 y = 352 }
+				position = { x = 336 y = 351 }
 				format = centre
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18s"
 				maxWidth = 180
 				maxHeight = 32
 				text = "ASSIMILATED_CULTURE_GROUPS"
@@ -812,14 +833,17 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifiers_title"
-			position = { x = 390 y = 120 }
+			#c position = { x = 390 y = 120 }
+			position = { x = 381 y = 120 }
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			text = "COUNTRY_MODIFIERS"
 			maxWidth = 136
 			maxHeight = 32
-			format = left
+			#c format = left
+			format = center
 			fixedsize = yes
 			hint_tag = "hint_countrymod"
 		}
@@ -835,7 +859,8 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_2"
-			position = { x = 380 y = 190 }
+			#c position = { x = 380 y = 190 }
+			position = { x = 380 y = 192 }
 			size = { x = 162 y = 32 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -844,7 +869,8 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_3"
-			position = { x = 380 y = 221 }
+			#c position = { x = 380 y = 221 }
+			position = { x = 380 y = 223 }
 			size = { x = 162 y = 32 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -853,7 +879,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "modifier_view_button"
-			position = { x = 510 y = 113 }
+			#c position = { x = 510 y = 113 }
+			position = { x = 510 y = 112 }
 			quadTextureSprite ="GFX_country_modifier_button"
 			shortcut = "m"
 			Orientation = "UPPER_LEFT"
@@ -886,9 +913,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "description"
-				position = { x = 70 y =139 }
+				#c position = { x = 70 y =139 }
+				position = { x = 70 y =138 }
 				format = centre
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				maxWidth = 420
 				maxHeight = 32
 				Orientation = "UPPER_LEFT"
@@ -899,14 +928,19 @@ guiTypes = {
 			listboxType =
 			{
 				name ="modifier_listbox"
-				position = { x=86 y =170}
+				#c position = { x=86 y =170}
+				position = { x=132 y =190}
 				backGround=""
-				size = { x=382 y =350}
+				#c size = { x=382 y =350}
+				size = { x=410 y =320}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
-				spacing = 2
+				#c spacing = 2
+				spacing = 0
 				scrollbartype = "standardlistbox_slider"
-				borderSize = {x = 10 y = 10}
+				#c borderSize = {x = 10 y = 10}
+				borderSize = {x = 0 y = 0}
+				offset = {x = -24 y = 2} #c
 			}
 
 			guiButtonType = {
@@ -1439,7 +1473,8 @@ guiTypes = {
 		name = "gov_view_modifierviewitem"
 		backGround =""
 		position = { x=0 y=0 }
-		size = { x=520 y=32 }
+		#c size = { x=520 y=32 }
+		size = { x=520 y=27 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -1447,25 +1482,32 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_text"
-			position = { x = 0 y = 0 }
+			#c position = { x = 0 y = 0 }
+			position = { x = 5 y = 4 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "7"
-			maxWidth = 370
-			maxHeight = 32
+			#c maxWidth = 370
+			maxWidth = 400
+			#c maxHeight = 32
+			maxHeight = 27
 			format = left
 			Orientation = "UPPER_LEFT"
+			truncate = yes #c
 		}
 
 		iconType =
 		{
 			name ="modifier_icon"
 			spriteType = "GFX_idea_unknown"
-			position = { x = -30 y = -2 }
+			#c position = { x = -30 y = -2 }
+			position = { x = -30 y = -3 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-			scale = 0.5
+			#c scale = 0.5
+			scale = 0.6
 		}
 	}
 
@@ -1491,12 +1533,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 2 y = 4 }
+			#c position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "7"
-			maxWidth = 112
+			#c maxWidth = 112
+			maxWidth = 110
 			maxHeight = 32
 			format = left
 			Orientation = "UPPER_LEFT"
@@ -1504,7 +1548,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "dev"
-			position = { x = 124 y = 4 }
+			#c position = { x = 124 y = 4 }
+			position = { x = 123 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1640,12 +1685,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 2 y = 4 }
+			#c position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "7"
-			maxWidth = 112
+			#c maxWidth = 112
+			maxWidth = 110
 			maxHeight = 32
 			format = left
 			Orientation = "UPPER_LEFT"
@@ -1653,7 +1700,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "dev"
-			position = { x = 174 y = 4 }
+			#c position = { x = 174 y = 4 }
+			position = { x = 173 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1694,12 +1742,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 2 y = 4 }
+			#c position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "7"
-			maxWidth = 112
+			#c maxWidth = 112
+			maxWidth = 110
 			maxHeight = 32
 			format = left
 			Orientation = "UPPER_LEFT"
@@ -1707,7 +1757,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "dev"
-			position = { x = 83 y = 4 }
+			#c position = { x = 83 y = 4 }
+			position = { x = 82 y = 4 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
