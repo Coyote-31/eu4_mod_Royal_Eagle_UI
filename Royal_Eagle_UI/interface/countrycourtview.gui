@@ -621,8 +621,7 @@ guiTypes = {
 		windowType = {
 			name = "court_select"
 			backGround=""
-			#c position = { x=-7 y=0 }
-			position = { x=-7 y=1 }
+			position = { x=-7 y=0 }
 			size = { x=1024 y=100 }
 			moveable = 0
 			dontRender = ""
@@ -643,7 +642,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "description"
 				#c position = { x = 70 y =139 }
-				position = { x = 70 y =137 }
+				position = { x = 70 y =138 }
 				format = centre
 				#c font = "vic_22"
 				font = "vic_29"
@@ -659,7 +658,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "no_advisors_label"
 				#c position = { x = 132 y =284 }
-				position = { x = 134 y =330 }
+				position = { x = 135 y =330 }
 				#c format = left
 				textureFile = ""
 				#c font = "vic_22"
@@ -676,14 +675,17 @@ guiTypes = {
 			listboxType =
 			{
 				name ="court_select_slider"
-				position = { x=86 y =170}
+				#c position = { x=86 y =170}
+				position = { x=108 y =176}
 				backGround=""
-				size = { x=382 y =350}
+				#c size = { x=382 y =350}
+				size = { x=390 y =350}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 10 y = 10}
+				offset = {x = 32 y = 2} #c
 			}
 
 			guiButtonType = {
@@ -1066,7 +1068,8 @@ guiTypes = {
 			position = { x = 68 y =0 }
 			format = left
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 180
@@ -1077,10 +1080,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "skill_value"
-			position = { x = 270 y =0 }
+			#c position = { x = 270 y =0 }
+			position = { x = 270 y =-3 }
 			format = left
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22_l"
 			borderSize = {x = 0 y = 0}
 			text = "0"
 			maxWidth = 32
@@ -1126,7 +1131,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			#c position = { x = 203 y =34 }
-			position = { x = 203 y = 37 }
+			position = { x = 255 y = 37 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1139,7 +1144,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "value"
 			#c position = { x = 193 y =34 }
-			position = { x = 193 y = 37 }
+			position = { x = 67 y = 52 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1152,7 +1157,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "desc"
 			#c position = { x = 68 y =49 }
-			position = { x = 68 y = 52 }
+			position = { x = 205 y = 37 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1166,7 +1171,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "home"
 			#c position = { x = 193 y =49 }
-			position = { x = 193 y = 52 }
+			position = { x = 205 y = 52 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1208,29 +1213,31 @@ guiTypes = {
 			name ="effect_icon"
 			spriteType = "GFX_idea_unknown"
 			#c position = { x= 62 y = 14 }
-			position = { x= 60 y = 15 }
+			position = { x= 57 y = 11 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.4
+			#c scale = 0.4
+			scale = 0.5
 		}
 		instantTextBoxType = {
 			name = "effect"
 			#c position = { x = 88 y =18 }
-			position = { x = 84 y = 20 }
+			position = { x = 86 y = 20 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			#c maxWidth = 240
-			maxWidth = 260
+			maxWidth = 268
 			maxHeight = 32
 			Orientation = "UPPER_LEFT"
+			fixedsize = yes #c
 		}
 
 		guiButtonType = {
 			name = "dismiss_button"
 			#c position = { x = 330 y = -8}
-			position = { x = 336 y = 19}
+			position = { x = 343 y = 19}
 			quadTextureSprite ="GFX_dismiss_advisor"
 			tooltip = ""
 			tooltipText =""
