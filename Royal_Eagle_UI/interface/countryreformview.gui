@@ -193,7 +193,7 @@ guiTypes = {
 		backGround=""
 		position = { x=0 y=0 }
 		#c size = { x=490 y=110 }
-		size = { x=490 y=108 }
+		size = { x=490 y=106 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -345,7 +345,7 @@ guiTypes = {
 		backGround=""
 		position = { x=0 y=0 }
 		#c size = { x=500 y=180 }
-		size = { x=500 y=170 }
+		size = { x=500 y=168 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
