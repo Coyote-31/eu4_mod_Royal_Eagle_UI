@@ -1442,11 +1442,11 @@ guiTypes = {
 			name = "messagelog_window"
 			backGround=""
 			#c position = { x=-1325 y=-100 }
-			position = { x=-1325 y=-103 }
+			position = { x=-1400 y=-103 }
 			#c show_position = { x=-1325 y=-100 }
-			show_position = { x=-1325 y=-103 }
+			show_position = { x=-1400 y=-103 }
 			#c hide_position = { x=-1325 y=10 }
-			hide_position = { x=-1325 y=20 }
+			hide_position = { x=-1400 y=20 }
 			animation_type = "decelerated"
 			#c animation_time = 1000
 			animation_time = 800
