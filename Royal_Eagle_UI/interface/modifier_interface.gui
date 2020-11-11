@@ -94,8 +94,10 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "Naval Supremacy in the West"
-			maxWidth = 300
-			maxHeight = 32
+			#c maxWidth = 300
+			maxWidth = 450
+			#c maxHeight = 32
+			maxHeight = 24
 			fixedsize = yes
 			format = left
 		}
@@ -107,9 +109,12 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "effect text here"
-			maxWidth = 300
-			maxHeight = 100
+			#c maxWidth = 300
+			maxWidth = 450
+			#c maxHeight = 100
+			maxHeight = 60
 			format = left
+			fixedsize = yes #c
 		}
 
 		## stuff to the right
