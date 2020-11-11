@@ -52,10 +52,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "government_type"
-			position = { x=39	y=235 }
+			#c position = { x=39	y=235 }
+			position = { x=37	y=237 }
 			format = left
 			textureFile = ""
-			font = "vic_29"
+			#c font = "vic_29"
+			font = "vic_22s"
 			borderSize = {x = 0 y = 0}
 			text = "CURRENT_GOVERNMENT_TYPE"
 			maxWidth = 400
@@ -190,7 +192,8 @@ guiTypes = {
 		name = "gov_view_reform_level_entry_1"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=490 y=110 }
+		#c size = { x=490 y=110 }
+		size = { x=490 y=108 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -206,20 +209,25 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reform_level_title"
-			position = { x=19 y=5 }
+			#c position = { x=19 y=5 }
+			position = { x=33 y=5 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
 			borderSize = { x=0 y=0 }
 			text = "REFORM_LEVEL_TITLE"
-			maxWidth = 300
-			maxHeight = 300
+			#c maxWidth = 300
+			maxWidth = 450
+			#c maxHeight = 300
+			maxHeight = 30
 			Orientation = "UPPER_LEFT"
+			fixedsize = yes #c
 		}
 
 		listboxType = {
 			name ="reform_level_1"
-			position = { x=2 y=23 }
+			#c position = { x=2 y=23 }
+			position = { x=8 y=25 }
 			backGround=""
 			size = { x=500 y=500 }
 			Orientation = "UPPER_LEFT"
@@ -231,20 +239,26 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "selected_reform_title"
-			position = { x=270 y=32 }
+			#c position = { x=270 y=32 }
+			position = { x=270 y=38 }
 			format = left
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_18s"
 			borderSize = { x=0 y=0 }
 			text = ""
-			maxWidth = 300
-			maxHeight = 300
+			#c maxWidth = 300
+			maxWidth = 240
+			#c maxHeight = 300
+			maxHeight = 24
+			fixedsize = yes #c
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "selected_reform_description"
-			position = { x=271 y=56 }
+			#c position = { x=271 y=56 }
+			position = { x=270 y=56 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -257,7 +271,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_1"
-			position = { x=265 y=49 }
+			#c position = { x=265 y=49 }
+			position = { x=265 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -265,7 +280,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_1"
-			position = { x=293 y=53 }
+			#c position = { x=293 y=53 }
+			position = { x=290 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -277,7 +293,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_2"
-			position = { x=345 y=49 }
+			#c position = { x=345 y=49 }
+			position = { x=345 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -285,7 +302,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_2"
-			position = { x=373 y=53 }
+			#c position = { x=373 y=53 }
+			position = { x=370 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -297,7 +315,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_3"
-			position = { x=425 y=49 }
+			#c position = { x=425 y=49 }
+			position = { x=425 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -305,7 +324,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_3"
-			position = { x=453 y=53 }
+			#c position = { x=453 y=53 }
+			position = { x=450 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -324,14 +344,15 @@ guiTypes = {
 		name = "gov_view_reform_level_entry_2"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=500 y=180 }
+		#c size = { x=500 y=180 }
+		size = { x=500 y=170 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
 
-			iconType = {
+		iconType = {
 			name = "reform_level_title_banner"
 			position = { x=-10 y=-4 }
 			Orientation = "UPPER_LEFT"
@@ -340,20 +361,25 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reform_level_title"
-			position = { x=19 y=5 }
+			#c position = { x=19 y=5 }
+			position = { x=33 y=5 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
 			borderSize = { x=0 y=0 }
 			text = "REFORM_LEVEL_TITLE"
-			maxWidth = 300
-			maxHeight = 300
+			#c maxWidth = 300
+			maxWidth = 450
+			#c maxHeight = 300
+			maxHeight = 30
 			Orientation = "UPPER_LEFT"
+			fixedsize = yes #c
 		}
 
 		listboxType = {
 			name ="reform_level_1"
-			position = { x=2 y=23 }
+			#c position = { x=2 y=23 }
+			position = { x=8 y=25 }
 			backGround=""
 			size = { x=500 y=500 }
 			Orientation = "UPPER_LEFT"
@@ -365,7 +391,8 @@ guiTypes = {
 
 		listboxType = {
 			name ="reform_level_2"
-			position = { x=2 y=103 }
+			#c position = { x=2 y=103 }
+			position = { x=7 y=87 }
 			backGround=""
 			size = { x=500 y=500 }
 			Orientation = "UPPER_LEFT"
@@ -377,20 +404,26 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "selected_reform_title"
-			position = { x=270 y=32 }
+			#c position = { x=270 y=32 }
+			position = { x=270 y=38 }
 			format = left
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_18s"
 			borderSize = { x=0 y=0 }
 			text = ""
-			maxWidth = 300
-			maxHeight = 300
+			#c maxWidth = 300
+			maxWidth = 240
+			#c maxHeight = 300
+			maxHeight = 24
+			fixedsize = yes #c
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "selected_reform_description"
-			position = { x=271 y=56 }
+			#c position = { x=271 y=56 }
+			position = { x=270 y=56 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -403,7 +436,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_1"
-			position = { x=270 y=49 }
+			#c position = { x=270 y=49 }
+			position = { x=265 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -411,7 +445,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_1"
-			position = { x=298 y=53 }
+			#c position = { x=298 y=53 }
+			position = { x=290 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -423,7 +458,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_2"
-			position = { x=350 y=49 }
+			#c position = { x=350 y=49 }
+			position = { x=345 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -431,7 +467,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_2"
-			position = { x=378 y=53 }
+			#c position = { x=378 y=53 }
+			position = { x=370 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -443,7 +480,8 @@ guiTypes = {
 
 		iconType = {
 			name = "modifier_icon_3"
-			position = { x=430 y=49 }
+			#c position = { x=430 y=49 }
+			position = { x=425 y=57 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -451,7 +489,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_desc_3"
-			position = { x=458 y=53 }
+			#c position = { x=458 y=53 }
+			position = { x=450 y=61 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -552,10 +591,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "government_type"
-			position = { x=48	y=237 }
+			#c position = { x=48	y=237 }
+			position = { x=46	y=240 }
 			format = centre
 			textureFile = ""
-			font = "vic_29"
+			#c font = "vic_29"
+			font = "vic_22s"
 			borderSize = {x=0 y=0}
 			text = "CURRENT_GOVERNMENT_TYPE"
 			maxWidth = 400
