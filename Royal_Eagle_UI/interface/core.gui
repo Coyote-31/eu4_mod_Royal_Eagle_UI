@@ -15,7 +15,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			size = { x=500 y=365 }
 			borderSize = { x=0 y=0 }
-			scrollbartype = "standardlistbox_slider"
+			alwaystransparent = no #c
 		}
 
 		# Console list of entries
@@ -43,6 +43,7 @@ guiTypes = {
 			backGround ="console_background"
 			size = { x=500 y=32 }
 			borderSize = { x=5 y=0 }
+			alwaystransparent = no #c
 		}
 
 		# Text edit box
