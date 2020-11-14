@@ -58,7 +58,8 @@ guiTypes = {
 		name ="waroverview_shieldItem"
 		backGround=""
 		position = { x= 0 y = 0 }
-		size = { x = 60 y = 40 }
+		#c size = { x = 60 y = 40 }
+		size = { x = 76 y = 40 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -85,7 +86,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress"
-			position = { x=-3 y=38 }
+			#c position = { x=-3 y=38 }
+			position = { x=-3 y=37 }
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
@@ -98,7 +100,8 @@ guiTypes = {
 		{
 			name ="war_enthusiasm_icon"
 			spriteType = "GFX_war_enthusiasm_high"
-			position = { x = 40 y = 20 }
+			#c position = { x = 40 y = 20 }
+			position = { x = 42 y = 20 }
 		}
 	}
 
