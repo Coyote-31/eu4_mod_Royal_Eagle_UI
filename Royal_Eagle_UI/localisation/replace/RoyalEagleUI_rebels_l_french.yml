@@ -5,6 +5,8 @@
  REBELS_FIGHT_FOR:0 "Ces rebelles veulent être de la nationalité du pays suivant : $NATION|Y$."
  REBELS_ARMY_BASE:1 "Base : $BASE|Y$ £icon_manpower_in_text£\n"
  REBELS_ARMY_PROV:1 "$NAME$ : $SIZE|Y$ £icon_manpower_in_text£\n"
+ MAPMODE_REBELTYPES_TT1:0 "Cette province est occupée par : $FACTION|Y$."
+ MAPMODE_REBELTYPES_TT2:0 "Cette province pourrait subir une révolte menée par : $FACTION|Y$."
  # Christian :
  catholic_rebels_title:0 "Fanatiques religieux"
  catholic_rebels_name:0 "Catholiques fanatiques"
