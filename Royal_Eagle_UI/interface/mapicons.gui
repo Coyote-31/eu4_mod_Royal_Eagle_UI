@@ -29,7 +29,8 @@ guiTypes = {
 			iconType = {
 				name ="money"
 				spriteType = "GFX_icon_font_gold"
-				position = { x= 95 y = 24 }
+				#c position = { x= 95 y = 24 }
+				position = { x= 95 y = 25 }
 			}
 
 			iconType = {
@@ -45,7 +46,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 22 y  = 25 }
+				#c position = {x = 22 y  = 25 }
+				position = {x = 22 y  = 24 }
 				name = "total_value"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}
@@ -58,7 +60,8 @@ guiTypes = {
 			listboxType =
 				{
 					name ="flag_list"
-					position = { x = 43 y = 67 }
+					#c position = { x = 43 y = 67 }
+					position = { x = 42 y = 53 }
 					size = { x=626 y =280}
 					horizontal = 0
 					spacing = 0
@@ -104,7 +107,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 42 y  = 14 }
+				#c position = {x = 42 y  = 14 }
+				position = {x = 41 y  = 13 }
 				name = "influence"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}
@@ -116,7 +120,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 42 y  = 33 }
+				#c position = {x = 42 y  = 33 }
+				position = {x = 39 y  = 32 }
 				name = "total_value"
 				font = "standard_18"
 				borderSize = {x = 0 y = 0}
@@ -129,25 +134,29 @@ guiTypes = {
 			iconType = {
 				name ="trade_panel_potential_bar"
 				spriteType = "GFX_trade_panel_potential_bar"
-				position = { x= 127 y = 69 }
+				#c position = { x= 127 y = 69 }
+				position = { x= 127 y = 67 }
 				rotation = 1.57
 			}
 
 			iconType = {
 				name ="merchant"
 				spriteType = "GFX_icon_merchant"
-				position = { x= 95 y = 49 }
+				#c position = { x= 95 y = 49 }
+				position = { x= 96 y = 50 }
 				scale = 0.75
 			}
 
 			iconType = {
 				name = "trade_ship"
 				spriteType = "GFX_icon_trade_ship"
-				position = { x = 44 y = 49 }
+				#c position = { x = 44 y = 49 }
+				position = { x = 43 y = 49 }
 			}
 
 			instantTextBoxType = {
-				position = { x = 60 y = 52 }
+				#c position = { x = 60 y = 52 }
+				position = { x = 58 y = 52 }
 				name = "trade_ship_count"
 				font = "standard_18"
 				borderSize = { x = 0 y = 0 }
@@ -160,7 +169,8 @@ guiTypes = {
 			listboxType =
 				{
 					name ="flag_list"
-					position = { x = 43 y = 77 }
+					#c position = { x = 43 y = 77 }
+					position = { x = 42 y = 77 }
 					size = { x=626 y =280}
 					horizontal = 0
 					spacing = 0
@@ -259,10 +269,13 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "director_flags"
-				position = { x = 0 y = 0 }
+				#c position = { x = 0 y = 0 }
+				position = { x = -7 y = 0 }
 				size = { x = 100 y = 32 }
-				format = left
-				spacing = 2.0
+				#c format = left
+				format = center
+				#c spacing = 2.0
+				spacing = 1.0
 			}
 		}
 
@@ -283,7 +296,8 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 0 y  = -28 }
+			#c position = {x = 0 y  = -28 }
+			position = {x = 1 y  = -29 }
 			name = "branch_income"
 			font = "standard_18"
 			borderSize = {x = 0 y = 0}
@@ -296,7 +310,8 @@ guiTypes = {
 		iconType = {
 			name ="branch_money"
 			spriteType = "GFX_icon_font_gold"
-			position = { x= 43 y = -28 }
+			#c position = { x= 43 y = -28 }
+			position = { x= 42 y = -28 }
 		}
 
 		guiButtonType = {
@@ -319,7 +334,8 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "director_flags"
-				position = { x = -17 y = 13 }
+				#c position = { x = -17 y = 13 }
+				position = { x = -17 y = 1 }
 				size = { x = 100 y = 32 }
 				format = centre
 				spacing = 1.0
@@ -384,6 +400,7 @@ guiTypes = {
 
 	windowType = {
 		name = "fort_mapicon"
+		#c position = { x=-16 y=-16 }
 		position = { x=-16 y=-16 }
 		size = { x=32 y=32 }
 		moveable = 0
@@ -524,7 +541,8 @@ guiTypes = {
 		iconType = {
 			name ="minority_expulsion_progress"
 			spriteType = "GFX_construction_progress_bar"
-			position = { x= 5 y = 15 }
+			#c position = { x= 5 y = 15 }
+			position = { x= 6 y = 14 }
 		}
 
 		iconType = {
@@ -610,7 +628,8 @@ guiTypes = {
 		iconType = {
 			name ="siege_progress_bar"
 			spriteType = "GFX_unitpanel_siege_moralebar_on_map"
-			position = { x= 106 y = 34 }
+			#c position = { x= 106 y = 34 }
+			position = { x= 105 y = 33 }
 			rotation = 1.5708
 		}
 
@@ -618,11 +637,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 108 y = 29 }
-			position = {x = 108 y = 28 }
+			position = {x = 105 y = 27 }
 			name = "siege_progress"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 32
+			#c maxWidth = 32
+			maxWidth = 40
 			maxHeight = 18
 			text = "-100%"
 			format = centre
@@ -656,7 +676,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 24 y  = 29 }
-			position = {x = 23 y  = 28 }
+			position = {x = 22 y  = 27 }
 			name = "unit_strenght"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -727,7 +747,8 @@ guiTypes = {
 		iconType = {
 			name ="leader_stars"
 			spriteType = "GFX_stars_small_3"
-			position = { x= 28 y = 18 }
+			#c position = { x= 28 y = 18 }
+			position = { x= 27 y = 14 }
 		}
 
 		iconType = {
@@ -823,14 +844,17 @@ guiTypes = {
 		iconType = {
 			name ="seige_panel_extension"
 			spriteType = "GFX_blockade_panel_extension"
-			position = { x= 76 y = 19 }
+			#c position = { x= 76 y = 19 }
+			position = { x= 69 y = 19 }
 		}
 
 		iconType = {
 			name ="seige_icon"
 			spriteType = "GFX_onmap_blockade_icon"
-			position = { x= 80 y = 24  }
-			scale = 0.95
+			#c position = { x= 80 y = 24  }
+			position = { x= 83 y = 23  }
+			#c scale = 0.95
+			scale = 1.00
 		}
 
 		iconType = {
@@ -847,11 +871,12 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 108 y = 28 }
-			position = {x = 109 y = 28 }
+			position = {x = 105 y = 27 }
 			name = "siege_progress"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 32
+			#c maxWidth = 32
+			maxWidth = 40
 			maxHeight = 18
 			text = "-100%"
 			format = centre
@@ -874,7 +899,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 7 y  = 29 }
-			position = {x = 7 y  = 28 }
+			position = {x = 6 y  = 27 }
 			name = "unit_strenght"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -896,7 +921,8 @@ guiTypes = {
 		iconType = {
 			name ="leader_stars"
 			spriteType = "GFX_stars_small_3"
-			position = { x = 13 y = 18 }
+			#c position = { x = 13 y = 18 }
+			position = { x = 13 y = 14 }
 		}
 
 		iconType = {
@@ -1021,19 +1047,22 @@ guiTypes = {
 		iconType = {
 			name ="unit_defender_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 70 y = 7 }
+			#c position = { x= 70 y = 7 }
+			position = { x= 72 y = 7 }
 		}
 
 		iconType = {
 			name ="attackar_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
-			position = { x= 29 y = 29 }
+			#c position = { x= 29 y = 29 }
+			position = { x= 26 y = 29 }
 		}
 
 		iconType = {
 			name ="defender_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
-			position = { x= 82 y = 29 }
+			#c position = { x= 82 y = 29 }
+			position = { x= 86 y = 29 }
 		}
 
 		guiButtonType = {
@@ -1051,7 +1080,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 19  y  = 15 }
+			position = {x = 18  y  = 14 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1063,7 +1092,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 74 y  = 16 }
-			position = {x = 75 y  = 15 }
+			position = {x = 74 y  = 14 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1085,7 +1114,7 @@ guiTypes = {
 			name ="defender_condottieri_shield"
 			quadTextureSprite = "GFX_Navy_shield_small"
 			#c position = { x = 133  y = 6 }
-			position = { x = 135  y = 6 }
+			position = { x = 136  y = 6 }
 		}
 
 		guiButtonType = {
@@ -1099,7 +1128,7 @@ guiTypes = {
 			name ="defender_shield"
 			quadTextureSprite = "GFX_shield_small"
 			#c position = { x = 113  y = 9 }
-			position = { x = 115  y = 9 }
+			position = { x = 116  y = 9 }
 		}
 
 		iconType = {
@@ -1111,20 +1140,22 @@ guiTypes = {
 		iconType = {
 			name ="defender_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
-			position = { x = 109  y = 33 }
+			#c position = { x = 109  y = 33 }
+			position = { x = 112  y = 33 }
 		}
 
 		iconType = {
 			name ="attacker_leader_stars"
 			spriteType = "GFX_stars_small_3"
-			position = { x= 26 y = 5 }
+			#c position = { x= 26 y = 5 }
+			position = { x= 22 y = 1 }
 		}
 
 		iconType = {
 			name ="defender_leader_stars"
 			spriteType = "GFX_stars_small_3"
 			#c position = { x= 78 y = 5 }
-			position = { x= 81 y = 5 }
+			position = { x= 83 y = 1 }
 		}
 	}
 
@@ -1143,25 +1174,29 @@ guiTypes = {
 		iconType = {
 			name ="unit_attacker_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 16 y = 7 }
+			#c position = { x= 16 y = 7 }
+			position = { x= 17 y = 7 }
 		}
 
 		iconType = {
 			name ="unit_defender_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 70 y = 7 }
+			#c position = { x= 70 y = 7 }
+			position = { x= 72 y = 7 }
 		}
 
 		iconType = {
 			name ="attackar_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
-			position = { x= 29 y = 29 }
+			#c position = { x= 29 y = 29 }
+			position = { x= 26 y = 29 }
 		}
 
 		iconType = {
 			name ="defender_panel_moral_bar"
 			spriteType = "GFX_unitpanel_moralebar_on_map_in_battle_2"
-			position = { x= 82 y = 29 }
+			#c position = { x= 82 y = 29 }
+			position = { x= 86 y = 29 }
 		}
 
 		guiButtonType = {
@@ -1179,7 +1214,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 19  y  = 15 }
+			position = {x = 17  y  = 14 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1191,7 +1226,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 74 y  = 16 }
-			position = {x = 75 y  = 15 }
+			position = {x = 76 y  = 14 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1206,37 +1241,43 @@ guiTypes = {
 		guiButtonType = {
 			name ="attackar_shield"
 			quadTextureSprite = "GFX_Navy_shield_small_flip"
-			position = { x = -5 y = 4 }
+			#c position = { x = -5 y = 4 }
+			position = { x = -8 y = 4 }
 		}
 
 		guiButtonType = {
 			name ="defender_shield"
 			quadTextureSprite = "GFX_Navy_shield_small"
-			position = { x = 113  y = 4 }
+			#c position = { x = 113  y = 4 }
+			position = { x = 116  y = 4 }
 		}
 
 		iconType = {
 			name ="attacker_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
-			position = { x = 13 y = 33 }
+			#c position = { x = 13 y = 33 }
+			position = { x = 10 y = 33 }
 		}
 
 		iconType = {
 			name ="defender_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
-			position = { x = 109  y = 33 }
+			#c position = { x = 109  y = 33 }
+			position = { x = 112  y = 33 }
 		}
 
 		iconType = {
 			name ="attacker_leader_stars"
 			spriteType = "GFX_stars_small_3"
-			position = { x= 26 y = 5 }
+			#c position = { x= 26 y = 5 }
+			position = { x= 24 y = 1 }
 		}
 
 		iconType = {
 			name ="defender_leader_stars"
 			spriteType = "GFX_stars_small_3"
-			position = { x= 78 y = 5 }
+			#c position = { x= 78 y = 5 }
+			position = { x= 81 y = 1 }
 		}
 	}
 
@@ -1252,18 +1293,21 @@ guiTypes = {
 		iconType = {
 			name ="construction_progress_bar"
 			spriteType = "GFX_construction_progress_bar"
-			position = { x= 7 y = 15 }
+			#c position = { x= 7 y = 15 }
+			position = { x= 8 y = 12 }
 		}
 
 		iconType = {
 			name ="army_progress_bar"
 			spriteType = "GFX_army_progress_bar"
-			position = { x= 8 y = 13 }
+			#c position = { x= 8 y = 13 }
+			position = { x= 8 y = 12 }
 		}
 		iconType = {
 			name ="naval_progress_bar"
 			spriteType = "GFX_naval_progress_bar"
-			position = { x= 8 y = 13 }
+			#c position = { x= 8 y = 13 }
+			position = { x= 8 y = 12 }
 		}
 
 		iconType = {
@@ -1286,7 +1330,8 @@ guiTypes = {
 		iconType = {
 			name ="fort_flip_progress_bar"
 			spriteType = "GFX_army_progress_bar"
-			position = { x= 7 y = 15 }
+			#c position = { x= 7 y = 15 }
+			position = { x= 8 y = 12 }
 		}
 
 		iconType = {
