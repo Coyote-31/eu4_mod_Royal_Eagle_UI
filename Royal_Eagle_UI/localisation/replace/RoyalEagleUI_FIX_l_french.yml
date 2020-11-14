@@ -23,5 +23,5 @@
  estate_dhimmi_manpower_desc:0 "Si des récompenses leur sont offertes sous la forme de terres, il ne fait aucun doute que les [Root.GetDhimmi] seront mieux disposés à servir dans nos armées."
  estate_dhimmi_tolerance_desc:0 "Les discriminations et l'inégalité basées sur les différences religieuses causent de grandes souffrances aux [Root.GetDhimmi]. Nous devrions laisser de côté nos considérations de foi pour unifier le pays et permettre [Root.GetAuAlaNP] [Root.GetName] d'atteindre tout [Root.GetSonLeurNP] potentiel."
  estate_dhimmi_guaranteed_autonomy_desc:0 "Assurer les [Root.GetDhimmi] qu'ils ne seront pas soumis aux ingérences des autorités permettra de libérer l'administration de leur gouvernance tout en les incitant à soutenir davantage les autorités."
- dhimmi_loyalty_modifier:1 "Pt d'éq. de loy. des [Country.GetDhimmi]"
- dhimmi_influence_modifier:0 "Influence des [Country.GetDhimmi]"
+ dhimmi_loyalty_modifier:1 "Pt d'éq. de loy. des Dhimmî"
+ dhimmi_influence_modifier:0 "Influence des Dhimmî"
