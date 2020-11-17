@@ -101,6 +101,14 @@ spriteTypes = {
 		borderSize = { x=32 y=32 }
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_COYOTE_scroll_drager_gold"
+		texturefile = "gfx/interface/coyote_scroll_drager_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_COYOTE_scroll_drager_blue_gold"
+		texturefile = "gfx/interface/coyote_scroll_drager_blue_gold.dds"
+	}
 
 	## INGAME MENU ##
 
@@ -178,6 +186,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_country_diplomacy_view_bg_top"
 		texturefile = "gfx//interface//country_diplomacy_view_bg_top.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_diplomatic_actions_button"
+		texturefile = "gfx//interface//diplomatic_actions_button.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_diplomatic_feedback_button"
+		texturefile = "gfx//interface//diplomatic_feedback_button.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_diplomatic_opinions_button"
+		texturefile = "gfx//interface//diplomatic_opinions_button.dds"
+		noOfFrames = 2
 		transparencecheck = yes
 	}
 
