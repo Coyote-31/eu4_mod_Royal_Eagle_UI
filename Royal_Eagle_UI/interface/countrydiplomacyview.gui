@@ -150,7 +150,7 @@ guiTypes = {
 			borderSize = {x = 4 y = 4}
 			text = "PW_NATION_NAMES"
 			#c maxWidth = 200
-			maxWidth = 226
+			maxWidth = 208
 			maxHeight = 32
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
