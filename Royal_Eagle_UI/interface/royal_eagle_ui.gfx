@@ -110,6 +110,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/coyote_scroll_drager_blue_gold.dds"
 	}
 
+	## Event ##
+	spriteType = {
+		name = "GFX_COYOTE_events_BG_overshade"
+		texturefile = "gfx/interface/coyote_events_BG_overshade.dds"
+	}
+
 	## INGAME MENU ##
 
 	# Ai pref bg

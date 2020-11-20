@@ -40,11 +40,20 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+		#c Add shading on event_picture
+		iconType = {
+			name ="event_picture_shading"
+			spriteType = "GFX_COYOTE_events_BG_overshade"
+			position = { x = 29 y = 55 }
+			Orientation = "UPPER_LEFT"
+		}
+
 		iconType =
 		{
 			name ="event_bg_middle"
 			spriteType = "GFX_event_bg_middle"
-			position = { x = -43 y = 370 }
+			#c position = { x = -43 y = 370 }
+			position = { x = -43 y = 364 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -83,11 +92,11 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Description"
 			#c position = { x = 31 y = 371 } # Was 230
-			position = { x = 31 y = 373 }
+			position = { x = 36 y = 370 }
 			textureFile = ""
 			font = "vic_18_black"
 			#c borderSize = {x = 0 y = 0}
-			borderSize = {x = 20 y = 0}
+			borderSize = {x = 8 y = 0}
 			text = "Long text here!"
 			maxWidth = 512
 			maxHeight = 128
