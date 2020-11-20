@@ -18,7 +18,7 @@ guiTypes = {
 		name = "DefaultDialog"
 		backGround="Background"
 		#c position = { x=-225 y=-160 }
-		position = { x=-250 y=-280 }
+		position = { x=-250 y=-240 }
 		#c size = { x=500 y=320 }
 		size = { x=500 y=350 }
 		orientation="CENTER"
@@ -41,32 +41,36 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-				name = "Title"
-				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 35 }
-				textureFile = ""
-				#c font = "vic_22"
-				font = "vic_29"
-				borderSize = {x = 0 y = 0}
-				text = "Title"
-				maxWidth = 380
-				maxHeight = 24
-				fixedsize = yes
-				format = centre
-			}
+			name = "Title"
+			#c position = { x = 59 y = 36 }
+			position = { x = 48 y = 35 }
+			textureFile = ""
+			#c font = "vic_22"
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}
+			text = "Title"
+			#c maxWidth = 380
+			maxWidth = 400
+			maxHeight = 24
+			fixedsize = yes
+			format = centre
+		}
 
 		instantTextBoxType = {
-				name = "Description"
-				position = { x = 59 y = 85 }
-				textureFile = ""
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = "Long text here!"
-				maxWidth = 380
-				maxHeight = 170
-				format = centre
-				scrollbartype = "standardtext_slider"
-			}
+			name = "Description"
+			#c position = { x = 59 y = 85 }
+			position = { x = 55 y = 95 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "Long text here!"
+			#c maxWidth = 380
+			maxWidth = 390
+			#c maxHeight = 170
+			maxHeight = 198
+			format = centre
+			scrollbartype = "standardtext_slider"
+		}
 
 		shieldtype =
 		{
@@ -121,17 +125,20 @@ guiTypes = {
 		guiButtonType = {
 			name = "popup"
 			#c position = { x= 453 y = 274 }
-			position = { x= 453 y = 304 }
+			position = { x= 454 y = 305 }
 			quadTextureSprite = "GFX_alert_popup_choice_icon"
 		}
+
 	}
 
 	### DEFAULT CONFIRM
 	eu3dialogtype = {
 		name = "DefaultConfirm"
 		backGround="Background"
-		position = { x=-250 y=-160 }
-		size = { x=500 y=320 }
+		#c position = { x=-250 y=-160 }
+		position = { x=-250 y=-240 }
+		#c size = { x=500 y=320 }
+		size = { x=500 y=350 }
 		orientation="CENTER"
 		moveable = 0
 		dontRender = ""
@@ -154,13 +161,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "Title"
 				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 34 }
+				position = { x = 48 y = 35 }
 				textureFile = ""
 				#c font = "vic_22"
 				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
-				maxWidth = 380
+				#c maxWidth = 380
+				maxWidth = 400
 				maxHeight = 24
 				fixedsize = yes
 				format = centre
@@ -168,22 +176,24 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 59 y = 75 }
+				#c position = { x = 59 y = 75 }
+				position = { x = 55 y = 95 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"
-				maxWidth = 380
-				maxHeight = 180
+				#c maxWidth = 380
+				maxWidth = 390
+				#c maxHeight = 180
+				maxHeight = 198
 				format = centre
 				scrollbartype = "standardtext_slider"
 			}
 
-
-
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=77 y =270}
+			#c position = { x=77 y =270}
+			position = { x=77 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
@@ -192,7 +202,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=274 y =270}
+			#c position = { x=274 y =270}
+			position = { x=274 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -207,8 +218,10 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "DefaultInfoDialog"
 		backGround="Background"
-		position = { x=-225 y=-160 }
-		size = { x=500 y=320 }
+		#c position = { x=-225 y=-160 }
+		position = { x=-250 y=-240 }
+		#c size = { x=500 y=320 }
+		size = { x=500 y=350 }
 		orientation="CENTER"
 		moveable = 0
 		dontRender = ""
@@ -231,13 +244,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "Title"
 				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 34 }
+				position = { x = 48 y = 35 }
 				textureFile = ""
 				#c font = "vic_22"
 				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
-				maxWidth = 380
+				#c maxWidth = 380
+				maxWidth = 400
 				maxHeight = 24
 				fixedsize = yes
 				format = centre
@@ -245,19 +259,24 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 59 y = 85 }
+				#c position = { x = 59 y = 85 }
+				position = { x = 55 y = 95 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"
-				maxWidth = 380
-				maxHeight = 170
+				#c maxWidth = 380
+				maxWidth = 390
+				#c maxHeight = 170
+				maxHeight = 198
 				format = centre
+				scrollbartype = "standardtext_slider"
 			}
 
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=175 y =270}
+			#c position = { x=175 y =270}
+			position = { x=175 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -266,14 +285,14 @@ guiTypes = {
 			clicksound = ok_click
 		}
 
-
 	}
 
 	### SHIELDED INFO DIALOG
 	eu3dialogtype = {
 		name = "ShieldedInformationDialog"
 		backGround="Background"
-		position = { x=-225 y=-160 }
+		#c position = { x=-225 y=-160 }
+		position = { x=-250 y=-230 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 1
@@ -297,10 +316,10 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "Title"
 				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 34 }
+				position = { x = 59 y = 35 }
 				textureFile = ""
 				#c font = "vic_22"
-				font = "vic_29"
+				font = "test_red"#c "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 380
@@ -354,7 +373,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "DefaultPopup"
 		backGround="Background"
-		position = { x=-225 y=-160 }
+		#c position = { x=-225 y=-160 }
+		position = { x=-250 y=-280 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 1
@@ -392,13 +412,16 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Header"
-			position = { x = 59 y = 19 }
+			#c position = { x = 59 y = 19 }
+			position = { x = 60 y = 11 }
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 380
-			maxHeight = 20
+			#c maxHeight = 20
+			maxHeight = 28
 			fixedsize = yes
 			format = centre
 		}
@@ -406,37 +429,44 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Line1"
 			#c position = { x = 59 y = 41 }
-			position = { x = 59 y = 34 }
+			position = { x = 78 y = 48 }
 			textureFile = ""
 			#c font = "vic_22"
 			font = "vic_29"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 5}
 			text = "Title"
-			maxWidth = 380
+			#c maxWidth = 380
+			maxWidth = 340
+			#c maxHeight = 24
 			maxHeight = 24
 			format = centre
+			fixedsize = yes
 		}
 
 		instantTextBoxType = {
 			name = "Line2"
-			position = { x = 79 y = 60 }
+			#c position = { x = 79 y = 60 }
+			position = { x = 54 y = 10 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 340
+			#c maxWidth = 340
+			maxWidth = 390
 			maxHeight = 20
 			format = centre
 		}
 
 		instantTextBoxType = {
 			name = "Line3"
-			position = { x = 79 y = 85 }
+			#c position = { x = 79 y = 85 }
+			position = { x = 54 y = 10 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 340
+			#c maxWidth = 340
+			maxWidth = 390
 			maxHeight = 20
 			format = centre
 		}
@@ -494,7 +524,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=77 y =270}
+			#c position = { x=77 y =270}
+			position = { x=77 y =200}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
@@ -503,7 +534,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=274 y =270}
+			#c position = { x=274 y =270}
+			position = { x=274 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -514,7 +546,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "CenterOK"
-			position = { x=175 y =270}
+			#c position = { x=175 y =270}
+			position = { x=175 y =300}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
@@ -527,7 +560,8 @@ guiTypes = {
 		guiButtonType = {
 			name = "Settings"
 			quadTextureSprite ="MessageSettingsButton"
-			position = { x=32 y=32 }
+			#c position = { x=32 y=32 }
+			position = { x=30 y=32 }
 		}
 	}
 
@@ -535,7 +569,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "ConfirmAndNameLeaderDialog"
 		backGround="Background"
-		position = { x=-250 y=-160 }
+		#c position = { x=-250 y=-160 }
+		position = { x=-250 y=-240 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 0
@@ -559,7 +594,7 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "Title"
 				#c position = { x = 59 y = 36 }
-				position = { x = 59 y = 34 }
+				position = { x = 59 y = 35 }
 				textureFile = ""
 				#c font = "vic_22"
 				font = "vic_29"
@@ -601,10 +636,13 @@ guiTypes = {
 		{
 			name = "leader_name_editbox"
 			font = "vic_22"
-			position = { x= 82 y= 232 }
+			#c position = { x= 82 y= 232 }
+			position = { x= 84 y= 230 }
 			borderSize = { x = 0 y = 0 }
 			text = ""
-			size = { x=307 y=20 }
+			#c size = { x=307 y=20 }
+			size = { x=306 y=20 }
+			cursor = { x = 0 y = 2 } #c
 		}
 
 		guiButtonType = {
@@ -633,7 +671,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "ConfirmAndNameTeamDialog"
 		backGround="Background"
-		position = { x=-250 y=-160 }
+		#c position = { x=-250 y=-160 }
+		position = { x=-250 y=-240 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 0
@@ -649,9 +688,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Title"
-				position = { x = 92 y = 22 }
+				#c position = { x = 92 y = 22 }
+				position = { x = 92 y = 21 }
 				textureFile = ""
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 348
@@ -704,10 +745,12 @@ guiTypes = {
 		{
 			name = "team_name_editbox"
 			font = "vic_22"
-			position = { x= 107 y= 122 }
+			#c position = { x= 107 y= 122 }
+			position = { x= 107 y= 120 }
 			borderSize = { x = 0 y = 0 }
 			text = ""
 			size = { x=307 y=20 }
+			cursor = { x = 0 y = 2 } #c
 		}
 	}
 
@@ -715,7 +758,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "ConfirmRemoveTeamDialog"
 		backGround="Background"
-		position = { x=-250 y=-160 }
+		#c position = { x=-250 y=-160 }
+		position = { x=-250 y=-240 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 0
@@ -731,9 +775,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Title"
-				position = { x = 92 y = 22 }
+				#c position = { x = 92 y = 22 }
+				position = { x = 92 y = 21 }
 				textureFile = ""
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 348
@@ -802,7 +848,8 @@ guiTypes = {
 				name = "Title"
 				position = { x = 120 y = 9 }
 				textureFile = ""
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				borderSize = {x = 4 y = 4}
 				text = "Province"
 
@@ -1870,9 +1917,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Header"
+				#c position = { x = 117 y = 138 }
 				position = { x = 117 y = 138 }
 				textureFile = ""
-				font = "vic_22s"
+				#c font = "vic_22s"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "CLAIMSTATETITLE"
 				maxWidth = 316
@@ -1883,21 +1932,25 @@ guiTypes = {
 			}
 
 		instantTextBoxType={
-				position = {x = 32 y = 390 }
+				#c position = {x = 32 y = 390 }
+				position = {x = 95 y = 406 }
 				name = "info_text"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 495
-				maxHeight = 225
+				#c maxWidth = 495
+				maxWidth = 370
+				#c maxHeight = 225
+				maxHeight = 98
 				format = centre
 				text = "SP_PRICE"
 				orientation = "UPPER_LEFT"
-
-				}
+				scrollbartype = "standardlistbox_slider" #c
+			}
 
 		listboxType ={
 			name ="provincelist"
-			position = { x = 180 y = 180 }
+			#c position = { x = 180 y = 180 }
+			position = { x = 170 y = 171 }
 			backGround=""
 			size = { x=210 y =185}
 			Orientation = "UPPER_LEFT"
@@ -1905,6 +1958,7 @@ guiTypes = {
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			offset = {x = 10 y = 8} #c
 		}
 
 		shieldtype =
@@ -1976,34 +2030,40 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Header"
+				#c position = { x = 117 y = 138 }
 				position = { x = 117 y = 138 }
 				textureFile = ""
-				font = "vic_22s"
+				#c font = "vic_22s"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
-				text = "FABRICATECLAIMTITLE"
+				text = "CLAIMSTATETITLE"
 				maxWidth = 316
 				maxHeight = 40
 				format = centre
-
 				Orientation = "UPPER_LEFT"
 			}
 
 		instantTextBoxType={
-				position = {x = 32 y = 390 }
+				#c position = {x = 32 y = 390 }
+				position = {x = 95 y = 406 }
 				name = "info_text"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 495
-				maxHeight = 225
+				#c maxWidth = 495
+				maxWidth = 370
+				#c maxHeight = 225
+				maxHeight = 98
 				format = centre
 				text = "SP_PRICE"
 				orientation = "UPPER_LEFT"
 
+				scrollbartype = "standardlistbox_slider" #c
 				}
 
 		listboxType ={
 			name ="provincelist"
-			position = { x = 180 y = 180 }
+			#c position = { x = 180 y = 180 }
+			position = { x = 170 y = 171 }
 			backGround=""
 			size = { x=210 y =185}
 			Orientation = "UPPER_LEFT"
@@ -2011,6 +2071,7 @@ guiTypes = {
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			offset = {x = 10 y = 8} #c
 		}
 
 		shieldtype =
@@ -2080,7 +2141,8 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 10 y = 15 }
+			#c position = {x = 10 y = 15 }
+			position = {x = 10 y = 16 }
 			name = "info_text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2089,11 +2151,13 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 
 
 		instantTextBoxType={
-			position = {x = -10 y = 15 }
+			#c position = {x = -10 y = 15 }
+			position = {x = -10 y = 16 }
 			name = "development_text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2107,16 +2171,19 @@ guiTypes = {
 		iconType = {
 			name ="development_icon"
 			spriteType = "GFX_development_icon"
-			position = { x= 30 y = 13 }
+			#c position = { x= 30 y = 13 }
+			position = { x= 33 y = 14 }
 			Orientation = "UPPER_RIGHT"
-			scale = 0.85
+			#c scale = 0.85
+			scale = 0.78
 		}
 	}
 
 	eu3dialogtype = {
 		name = "ImportantConfirm"
 		backGround="Background"
-		position = { x=-250 y=-160 }
+		#c position = { x=-250 y=-160 }
+		position = { x=-267 y=-240 }
 		size = { x=500 y=320 }
 		orientation="CENTER"
 		moveable = 0
@@ -2135,7 +2202,8 @@ guiTypes = {
 				name = "Title"
 				position = { x = 92 y = 22 }
 				textureFile = ""
-				font = "vic_22"
+				#c font = "vic_22"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
 				text = "Title"
 				maxWidth = 348
@@ -2201,11 +2269,13 @@ guiTypes = {
 			name = "Header"
 			position = { x = 109 y = 130 }
 			textureFile = ""
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 380
-			maxHeight = 20
+			#c maxHeight = 20
+			maxHeight = 28
 			fixedsize = yes
 			format = centre
 		}
@@ -2214,12 +2284,14 @@ guiTypes = {
 			name = "Line1"
 			position = { x = 69 y = 134 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_29"
 			borderSize = {x = 0 y = 0}
 			text = "Title"
 			maxWidth = 480
 			maxHeight = 24
 			format = centre
+			fixedsize = yes #c
 		}
 
 		instantTextBoxType = {
@@ -2318,7 +2390,8 @@ guiTypes = {
 		guiButtonType = {
 			name = "Settings"
 			quadTextureSprite ="MessageSettingsButton"
-			position = { x=96 y=32 }
+			#c position = { x=96 y=32 }
+			position = { x=94 y=32 }
 		}
 	}
 }
