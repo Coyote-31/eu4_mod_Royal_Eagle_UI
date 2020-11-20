@@ -366,8 +366,11 @@
 
  NATIVERISING_3:0 "$MONARCHTITLE$, ces sauvages ingrats de\n$PROVINCE|l$\nse sont soulevés et attaquent à présent notre paisible colonie."
  NATIVERISING_LOG:0 "§YNotre colonie de $PROVINCE|l$ a été attaquée par les indigènes.§!"
- REVOLT_3:0 "$MONARCHTITLE$, les $REBELS|R$\nse sont soulevés en $PROV|l$ !"
- REVOLT_LOG:0 "§YLes $REBELS|R$ se sont soulevés en $PROV|l$.§!"
+ REVOLT_3:0 "$MONARCHTITLE$, nous subissons un soulèvement de\n$REBELS|R$\ndans la province de :\n$PROV|l$ !"
+ REVOLT_LOG:0 "§YSoulèvement de $REBELS|R$ dans la province de $PROV|l$.§!"
+ REVOLTSIEGE_3:0 "$MONARCHTITLE$, la province de\n$PROV|l$\nest passée sous le contrôle de :\n$REBELS|R$ !"
+ REVOLTSIEGE_LOG:0 "§YLa province de $PROV|l$ est passée sous le contrôle de $REBELS|R$.§!"
+
 
  DISCOVER_3:0 "Pour la plus grande gloire de notre pays,\nnous sommes les premiers à avoir exploré\nla région de $REGION|l$."
  DISCOVER_LOG:0 "Nous avons exploré la région de $REGION|l$."
