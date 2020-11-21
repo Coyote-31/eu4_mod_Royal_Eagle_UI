@@ -401,13 +401,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 38 y = 0 }
+				position = { x = 22 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				#c borderSize = {x = 4 y = 0}
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 76
+				#c maxWidth = 120
+				maxWidth = 100
 				maxHeight = 32
 				alwaystransparent = yes
 			 	#c format = left
@@ -418,18 +419,18 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 116 y = 0 }
+				position = { x = 120 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				#c borderSize = {x = 4 y = 0}
 				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 130
+				maxWidth = 118
 				maxHeight = 32
 				alwaystransparent = yes
 				#c format = right
-				format = left
+				format = right
 				fixedsize = yes
 		}
 
