@@ -176,6 +176,13 @@
  NAVALBATTLEOVER_6:0 "Nous avons perdu $SHIPS|R$ navires et l'ennemi $THEIRSHIP|G$. $CAPTURE|G$ ont été capturés."
  NAVALBATTLEOVER_LOG:0 "§YNous avons $RESULT|O$ la $NAME|O$ !§!"
 
+ RIVAL_SET_3:0 "$THEM|Y$\na officiellement annoncé que\n$RIVAL|Y$\nest désormais son §Orival§!."
+ RIVAL_SET_LOG:0 "§Y$THEM|O$ a officiellement fait de $RIVAL|O$ son rival.§!"
+ RIVAL_REMOVED_3:0 "$THEM|Y$\nne considère désormais plus\n$RIVAL|Y$\ncomme son §Orival§!."
+ RIVAL_REMOVED_LOG:0 "§Y$THEM|O$ ne considère désormais plus $RIVAL|O$ comme son rival.§!"
+ RIVAL_LOST_3:0 "$RIVAL|Y$\nn'est plus un §Orival§! valable pour\n$WHO|Y$."
+ RIVAL_LOST_LOG:0 "§Y$WHO|O$ ne considère désormais plus $RIVAL|O$ comme son rival.§!"
+
  DECLWAR_1:0 "Guerre Défensive !"
  DECLWAR_2:0 "$MONARCHTITLE$, $BADWORD$"
  DECLWAR_3:0 "$AGRESSOR|R$"
@@ -231,6 +238,9 @@
  WELOSECB_5:0 "$ENEMY|R$."
  WELOSECB_6:0 ""
  WELOSECB_LOG:0 "§YNous avons perdu le casus belli « $CASUS|O$ » contre $ENEMY|R$.§!"
+
+ NEWMON_3:0 "C'est maintenant\n$FULLMONARCHNAME|G$\n($ADM$£adm£ / $DIP$£dip£ / $MIL$£mil£)\nqui va gouverner notre patrie."
+ NEWMON_LOG:0 "§Y$FULLMONARCHNAME|G$ va désormais gouverner notre glorieuse nation !§!"
 
  NEWMONOTHER_1:0 "Un $TITLE$ $ACTION$"
  NEWMONOTHER_2:0 "Un ambassadeur de $COUNTRY$"
@@ -304,6 +314,10 @@
  OTHERMILALLDISHONOUR_6:0 ""
  OTHERMILALLDISHONOUR_LOG:0 "§Y$RECIPIENT|O$ a désavoué son alliance avec $ACTOR|O$.§!"
 
+ ENEMYMILALLHONOUR_3:0 "$MONARCHTITLE$, $RECIPIENT|R$\na honoré son §Balliance§! avec :\n$ACTOR|R$."
+ ENEMYMILALLHONOUR_LOG:0 "§R$RECIPIENT|R$ a rejoint $ACTOR|R$ dans la guerre contre $TARGETLIST|Y$.§!"
+ ENEMYMILALLHONOURSUBJECT_3:0 "$MONARCHTITLE$, notre dépendance $RECIPIENT|R$\na honoré son §Balliance§! militaire avec :\n$ACTOR|R$"
+ ENEMYMILALLHONOURSUBJECT_LOG:0 "§R$RECIPIENT|R$ a rejoint $ACTOR|R$ dans la guerre contre $TARGETLIST|Y$.§!"
 
  MILALLACCEPT_3:0 "$MONARCHTITLE$, $RECIPIENT|B$ a accepté\nnotre proposition d'alliance."
  MILALLACCEPT_LOG:0 "§M$RECIPIENT|B$ a accepté notre alliance.§!"
@@ -370,7 +384,6 @@
  REVOLT_LOG:0 "§YSoulèvement de $REBELS|R$ dans la province de $PROV|l$.§!"
  REVOLTSIEGE_3:0 "$MONARCHTITLE$, la province de\n$PROV|l$\nest passée sous le contrôle de :\n$REBELS|R$ !"
  REVOLTSIEGE_LOG:0 "§YLa province de $PROV|l$ est passée sous le contrôle de $REBELS|R$.§!"
-
 
  DISCOVER_3:0 "Pour la plus grande gloire de notre pays,\nnous sommes les premiers à avoir exploré\nla région de $REGION|l$."
  DISCOVER_LOG:0 "Nous avons exploré la région de $REGION|l$."
