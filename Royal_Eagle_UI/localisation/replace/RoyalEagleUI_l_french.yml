@@ -139,6 +139,7 @@
  MODIFIER_RESERVES_ORGANIZATION:0 "Réduc. de dégât moral subit par les réserves"
 
  ## COUNTRY DIPLOMATIC VIEW ##
+ OFFER_KNOWLEDGESHARETITLE:0 "Partage de connaiss."
  # Color keywords
  TRUCEWITH:0 "§YTrêve§! avec $LIST$"
  INTRADELEAGUEWITH:0 "§YEst dans la même ligue commerciale§! que $LIST$."
@@ -199,6 +200,22 @@
  VASSALTITLE:0 "Offrir la vassalisation"
  MILACCTITLE:0 "Demander l'accès mil."
  OFFERMILACCTITLE:0 "Accorder l'accès mil."
+
+
+ ## COUNTRY ECONOMY VIEW ##
+ WAR_REPARATIONS_ECOVIEW:0 "Répa. de guerre"
+ KNOWLEDGE_SHARING:0 "Part. de connaiss."
+
+ ## MISCELLANEOUS ##
+ ST:0 "er"
+ ND:0 "e"
+ TH:0 "e"
+ RD:0 "e"
+ MODIFIER_GLOBAL_INSTITUTION_SPREAD:0 "Propag. des institutions"
+ MESSAGE_IS_ICON:0 "Ce message $TRUTH$ affiché dans la messagerie (si possible)."
+ MESSAGE_SETTING_NOT:0 ""
+ MESSAGE_IS_POPUPPAUSE:0 "Ce message $TRUTH$ affiché sous la forme d'une fenêtre flottante mettant le jeu en pause$TRUTH02$."
+
  #  mercenaires -> Condottiere / plur : Condottieres or condottieri (for loc fr only)
  UNIT_VIEW_CHOOSE_LEADER_CONDOTTIERI:0 "Nous ne pouvons pas nommer de nouveau commandant car cette armée est actuellement louée en tant que Condottiere!"
  CANNOT_ASSIGN_MONARCH_CONDOTTIERI:0 "Nous ne pouvons pas placer notre dirigeant ou son héritier à la tête d'une armée Condottiere."
@@ -264,7 +281,7 @@
  CANCELCONDOTTIERITITLE:0 "Renvoyer une armée Condottiere"
  REVOKECONDOTTIERI_REQDES:0 "\nSouhaitez-vous vraiment cesser la mise en location de notre $ARMY|Y$ à $COUNTRY|Y$ ?"
  CANCELCONDOTTIERI_REQDES:0 "\nSouhaitez-vous vraiment cesser de louer la $ARMY|Y$ de $COUNTRY|Y$ ?"
- CONDOTTIERI:0 "Armées Condottieri"
+ CONDOTTIERI:0 "Condottieri"
  CONDOTTIERI_AT_WAR:0 "§R– Nous ne pourrons pas louer d'armée Condottiere tant que nous serons en guerre.§!"
  CONDOTTIERI_WAR:0 "§R- Nous ne pouvons pas louer d'armée Condottiere à un pays avec qui nous sommes en guerre.§!"
  CONDOTTIERI_UNIT:0 "La $UNIT$ est actuellement louer par $COUNTRY|Y$."
@@ -294,13 +311,3 @@
  CONNECT_TO_SHIP_PENDING_CONDOTTIERI:0 "Nous ne pouvons pas attacher une armée à une flotte si nous avons offert de la louer comme Condottiere."
  CONNECT_TO_SHIP_CONDOTTIERI:0 "Une armée Condottiere ne peut être attachée qu'à une flotte du pays qui la loue, et seulement si cette flotte peut embarquer l'ensemble de l'armée."
  DETSIEG_CONDOTTIERI:0 "Les unités des armées Condottieri ne peuvent être détachées."
-
- ## MISCELLANEOUS ##
- ST:0 "er"
- ND:0 "e"
- TH:0 "e"
- RD:0 "e"
- MODIFIER_GLOBAL_INSTITUTION_SPREAD:0 "Propag. des institutions"
- MESSAGE_IS_ICON:0 "Ce message $TRUTH$ affiché dans la messagerie (si possible)."
- MESSAGE_SETTING_NOT:0 ""
- MESSAGE_IS_POPUPPAUSE:0 "Ce message $TRUTH$ affiché sous la forme d'une fenêtre flottante mettant le jeu en pause$TRUTH02$."
