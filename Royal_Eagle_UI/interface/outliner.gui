@@ -220,12 +220,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 104 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 154
+				#c maxWidth = 154
+				maxWidth = 130
 				maxHeight = 14
 				alwaystransparent = yes
 				#c format = right
@@ -236,12 +238,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 97
+				#c maxWidth = 97
+				maxWidth = 76
 				maxHeight = 10
 				alwaystransparent = yes
 				format = left
@@ -276,14 +280,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				##c position = { x = 62 y = 0 }
-				position = { x = 73 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 185
+				maxWidth = 130
 				maxHeight = 32
 				fixedsize = yes
 				alwaystransparent = yes
@@ -294,10 +298,11 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "occupied"
 				#c position = { x = 36 y = 0 }
-				position = { x = 37 y = 0 }
+				position = { x = 41 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 52
 				maxHeight = 32
@@ -340,10 +345,11 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 118 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
 				maxWidth = 130
@@ -357,18 +363,19 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 120
+				maxWidth = 76
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
 		}
 	}
-
+	#cc
 	windowType =
 	{
 		name = "outliner_combat_entry"
@@ -394,28 +401,31 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 31 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 120
+				maxWidth = 76
 				maxHeight = 32
 				alwaystransparent = yes
-			 	format = left
+			 	#c format = left
+				format = center
 				fixedsize = yes
 		}
 
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 145 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 113
+				maxWidth = 130
 				maxHeight = 32
 				alwaystransparent = yes
 				#c format = right
@@ -460,24 +470,28 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 40 y = 0 }
+				position = { x = 44 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth =102
+				#c maxWidth =102
+				maxWidth =69
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
+				fixedsize = yes #c
 		}
 
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 118 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
 				maxWidth = 130
@@ -524,24 +538,28 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 40 y = 0 }
+				position = { x = 44 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 100
+				#c maxWidth = 100
+				maxWidth = 69
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
+				fixedsize = yes #c
 		}
 
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 118 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
 				maxWidth = 130
@@ -579,10 +597,11 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 118 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
 				maxWidth = 130
@@ -596,12 +615,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 100
+				#c maxWidth = 100
+				maxWidth = 76
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
@@ -643,33 +664,32 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 119 y = 0 }
-				position = { x = 104 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				#c borderSize = {x = 4 y = 0}
-				borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 110
-				#c maxWidth = 120
-				maxWidth = 144
+				maxWidth = 130
 				maxHeight = 18
 				alwaystransparent = yes
 				#c format = right
 				format = left
 				fixedsize = yes
-				truncate = yes #c
 		}
 
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 34 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 80
-				maxWidth = 82
+				maxWidth = 76
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
@@ -711,13 +731,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "entry_text"
 				#c position = { x = 76 y = 0 }
-				position = { x = 112 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 136
+				maxWidth = 130
 				maxHeight = 32
 				alwaystransparent = yes
 				#c format = right
@@ -728,12 +749,14 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 100
+				#c maxWidth = 100
+				maxWidth = 78
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
@@ -787,13 +810,14 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "entry_text"
 			#c position = { x = 106 y = 0 }
-			position = { x = 122 y = 0 }
+			position = { x = 125 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 4 y = 0}
+			#c borderSize = {x = 4 y = 0}
+			borderSize = {x = 0 y = 0}
 			text = ""
 			#c maxWidth = 136
-			maxWidth = 114
+			maxWidth = 109
 			maxHeight = 26
 			format = right
 			fixedsize = yes
@@ -804,13 +828,14 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "info_text"
 			#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+			position = { x = 38 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 4 y = 0}
+			#c borderSize = {x = 4 y = 0}
+			borderSize = {x = 0 y = 0}
 			text = ""
 			#c maxWidth = 96
-			maxWidth = 90
+			maxWidth = 76
 			maxHeight = 26
 			format = left
 			fixedsize = yes
@@ -844,29 +869,33 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "entry_text"
-				position = { x = 76 y = 0 }
+				#c position = { x = 76 y = 0 }
+				position = { x = 116 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0}
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 159
+				maxWidth = 130
 				maxHeight = 32
 				alwaystransparent = yes
-				format = right
+				#c format = right
+				format = left
 				fixedsize = yes
 		}
 
 		instantTextBoxType = {
 				name = "info_text"
 				#c position = { x = 36 y = 0 }
-				position = { x = 34 y = 0 }
+				position = { x = 38 y = 0 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 4 y = 0}
+				#c borderSize = {x = 4 y = 0
+				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 256
-				maxWidth = 216
+				maxWidth = 208
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
