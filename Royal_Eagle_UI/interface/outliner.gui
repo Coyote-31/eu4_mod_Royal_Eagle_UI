@@ -818,7 +818,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = ""
 			#c maxWidth = 136
-			maxWidth = 109
+			maxWidth = 108
 			maxHeight = 26
 			format = right
 			fixedsize = yes
@@ -836,7 +836,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = ""
 			#c maxWidth = 96
-			maxWidth = 76
+			maxWidth = 80
 			maxHeight = 26
 			format = left
 			fixedsize = yes
