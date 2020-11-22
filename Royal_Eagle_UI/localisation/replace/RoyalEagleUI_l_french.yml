@@ -210,6 +210,11 @@
  MISSIONARIESMAINTENANCE:0 "Maintenance missionnaire"
  EXPENSEFORTM:0 "Maintenance des forts"
 
+ ## COUNTRY TRADE VIEW ##
+ TRADE_EFFICIENCY_LABEL:0 "Efficacité comm."
+ TRADE_STEERING_LABEL:0 "Attractivité comm."
+ MODIFIER_GLOBAL_TRADE_POWER:0 "Puiss. comm. totale"
+
  ## MISCELLANEOUS ##
  ST:0 "er"
  ND:0 "e"
