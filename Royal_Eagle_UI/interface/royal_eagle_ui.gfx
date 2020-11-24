@@ -214,5 +214,12 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	# Technology #
+
+	spriteType = {
+		name = "GFX_governing_capacity_modifier"
+		texturefile = "gfx//interface//ideas_EU4//governing_capacity_modifier.dds"
+		transparencecheck = yes
+	}
 
 }
