@@ -1,8 +1,9 @@
 guiTypes = {
-	
+
 	windowType = {
 		name = "natives_window"
-		position = { x=-277 y=-290}	
+		#c position = { x=-277 y=-290}
+		position = { x=-277 y=-360}
 		size = { x=750 y=750 }
 		moveable = 1
 		dontRender = ""
@@ -10,7 +11,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
-		
+
 		iconType =
 		{
 			name ="background"
@@ -19,28 +20,29 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 		}
-		
+
 		guiButtonType = {
 			name = "close_button"
 			position = { x = 503 y = 61 }
-			quadTextureSprite ="GFX_closebutton2"	
+			quadTextureSprite ="GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
-		}		
+		}
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 15 y = 80 }
+			#c position = { x = 15 y = 80 }
+			position = { x = 15 y = 81 }
 			textureFile = ""
 			font = "vic_29s"
-			borderSize = {x = 4 y = 4}	
-			text = "HEADER_NATIVES"	
+			borderSize = {x = 4 y = 4}
+			text = "HEADER_NATIVES"
 			maxWidth = 512
 			maxHeight = 32
 			format = centre
 		}
-	
+
 ###
 ### NATIVE ADVANCEMENT
 ###
@@ -51,38 +53,41 @@ guiTypes = {
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 			upsound = tab_government
-			
+
 		instantTextBoxType = {
 			name = "advancements"
 			position = { x = 10 y = -43 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "ADVANCEMENTS_HEADER"
 			maxWidth = 212
 			maxHeight = 32
 			format = centre
-		}			
+		}
 
 			iconType =
 			{
 				name ="advancement_icon"
 				spriteType = "GFX_native_advancement_icon"
-				position = { x= 5 y = -43}
+				#c position = { x= 5 y = -43}
+				position = { x= 10 y = -42}
 				Orientation = "UPPER_LEFT"
 			}
-		
+
 			listboxType = {
 				name = "advancementgroups_listbox"
 				backGround = ""
-				position = { x=10 y=0 }
+				#c position = { x=10 y=0 }
+				position = { x=10 y=1 }
 				size = { x=220 y=355 }
 				horizontal = 0
 				spacing = 1.0
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
-			
+
 			guiButtonType =
 			{
 				name ="change_government"
@@ -90,7 +95,7 @@ guiTypes = {
 				position = { x=7 y=285 }
 				buttonText = "NATIVE_CHANGE_GOVERNMENT"
 				buttonFont = "vic_18"
-			}	
+			}
 		}
 
 ###
@@ -103,47 +108,52 @@ guiTypes = {
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 			upsound = tab_government
-			
+
 		instantTextBoxType = {
 			name = "federetion"
 			position = { x = -15 y = -46 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "FEDERATION_HEADER"
 			maxWidth = 212
 			maxHeight = 32
 			format = centre
 		}
-		
+
 			iconType =
 			{
 				name ="federation_icon"
 				spriteType = "GFX_diplomacy_federation"
-				position = { x= -10 y = -48}
+				#c position = { x= -10 y = -48}
+				position = { x= -4 y = -48}
 				Orientation = "UPPER_LEFT"
-			}		
-			
+			}
+
 			guiButtonType =
 			{
 				name ="federation_leader"
 				quadTextureSprite = "GFX_federation_leader_frame"
-				position = { x= 40 y = 0 }
+				#c position = { x= 40 y = 0 }
+				position = { x= 42 y = 8 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click
 			}
-			
-			OverlappingElementsBoxType = 
+
+			OverlappingElementsBoxType =
 			{
 				name = "federation_members_box"
-				position = { x = 9 y = 95 }
+				#c position = { x = 9 y = 95 }
+				position = { x = 18 y = 108 }
 				size = { x = 160 y = 32 }
 				Orientation = "UPPER_LEFT"
 				format = center
-				spacing = 1
-			}		
+				#c spacing = 1
+				spacing = 2
+			}
 		}
-		
+
 ###
 ### MIGRATION
 ###
@@ -154,12 +164,13 @@ guiTypes = {
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 			upsound = tab_government
-			
+
 		instantTextBoxType = {
 			name = "migration"
 			position = { x = -15 y = 43 }
 			textureFile = ""
-			font = "vic_22"
+			#c font = "vic_22"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "MIGRATION_HEADER"
 			maxWidth = 212
@@ -171,15 +182,17 @@ guiTypes = {
 			{
 				name ="migrate_icon"
 				spriteType = "GFX_migrate_icon"
-				position = { x= -5 y = 44}
+				#c position = { x= -5 y = 44}
+				position = { x= 0 y = 45}
 				Orientation = "UPPER_LEFT"
-			}		
-			
+			}
+
 			iconType =
 			{
 				name ="native_migrateprogress_bar"
 				spriteType = "GFX_westernize_progressbar"
-				position = { x= 29 y = 94}
+				#c position = { x= 29 y = 94}
+				position = { x= 30 y = 93}
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -190,7 +203,7 @@ guiTypes = {
 				position = { x= 19 y = 89}
 				Orientation = "UPPER_LEFT"
 			}
-			
+
 			guiButtonType =
 			{
 				name ="migrate"
@@ -198,61 +211,67 @@ guiTypes = {
 				position = { x = 41 y = 115 }
 				buttonText = "MIGRATE"
 				buttonFont = "vic_18"
-			}	
+			}
 		}
-		
-	
+
+
 ######################
 ### MIGRATION VIEW
-######################		
+######################
 		windowType = {
 			name = "countrymigrateview"
-			position = { x=0 y=0 }	
+			position = { x=0 y=0 }
 			size = { x=1024 y=100 }
-			moveable = 0
+			#c moveable = 0
+			moveable = 1
 			upsound = tab_government
-			fullScreen = no	
-			
+			fullScreen = no
+
 			iconType =
 			{
 				name ="Background"
 				spriteType = "GFX_natives_migrate_bg"
 				position = { x= 6 y = 107 }
 				Orientation = "UPPER_LEFT"
-				
+
 			}
-			
+
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 117 y = 133 }
+				#c position = { x = 117 y = 133 }
+				position = { x = 117 y = 134 }
 				textureFile = ""
-				font = "vic_22s"
+				#c font = "vic_22s"
+				font = "vic_29"
 				borderSize = {x = 0 y = 0}
-				text = "MIGRATE"	
+				text = "MIGRATE"
 				maxWidth = 316
 				maxHeight = 40
 				fixedsize = yes
 				truncate = yes
 				format = centre
 				Orientation = "UPPER_LEFT"
-			}		
-				
-					
+			}
+
+
 			instantTextBoxType={
-				position = {x = 270 y = 210 }
+				#c position = {x = 270 y = 210 }
+				position = {x = 270 y = 231 }
 				name = "Description"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
-				maxWidth = 220
+				borderSize = {x = 0 y = 0}
+				#c maxWidth = 220
+				maxWidth = 218
 				maxHeight = 160
-				text = ""	
+				text = ""
 				orientation = "UPPER_LEFT"
 				format = centre
 			}
 
 			listboxType ={
 				name ="provincelist"
-				position = { x = 40 y = 195 }
+				#c position = { x = 40 y = 195 }
+				position = { x = 41 y = 198 }
 				backGround=""
 				size = { x=205 y =240}
 				Orientation = "UPPER_LEFT"
@@ -261,7 +280,7 @@ guiTypes = {
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
-			
+
 			guiButtonType = {
 				name = "AgreeButton"
 				position = { x=325 y =410}
@@ -285,7 +304,7 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "CANCEL"
 				buttonFont = "vic_18"
-				shortcut = "z"			
+				shortcut = "z"
 				extra_shortcut = "ESCAPE"
 			}
 		}
