@@ -545,8 +545,7 @@ guiTypes = {
 				maxHeight = 20
 				orientation = "CENTER"
 				format = center
-				#c font = "vic_18"
-				font = "vic_22"
+				font = "vic_18"
 			}
 
 			guiButtonType = {
