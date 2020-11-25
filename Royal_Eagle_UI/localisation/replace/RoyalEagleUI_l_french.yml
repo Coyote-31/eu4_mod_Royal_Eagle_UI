@@ -215,6 +215,10 @@
  TRADE_STEERING_LABEL:0 "Attractivité comm."
  MODIFIER_GLOBAL_TRADE_POWER:0 "Puiss. comm. totale"
 
+ ## COUNTRY MISSION VIEW ##
+ eng_rb_hre_emperor_title:1 "Ascension de la G-B"
+ gbr_rb_india_coast_title:0 "Conquérir la côte indienne"
+
  ## MISCELLANEOUS ##
  ST:0 "er"
  ND:0 "e"
