@@ -214,11 +214,34 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
-	# Technology #
+	# TECHNOLOGY #
 
 	spriteType = {
 		name = "GFX_governing_capacity_modifier"
 		texturefile = "gfx//interface//ideas_EU4//governing_capacity_modifier.dds"
+		transparencecheck = yes
+	}
+
+	# STABILITY #
+
+	spriteType = {
+		name = "GFX_colonists"
+		texturefile = "gfx//interface//ideas_EU4//colonists.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_local_unrest"
+		texturefile = "gfx//interface//ideas_EU4//local_unrest.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_global_missionary_strength"
+		texturefile = "gfx//interface//ideas_EU4//global_missionary_strength.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_minimum_revolt_risk"
+		texturefile = "gfx//interface//ideas_EU4//minimum_revolt_risk.dds"
 		transparencecheck = yes
 	}
 

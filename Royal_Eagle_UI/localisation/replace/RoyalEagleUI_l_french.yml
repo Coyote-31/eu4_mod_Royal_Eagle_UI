@@ -281,6 +281,12 @@
  GLOBAL_GARRISON_GROWTH:0 "Croiss. globale des garnisons"
  MODIFIER_IMPERIAL_AUTHORITY:0 "Modif. d'accrois. en aut. imp."
 
+ # COUNTRY STABILITY VIEW #
+ TERRITORIES_INFO_TEXT:0 "$VAL|Y$ Possessions"
+ CV_BREAK_COUNTRY:0 "Pays effondré"
+ CV_CHANGE_CULTURE_IN:0 "Acculturer $PROVINCE$"
+
+
  ## MISCELLANEOUS ##
  ST:0 "er"
  ND:0 "e"
