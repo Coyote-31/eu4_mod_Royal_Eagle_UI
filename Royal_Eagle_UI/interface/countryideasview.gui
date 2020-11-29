@@ -157,7 +157,8 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "unique_ideas"
-				position = { x = 76 y = 161 }
+				#c position = { x = 76 y = 161 }
+				position = { x = 84 y = 161 }
 				size = { x = 400 y = 48 }
 				Orientation = "UPPER_LEFT"
 				format = centre
