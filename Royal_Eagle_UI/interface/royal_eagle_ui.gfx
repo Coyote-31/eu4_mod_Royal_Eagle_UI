@@ -245,4 +245,17 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	# RELIGION #
+
+	# adjust size
+	progressbartype = {
+		name = "GFX_convert_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_green.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black.dds"
+		size = { x = 39 y = 10 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
 }

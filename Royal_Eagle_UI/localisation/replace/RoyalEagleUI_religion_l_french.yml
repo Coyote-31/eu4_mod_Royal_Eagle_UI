@@ -2,27 +2,38 @@
  #### FIX OFFICIAL TRAD ###
  #### Reload localisation console cmd: reloadloc
  ## RELIGION ##
- # Christian :
+ # Christian #
  christian:0 "Chrétien"
  catholic:0 "Catholique"
  protestant:0 "Protestante"
  reformed:0 "Réformée"
+ string_reformed_n_FR:0 "réforme"
  orthodox:0 "Orthodoxe"
  coptic:0 "Copte"
  hussite:0 "Hussite"
- # Muslim :
+ anglican:0 "Anglicane"
+
+ # Muslim #
  muslirel:0 "Musulman" # see 'muslim' in Technology group
  shiite:0 "Chiite"
  ibadi:0 "Ibadite"
  sunni:0 "Sunnite"
- # Eastern :
+ # schools
+ hanafi_school:0 "Hanéfite"
+ hanbali_school:1 "Hanbalite"
+ maliki_school:0 "Malékite"
+ shafii_school:0 "Chaféite"
+ ismaili_school:0 "Ismaélite"
+ jafari_school:0 "Jafarite"
+ zaidi_school:0 "Zaïdite"
+ # Eastern #
  easterrel:0 "Oriental" # see 'eastern' in Technology group
  confucianism:0 "Confucianiste"
  mahayana:0 "Mahâyâna"
  shinto:0 "Shintoïste"
  buddhism:0 "Theravâda"
  vajrayana:0 "Vajrayâna"
- # Pagan :
+ # Pagan #
  pagan:0 "Païen"
  animism:0 "Animiste"
  shamanism:0 "Fétichiste"
@@ -33,15 +44,13 @@
  norse_pagan_reformed:0 "Nordique"
  tengri_pagan_reformed:0 "Tengriste"
  totemism:0 "Totémiste"
- # Dharmic :
+ # Dharmic #
  dharmic:0 "Dharmique"
  hinduism:0 "Hindoue"
  sikhism:0 "Sikhe"
- # Jewish :
+ # Jewish #
  jewish_group:0 "Judaïque"
  jewish:0 "Juive"
- # Zoroastrian :
+ # Zoroastrian #
  zoroastrian_group:0 "Zoroastrien"
  zoroastrian:0 "Zoroastrienne"
- # Cult
- mwari_cult:0 "Mwari"

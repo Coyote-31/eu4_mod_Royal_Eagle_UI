@@ -286,6 +286,9 @@
  CV_BREAK_COUNTRY:0 "Pays effondré"
  CV_CHANGE_CULTURE_IN:0 "Acculturer $PROVINCE$"
 
+ # RELIGION #
+ divorce_consort_tooltip:1 "Le souverain va divorcer de la consort.\nLes mariages royaux ne seront pas rompus."
+
 
  ## MISCELLANEOUS ##
  ST:0 "er"
