@@ -222,6 +222,13 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	spriteType = {
+		name = "GFX_icon_tech_may_rebel_support"
+		texturefile = "gfx//interface//ideas_EU4//rebel_support_efficiency.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
 	# STABILITY #
 
 	spriteType = {
