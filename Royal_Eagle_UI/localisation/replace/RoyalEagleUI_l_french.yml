@@ -11,6 +11,65 @@
  PROV4695:0 "Carcassonne"
 
  ## COUNTRY NAME ##
+ # Lower cap
+ string_AKM_ADJ_FR:0 "akamatsu"
+ string_AKT_ADJ_FR:0 "andô"
+ string_AMA_ADJ_FR:0 "amago"
+ string_ASA_ADJ_FR:0 "asakura"
+ string_ASK_ADJ_FR:0 "ashikaga"
+ string_CBA_ADJ_FR:0 "chiba"
+ string_CDL_ADJ_FR:0 "dali"
+ string_CGS_ADJ_FR:0 "changsheng"
+ string_CHC_ADJ_FR:0 "chu"
+ string_CSH_ADJ_FR:0 "shun"
+ string_CSK_ADJ_FR:0 "chôsokabe"
+ string_CXI_ADJ_FR:0 "xi"
+ string_CZH_ADJ_FR:0 "zhou"
+ string_DTE_ADJ_FR:0 "date"
+ string_HJO_ADJ_FR:0 "hôjô"
+ string_HSK_ADJ_FR:0 "hosokawa"
+ string_HTK_ADJ_FR:0 "hatakeyama"
+ string_HUA_ADJ_FR:0 "huai"
+ string_IKE_ADJ_FR:0 "ikeda"
+ string_IMG_ADJ_FR:0 "imagawa"
+ string_ISK_ADJ_FR:0 "isshiki"
+ string_ITO_ADJ_FR:0 "itô"
+ string_JIN_ADJ_FR:0 "jin"
+ string_KKC_ADJ_FR:0 "kikuchi"
+ string_KNO_ADJ_FR:0 "kôno"
+ string_LNG_ADJ_FR:0 "liang"
+ string_MAE_ADJ_FR:0 "maeda"
+ string_MNG_ADJ_FR:0 "ming"
+ string_MRI_ADJ_FR:0 "môri"
+ string_NNG_ADJ_FR:0 "ning"
+ string_ODA_ADJ_FR:0 "oda"
+ string_OGS_ADJ_FR:0 "ogasawara"
+ string_OTM_ADJ_FR:0 "ôtomo"
+ string_OUC_ADJ_FR:0 "ôuchi"
+ string_QIC_ADJ_FR:0 "qi"
+ string_QIN_ADJ_FR:0 "qin"
+ string_QNG_ADJ_FR:0 "qing"
+ string_RFR_ADJ_FR:0 "nanbu"
+ string_SBA_ADJ_FR:0 "shiba"
+ string_SHN_ADJ_FR:0 "shôni"
+ string_SHU_ADJ_FR:0 "shu"
+ string_SMZ_ADJ_FR:0 "shimazu"
+ string_SOO_ADJ_FR:0 "sô"
+ string_STK_ADJ_FR:0 "satake"
+ string_TKD_ADJ_FR:0 "takeda"
+ string_TKG_ADJ_FR:0 "tokugawa"
+ string_TKI_ADJ_FR:0 "toki"
+ string_TNG_ADJ_FR:0 "tang"
+ string_TTI_ADJ_FR:0 "tsutsui"
+ string_UES_ADJ_FR:0 "uesugi"
+ string_UTN_ADJ_FR:0 "utsunomiya"
+ string_WUU_ADJ_FR:0 "wun"
+ string_YAN_ADJ_FR:0 "yan"
+ string_YMN_ADJ_FR:0 "yamana"
+ string_YUE_ADJ_FR:0 "yue"
+ string_YUA_ADJ_FR:0 "yuan"
+
+ #c Toulouse -> Occitanie
  TOU:0 "Occitanie"
  TOU_ADJ:0 "occitane"
  string_TOU_ADJ_ms_FR:0 "occitan"
@@ -18,6 +77,7 @@
  string_TOU_ADJ_fs_FR:0 "occitane"
  string_TOU_ADJ_fp_FR:0 "occitanes"
  COLONIAL_CANADA_Newfoundland:0 "Terre-Neuve"
+
 
  ## TECHNOLOGY GROUP ##
  western:0 "Occidental"
@@ -99,6 +159,9 @@
  MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RArrêté§!"
  TRANSFER_SAVEGAME:0 "Transfert ( $NAME|Y%$ )"
  LOADING_SAVEGAME:0 "Chargement ( $NAME|Y%$ )"
+ SAVE_PROG:0 "Chargement ( $VALUE$% )"
+ RNW_PROG:0 "Transf. Nouv. Monde ( $VALUE$% )"
+
 
  ## OUTLINER ##
  INCOME_IN_TRADE2:0 "Collecte $VAL|Y$¤"
@@ -139,6 +202,8 @@
 
  ## COUNTRY DIPLOMATIC VIEW ##
  OFFER_KNOWLEDGESHARETITLE:0 "Partage de connaiss."
+ CANCELMILACCTITLE:0 "Annuler l'accès mil."
+ REVOKEMILACCTITLE:0 "Révoquer l'accès mil."
  # Color keywords
  TRUCEWITH:0 "§YTrêve§! avec $LIST$"
  INTRADELEAGUEWITH:0 "§YEst dans la même ligue commerciale§! que $LIST$."
@@ -281,13 +346,15 @@
  GLOBAL_GARRISON_GROWTH:0 "Croiss. globale des garnisons"
  MODIFIER_IMPERIAL_AUTHORITY:0 "Modif. d'accrois. en aut. imp."
 
- # COUNTRY STABILITY VIEW #
+ ## COUNTRY STABILITY VIEW ##
  TERRITORIES_INFO_TEXT:0 "$VAL|Y$ Possessions"
  CV_BREAK_COUNTRY:0 "Pays effondré"
  CV_CHANGE_CULTURE_IN:0 "Acculturer $PROVINCE$"
 
- # RELIGION #
+ ## COUNTRY RELIGION VIEW ##
  divorce_consort_tooltip:1 "Le souverain va divorcer de la consort.\nLes mariages royaux ne seront pas rompus."
+
+ ## COUNTRY MILITARY VIEW ##
 
 
  ## MISCELLANEOUS ##

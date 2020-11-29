@@ -54,3 +54,7 @@
  # Zoroastrian #
  zoroastrian_group:0 "Zoroastrien"
  zoroastrian:0 "Zoroastrienne"
+
+ ## OTHER ##
+ string_Dieu_FR:0 "la Foi"
+ string_Dieu_cap_FR:0 "La Foi"
