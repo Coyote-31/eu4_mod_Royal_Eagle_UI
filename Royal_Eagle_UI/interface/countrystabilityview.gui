@@ -244,13 +244,13 @@ guiTypes = {
 
 		### ------- native policy -------
 
-#c		iconType = {
-#c			name ="native_policy_bg"
-#c			#c spriteType = "GFX_native_policy_bg"
-#c			spriteType = "GFX_native_policy_bg"
-#c			position = { x= 403 y = 280 }
-#c			Orientation = "UPPER_LEFT"
-#c		}
+		iconType = {
+			name ="native_policy_bg"
+			#c spriteType = "GFX_native_policy_bg"
+			spriteType = "GFX_native_policy_bg"
+			position = { x= 403 y = 280 }
+			Orientation = "UPPER_LEFT"
+		}
 
 		guiButtonType =
 		{
