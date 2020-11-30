@@ -354,7 +354,12 @@
  ## COUNTRY RELIGION VIEW ##
  divorce_consort_tooltip:1 "Le souverain va divorcer de la consort.\nLes mariages royaux ne seront pas rompus."
 
- ## COUNTRY MILITARY VIEW ##
+ ## COUNTRY SUBJECTS VIEW ##
+ ENABLE_X:0 "£no£$X$"
+ DISABLE_X:0 "£yes£$X$"
+ EMBARGO_RIVALS:0 "Embargo de nos rivaux"
+ START_COLONIAL_WAR:0 "Forcer une guerre coloniale"
+ GRANT_CORE_CLAIM:0 "Transférer une revendication"
 
 
  ## MISCELLANEOUS ##
