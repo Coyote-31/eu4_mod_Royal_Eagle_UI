@@ -768,13 +768,13 @@ bitmapfonts = {
 			Y = { 252 218 80 }
 		}
 	}
-	##c For testing fonts
+
 	##c Mainscreen starting-date-up & Ladder & Coutry name & Country menus sub titles
 	##c Total recettes and depense & Institutions and tech num and % & num decisions & OE & estates
 	##c Religions mid names & Dependences & registres
 	bitmapfont = {
 		name = "vic_22"
-		path = "gfx/fonts/coyote_16b_ol2" #c coyote_16b_ol2 #cc vic_22
+		path = "gfx/fonts/coyote_16b_ol2" #cc vic_22
 		#c color = 0xffffffff
     color = 0xfff2f4f7
 
@@ -933,6 +933,7 @@ bitmapfonts = {
 
 	###c Font EU4-style Family :
 
+	##c Use this for testing fonts
 	bitmapfont = {
 
 		name = "vic_22_l"
