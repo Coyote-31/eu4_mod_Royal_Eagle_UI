@@ -2659,7 +2659,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "enable_custom_nation_button"
 					#c position = { x = -275 y = -107 }
-					position = { x = -522 y = -65 }
+					position = { x = -522 y = -35 }
 					#c quadTextureSprite ="GFX_checkbox_gold_32"
 					quadTextureSprite ="GFX_checkbox_gold_24"
 					Orientation = "LOWER_RIGHT"
@@ -2668,7 +2668,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "nation_designer_button"
 					#c position = { x = -241 y = -107 }
-					position = { x = -499 y = -69 }
+					position = { x = -499 y = -39 }
 					quadTextureSprite ="GFX_frontend_custom_nation"
 					buttonText = "CUSTOM_NATION"
 					buttonFont = "vic_18"
@@ -2678,7 +2678,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "random_country_button"
 					#c position = { x = -241 y = -75 }
-					position = { x = -499 y = -39 }
+					position = { x = -499 y = -69 }
 					quadTextureSprite ="GFX_frontend_random_nation"
 					buttonText = "RANDOM_COUNTRY"
 					buttonFont = "vic_18"
