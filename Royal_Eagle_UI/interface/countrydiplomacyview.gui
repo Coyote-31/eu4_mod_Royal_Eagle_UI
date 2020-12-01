@@ -2298,10 +2298,10 @@ guiTypes = {
 			name ="diplomat"
 			spriteType = "GFX_icon_diplomat"
 			#c position = { x= 15 y = 2 }
-			position = { x= 17 y = 0 }
+			position = { x= 16 y = -1 }
 			Orientation = "UPPER_LEFT"
 			#c scale = 0.7
-			scale = 0.78
+			scale = 0.81
 		}
 
 		iconType =
