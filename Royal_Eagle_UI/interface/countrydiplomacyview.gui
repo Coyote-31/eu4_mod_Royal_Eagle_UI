@@ -348,7 +348,7 @@ guiTypes = {
 			borderSize = {x = 4 y = 4}
 			text = ""
 			#c maxWidth = 190
-			maxWidth = 216
+			maxWidth = 220
 			maxHeight = 24
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
