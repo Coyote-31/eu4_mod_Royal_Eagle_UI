@@ -265,4 +265,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 
+	## MENUS FROM BOTTOM-RIGHT BUTTONS ##
+
+	# PAPACY #
+
+	spriteType = {
+		name = "GFX_papacy_top_no_dlc_bg"
+		texturefile = "gfx/interface/the_holy_see/the_holy_see_top_no_dlc.dds"
+		loadType = "INGAME"
+	}
+
 }
