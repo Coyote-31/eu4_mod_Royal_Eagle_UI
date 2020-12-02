@@ -79,7 +79,8 @@ guiTypes = {
 		origo = center
 		moveable = yes
 		#c fade_time = 200
-		#c fade_type = linear
+		fade_time = 1
+		fade_type = linear
 		click_to_front = yes
 
 		background = {
