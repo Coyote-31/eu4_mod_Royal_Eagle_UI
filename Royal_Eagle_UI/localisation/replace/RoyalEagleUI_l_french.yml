@@ -361,6 +361,11 @@
  START_COLONIAL_WAR:0 "Forcer une guerre coloniale"
  GRANT_CORE_CLAIM:0 "Transférer une revendication"
 
+ ## AGES VIEW ##
+ age_of_discovery:0 "Ère des Découvertes"
+ age_of_reformation:0 "Ère de la Réforme"
+ age_of_absolutism:0 "Ère des Absolutismes"
+ age_of_revolutions:0 "Ère des Révolutions"
 
  ## MISCELLANEOUS ##
  ST:0 "er"
