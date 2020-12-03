@@ -793,6 +793,7 @@ guiTypes = {
 				maxWidth = 120
 				maxHeight = 32
 				format = center
+				alwaystransparent = yes #c
 			}
 		}
 	} ### end of "topbar"

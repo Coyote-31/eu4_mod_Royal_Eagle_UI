@@ -131,6 +131,13 @@ spriteTypes = {
 		texturefile = "gfx//interface//coyote_modifier_entry_bg.dds"
 	}
 
+	# msg_log bottom
+	spriteType = {
+		name = "GFX_log_bg"
+		texturefile = "gfx//interface//log_bg.tga"
+		transparencecheck = yes
+	}
+
 	## MAP ICONS ##
 	# Fix size Height
 	progressbartype = {
