@@ -391,3 +391,6 @@
  DISCOVER_LOG:0 "Nous avons exploré la région de $REGION|l$."
  DISCOVERY_SPREAD_3:0 "Nous avons appris l'existence de $PROV|l$."
  DISCOVERY_SPREAD_LOG:0 "L'annonce de la découverte de $PROV|l$ nous est parvenue."
+
+ OURTRUCEENDS_3:0 "La trêve avec $ACTOR|Y$ a expiré."
+ OURTRUCEENDS_LOG:0 "La trêve entre $RECIPIENT|Y$ et $ACTOR|Y$ a expiré."
