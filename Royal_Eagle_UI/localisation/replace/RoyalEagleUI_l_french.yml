@@ -203,8 +203,12 @@
 
  ## COUNTRY DIPLOMATIC VIEW ##
  OFFER_KNOWLEDGESHARETITLE:0 "Partage de connaiss."
- CANCELMILACCTITLE:0 "Annuler l'accès mil."
- REVOKEMILACCTITLE:0 "Révoquer l'accès mil."
+ CANCELMILACCTITLE:0 "Annuler notre accès mil."
+ REVOKEMILACCTITLE:0 "Révoquer leur accès mil."
+ CANCELNAVALACCTITLE:0 "Annuler notre mouillage"
+ REVOKENAVALACCTITLE:0 "Révoquer leur mouillage"
+
+
  # Color keywords
  TRUCEWITH:0 "§YTrêve§! avec $LIST$"
  INTRADELEAGUEWITH:0 "§YEst dans la même ligue commerciale§! que $LIST$."
