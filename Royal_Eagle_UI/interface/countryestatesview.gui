@@ -279,7 +279,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "privilege_button"
-			position = { x = 0 y = 0 }
+			#c position = { x = 0 y = 0 }
+			position = { x = -2 y = 0 }
 			quadTextureSprite ="GFX_idea_unknown"
 			Orientation = "UPPER_LEFT"
 		}
