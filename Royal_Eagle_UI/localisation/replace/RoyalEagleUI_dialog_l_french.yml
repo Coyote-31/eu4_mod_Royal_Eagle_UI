@@ -55,6 +55,8 @@
  KARMA_DECREASE:0 "£yes£ Cela nous fera perdre $VAL|Y$ en §Mkarma§!.\n"
  KARMA_INCREASE_FOR_COUNTRY:0 "£yes£ $COUNTRY|Y$ gagne $VAL|Y$ en §Mkarma§!.\n"
  KARMA_DECREASE_FOR_COUNTRY:0 "£yes£ $COUNTRY|Y$ perd $VAL|Y$ en §Mkarma§!.\n"
+ SECEDE_SUBJ_PROVINCES:0 "£yes£ $WHO|Y$ va céder $WHAT|l$ à $TO|Y$, faisant évoluer de $LD|-$ son §Maspiration à la liberté§!.\n"
+
 
 
  # refactor some important message text
