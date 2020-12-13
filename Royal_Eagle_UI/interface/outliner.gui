@@ -227,7 +227,7 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 				text = ""
 				#c maxWidth = 154
-				maxWidth = 138
+				maxWidth = 142
 				maxHeight = 14
 				alwaystransparent = yes
 				#c format = right
