@@ -190,7 +190,8 @@ guiTypes = {
 
 		listboxType =  {
 			name ="decree_listbox_left"
-			position = { x = 126 y = 360 }
+			#c position = { x = 126 y = 360 }
+			position = { x = 86 y = 360 }
 			backGround=""
 			size = { x = 270 y = 200 }
 			Orientation = "UPPER_LEFT"
@@ -202,6 +203,7 @@ guiTypes = {
 
 		listboxType =  {
 			name ="decree_listbox_right"
+			#c position = { x = 376 y = 360 }
 			position = { x = 376 y = 360 }
 			backGround=""
 			size = { x = 270 y = 200 }
@@ -263,7 +265,8 @@ guiTypes = {
 		name = "celestial_decree_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=255 y=48 }
+		#c size = { x=255 y=48 }
+		size = { x=295 y=48 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -274,22 +277,27 @@ guiTypes = {
 			name = "select_button"
 			quadTextureSprite ="GFX_decree_button"
 			position = { x=0 y=0 }
+			#c borderSize = { x=34 y=4 } #c
 			Orientation = "UPPER_LEFT"
 			buttonText = "decree_title"
 			buttonFont = "vic_18_black"
+			format = center #c
 			clicksound = click
 		}
+
 		iconType = {
 			name = "decree_button_seal"
 			spriteType ="GFX_decree_button_seal"
 			alwaystransparent = yes
-			position = { x= 186 y = 2 }
+			#c position = { x= 186 y = 2 }
+			position = { x= 228 y = 3 }
 		}
 		iconType = {
 			name = "decree_button_check"
 			spriteType ="GFX_decree_button_check"
 			alwaystransparent = yes
-			position = { x= 200 y = 10 }
+			#c position = { x= 200 y = 10 }
+			position = { x= 240 y = 10 }
 		}
 
 	}
