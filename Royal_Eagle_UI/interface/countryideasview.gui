@@ -430,7 +430,7 @@ guiTypes = {
 			borderSize = {x = 4 y = 4}
 			text = "xtz"
 			#c maxWidth = 185
-			maxWidth = 170
+			maxWidth = 176
 			maxHeight = 32
 			format = left
 			fixedsize = yes #c
