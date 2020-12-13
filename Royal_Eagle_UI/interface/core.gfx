@@ -927,7 +927,7 @@ bitmapfonts = {
 	#
   ###   Font name with no rule :
   #
-	#   None
+	#   log_msg (Arial12)
 	#
 	##############################################
 
