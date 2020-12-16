@@ -1,0 +1,1138 @@
+guiTypes = {
+
+	positionType = {
+		name = "waroverview_icon_offset"
+		position = { x = 112 y = 49 }
+	}
+
+	positionType = {
+		name = "waroverview_value_offset"
+		#c position = { x = 123 y = 54 }
+		position = { x = 123 y = 53 }
+	}
+
+	positionType = {
+		name = "waroverview_battles_offset_prerom"
+		position = { x = 0 y = 36 }
+	}
+
+	windowType = {
+		name ="waroverview"
+		backGround="waroverview_bg"
+		#c position = { x= -367 y = -332 }
+		position = { x= -388 y = -380 }
+		size = { x=734 y = 664 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+		Orientation = "CENTER"
+
+
+
+		guiButtonType = {
+			name ="waroverview_bg"
+			quadTextureSprite = "GFX_war_overview_bg"
+			position = { x= 0 y = 0 }
+		}
+
+
+
+		listboxType = {
+			name ="left_side"
+			position = { x = 105 y = 58 }
+			backGround=""
+			size = { x= 120 y = 100}
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 1
+			scrollbartype = "standardlistbox_noslider"
+			borderSize = {x = 0 y = 0}
+		}
+
+		#Its position can by nudged by the positiontype "waroverview_icon_offset"
+		iconType = {
+			name ="waroverview_icon"
+			spriteType = "GFX_war_overview_indicator"
+			position = { x= 155 y = 428 }
+			orientation = "UPPER_LEFT"
+		}
+
+		#Its position can by nudged by the positiontype "waroverview_value_offset"
+		instantTextBoxType = {
+			position = {x = 365 y = 428 }
+			name = "waroverview_value"
+			font = "vic_18"
+			borderSize = {x = 0 y = 2}
+			maxWidth = 30
+			maxHeight = 20
+			text = "0%"
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		listboxType = {
+			name ="us"
+			#c position = { x= 28 y = 141 }
+			position = { x= 28 y = 140 }
+			backGround=""
+			size = { x= 338  y = 195 }
+			horizontal = 0
+			spacing = 2
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 2 y = 2}
+			Orientation = "UPPER_LEFT"
+			offset = {x=0 y=-3}
+		}
+
+		listboxType = {
+			name ="them"
+			#c position = { x= 387 y = 141 }
+			position = { x= 389 y = 140 }
+			backGround=""
+			size = { x= 338  y = 195 }
+			horizontal = 0
+			spacing = 2
+			scrollbartype = "standardlistbox_slider"
+			borderSize = {x = 2 y = 2}
+			Orientation = "UPPER_LEFT"
+			offset = {x=0 y=-3}
+		}
+
+		guiButtonType = {
+			name ="sort_us_name"
+			quadTextureSprite = "GFX_sort_104"
+			position = { x = 32 y = 119 }
+			buttonFont = "vic_18"
+			buttonText = "NAME"
+		}
+
+		guiButtonType = {
+			name ="sort_us_war_capacity"
+			quadTextureSprite = "GFX_sort_capacity_icon"
+			position = { x = 158 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_us_war_exhaustion"
+			quadTextureSprite = "GFX_sort_exhaustion_icon"
+			position = { x = 209 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_us_stability"
+			quadTextureSprite = "GFX_sort_stability_icon"
+			position = { x = 244 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_us_economy"
+			quadTextureSprite = "GFX_sort_blockade_icon"
+			position = { x = 279 y = 119}
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_us_participation"
+			quadTextureSprite = "GFX_sort_participation_icon"
+			position = { x = 324 y = 119}
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_them_name"
+			quadTextureSprite = "GFX_sort_104"
+			position = { x = 392 y = 119 }
+			buttonFont = "vic_18"
+			buttonText = "NAME"
+		}
+
+		guiButtonType = {
+			name ="sort_them_war_capacity"
+			quadTextureSprite = "GFX_sort_capacity_icon"
+			position = { x = 518 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_them_war_exhaustion"
+			quadTextureSprite = "GFX_sort_exhaustion_icon"
+			position = { x = 569 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_them_stability"
+			quadTextureSprite = "GFX_sort_stability_icon"
+			position = { x = 604 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_them_economy"
+			quadTextureSprite = "GFX_sort_blockade_icon"
+			position = { x = 639 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name ="sort_them_participation"
+			quadTextureSprite = "GFX_sort_participation_icon"
+			position = { x = 684 y = 119 }
+			buttonFont = "vic_18"
+		}
+
+		iconType = {
+			name = "war_cb_icon"
+			spriteType = "GFX_cb_core"
+			#c position = { x = 90 y = 85 }
+			position = { x = 88 y = 75 }
+			orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "goto_peace_view"
+			position = { x = 685 y = 68 }
+			orientation = "UPPER_LEFT"
+			quadTextureSprite ="GFX_offer_peace_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		guiButtonType = {
+			name = "goto_unconditional_surrender"
+			position = { x = 635 y = 68 }
+			orientation = "UPPER_LEFT"
+			quadTextureSprite ="GFX_unconditional_surrender_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+
+		guiButtonType = {
+			name = "assume_leadership_button"
+			#c position = { x = 10 y = 68 }
+			position = { x = 32 y = 68 }
+			orientation = "UPPER_LEFT"
+			quadTextureSprite ="GFX_offer_peace_button"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+
+		instantTextBoxType= {
+			#c position = {x = 202 y = 43 }
+			position = {x = 194 y = 41 }
+			name = "nameofwar"
+			#c font = "vic_18"
+			font = "vic_22"
+			borderSize = {x = 8 y = 0}
+			#c maxWidth = 360
+			maxWidth = 370
+			maxHeight = 18
+			text = "GOTO_LIST_BOX"
+			orientation = "UPPER_LEFT"
+			format = centre
+			fixedsize = yes #c
+		}
+
+		instantTextBoxType= {
+			#c position = {x = 202 y = 58 }
+			position = {x = 198 y = 59 }
+			name = "startofwar"
+			font = "vic_18"
+			borderSize = {x = 8 y = 0}
+			maxWidth = 360
+			maxHeight = 18
+			text = "WAR_START_DATE"
+			orientation = "UPPER_LEFT"
+			format = centre
+		}
+
+		iconType =
+		{
+			name ="war_goal_progress"
+			spriteType = "GFX_wargoal_progressbar"
+			#c position = { x = 245 y = 91}
+			position = { x = 245 y = 91}
+		}
+
+		iconType =
+		{
+			name ="war_goal_progress_frame"
+			spriteType = "GFX_war_overview_progress_frame"
+			#c position = { x = 232 y = 87}
+			position = { x = 231 y = 87}
+		}
+
+		instantTextBoxType={
+			position = {x = 160 y = 93 }
+			name = "war_goal_title"
+			#c font = "vic_18"
+			font = "vic_18s"
+			borderSize = {x = 8 y = 0}
+			maxWidth = 360
+			maxHeight = 18
+			text = "WAR_GOAL"
+			orientation = "UPPER_LEFT"
+			format = left
+		}
+
+		instantTextBoxType={
+			#c position = {x = 250 y = 93 }
+			position = {x = 241 y = 93 }
+			name = "war_goal"
+			font = "vic_18"
+			borderSize = {x = 8 y = 0}
+			maxWidth = 280
+			maxHeight = 18
+			text = "War Goooooooooooooooooooal!"
+			#orientation = "CENTER"
+			format = centre
+			fixedsize = yes #c
+		}
+
+		instantTextBoxType={
+			name = "ourcav"
+			#c position = { x = 217 y = 349 }
+			position = { x = 215 y = 349 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+
+		instantTextBoxType={
+			name = "ourinf"
+			#c position = { x = 110 y = 349}
+			position = { x = 106 y = 349}
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+		instantTextBoxType={
+			name = "ourart"
+			#c position = {x = 324 y = 349 }
+			position = {x = 324 y = 349 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			name = "ourtrans"
+			#c position = { x = 326 y = 388 }
+			position = { x = 335 y = 388 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			name = "ourgal"
+			#c position = {x = 244 y = 388 }
+			position = {x = 254 y = 388 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			name = "oursmall"
+			#c position = { x = 164 y = 388 }
+			position = { x = 173 y = 388 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			name = "ourbig"
+			#c position = { x = 84 y = 388 }
+			position = { x = 92 y = 388 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		windowType = {
+			name ="waroverview_losses"
+			backGround=""
+			position = { x= 0 y = 465 }
+			size = { x = 773 y = 36 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+
+			instantTextBoxType={
+				name = "ourtroops_lost"
+				#c position = { x = 110 y = 10}
+				position = { x = 106 y = 9}
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200000"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="ourtroops_lost_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 60 y = 0}
+				position = { x = 63 y = 2}
+				frame = 1
+				scale = 0.7
+			}
+
+			instantTextBoxType={
+				name = "ourtroops_attrit"
+				#c position = { x = 217 y = 10}
+				position = { x = 215 y = 9}
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200000"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="ourtroops_attrit_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 169 y = 0}
+				position = { x = 172 y = 2}
+				frame = 9
+				scale = 0.7
+			}
+
+			instantTextBoxType={
+				name = "ourships_lost"
+				#c position = { x = 324 y = 10 }
+				position = { x = 324 y = 9 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="ourships_lost_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 280 y = 0 }
+				position = { x = 282 y = 2 }
+				frame = 4
+				scale = 0.7
+			}
+
+			instantTextBoxType={
+				name = "enemytroops_lost"
+				#c position = { x = 453 y = 10}
+				position = { x = 451 y = 9}
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200000"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="enemytroops_lost_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 405 y = 0}
+				position = { x = 408 y = 2}
+				frame = 1
+				scale = 0.7
+			}
+
+			instantTextBoxType={
+				name = "enemytroops_attrit"
+				#c position = { x = 562 y = 10}
+				position = { x = 560 y = 9}
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200000"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="enemytroops_attrit_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 515 y = 0}
+				position = { x = 517 y = 2}
+				frame = 9
+				scale = 0.7
+			}
+
+			instantTextBoxType={
+				name = "enemyships_lost"
+				#c position = { x = 667 y = 10}
+				position = { x = 669 y = 9}
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 30
+				maxHeight = 20
+				text = "200"
+				orientation = "UPPER_LEFT"
+				#c format = right
+				format = center
+			}
+
+			iconType =
+			{
+				name ="enemyships_lost_icon"
+				spriteType = "GFX_unit_types_strip"
+				#c position = { x = 626 y = 0 }
+				position = { x = 627 y = 2 }
+				frame = 4
+				scale = 0.7
+			}
+
+		}
+
+		iconType =
+		{
+			name ="ourinf_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 60 y = 341}
+			position = { x = 63 y = 342}
+			frame = 1
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="ourcav_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 169 y = 341}
+			position = { x = 172 y = 342}
+			frame = 2
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="ourart_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 280 y = 341}
+			position = { x = 283 y = 342}
+			frame = 3
+			scale = 0.7
+		}
+
+
+		iconType =
+		{
+			name ="ourbig_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 60 y = 381}
+			position = { x = 62 y = 381}
+			frame = 4
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="ourtrans_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 142 y = 381}
+			position = { x = 143 y = 381}
+			frame = 5
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="ourgal_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 223 y = 381}
+			position = { x = 224 y = 381}
+			frame = 6
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="oursmall_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 304 y = 381}
+			position = { x = 305 y = 381}
+			frame = 7
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="ticking_war_score_icon"
+			spriteType = "GFX_ticking_war_score_icon"
+			#c position = { x = 645 y = 421}
+			position = { x = 647 y = 422}
+		}
+
+		iconType =
+		{
+			name ="ticking_war_score"
+			spriteType = "GFX_ticking_war_score"
+			#c position = { x = 685 y = 422}
+			position = { x = 685 y = 425}
+			frame = 1
+		}
+
+		#////////////////////////// ENEMY/////////////////////////////////////////////////////////////////
+		instantTextBoxType={
+			#c position = { x = 453 y = 349 }
+			position = { x = 451 y = 349 }
+			name = "enemyinf"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = { x = 562 y = 349 }
+			position = { x = 560 y = 349 }
+			name = "enemycav"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 667 y = 349 }
+			position = {x = 669 y = 349 }
+			name = "enemyart"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200000"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 427 y = 388 }
+			position = {x = 437 y = 388 }
+			name = "enemybig"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = { x = 672 y = 388 }
+			position = { x = 680 y = 388 }
+			name = "enemytrans"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = { x = 590 y = 388 }
+			position = { x = 599 y = 388 }
+			name = "enemygal"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+		instantTextBoxType={
+			#c position = {x = 509 y = 388 }
+			position = {x = 518 y = 388 }
+			name = "enemysmall"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 20
+			text = "200"
+			orientation = "UPPER_LEFT"
+			#c format = right
+			format = center
+		}
+
+
+
+		iconType =
+		{
+			name ="enemyinf_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 405 y = 341}
+			position = { x = 408 y = 342}
+			frame = 1
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="enemycav_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 515 y = 341}
+			position = { x = 518 y = 342}
+			frame = 2
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="enemyart_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 625 y = 341}
+			position = { x = 628 y = 342}
+			frame = 3
+			scale = 0.7
+		}
+
+
+		iconType =
+		{
+			name ="enemybig_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 405 y = 381}
+			position = { x = 407 y = 381}
+			frame = 4
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			#c name ="enemytrans_icon"
+			name ="enemysmall_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 487 y = 381}
+			position = { x = 488 y = 381}
+			frame = 5
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			name ="enemygal_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 567 y = 381}
+			position = { x = 569 y = 381}
+			frame = 6
+			scale = 0.7
+		}
+
+		iconType =
+		{
+			#c name ="enemysmall_icon"
+			name ="enemytrans_icon"
+			spriteType = "GFX_unit_types_strip"
+			#c position = { x = 649 y = 381}
+			position = { x = 650 y = 381}
+			frame = 7
+			scale = 0.7
+		}
+
+#########################################	BATTLES ############
+
+
+
+		windowType = {
+			name ="waroverview_battles"
+			backGround=""
+			position = { x= 0 y = 500 }
+			size = { x = 773 y = 222 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			upsound = ""
+			downsound = ""
+			fullscreen=no
+
+			listboxType = {
+				name ="battles"
+				#c position = { x= 135 y = 55 }
+				position = { x= 135 y = 54 }
+				backGround=""
+				size = { x= 574  y = 121 }
+				horizontal = 0
+				spacing = 2
+				scrollbartype = "standardlistbox_slider"
+				borderSize = {x = 10 y = 10}
+				Orientation = "UPPER_LEFT"
+			}
+
+			guiButtonType = {
+				name = "close"
+				position = { x = 312 y = 180 }
+				quadTextureSprite ="button_type_1"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = "CLOSE"
+				buttonFont = "vic_18"
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}
+
+			instantTextBoxType={
+				name = "BattlesHeader"
+				font = "vic_22"
+				#c position = {x = 135 y = 10 }
+				position = {x = 135 y = 7 }
+				borderSize = {x = 0 y = 0}
+				maxWidth = 505
+				maxHeight = 18
+				text = "Battles"
+				orientation = "UPPER_LEFT"
+				format = centre
+			}
+
+
+			guiButtonType = {
+				name ="sort_type"
+				quadTextureSprite = "GFX_sort_46"
+				position = { x = 68 y = 37 }
+				buttonFont = "vic_18"
+				buttonText = "LEDGER_TYPE"
+			}
+			guiButtonType = {
+				name ="sort_name"
+				quadTextureSprite = "GFX_sort_174"
+				position = { x = 114 y = 37 }
+				buttonFont = "vic_18"
+				buttonText = "NAME"
+			}
+			guiButtonType = {
+				name ="sort_winloose"
+				quadTextureSprite = "GFX_sort_247"
+				position = { x = 289 y = 37 }
+				buttonFont = "vic_18"
+				buttonText = "WIN_LOSE"
+			}
+			guiButtonType = {
+				name ="sort_score"
+				quadTextureSprite = "GFX_sort_88"
+				position = { x = 535 y = 37 }
+				buttonFont = "vic_18"
+				buttonText = "LEDGER_SCORE"
+			}
+			guiButtonType = {
+				name ="sort_win"
+				quadTextureSprite = "GFX_sort_81"
+				position = { x = 624 y = 37 }
+				buttonFont = "vic_18"
+				buttonText = "RESULT"
+			}
+
+		}
+	#/////////////////////////////////////////
+	}
+
+	windowType = {
+		name ="waroverview_countryItem"
+		backGround=""
+		position = { x= 0 y = 0 }
+		size = { x=200 y = 32 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+
+		guiButtonType =
+		{
+			name ="shield"
+			quadTextureSprite = "GFX_shield_small"
+			#c position = { x= 0 y = 0 }
+			position = { x= 0 y = -1 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="leader"
+			spriteType = "GFX_war_leader"
+			position = { x= 1 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="no_peace"
+			spriteType = "GFX_no_peace"
+			#c position = { x= 1 y = 15 }
+			position = { x= 2 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="no_demand"
+			spriteType = "GFX_no_demand_peace"
+			position = { x= 18 y = 16 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="no_full_ally"
+			spriteType = "GFX_no_full_ally"
+			#c position = { x= 15 y = 16 }
+			position = { x= 17 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType={
+			#c position = {x = 30 y = 8 }
+			position = {x = 31 y = 8 }
+			name = "CountryName"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 94
+			maxHeight = 18
+			text = "Sweden"
+			orientation = "UPPER_LEFT"
+			format = left
+			fixedsize = yes
+			truncate = yes
+		}
+
+		instantTextBoxType={
+			#c position = {x = 139 y = 8 }
+			position = {x = 137 y = 8 }
+			name = "warCapacityValue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 18
+			text = "100%"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			position = {x = 180 y = 8 }
+			name = "warExhaustionValue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 18
+			text = "85%"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 216 y = 8 }
+			position = {x = 215 y = 8 }
+			name = "StabilityValue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 30
+			maxHeight = 18
+			text = "-3"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 248 y = 8 }
+			position = {x = 249 y = 8 }
+			name = "economyValue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 48
+			maxHeight = 18
+			text = "x"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			position = {x = 296 y = 8 }
+			name = "participationValue"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 40
+			maxHeight = 18
+			text = "x"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+	}
+	windowType = {
+		name ="waroverview_battleItem"
+		backGround=""
+		position = { x= 0 y = 0 }
+		size = { x = 400 y = 30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		upsound = ""
+		downsound = ""
+		fullscreen=no
+
+		iconType =
+		{
+			name ="land_battle"
+			spriteType= "GFX_icon_land"
+			#c position = { x= -75 y = -14 }
+			position = { x= -75 y = -12 }
+		}
+		iconType =
+		{
+			name ="naval_battle"
+			spriteType= "GFX_icon_naval"
+			#c position = { x= -75 y = -14 }
+			position = { x= -74 y = -12 }
+		}
+
+		instantTextBoxType={
+			#c position = {x = -26 y = 0 }
+			position = {x = -24 y = 0 }
+			name = "BattleName"
+			font = "vic_18"
+			#c borderSize = {x = -6 y = 0}
+			borderSize = {x = 0 y = 0}
+			#c maxWidth = 170
+			maxWidth = 168
+			maxHeight = 18
+			text = "1458 - april 12 Battle of Bromma"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 138 y = 0 }
+			position = {x = 152 y = 0 }
+			name = "Numbers"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			#c maxWidth = 250
+			maxWidth = 230
+			maxHeight = 18
+			text = "13300 V 12030"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			position = {x = 392 y = 0 }
+			name = "battlescore"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 86
+			maxHeight = 18
+			text = "1337"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+
+		instantTextBoxType={
+			#c position = {x = 482 y = 0 }
+			position = {x = 481 y = 0 }
+			name = "WinOrLoose"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 78
+			maxHeight = 18
+			text = "Win"
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+	}
+}
