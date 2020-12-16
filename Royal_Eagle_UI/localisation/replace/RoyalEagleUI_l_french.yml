@@ -372,6 +372,13 @@
  age_of_absolutism:0 "Ère des Absolutismes"
  age_of_revolutions:0 "Ère des Révolutions"
 
+ ## PROVINCE VIEW ##
+ SUPPLY_LIMIT:0 "Ravitaillement"
+ TRADE_POWER:0 "Puissance"
+ TRADE_VALUE:0 "Valeur"
+ ARMY:0 "Armée"
+ NAVY:0 "Flotte"
+
  ## MISCELLANEOUS ##
  ST:0 "er"
  ND:0 "e"
