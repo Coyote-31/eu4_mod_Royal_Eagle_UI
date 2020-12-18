@@ -378,6 +378,11 @@
  TRADE_VALUE:0 "Valeur"
  ARMY:0 "Armée"
  NAVY:0 "Flotte"
+ PROVVIEW_OCCUPIED_BY_YOU:0 "§GOccupée par nous§!"
+
+ ## PEACE VIEW ##
+ PEACE_WARSCORE:0 "Score"
+ CLEAR_OFFER:0 "£no£  Effacer l'offre"
 
  ## MISCELLANEOUS ##
  ST:0 "er"
