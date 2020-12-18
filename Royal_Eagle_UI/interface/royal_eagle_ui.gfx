@@ -324,4 +324,20 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	## PEACE VIEW ##
+
+	spriteType = {
+		name = "GFX_COYOTE_peace_demand_bg_huge"
+		texturefile = "gfx//interface//coyote_peace_demand_bg_huge.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_COYOTE_peace_offer_bg_huge"
+		texturefile = "gfx//interface//coyote_peace_offer_bg_huge.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
 }
