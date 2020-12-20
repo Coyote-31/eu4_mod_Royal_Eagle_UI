@@ -340,4 +340,106 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	## TXT ICONS ##
+
+	# Peace
+
+	spriteType = {
+		name = "GFX_text_cede_provinces"
+		texturefile = "gfx/interface/txt_icons/cede_provinces.dds"
+	}
+	spriteType = {
+		name = "GFX_text_revoke_core"
+		texturefile = "gfx/interface/txt_icons/revoke_core.dds"
+	}
+	spriteType = {
+		name = "GFX_text_return_core"
+		texturefile = "gfx/interface/txt_icons/return_core.dds"
+	}
+	spriteType = {
+		name = "GFX_text_cancel_vassals"
+		texturefile = "gfx/interface/txt_icons/cancel_vassals.dds"
+	}
+	spriteType = {
+		name = "GFX_text_release_nation"
+		texturefile = "gfx/interface/txt_icons/release_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_text_annul_treaties"
+		texturefile = "gfx/interface/txt_icons/annul_treaties.dds"
+	}
+	spriteType = {
+		name = "GFX_text_treaties"
+		texturefile = "gfx/interface/txt_icons/treaties.dds"
+	}
+
+	spriteType = {
+		name = "GFX_text_inflation_up"
+		texturefile = "gfx/interface/txt_icons/inflation_up.dds"
+	}
+	spriteType = {
+		name = "GFX_text_power_projection"
+		texturefile = "gfx/interface/txt_icons/power_projection.dds"
+	}
+	spriteType = {
+		name = "GFX_text_tribal_allegiance"
+		texturefile = "gfx/interface/txt_icons/power_projection.dds"
+	}
+	spriteType = {
+		name = "GFX_text_white_peace"
+		texturefile = "gfx/interface/txt_icons/white_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_text_annexation"
+		texturefile = "gfx/interface/txt_icons/annexation.dds"
+	}
+	spriteType = {
+		name = "GFX_text_convert_religion"
+		texturefile = "gfx/interface/txt_icons/convert_religion.dds"
+	}
+	spriteType = {
+		name = "GFX_text_game_over"
+		texturefile = "gfx/interface/txt_icons/game_over.dds"
+	}
+	spriteType = {
+		name = "GFX_text_peace_loot"
+		texturefile = "gfx/interface/txt_icons/peace_loot.dds"
+	}
+	spriteType = {
+		name = "GFX_text_prestige_txt"
+		texturefile = "gfx/interface/txt_icons/prestige_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_aggresive_exp_txt"
+		texturefile = "gfx/interface/txt_icons/aggresive_exp_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_diplomatic_peace_cost"
+		texturefile = "gfx/interface/txt_icons/diplomatic_peace_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_text_relation_peace_penalty"
+		texturefile = "gfx/interface/txt_icons/relation_peace_penalty.dds"
+	}
+	spriteType = {
+		name = "GFX_text_overextension_txt"
+		texturefile = "gfx/interface/txt_icons/overextension_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_vassal_txt"
+		texturefile = "gfx/interface/txt_icons/vassal_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_high_karma_txt"
+		texturefile = "gfx/interface/txt_icons/high_karma_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_low_karma_txt"
+		texturefile = "gfx/interface/txt_icons/low_karma_txt.dds"
+	}
+	spriteType = {
+		name = "GFX_text_humiliation_txt"
+		texturefile = "gfx/interface/txt_icons/humiliation_txt.dds"
+	}
+
 }

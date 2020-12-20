@@ -1628,14 +1628,7 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 
-		iconType =
-		{
-			name ="wargoal_icon"
-			spriteType = "GFX_diplomacy_action_covert"
-			#c position = { x= 187 y = 2 }
-			position = { x= 186 y = 2 }
-			Orientation = "UPPER_LEFT"
-		}
+		#c here was old wargoal_icon
 
 		iconType =
 		{
@@ -1681,8 +1674,18 @@ guiTypes = {
 		guiButtonType = {
 			name = "country_flag_2"
 			#c position = { x= 156 y = 4 }
-			position = { x= 157 y = 3 }
+			position = { x= 185 y = 3 }
 			quadTextureSprite ="GFX_flag_small"
+		}
+
+		#c Moved here from #c here was old wargoal_icon
+		iconType =
+		{
+			name ="wargoal_icon"
+			spriteType = "GFX_diplomacy_action_covert"
+			#c position = { x= 187 y = 2 }
+			position = { x= 186 y = 2 }
+			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
