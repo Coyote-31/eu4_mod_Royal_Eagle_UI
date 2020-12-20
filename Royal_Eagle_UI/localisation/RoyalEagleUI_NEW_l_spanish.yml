@@ -1,0 +1,11 @@
+﻿l_french:
+ #### FIX OFFICIAL TRAD ###
+ #### Reload localisation console cmd: reloadloc
+ ### NEW TRAD FROM ROYAL_EAGLE_UI ###
+
+ ## DLC ##
+ LANDING_RECOMMENDED_DLC:0 "Extensiones recomendadas"
+ LANDING_RECOMMENDED_DLC_2L:0 "Extensiones Recomendadas"
+ LANDING_RECOMMENDED_COUNTRIES:0 "Paises recomendados"
+ LANDING_DLC_DESCRIPTION:0 "Descripción"
+ LANDING_DLC_FEATURES:0 "Contenido"

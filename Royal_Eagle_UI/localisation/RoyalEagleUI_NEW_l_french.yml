@@ -3,10 +3,6 @@
  #### Reload localisation console cmd: reloadloc
  ### NEW TRAD FROM ROYAL_EAGLE_UI ###
 
- ## Logo Royal Eagle UI ##
- COYOTE_LOGO_FE_IRONMAN:0 "Royal Eagle UI est §Gcompatible§! avec le mode Iron Man"
- COYOTE_LOGO_EAGLE:0 "Merci d'utiliser §GRoyal Eagle UI§! §g(par Coyote)§! !\nN'hésitez pas à signaler un §Ybug§! sur GitHub ou le Steam Workshop.\n£attrition£ §RCliquez à vos risques et périls§!"
-
  ## DLC ##
  LANDING_RECOMMENDED_DLC:0 "Extensions recommandées"
  LANDING_RECOMMENDED_DLC_2L:0 "Extensions Recommandées"
