@@ -927,7 +927,8 @@ guiTypes = {
 	eu3dialogtype = {
 		name = "EndOfLandCombatCompactPopup"
 		backGround="Background"
-		position = { x=-225 y=-90 }
+		#c position = { x=-225 y=-90 }
+		position = { x=-277 y=-255 }
 		size = { x=450 y=192 }
 		orientation="CENTER"
 		moveable = 1
@@ -949,7 +950,8 @@ guiTypes = {
 		guiButtonType = {
 			name = "Settings"
 			quadTextureSprite ="MessageSettingsButton"
-			position = { x=439 y=146 }
+			#c position = { x=439 y=146 }
+			position = { x=446 y=146 }
 		}
 
 		### battle name
@@ -972,17 +974,22 @@ guiTypes = {
 		### Our side shields.
 		OverlappingElementsBoxType = {
 			name = "our_side_shield_list"
-			position = { x= 64 y = 55 }
-			size = { x = 280 y = 64 }
+			#c position = { x= 64 y = 55 }
+			position = { x= 64 y = 53 }
+			#c size = { x = 280 y = 64 }
+			size = { x = 174 y = 64 }
 			format = left
 			spacing = 0
 		}
 
 		OverlappingElementsBoxType = {
 			name = "enemy_side_shield_list"
-			position = { x= 254 y = 55 }
-			size = { x = 280 y = 64 }
-			format = left
+			#c position = { x= 254 y = 55 }
+			position = { x= 257 y = 53 }
+			#c size = { x = 280 y = 64 }
+			size = { x = 174 y = 64 }
+			#c format = left
+			format = right
 			spacing = 0
 		}
 
@@ -996,12 +1003,14 @@ guiTypes = {
 		iconType = {
 			name ="icon_army_tradition"
 			spriteType = "GFX_icon_army_tradition"
-			position = { x= 102 y = 90 }
+			#c position = { x= 102 y = 90 }
+			position = { x= 103 y = 90 }
 		}
 		iconType = {
 			name ="icon_war_exhaustion"
 			spriteType = "GFX_icon_war_exhaustion"
-			position = { x= 172 y = 88 }
+			#c position = { x= 172 y = 88 }
+			position = { x= 170 y = 88 }
 		}
 
 		instantTextBoxType = {
@@ -1011,31 +1020,36 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "+1.20"
-				maxWidth = 48
+				#c maxWidth = 48
+				maxWidth = 50
 				maxHeight = 20
 				fixedsize = yes
 				format = left
 			}
 		instantTextBoxType = {
 				name = "our_tradition"
-				position = { x = 126 y = 96 }
+				#c position = { x = 126 y = 96 }
+				position = { x = 130 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "+1.20"
-				maxWidth = 48
+				#c maxWidth = 48
+				maxWidth = 50
 				maxHeight = 20
 				fixedsize = yes
 				format = left
 			}
 		instantTextBoxType = {
 				name = "our_exhaustion"
-				position = { x = 198 y = 96 }
+				#c position = { x = 198 y = 96 }
+				position = { x = 200 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "+1.20"
-				maxWidth = 48
+				#c maxWidth = 48
+				maxWidth = 50
 				maxHeight = 20
 				fixedsize = yes
 				format = left
@@ -1051,12 +1065,14 @@ guiTypes = {
 		iconType = {
 			name ="icon_army_tradition2"
 			spriteType = "GFX_icon_army_tradition"
-			position = { x= 324 y = 90 }
+			#c position = { x= 324 y = 90 }
+			position = { x= 325 y = 90 }
 		}
 		iconType = {
 			name ="icon_war_exhaustion2"
 			spriteType = "GFX_icon_war_exhaustion"
-			position = { x= 394 y = 88 }
+			#c position = { x= 394 y = 88 }
+			position = { x= 392 y = 88 }
 		}
 
 		instantTextBoxType = {
@@ -1073,7 +1089,8 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 				name = "enemy_tradition"
-				position = { x = 348 y = 96 }
+				#c position = { x = 348 y = 96 }
+				position = { x = 352 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1085,7 +1102,8 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 				name = "enemy_exhaustion"
-				position = { x = 420 y = 96 }
+				#c position = { x = 420 y = 96 }
+				position = { x = 422 y = 96 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1142,12 +1160,16 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "winORLose"
-				position = { x = 132 y = 120 }
+				#c position = { x = 132 y = 120 }
+				position = { x = 130 y = 122 }
 				textureFile = ""
-				font = "vic_22"
-				borderSize = {x = 4 y = 4}
+				#c font = "vic_22"
+				font = "vic_18"
+				#c borderSize = {x = 4 y = 4}
+				borderSize = {x = 0 y = 4}
 				text = "You Won"
-				maxWidth = 220
+				#c maxWidth = 220
+				maxWidth = 234
 				maxHeight = 24
 				fixedsize = yes
 				format = centre
@@ -1155,9 +1177,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "OurLost"
-				position = { x = 26 y = 122 }
+				#c position = { x = 26 y = 122 }
+				position = { x = 20 y = 122 }
 				textureFile = ""
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18_grey"
 				borderSize = {x = 4 y = 4}
 				text = ""
 				maxWidth = 120
@@ -1168,9 +1192,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "EnemyLost"
-				position = { x = 342 y = 122 }
+				#c position = { x = 342 y = 122 }
+				position = { x = 348 y = 122 }
 				textureFile = ""
-				font = "vic_18"
+				#c font = "vic_18"
+				font = "vic_18_grey"
 				borderSize = {x = 4 y = 4}
 				text = ""
 				maxWidth = 120
