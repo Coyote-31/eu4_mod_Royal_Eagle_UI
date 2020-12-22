@@ -442,4 +442,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/txt_icons/humiliation_txt.dds"
 	}
 
+	## ICONS ##
+
+	spriteType = {
+		name = "GFX_attrition_rip"
+		texturefile = "gfx/interface/ideas_EU4/attrition.dds"
+	}
+
 }
