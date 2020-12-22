@@ -1135,60 +1135,6 @@ bitmapfonts = {
 		}
 	}
 
-	###c testing fonts
-
-	bitmapfont = {
-		name = "test"
-		path = "gfx/fonts/test"
-		#c color = 0xffffffff
-    color = 0xfff2f4f7
-
-		textcolors = {
-			G = { 90 198 63 }
-			R = { 226 68 63 }
-			Y = { 252 218 80 }
-		}
-	}
-
-	bitmapfont = {
-		name = "test_red"
-		path = "gfx/fonts/test_red"
-		#c color = 0xffffffff
-    color = 0xfff2f4f7
-
-		textcolors = {
-			G = { 90 198 63 }
-			R = { 226 68 63 }
-			Y = { 252 218 80 }
-		}
-	}
-
-	bitmapfont = {
-		name = "test_green"
-		path = "gfx/fonts/test_green"
-		#c color = 0xffffffff
-    color = 0xfff2f4f7
-
-		textcolors = {
-			G = { 90 198 63 }
-			R = { 226 68 63 }
-			Y = { 252 218 80 }
-		}
-	}
-
-	bitmapfont = {
-		name = "test_blue"
-		path = "gfx/fonts/test_blue"
-		#c color = 0xffffffff
-    color = 0xfff2f4f7
-
-		textcolors = {
-			G = { 90 198 63 }
-			R = { 226 68 63 }
-			Y = { 252 218 80 }
-		}
-	}
-
 	###   End - Fonts by Coyote   c###
 	##################################
 
