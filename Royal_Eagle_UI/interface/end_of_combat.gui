@@ -76,8 +76,10 @@ guiTypes = {
 				name ="3d_view_left_shadow_artillery"
 				spriteType = "GFX_3d_unit_shadow"
 				#c position = { x= -19 y = 255 }
-				position = { x= -19 y = 259 }
-				scale = 1.45
+				position = { x= -20 y = 250 }
+				#c scale = 1.45
+				scale = 1.40
+				rotation = -0.3 #c
 			}
 
 			guiButtonType = {
@@ -142,8 +144,10 @@ guiTypes = {
 				name ="3d_view_right_shadow_artillery"
 				spriteType = "GFX_3d_unit_shadow"
 				#c position = { x= -27 y = 255 }
-				position = { x= -19 y = 259 }
-				scale = 1.45
+				position = { x= -20 y = 250 }
+				#c scale = 1.45
+				scale = 1.40
+				rotation = -0.3 #c
 			}
 
 			guiButtonType = {
