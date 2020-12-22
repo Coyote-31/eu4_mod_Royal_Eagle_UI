@@ -254,7 +254,7 @@ guiTypes = {
 				name = "add_parliament"
 				quadTextureSprite = "GFX_add_parliament_icon"
 				#c position = { x = 73 y = 1 }
-				position = { x = 77 y = 2 }
+				position = { x = 77 y = 3 }
 			}
 
 			iconType =
@@ -278,7 +278,7 @@ guiTypes = {
 				name = "have_parliament"
 				spriteType = "GFX_have_parliament_icon"
 				#c position = { x = 73 y = 1 }
-				position = { x = 77 y = 2 }
+				position = { x = 77 y = 3 }
 			}
 
 
