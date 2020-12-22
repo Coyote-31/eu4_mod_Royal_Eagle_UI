@@ -71,13 +71,6 @@ guiTypes = {
 				position = { x= -8 y = 269 }
 				scale = 1.25
 			}
-			iconType = {
-				name ="3d_view_left_shadow_cavalry_test"
-				spriteType = "GFX_3d_unit_shadow"
-				#c position = { x= -8 y = 265 }
-				position = { x= -8 y = 269 }
-				scale = 1.25
-			}
 
 			iconType = {
 				name ="3d_view_left_shadow_artillery"
