@@ -126,6 +126,7 @@ VertexShader =
 		VS_FLAG_OUTPUT main(const VS_FLAG_INPUT v )
 		{
 		    VS_FLAG_OUTPUT Out;
+				//c Out.vPosition  	= mul( Matrix, v.vPosition );
 		    Out.vPosition  	= mul( Matrix, v.vPosition + float4(0,1,0,0) );
 
 
@@ -225,6 +226,7 @@ PixelShader =
 
 
 ## Blend States
+##c add WriteMask
 
 BlendState BlendState
 {

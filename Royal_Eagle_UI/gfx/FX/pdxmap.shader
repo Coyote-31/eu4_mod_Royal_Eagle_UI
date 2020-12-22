@@ -305,8 +305,8 @@ float3 calculate_secondary_compressed( float2 uv, float3 vColor, float2 vPos )
 		+ float3( RedParts.y, GreenParts.y, BlueParts.y ) * vMask.g
 		+ float3( RedParts.z, GreenParts.z, BlueParts.z ) * vMask.r;
 
-	// vSecondary.a -= 0.5 * saturate( saturate( frac( vPos.x / 2.0 ) - 0.7 ) * 10000.0 );
-	vSecondary.a -= 0.5 * saturate( saturate( frac( vPos.x / 2.0 ) - 0 ) * 10000.0 );
+	//c vSecondary.a -= 0.5 * saturate( saturate( frac( vPos.x / 2.0 ) - 0.7 ) * 10000.0 );
+	vSecondary.a -= 0.5 * saturate( saturate( frac( vPos.x / 2.0 ) ) * 10000.0 );
 	vSecondary.a = saturate( saturate( vSecondary.a ) * 3.0 ) * vMask.a;
 	return vColor * ( 1.0 - vSecondary.a ) + ( vSecondColor / float(nDivisor) ) * vSecondary.a;
 }
