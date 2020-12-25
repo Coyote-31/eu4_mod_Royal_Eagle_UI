@@ -343,8 +343,32 @@ spriteTypes = {
 	## MACRO ##
 
 	spriteType = {
-		name = "GFX_COYOTE_new_buildings_macro_bg"
-		texturefile = "gfx//interface//coyote_new_buildings_macro_bg.dds"
+		name = "GFX_COYOTE_macro_build_interface_bottom_bg"
+		texturefile = "gfx//interface//coyote_macro_build_interface_bottom_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_macro_build_interface_bottom_huge_bg"
+		texturefile = "gfx//interface//coyote_macro_build_interface_bottom_huge_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_mercs_huge_bg"
+		texturefile = "gfx//interface//macro_states_bg//coyote_mercs_huge_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_macro_diplomacy_overlay1_huge"
+		texturefile = "gfx//interface//coyote_macro_diplomacy_overlay1_huge.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_macro_diplomacy_overlay2_huge"
+		texturefile = "gfx//interface//coyote_macro_diplomacy_overlay2_huge.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
 	}

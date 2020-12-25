@@ -763,7 +763,7 @@ guiTypes = {
 		#c position = { x=-400 y = 150 }
 		position = { x=-500 y = 169 }
 		#c show_position = { x=0 y = 150 }
-		show_position = { x=-4 y = 169 }
+		show_position = { x=1 y = 169 }
 		#c hide_position = { x=-400 y = 150 }
 		hide_position = { x=-500 y = 169 }
 		animation_type = "decelerated"
@@ -785,12 +785,27 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
-		#c Add bg for bottom part
-		iconType = {
-			name = "new_buildings_macro_bg"
-			position = { x = -5 y = 392 }
-			spriteType = "GFX_COYOTE_new_buildings_macro_bg"
-		}
+
+
+		if_resolution = {
+			max_height = 1047
+			#c Add bg for bottom part
+			iconType = {
+				name = "coyote_macro_build_interface_bottom_bg"
+				position = { x = -5 y = 392 }
+				spriteType = "GFX_COYOTE_macro_build_interface_bottom_bg"
+			}
+	  }
+
+		if_resolution = {
+			min_height = 1048
+			#c Add huge bg for bottom part
+			iconType = {
+				name = "coyote_macro_build_interface_bottom_huge_bg"
+				position = { x = -5 y = 392 }
+				spriteType = "GFX_COYOTE_macro_build_interface_bottom_huge_bg"
+			}
+	  }
 
 		checkboxType = {
 			name = "land_units_button"
@@ -1701,7 +1716,15 @@ guiTypes = {
 
 			iconType = {
 				name ="select_diplo_action_type_BG"
-				spriteType = "GFX_macro_diplomacy_overlay1"
+				#c spriteType = "GFX_macro_diplomacy_overlay1"
+				if_resolution = {
+				  max_height = 1047
+					spriteType = "GFX_macro_diplomacy_overlay1"
+				}
+				if_resolution = {
+				  min_height = 1048
+					spriteType = "GFX_COYOTE_macro_diplomacy_overlay1_huge"
+				}
 				position = { x= -9 y = 4 }
 			}
 
@@ -1724,7 +1747,14 @@ guiTypes = {
 				position = { x = 27 y = 39 }
 				backGround=""
 				#c size = { x= 264 y = 136 }
-				size = { x= 264 y = 163 }
+				if_resolution = {
+				  max_height = 1047
+					size = { x= 264 y = 163 }
+				}
+				if_resolution = {
+				  min_height = 1048
+					size = { x= 264 y = 190 }
+				}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1736,7 +1766,14 @@ guiTypes = {
 			name = "diplomacy_target_list_window"
 			backGround =""
 			#c position = { x=8 y=100 }
-			position = { x=8 y=129 }
+			if_resolution = {
+			  max_height = 1047
+				position = { x=8 y=129 }
+			}
+			if_resolution = {
+			  min_height = 1048
+				position = { x=8 y=172 }
+			}
 			size = { x=200 y= 30 }
 			moveable = 0
 			dontRender = ""
@@ -1744,7 +1781,15 @@ guiTypes = {
 
 			iconType = {
 				name ="bg"
-				spriteType = "GFX_macro_diplomacy_overlay2"
+				#c spriteType = "GFX_macro_diplomacy_overlay2"
+				if_resolution = {
+				  max_height = 1047
+					spriteType = "GFX_macro_diplomacy_overlay2"
+				}
+				if_resolution = {
+				  min_height = 1048
+					spriteType = "GFX_COYOTE_macro_diplomacy_overlay2_huge"
+				}
 				position = { x= 0 y = 189 }
 			}
 
@@ -1764,7 +1809,15 @@ guiTypes = {
 				name ="action_list"
 				position = { x = 17 y = 225 }
 				backGround=""
-				size = { x= 369 y = 232 }
+				#c size = { x= 369 y = 232 }
+				if_resolution = {
+			  	max_height = 1047
+					size = { x= 369 y = 232 }
+				}
+				if_resolution = {
+				  min_height = 1048
+					size = { x= 369 y = 496 }
+				}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1822,9 +1875,16 @@ guiTypes = {
 			horizontalBorder = ""
 
 			iconType = {
-				name ="hire_mercenary_company_BG"
-				spriteType = "GFX_mercs_bg"
-				position = { x= 0 y = 42 }
+			 	name ="hire_mercenary_company_BG"
+				if_resolution = {
+				  max_height = 1047
+					spriteType = "GFX_mercs_bg"
+				}
+				if_resolution = {
+				  min_height = 1048
+					spriteType = "GFX_COYOTE_mercs_huge_bg"
+				}
+			 	position = { x= 0 y = 42 }
 			}
 
 			iconType = {
@@ -1851,7 +1911,15 @@ guiTypes = {
 				#c position = { x = 5 y = 50 }
 				position = { x = 4 y = 50 }
 				backGround=""
-				size = { x= 380 y = 355 }
+				#c size = { x= 380 y = 355 }
+				if_resolution = {
+				  max_height = 1047
+					size = { x= 380 y = 355 }
+				}
+				if_resolution = {
+				  min_height = 1048
+					size = { x= 380 y = 689 }
+				}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2561,7 +2629,14 @@ guiTypes = {
 			position = { x = 5 y = 120 }
 			backGround=""
 			#c size = { x= 400 y = 426 }
-			size = { x= 400 y = 451 }
+			if_resolution = {
+			  max_height = 1047
+				size = { x= 400 y = 451 }
+			}
+			if_resolution = {
+			  min_height = 1048
+				size = { x= 400 y = 751 }
+			}
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
@@ -2684,7 +2759,14 @@ guiTypes = {
 				position = { x = -36 y = 35 }
 				backGround=""
 				#c size = { x= 393 y = 415 }
-				size = { x= 394 y = 421 }
+				if_resolution = {
+				  max_height = 1047
+					size = { x= 394 y = 421 }
+				}
+				if_resolution = {
+				  min_height = 1048
+					size = { x= 394 y = 736 }
+				}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2737,7 +2819,14 @@ guiTypes = {
 				position = { x = -36 y = 35 }
 				backGround=""
 				#c size = { x= 393 y = 415 }
-				size = { x= 394 y = 421 }
+				if_resolution = {
+				  max_height = 1047
+					size = { x= 394 y = 421 }
+				}
+				if_resolution = {
+				  min_height = 1048
+					size = { x= 394 y = 736 }
+				}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -3046,7 +3135,15 @@ guiTypes = {
 	windowType = {
 		name = "mercenary_company_entry"
 		position = { x=0 y=0 }
-		size = { x=325 y=117 }
+		#c size = { x=325 y=117 }
+		if_resolution = {
+		  max_height = 1047
+			size = { x=325 y=117 }
+		}
+		if_resolution = {
+		  min_height = 1048
+			size = { x=325 y=114 }
+		}
 
 		guiButtonType = {
 			name = "list_button1"
