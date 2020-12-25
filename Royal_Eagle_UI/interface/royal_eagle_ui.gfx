@@ -340,6 +340,15 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	## MACRO ##
+
+	spriteType = {
+		name = "GFX_COYOTE_new_buildings_macro_bg"
+		texturefile = "gfx//interface//coyote_new_buildings_macro_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
 	## TXT ICONS ##
 
 	# Peace
