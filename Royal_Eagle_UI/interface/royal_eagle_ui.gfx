@@ -372,6 +372,12 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	spriteType = {
+		name = "GFX_COYOTE_icon_maintenance_tiny"
+		texturefile = "gfx//interface//coyote_icon_maintenance_tiny.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
 
 	## TXT ICONS ##
 
