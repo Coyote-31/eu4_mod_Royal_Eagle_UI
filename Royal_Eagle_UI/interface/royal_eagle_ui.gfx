@@ -379,6 +379,68 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	## UNITS ##
+
+	spriteType = {
+		name = "GFX_COYOTE_unitpanel_land_bg_overlay"
+		texturefile = "gfx//interface//coyote_unitpanel_land_bg_overlay.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_unitpanel_naval_bg_overlay"
+		texturefile = "gfx//interface//coyote_unitpanel_naval_bg_overlay.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_unit_panel_exile"
+		texturefile = "gfx//interface//coyote_unit_panel_exile.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_COYOTE_deselect_all_bg"
+		texturefile = "gfx//interface//coyote_deselect_all_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_morale_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_green_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		#c size = { x = 10 y = 39 }
+		size = { x = 10 y = 37 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_morale_progressbar_yellow"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_yellow_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		#c size = { x = 10 y = 39 }
+		size = { x = 10 y = 37 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_drill_progressbar"
+		color = { 0.1 0.1 0.1 }
+		colortwo = { 1.0 0.1 0.5 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_teal_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		#c size = { x = 10 y = 39 }
+		size = { x = 10 y = 37 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+
 	## TXT ICONS ##
 
 	# Peace

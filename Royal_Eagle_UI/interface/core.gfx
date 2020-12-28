@@ -511,6 +511,7 @@ bitmapfonts = {
 		M = { 98 205 234 } #c Light-Blue
 		Y = { 252 218 80 } #c Yellow
 		O = { 234 147 57 } #c Orange
+		C = { 242 244 247 } #c Coyote White
 	}
 
 	bitmapfont = {
