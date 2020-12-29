@@ -1104,6 +1104,7 @@ guiTypes = {
 			text = ""
 			maxWidth = 200
 			maxHeight = 32
+			alwaystransparent = yes #c
 		}
 
 		guiButtonType = {
