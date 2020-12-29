@@ -127,7 +127,8 @@ guiTypes = {
 	windowType = {
 		name = "status_message_window"
 		backGround =""
-		position = { x=-214 y=100 }
+		#c position = { x=-214 y=100 }
+		position = { x=-214 y=80 }
 		size = { x=428 y=27 }
 		moveable = 1
 		orientation="CENTER_UP"
@@ -141,7 +142,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "header"
-			position = { x = 11 y = 25 }
+			#c position = { x = 11 y = 25 }
+			position = { x = 11 y = 17 }
 			textureFile = ""
 			#c font = "vic_29"
 			font = "vic_22"
@@ -156,7 +158,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text"
-			position = { x = 11 y = 60 }
+			#c position = { x = 11 y = 60 }
+			position = { x = 11 y = 40 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 2 y = 2}
