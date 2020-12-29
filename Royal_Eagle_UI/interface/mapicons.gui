@@ -555,7 +555,8 @@ guiTypes = {
 	windowType = {
 		name = "trade_modifier_item"
 		position = { x=0 y=0 }
-		size = { x=25 y= 25 }
+		#c size = { x=25 y= 25 }
+		size = { x=21 y= 21 }
 		moveable = 0
 		fullScreen = no
 
@@ -564,14 +565,17 @@ guiTypes = {
 			name ="prov_modifier_bg"
 			spriteType = "GFX_prov_modifier_bg"
 			position = { x = 15 y = 20 }
-			scale = 0.75
+			#c scale = 0.75
+			scale = 0.84
 		}
 
 		iconType =
 		{
 			name ="icon"
 			spriteType = "GFX_idea_unknown"
-			position = { x = 13 y = 20}
+			#c position = { x = 13 y = 20}
+			position = { x = 15 y = 20}
+			#c scale = 0.42
 			scale = 0.42
 		}
 	}
@@ -589,7 +593,8 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			size = { x = 100 y = 32 }
 			format = left
-			spacing = 0.0
+			#c spacing = 0.0
+			spacing = 4.0
 		}
 	}
 
