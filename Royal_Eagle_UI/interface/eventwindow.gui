@@ -82,7 +82,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "event_goto_province"
-			position = { x = 0 y = 14 }
+			#c position = { x = 0 y = 14 }
+			position = { x = 515 y = -34 }
 			quadTextureSprite ="GFX_event_goto_province"
 			buttonFont = "Main_14_black"
 			shortcut = "f"
@@ -92,14 +93,15 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Description"
 			#c position = { x = 31 y = 371 } # Was 230
-			position = { x = 36 y = 370 }
+			position = { x = 33 y = 360 }
 			textureFile = ""
 			font = "vic_18_black"
 			#c borderSize = {x = 0 y = 0}
 			borderSize = {x = 8 y = 0}
 			text = "Long text here!"
 			maxWidth = 512
-			maxHeight = 128
+			#c maxHeight = 128
+			maxHeight = 64
 			format = left
 			#fixedsize = yes
 		}
