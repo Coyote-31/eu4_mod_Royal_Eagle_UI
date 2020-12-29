@@ -721,16 +721,18 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "ideas_idea_title"
 			#c position = { x = 45 y = 8 }
-			position = { x = 100 y = 7 }
+			position = { x = 99 y = 7 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 4 y = 4}
+			#c borderSize = {x = 4 y = 4}
+			borderSize = {x = 0 y = 4}
 			text = ""
 			#c maxWidth = 280
-			maxWidth = 171
+			maxWidth = 180
 			#c maxHeight = 32
 			maxHeight = 18
 			format = centre
+			fixedsize = yes #c
 		}
 
 		iconType =
