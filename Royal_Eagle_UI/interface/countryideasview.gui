@@ -416,6 +416,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 0 y = 19 }
 			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes #c
 		}
 
 
@@ -441,6 +442,7 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 			fixedsize = yes #c
+			allwaystransparent = yes #c
 		}
 
 		iconType =
@@ -704,6 +706,7 @@ guiTypes = {
 			#c position = { x= 9 y = 11 }
 			position = { x= 10 y = 9 }
 			Orientation = "UPPER_LEFT"
+			allwaystransparent = yes #c
 
 		}
 
@@ -718,13 +721,15 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "ideas_idea_title"
 			#c position = { x = 45 y = 8 }
-			position = { x = 45 y = 7 }
+			position = { x = 100 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 280
-			maxHeight = 32
+			#c maxWidth = 280
+			maxWidth = 171
+			#c maxHeight = 32
+			maxHeight = 18
 			format = centre
 		}
 
