@@ -545,6 +545,21 @@ spriteTypes = {
 
 	## ICONS ##
 
+
+	# Corruption icons
+	spriteType = {
+		name = "GFX_text_corruption"
+		texturefile = "gfx/interface/icon_corruption_small.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_corruption_small"
+		texturefile = "gfx//interface//icon_corruption_small.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_corruption"
+		texturefile = "gfx//interface//icon_corruption.dds"
+	}
+
 	spriteType = {
 		name = "GFX_attrition_rip"
 		texturefile = "gfx/interface/ideas_EU4/attrition.dds"

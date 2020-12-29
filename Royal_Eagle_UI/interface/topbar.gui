@@ -607,7 +607,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="icon_corruption"
-			spriteType = "GFX_icon_corruption_small"
+			#c spriteType = "GFX_icon_corruption_small"
+			spriteType = "GFX_icon_corruption"
 			#c position = { x= 458 y = 11 }
 			position = { x= 459 y = 11 }
 			Orientation = "UPPER_LEFT"
