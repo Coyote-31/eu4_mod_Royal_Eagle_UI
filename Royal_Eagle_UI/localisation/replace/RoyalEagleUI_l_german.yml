@@ -1,0 +1,79 @@
+﻿l_german:
+ #### FIX OFFICIAL TRAD ###
+ #### Reload localisation console cmd: reloadloc
+
+ ## COUNTRY NAME ##
+ #c Toulouse -> Occitanie
+ TOU:0 "Okzitanien"
+ TOU_ADJ:0 "Okzitanisch"
+
+ ## TEXT COLOR ##
+ # Attitude #
+ attitude_unknown:0 "§gUnbekannt§!"
+ attitude_human:0 "§YOffen§!"
+ attitude_hostile:0 "§RFeindlich§!"
+ attitude_rivalry:0 "§RRivalität§!"
+ attitude_outraged:0 "§RAufgebracht§!"
+ attitude_friendly:0 "§GFreundlich§!"
+ attitude_protective:0 "§TBeschützend§!"
+ attitude_overlord:0 "§OHerrscher§!"
+ attitude_loyal:0 "§GLoyal§!"
+ attitude_disloyal:0 "§YIlloyal§!"
+ attitude_rebellious:0 "§RRebellisch§!"
+ attitude_domineering:0 "§RTyrannisch§!"
+ attitude_threatened:0 "§YBedroht§!"
+ attitude_neutral:0 "Neutral"
+ attitude_defensive:0 "§TDefensiver Verbündeter§!"
+ attitude_allied:0 "§BVerbündeter§!"
+ WANTS_NEUTRAL:0 "Neutral"
+ WANTS_ALLY:0 "§GFreundlich§!"
+ WANTS_ENEMY:0 "§RFeindselig§!"
+ IS_THREAT:0 "§YBedroht§!"
+ # Independency #
+ INDEPENDANT:0 "§GUnabhängige Nation§!"
+ SUBJECT_OF:0 "§Y$SUBJECTTYPE$ von $LORD$§!"
+ INTERREGNUM:0 "§Y(Interregnum)§!"
+ # Religion School #
+ SCHOOL_HATE:0 "§RHass§!"
+ SCHOOL_AMBIVALENT:0 "§OGespalten§!"
+ SCHOOL_LIKE:0 "§TRespektiert§!"
+
+ ## FRONTEND ##
+ PLAY:0 "Start"
+ MATCHMAKING_SERVER_STATUS_STARTING:0 "§GStartet§!"
+ MATCHMAKING_SERVER_STATUS_RUNNING:0 "§YLäuft§!"
+ MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RGestoppt§!"
+ TRANSFER_SAVEGAME:0 "Übertragung ( $NAME|Y%$ )"
+ LOADING_SAVEGAME:0 "Spielstand ( $NAME|Y%$ )"
+ SAVE_PROG:0 "Spielstand ( $VALUE$% )"
+ RNW_PROG:0 "ZNW wird übertragen ( $VALUE$% )"
+
+
+ ## OUTLINER ##
+ TRANSFER_IN_TRADE2:0 "$VAL|Y$¤-> $WHERE$"
+
+ ## MSG_FILTERS ##
+ MSG_FILTER_DESELECT:0 "§YMarkierungen aufheben§!"
+ MSG_FILTER_BEST_GUESS:0 "§GEinschätzung§!"
+ MSG_FILTER_ENEMIES:0 "§RFeinde§!"
+ MSG_FILTER_ALLIES:0 "§BVerbündete§!"
+ MSG_FILTER_NEIGHBOURS:0 "§gNachbarn§!"
+ SORT_BY_NAME:1 "Name"
+ SORT_BY_SELECTED:0 "Auswahl"
+
+ ## COUNTRY COURT VIEW ##
+ NO_HEIR:0 "§YKein legitimer Nachfolger§!"
+
+ ## COUNTRY DIPLOMATIC VIEW ##
+ # Color keywords
+ FRIENDS:0 "§GFreunde§!"
+ FE_PLAYERS:0 "§YMitspieler§!"
+ LEDGER_CLEAR:0 "§OZurücksetzen§!"
+
+ ## PROVINCE VIEW ##
+ PROVVIEW_OCCUPIED_BY_YOU:0 "§GVon Euch besetzt§!"
+
+ ## PEACE VIEW ##
+ CLEAR_OFFER:0 "£no£ Angebot entfernen"
+
+ ## MISCELLANEOUS ##

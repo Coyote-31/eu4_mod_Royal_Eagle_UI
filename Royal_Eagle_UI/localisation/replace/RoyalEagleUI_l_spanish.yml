@@ -1,0 +1,79 @@
+﻿l_spanish:
+ #### FIX OFFICIAL TRAD ###
+ #### Reload localisation console cmd: reloadloc
+
+ ## COUNTRY NAME ##
+ #c Toulouse -> Occitanie
+ TOU:0 "Occitania"
+ TOU_ADJ:0 "occitano"
+
+ ## TEXT COLOR ##
+ # Attitude #
+ attitude_unknown:0 "§gDesconocida§!"
+ attitude_human:0 "§YHumana§!"
+ attitude_hostile:0 "§RHostil§!"
+ attitude_rivalry:0 "§RRivalidad§!"
+ attitude_outraged:0 "§RUltrajado§!"
+ attitude_friendly:0 "§GAmistoso§!"
+ attitude_protective:0 "§TProtector§!"
+ attitude_overlord:0 "§OSoberano§!"
+ attitude_loyal:0 "§GLeal§!"
+ attitude_disloyal:0 "§YDesleal§!"
+ attitude_rebellious:0 "§RRebelde§!"
+ attitude_domineering:0 "§RDominante§!"
+ attitude_threatened:0 "§YAmenazado§!"
+ attitude_neutral:0 "Neutral"
+ attitude_defensive:0 "§TDefensora de aliados§!"
+ attitude_allied:0 "§BAliado§!"
+ WANTS_NEUTRAL:0 "Neutral"
+ WANTS_ALLY:0 "§GAmistoso§!"
+ WANTS_ENEMY:0 "§RHostil§!"
+ IS_THREAT:0 "§YAmenazado§!"
+ # Independency #
+ INDEPENDANT:0 "§GNación independiente§!"
+ SUBJECT_OF:0 "§Y$SUBJECTTYPE$ de $LORD$§!"
+ INTERREGNUM:0 "§Y(Interregno)§!"
+ # Religion School #
+ SCHOOL_HATE:0 "§ROdia§!"
+ SCHOOL_AMBIVALENT:0 "§OIndeciso§!"
+ SCHOOL_LIKE:0 "§TAprecia§!"
+
+ ## FRONTEND ##
+ PLAY:0 "Jugar"
+ MATCHMAKING_SERVER_STATUS_STARTING:0 "§GEmpezando§!"
+ MATCHMAKING_SERVER_STATUS_RUNNING:0 "§YCorriendo§!"
+ MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RParado§!"
+ TRANSFER_SAVEGAME:0 "Transfiriendo ( $NAME|Y%$ )"
+ LOADING_SAVEGAME:0 "Cargando ( $NAME|Y%$ )"
+ SAVE_PROG:0 "Cargando ( $VALUE$% )"
+ RNW_PROG:0 "Transfiriendo RNW ( $VALUE$% )"
+
+
+ ## OUTLINER ##
+ TRANSFER_IN_TRADE2:0 "$VAL|Y$¤-> $WHERE$"
+
+ ## MSG_FILTERS ##
+ MSG_FILTER_DESELECT:0 "§YDeselecionar todo§!"
+ MSG_FILTER_BEST_GUESS:0 "§GAuto-selección§!"
+ MSG_FILTER_ENEMIES:0 "§REnemigos§!"
+ MSG_FILTER_ALLIES:0 "§BAliados§!"
+ MSG_FILTER_NEIGHBOURS:0 "§gVecinos§!"
+ SORT_BY_NAME:1 "Nombre"
+ SORT_BY_SELECTED:0 "Seleccionados"
+
+ ## COUNTRY COURT VIEW ##
+ NO_HEIR:0 "§YSin heredero legítimo§!"
+
+ ## COUNTRY DIPLOMATIC VIEW ##
+ # Color keywords
+ FRIENDS:0 "§GAmigos§!"
+ FE_PLAYERS:0 "§YJugadores§!"
+ LEDGER_CLEAR:0 "§OLimpiar§!"
+
+ ## PROVINCE VIEW ##
+ PROVVIEW_OCCUPIED_BY_YOU:0 "¡§GOcupado por ti§!"
+
+ ## PEACE VIEW ##
+ CLEAR_OFFER:0 "£no£ Retirar oferta"
+
+ ## MISCELLANEOUS ##

@@ -130,8 +130,8 @@
  SCHOOL_AMBIVALENT:0 "§OMéfiance§!"
  SCHOOL_LIKE:0 "§TConsidération§!"
  # Flag spacing #
- RELIGIOUS_SCHOOL_MAP_ICON_TOOLTIP:0 "$FLAG$ $COUNTRY$ se revendique du $SCHOOL|Y$"
- CARDINAL_MAPICON_DELAYED:0 "Il est loyal à $FLAG$ $COUNTRY|Y$."
+ RELIGIOUS_SCHOOL_MAP_ICON_TOOLTIP:0 "$COUNTRY$ $FLAG$ se revendique du $SCHOOL|Y$"
+ CARDINAL_MAPICON_DELAYED:0 "Il est loyal à $COUNTRY|Y$ $FLAG$."
 
  ## FRONTEND ##
  PLAY:0 "Jouer"
@@ -163,9 +163,7 @@
  SAVE_PROG:0 "Chargement ( $VALUE$% )"
  RNW_PROG:0 "Transf. Nouv. Monde ( $VALUE$% )"
 
-
  ## OUTLINER ##
- INCOME_IN_TRADE2:0 "Collecte $VAL|Y$¤"
  TRANSFER_IN_TRADE2:0 "$VAL|Y$¤-> $WHERE$"
  BUILDSPYNETWORKTITLE:0 "Espionner"
  CANCEL_BUILDSPYNETWORKTITLE:0 "Abandonner l'espionnage"
@@ -173,13 +171,13 @@
  CANCEL_COUNTERESPIONAGETITLE:0 "Cesser le contre-espionnage"
 
  ## MSG_FILTERS ##
- MSG_FILTER_BEST_GUESS:0 "§GSelon le contexte§!"
- MSG_FILTER_NEIGHBOURS:0 "§gVoisins§!"
- MSG_FILTER_ALLIES:0 "§BAlliés§!"
- MSG_FILTER_ENEMIES:0 "§REnnemis§!"
  MSG_FILTER_DESELECT:0 "§YTout désélectionner§!"
- SORT_BY_SELECTED:0 "Sélection"
+ MSG_FILTER_BEST_GUESS:0 "§GSelon le contexte§!"
+ MSG_FILTER_ENEMIES:0 "§REnnemis§!"
+ MSG_FILTER_ALLIES:0 "§BAlliés§!"
+ MSG_FILTER_NEIGHBOURS:0 "§gVoisins§!"
  SORT_BY_NAME:1 "Nom"
+ SORT_BY_SELECTED:0 "Sélection"
 
  ## MAP ##
  PRIMARY_MAPMODES:0 "Ensemble de cartes"

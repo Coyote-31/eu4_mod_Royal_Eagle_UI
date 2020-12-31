@@ -1,0 +1,78 @@
+﻿l_english:
+ #### FIX OFFICIAL TRAD ###
+ #### Reload localisation console cmd: reloadloc
+
+ ## COUNTRY NAME ##
+ #c Toulouse -> Occitanie
+ TOU:0 "Occitania"
+ TOU_ADJ:0 "Occitan"
+
+ ## TEXT COLOR ##
+ # Attitude #
+ attitude_unknown:0 "§gUnknown§!"
+ attitude_human:0 "§YHuman§!"
+ attitude_hostile:0 "§RHostile§!"
+ attitude_rivalry:0 "§RRivalry§!"
+ attitude_outraged:0 "§ROutraged§!"
+ attitude_friendly:0 "§GFriendly§!"
+ attitude_protective:0 "§TProtective§!"
+ attitude_overlord:0 "§OOverlord§!"
+ attitude_loyal:0 "§GLoyal§!"
+ attitude_disloyal:0 "§YDisloyal§!"
+ attitude_rebellious:0 "§RRebellious§!"
+ attitude_domineering:0 "§RDomineering§!"
+ attitude_threatened:0 "§YThreatened§!"
+ attitude_neutral:0 "Neutral"
+ attitude_defensive:0 "§TDefensive Ally§!"
+ attitude_allied:0 "§BAlly§!"
+ WANTS_NEUTRAL:0 "Neutral"
+ WANTS_ALLY:0 "§GFriendly§!"
+ WANTS_ENEMY:0 "§RHostile§!"
+ IS_THREAT:0 "§YThreatened§!"
+ # Independency #
+ INDEPENDANT:0 "§GIndependent Nation§!"
+ SUBJECT_OF:0 "§Y$SUBJECTTYPE$ of $LORD$§!"
+ INTERREGNUM:0 "§Y(Interregnum)§!"
+ # Religion School #
+ SCHOOL_HATE:0 "§RHates§!"
+ SCHOOL_AMBIVALENT:0 "§OAmbivalent§!"
+ SCHOOL_LIKE:0 "§TRespect§!"
+
+ ## FRONTEND ##
+ PLAY:0 "Play"
+ MATCHMAKING_SERVER_STATUS_STARTING:0 "§GStarting§!"
+ MATCHMAKING_SERVER_STATUS_RUNNING:0 "§YRunning§!"
+ MATCHMAKING_SERVER_STATUS_STOPPED:0 "§RStopped§!"
+ TRANSFER_SAVEGAME:0 "Transferring ( $NAME|Y%$ )"
+ LOADING_SAVEGAME:0 "Loading ( $NAME|Y%$ )"
+ SAVE_PROG:0 "Loading ( $VALUE$% )"
+ RNW_PROG:0 "Transfering RNW ( $VALUE$% )"
+
+ ## OUTLINER ##
+ TRANSFER_IN_TRADE2:0 "$VAL|Y$¤-> $WHERE$"
+
+ ## MSG_FILTERS ##
+ MSG_FILTER_DESELECT:0 "§YDeselect All§!"
+ MSG_FILTER_BEST_GUESS:0 "§GBest Guess§!"
+ MSG_FILTER_ENEMIES:0 "§REnemies§!"
+ MSG_FILTER_ALLIES:0 "§BAllies§!"
+ MSG_FILTER_NEIGHBOURS:0 "§gNeighbors§!"
+ SORT_BY_NAME:1 "Name"
+ SORT_BY_SELECTED:0 "Selected"
+
+ ## COUNTRY COURT VIEW ##
+ NO_HEIR:0 "§YNo Legal Heir§!"
+
+ ## COUNTRY DIPLOMATIC VIEW ##
+ # Color keywords
+ FRIENDS:0 "§GFriends§!"
+ FE_PLAYERS:0 "§YHuman Players§!"
+ LEDGER_CLEAR:0 "§OClear§!"
+
+ ## PROVINCE VIEW ##
+ PROVVIEW_OCCUPIED_BY_YOU:0 "§GOccupied by you§!"
+
+ ## PEACE VIEW ##
+ CLEAR_OFFER:0 "£no£ Clear Offer"
+
+ ## MISCELLANEOUS ##
