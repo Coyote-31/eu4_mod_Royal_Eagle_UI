@@ -1220,6 +1220,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "text"
+					#c position = { x = 30 y = 36 }
 					position = { x = 30 y = 36 }
 
 					font = "vic_18"
@@ -1232,6 +1233,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					format = centre
 					alwaystransparent = yes
+					vertical_alignment = center
 				}
 			}
 
