@@ -91,29 +91,30 @@ guiTypes = {
 			name ="incomes_total_icon"
 			spriteType = "GFX_icon_gold_font_medium"
 			#c position = { x= 243 y = 372 }
-			position = { x= 240 y = 372 }
+			position = { x= 242 y = 372 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "incomes_total_text"
 			#c position = { x = 38 y =373 }
-			position = { x = 85 y =372 }
+			position = { x = 81 y =372 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = "CV_INCOMES_TOTAL"
 			#c maxWidth = 140
-			maxWidth = 100
+			maxWidth = 120
 			maxHeight = 16
 			#c format = right
 			format = left
+			fixedsize = yes #c
 		}
 
 		instantTextBoxType = {
 			name = "incomes_total"
 			#c position = { x = 143 y =373 }
-			position = { x = 142 y =372 }
+			position = { x = 146 y =372 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
@@ -157,27 +158,30 @@ guiTypes = {
 			name ="expenses_total_icon"
 			spriteType = "GFX_icon_gold_font_medium"
 			#c position = { x= 487 y = 397 }
-			position = { x= 484 y = 397 }
+			position = { x= 486 y = 398 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "expences_total_text"
 			#c position = { x = 283 y =398 }
-			position = { x = 241 y =398 }
+			position = { x = 325 y =398 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = "CV_EXPENSES_TOTAL"
+			#c maxWidth = 140
 			maxWidth = 140
 			maxHeight = 16
-			format = right
+			#c format = right
+			format = left #c
+			fixedsize = yes #c
 		}
 
 		instantTextBoxType = {
 			name = "expenses_total"
 			#c position = { x = 388 y =398 }
-			position = { x = 387 y =398 }
+			position = { x = 390 y =398 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}

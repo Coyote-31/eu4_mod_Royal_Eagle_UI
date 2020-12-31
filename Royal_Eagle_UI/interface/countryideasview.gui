@@ -671,9 +671,11 @@ guiTypes = {
 			borderSize = {x = 0 y = 4}
 			text = "UNLOCK"
 			maxWidth = 220
-			maxHeight = 32
+			#c maxHeight = 32
+			maxHeight = 40
 			format = centre
 			allwaystransparent = yes
+			vertical_alignment = center #c
 		}
 	}
 

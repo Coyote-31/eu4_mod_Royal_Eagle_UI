@@ -22,13 +22,13 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "country_name"
 			#c position = { x = 27 y = 1 }
-			position = { x = 27 y = 4 }
+			position = { x = 31 y = 4 }
 
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			#c maxWidth = 100
-			maxWidth = 104
+			maxWidth = 96
 			maxHeight = 16
 			format = left
 			fixedsize = yes
@@ -152,10 +152,12 @@ guiTypes = {
 			#c position = { x = 958 y = 299 }
 			position = { x = 958 y = 296 }
 
-			font = "vic_18"
+			#c font = "vic_18"
+			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 16
+			#c maxWidth = 16
+			maxWidth = 50
 			maxHeight = 32
 			format = left
 			pdx_tooltip = "FE_IRONMAN"

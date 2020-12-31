@@ -401,9 +401,11 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = "desc"
 			#c maxWidth = 390
-			maxWidth = 440
-			maxHeight = 24
+			maxWidth = 470
+			#c maxHeight = 24
+			maxHeight = 38
 			format = left
+			vertical_alignment = center #c
 		}
 		## stuff to the right
 

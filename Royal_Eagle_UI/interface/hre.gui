@@ -91,9 +91,11 @@ guiTypes = {
 			borderSize = {x = 4 y = 0}
 			text = "HRE_DOMINANTFAITH"
 			maxWidth = 130
-			maxHeight = 32
+			#c maxHeight = 32
+			maxHeight = 36
 			#c format = left
 			format = center
+			vertical_alignment = center #c
 		}
 
 
@@ -702,8 +704,10 @@ guiTypes = {
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 120
-			maxHeight = 32
+			#c maxHeight = 32
+			maxHeight = 40
 			format = left
+			vertical_alignment = center #c
 		}
 	}
 

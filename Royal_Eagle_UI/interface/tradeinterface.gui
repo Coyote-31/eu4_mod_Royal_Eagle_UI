@@ -164,7 +164,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 44 y  = 109 }
-				position = {x = 43 y  = 109 }
+				position = {x = 41 y  = 108 }
 				name = "incoming_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -177,7 +177,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 139 }
-				position = {x = 43 y  = 139 }
+				position = {x = 41 y  = 138 }
 				name = "local_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -190,7 +190,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 199 }
-				position = {x = 43 y  = 199 }
+				position = {x = 41 y  = 198 }
 				name = "total_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -204,7 +204,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 169 }
-				position = {x = 43 y  = 169 }
+				position = {x = 41 y  = 168 }
 				name = "outgoing_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -219,7 +219,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 109 }
-				position = {x = 88 y  = 109 }
+				position = {x = 89 y  = 108 }
 				name = "incoming_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -232,7 +232,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 139 }
-				position = {x = 88 y  = 139 }
+				position = {x = 89 y  = 138 }
 				name = "local_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -245,7 +245,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 199 }
-				position = {x = 88 y  = 199 }
+				position = {x = 89 y  = 198 }
 				name = "total_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -259,7 +259,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 169 }
-				position = {x = 88 y  = 169 }
+				position = {x = 89 y  = 168 }
 				name = "outgoing_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -690,7 +690,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 44 y  = 109 }
-				position = {x = 44 y  = 109 }
+				position = {x = 42 y  = 108 }
 				name = "incoming_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -703,7 +703,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 139 }
-				position = {x = 44 y  = 139 }
+				position = {x = 42 y  = 138 }
 				name = "local_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -716,7 +716,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 199 }
-				position = {x = 44 y  = 199 }
+				position = {x = 42 y  = 198 }
 				name = "total_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -730,7 +730,7 @@ guiTypes = {
 			}
 			instantTextBoxType={
 				#c position = {x = 44 y  = 169 }
-				position = {x = 44 y  = 169 }
+				position = {x = 42 y  = 168 }
 				name = "outgoing_value_label"
 				#c font = "vic_18"
 				font = "vic_22"
@@ -745,7 +745,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 109 }
-				position = {x = 89 y  = 109 }
+				position = {x = 90 y  = 108 }
 				name = "incoming_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -758,7 +758,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 139 }
-				position = {x = 89 y  = 139 }
+				position = {x = 90 y  = 138 }
 				name = "local_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -771,7 +771,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 199 }
-				position = {x = 89 y  = 199 }
+				position = {x = 90 y  = 198 }
 				name = "total_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -785,7 +785,7 @@ guiTypes = {
 
 			instantTextBoxType={
 				#c position = {x = 85 y  = 169 }
-				position = {x = 89 y  = 169 }
+				position = {x = 90 y  = 168 }
 				name = "outgoing_value"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}

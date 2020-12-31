@@ -165,27 +165,31 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "demand_tab_title"
 				#c position = { x = 87 y = 100}
-				position = { x = 87 y = 99}
+				position = { x = 72 y = 99}
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
 				text = "DEMAND_PEACE"
-				maxWidth = 127
+				#c maxWidth = 127
+				maxWidth = 157
 				maxHeight = 22
 				format = centre
+				fixedsize = yes #c
 			}
 
 			instantTextBoxType = {
 				name = "offer_tab_title"
 				#c position = { x = 283 y = 100}
-				position = { x = 283 y = 99}
+				position = { x = 268 y = 99}
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
 				text = "OFFER_PEACE"
-				maxWidth = 127
+				#c maxWidth = 127
+				maxWidth = 157
 				maxHeight = 22
 				format = centre
+				fixedsize = yes #c
 			}
 
 			guiButtonType =
@@ -900,27 +904,31 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "demand_tab_title"
 				#c position = { x = 87 y = 100}
-				position = { x = 87 y = 99}
+				position = { x = 72 y = 99}
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
 				text = "DEMAND_PEACE"
-				maxWidth = 127
+				#c maxWidth = 127
+				maxWidth = 157
 				maxHeight = 22
 				format = centre
+				fixedsize = yes #c
 			}
 
 			instantTextBoxType = {
 				name = "offer_tab_title"
 				#c position = { x = 283 y = 100}
-				position = { x = 283 y = 99}
+				position = { x = 268 y = 99}
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
 				text = "OFFER_PEACE"
-				maxWidth = 127
+				#c maxWidth = 127
+				maxWidth = 157
 				maxHeight = 22
 				format = centre
+				fixedsize = yes #c
 			}
 
 			guiButtonType =

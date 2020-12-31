@@ -889,12 +889,13 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "label_enemies"
 			#c position = { x = 40 y = 312 }
-			position = { x = 34 y = 307 }
+			position = { x = 30 y = 307 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "ENEMIES"
-			maxWidth = 64
+			#c maxWidth = 64
+			maxWidth = 74
 			maxHeight = 20
 			fixedsize = yes
 			truncate = yes
@@ -915,12 +916,13 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "label_rivals"
 			#c position = { x = 40 y = 346 }
-			position = { x = 34 y = 350 }
+			position = { x = 30 y = 350 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "RIVALS"
-			maxWidth = 64
+			#c maxWidth = 64
+			maxWidth = 74
 			maxHeight = 20
 			fixedsize = yes
 			truncate = yes
