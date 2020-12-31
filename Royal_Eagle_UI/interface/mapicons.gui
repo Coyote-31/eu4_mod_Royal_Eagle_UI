@@ -681,7 +681,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			#c position = {x = 24 y  = 29 }
-			position = {x = 22 y  = 27 }
+			position = {x = 21 y  = 27 }
 			name = "unit_strenght"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -722,7 +722,8 @@ guiTypes = {
 		guiButtonType = {
 			name ="holder_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x = 0 y = 22 }
+			#c position = { x = 0 y = 22 }
+			position = { x = -1 y = 22 }
 		}
 
 		iconType = {
@@ -1046,7 +1047,8 @@ guiTypes = {
 		iconType = {
 			name ="unit_attacker_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
-			position = { x= 16 y = 7 }
+			#c position = { x= 16 y = 7 }
+			position = { x= 12 y = 7 }
 		}
 
 		iconType = {
@@ -1081,11 +1083,12 @@ guiTypes = {
 			spriteType = "GFX_battle_mapicon"
 			position = { x= 57 y = 6 }
 			frame = 1
+			alwaystransparent = yes #c
 		}
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 18  y  = 14 }
+			position = {x = 16  y  = 14 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1093,11 +1096,12 @@ guiTypes = {
 			maxHeight = 18
 			text = "16"
 			format = centre
+			alwaystransparent = yes #c
 		}
 
 		instantTextBoxType={
 			#c position = {x = 74 y  = 16 }
-			position = {x = 74 y  = 14 }
+			position = {x = 76 y  = 14 }
 			name = "defender_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1105,6 +1109,7 @@ guiTypes = {
 			maxHeight = 18
 			text = "16"
 			format = centre
+			alwaystransparent = yes #c
 		}
 
 
@@ -1126,41 +1131,50 @@ guiTypes = {
 			name ="attackar_shield"
 			quadTextureSprite = "GFX_shield_small"
 			#c position = { x = -3 y = 9 }
-			position = { x = -5 y = 9 }
+			position = { x = -9 y = 9 }
 		}
 
 		guiButtonType = {
 			name ="defender_shield"
 			quadTextureSprite = "GFX_shield_small"
 			#c position = { x = 113  y = 9 }
-			position = { x = 116  y = 9 }
+			position = { x = 120  y = 9 }
 		}
 
 		iconType = {
 			name ="attacker_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
-			position = { x = 13 y = 33 }
+			#c position = { x = 13 y = 33 }
+			position = { x = 5 y = 36 }
 		}
 
 		iconType = {
 			name ="defender_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
 			#c position = { x = 109  y = 33 }
-			position = { x = 112  y = 33 }
+			position = { x = 117  y = 36 }
+		}
+		iconType = {
+			name ="defender_combat_modifier_strip_test"
+			spriteType = "GFX_combat_modifier_small_strip"
+			#c position = { x = 109  y = 33 }
+			position = { x = 117  y = 36 }
 		}
 
 		iconType = {
 			name ="attacker_leader_stars"
 			spriteType = "GFX_stars_small_3"
 			#c position = { x= 26 y = 5 }
-			position = { x= 22 y = 1 }
+			position = { x= 20 y = 1 }
+			alwaystransparent = yes #c
 		}
 
 		iconType = {
 			name ="defender_leader_stars"
 			spriteType = "GFX_stars_small_3"
 			#c position = { x= 78 y = 5 }
-			position = { x= 83 y = 1 }
+			position = { x= 85 y = 1 }
+			alwaystransparent = yes #c
 		}
 	}
 
@@ -1180,7 +1194,7 @@ guiTypes = {
 			name ="unit_attacker_panel_relation"
 			spriteType = "GFX_unit_battle_relation"
 			#c position = { x= 16 y = 7 }
-			position = { x= 17 y = 7 }
+			position = { x= 12 y = 7 }
 		}
 
 		iconType = {
@@ -1215,11 +1229,12 @@ guiTypes = {
 			spriteType = "GFX_battle_mapicon"
 			position = { x= 57 y = 6 }
 			frame = 2
+			alwaystransparent = yes #c
 		}
 
 		instantTextBoxType={
 			#c position = {x = 18  y  = 16 }
-			position = {x = 17  y  = 14 }
+			position = {x = 15  y  = 14 }
 			name = "attacker_unit_strength"
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1227,6 +1242,7 @@ guiTypes = {
 			maxHeight = 18
 			text = "16"
 			format = centre
+			alwaystransparent = yes #c
 		}
 
 		instantTextBoxType={
@@ -1239,6 +1255,7 @@ guiTypes = {
 			maxHeight = 18
 			text = "16"
 			format = centre
+			alwaystransparent = yes #c
 		}
 
 
@@ -1247,42 +1264,44 @@ guiTypes = {
 			name ="attackar_shield"
 			quadTextureSprite = "GFX_Navy_shield_small_flip"
 			#c position = { x = -5 y = 4 }
-			position = { x = -8 y = 4 }
+			position = { x = -11 y = 5 }
 		}
 
 		guiButtonType = {
 			name ="defender_shield"
 			quadTextureSprite = "GFX_Navy_shield_small"
 			#c position = { x = 113  y = 4 }
-			position = { x = 116  y = 4 }
+			position = { x = 118  y = 5 }
 		}
 
 		iconType = {
 			name ="attacker_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
 			#c position = { x = 13 y = 33 }
-			position = { x = 10 y = 33 }
+			position = { x = 4 y = 33 }
 		}
 
 		iconType = {
 			name ="defender_combat_modifier_strip"
 			spriteType = "GFX_combat_modifier_small_strip"
 			#c position = { x = 109  y = 33 }
-			position = { x = 112  y = 33 }
+			position = { x = 118  y = 33 }
 		}
 
 		iconType = {
 			name ="attacker_leader_stars"
 			spriteType = "GFX_stars_small_3"
 			#c position = { x= 26 y = 5 }
-			position = { x= 24 y = 1 }
+			position = { x= 21 y = 1 }
+			alwaystransparent = yes #c
 		}
 
 		iconType = {
 			name ="defender_leader_stars"
 			spriteType = "GFX_stars_small_3"
 			#c position = { x= 78 y = 5 }
-			position = { x= 81 y = 1 }
+			position = { x= 84 y = 1 }
+			alwaystransparent = yes #c
 		}
 	}
 
