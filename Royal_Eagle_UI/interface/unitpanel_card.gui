@@ -406,7 +406,7 @@ guiTypes = {
 			#c spriteType = "GFX_unitpanel_exile"
 			spriteType = "GFX_COYOTE_unit_panel_exile"
 			#c position = { x= 19 y = 66 }
-			position = { x= 12 y = 61 }
+			position = { x= 414 y = 107 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -415,7 +415,7 @@ guiTypes = {
 			name ="unit_shattered_retreat_icon"
 			spriteType = "GFX_unit_shattered_retreat"
 			#c position = { x= 19 y = 66 }
-			position = { x= 13 y = 61 }
+			position = { x= 415 y = 108 }
 			Orientation = "UPPER_LEFT"
 		}
 
