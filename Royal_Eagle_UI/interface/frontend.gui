@@ -2002,10 +2002,20 @@ guiTypes = {
 						Orientation = "UPPER_RIGHT"
 					}
 
+					#c Moved before "checksum" instantTextBoxType
+					guiButtonType = {
+						name = "checksum_click_button"
+						#c position = { x = -20 y = 32 }
+						position = { x = -6 y = 30 }
+						#c quadTextureSprite = "GFX_frontend_checksum"
+						quadTextureSprite = "GFX_standard_button_224"
+						size = { x=260 y=24}
+					}
+
 					instantTextBoxType = {
 						name = "checksum"
 						#c position = { x = -20 y = 32 }
-						position = { x = -20 y = 33 }
+						position = { x = -22 y = 33 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 4}
@@ -2013,14 +2023,7 @@ guiTypes = {
 						maxWidth = 260
 						maxHeight = 24
 						format = centre
-					}
-
-					guiButtonType = {
-						name = "checksum_click_button"
-						#c position = { x = -20 y = 32 }
-						position = { x = -20 y = 33 }
-						quadTextureSprite = "GFX_frontend_checksum"
-						size = { x=260 y=24}
+						alwaystransparent = yes #c
 					}
 
 					instantTextBoxType = {
