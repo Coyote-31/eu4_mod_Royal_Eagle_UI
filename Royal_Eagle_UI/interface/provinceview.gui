@@ -728,7 +728,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 2 y = 2}
 				text = "todo"
-				maxWidth = 96
+				#c maxWidth = 96
+				maxWidth = 99
 				maxHeight = 20
 				format = left
 				fixedsize = yes
@@ -983,7 +984,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 2 y = 2}
 				text = "Heretic"
-				maxWidth = 96
+				#c maxWidth = 96
+				maxWidth = 99
 				maxHeight = 20
 				format = left
 				fixedsize = yes
