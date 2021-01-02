@@ -7,28 +7,27 @@
 
 ## 📄 Description
 
-The goal of this mod is to enhance the vanilla experience of the game and keep it ironman compatible.
+The goal of this mod is to enhance the graphical vanilla experience of the game and keep it ironman compatible.
 
 **Main features :**
 - **Change all fonts** (Interface/Tooltip/Map/etc...) with cleaner ones and add outline for more contrast.
-- **Change fonts colours** by more vibrant ones.
+- **Change font colours** by more vibrant ones.
 - **Customize many sprites** of the interface to enhance visibility, respecting the vanilla art.
 - **Adjust and align** perfectly interface's backgrounds, texts and icons *in the whole game*.
 - **Change many map textures** : Sea, Lands, Borders, Font, Fog of war, Sky reflection ...
-- **Enhance map units panels** with brighter background colours and better spacing and alignments.
-- **Add / Enhance / Refactor localisation** with colour or shorten length for example. *With big bonus in french (peace treaties / important dialog / Rebels / ... ).*
+- **Enhance map units panels** with brighter background colours, better spacing and alignments.
+- **Add / Enhance / Refactor some localisations** with colour or shorten length for example. *With big bonus in french (peace treaties / important dialog / Rebels / ... ).*
 - **Fix some visual bugs** from the vanilla game. Like shields, transparency of icons and sprites, missing texts or icons, etc...
-- **Customize rebels shields colours by group** : Autonomy, Separatism, Religious, Nobles, Government related)
-- **Rework the event interface** to be compatible with `The Great Exhibition`.
+- **Customize rebels shields colours by group** : Autonomy, Separatism, Religious, Nobles, Government related.
+- **Rework the event interface** to be compatible with the mod : `The Great Exhibition`.
 
+⛔ *This mod enhances a lot of UI and Map related things so it may be incompatible with other mods changing any .gui, .gfx files, images and sprites of the interface or map textures.*
 
-*! This mod enhances a lot of UI related things so it may be incompatible with other mods changing any .gui, .gfx files, images and sprites of the interface or map textures.*
+## 💾 How to install :
 
-### How to install :
+You can install Royal Eagle UI on steam like any other mod with the steam workshop. Or you can download and install manually the mod from links bellow.
 
-## 📚 Documentation
-
-### How it works :
+### Steam Workshop :
 
 ### Repository & Releases :
 
@@ -48,6 +47,8 @@ If you have any issue or find a bug please :
 
 
 ## 🔍 See also
+
+> Custom tool to read files used in this mod with [Atom™](https://atom.io/) : **[language-eu4mod](https://github.com/Coyote-31/language-eu4mod)**
 
 
 ## ©️ License
