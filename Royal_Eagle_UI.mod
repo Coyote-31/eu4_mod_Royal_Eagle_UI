@@ -1,5 +1,6 @@
 name="Royal Eagle UI"
 path="mod/Royal_Eagle_UI"
+version="1.0.0"
 tags={
 	"Events"
 	"events"
