@@ -1,6 +1,9 @@
 name="Royal Eagle UI (dev)"
 path="mod/Royal_Eagle_UI"
 version="1.0.0"
+dependencies={
+	"The Great Exhibition"
+}
 tags={
 	"Events"
 	"events"
