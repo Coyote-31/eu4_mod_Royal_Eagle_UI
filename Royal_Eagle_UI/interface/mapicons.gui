@@ -1154,12 +1154,6 @@ guiTypes = {
 			#c position = { x = 109  y = 33 }
 			position = { x = 117  y = 36 }
 		}
-		iconType = {
-			name ="defender_combat_modifier_strip_test"
-			spriteType = "GFX_combat_modifier_small_strip"
-			#c position = { x = 109  y = 33 }
-			position = { x = 117  y = 36 }
-		}
 
 		iconType = {
 			name ="attacker_leader_stars"
