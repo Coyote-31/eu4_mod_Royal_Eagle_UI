@@ -431,6 +431,7 @@ guiTypes = {
 				maxWidth =166
 				maxHeight = 32
 				format = left
+				fixedsize = yes #
 			}
 		instantTextBoxType = {
 				name = "rating"
