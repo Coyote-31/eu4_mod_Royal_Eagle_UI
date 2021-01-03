@@ -1007,11 +1007,12 @@ guiTypes = {
 					#c maxWidth = 728
 					maxWidth = 730
 					#c maxHeight = 100
-					maxHeight = 130
+					maxHeight = 120
 					font = "vic_18"
 					borderSize = {x = 4 y = 4}
 					text = ""
 					Orientation = "UPPER_LEFT"
+					vertical_alignment = center #c
 				}
 
 				editBoxType = {
