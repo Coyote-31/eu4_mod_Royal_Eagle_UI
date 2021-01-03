@@ -1,5 +1,4 @@
 name="Royal Eagle UI"
-path="mod/Royal_Eagle_UI"
 version="1.0.0"
 dependencies={
 	"The Great Exhibition"
@@ -28,3 +27,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
+path="mod/Royal_Eagle_UI"
+remote_file_id="2346640696"
