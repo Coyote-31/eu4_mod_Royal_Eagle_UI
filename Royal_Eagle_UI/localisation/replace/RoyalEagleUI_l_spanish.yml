@@ -70,6 +70,10 @@
  FE_PLAYERS:0 "§YJugadores§!"
  LEDGER_CLEAR:0 "§OLimpiar§!"
 
+ ## COUNTRY ECONOMY VIEW ##
+ CV_INCOMES_TOTAL:0 "Total :"
+ CV_EXPENSES_TOTAL:0 "Total :"
+
  ## PROVINCE VIEW ##
  PROVVIEW_OCCUPIED_BY_YOU:0 "¡§GOcupado por ti§!"
 
