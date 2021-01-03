@@ -482,6 +482,7 @@ guiTypes = {
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			offset = {x = 5 y = 0} #c
 		}
 
 		smoothListboxType = {
@@ -494,6 +495,7 @@ guiTypes = {
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
+			offset = {x = 5 y = 0} #c
 		}
 
 		guiButtonType = {
