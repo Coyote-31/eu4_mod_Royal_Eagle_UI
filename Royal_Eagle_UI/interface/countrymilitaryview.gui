@@ -1799,7 +1799,7 @@ guiTypes = {
 			quadTextureSprite= "GFX_naval_doctrine_icons_small"
 			frame = 1
 			#c position = { x=27 y =200 }
-			position = { x=23 y =199 }
+			position = { x=62 y =199 }
 		}
 
 		guiButtonType = {
