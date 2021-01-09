@@ -112,26 +112,34 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifiers"
-			position = { x = 13 y = 41 }
+			#c position = { x = 13 y = 41 }
+			position = { x = 8 y = 41 }
+			borderSize = { x = 0 y = 0 } #c
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			text = ""
 			#c maxWidth = 225
-			maxWidth = 230
-			maxHeight = 100
+			maxWidth = 229
+			#c maxHeight = 100
+			maxHeight = 114
+			scrollbartype = "standardlistbox_slider"#c
 		}
 
 		instantTextBoxType = {
 			name = "effects"
-			position = { x = 256 y = 41 }
+			#c position = { x = 256 y = 41 }
+			position = { x = 251 y = 41 }
+			borderSize = { x = 0 y = 0 } #c
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			text = ""
 			#c maxWidth = 225
-			maxWidth = 230
-			maxHeight = 100
+			maxWidth = 235
+			#c maxHeight = 100
+			maxHeight = 114
+			scrollbartype = "standardlistbox_slider"#c
 		}
 
 		instantTextBoxType = {
