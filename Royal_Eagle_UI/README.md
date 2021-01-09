@@ -24,6 +24,13 @@ The goal of this mod is to enhance the graphical vanilla experience of the game 
 
 ⛔ *This mod enhances a lot of UI and Map related things so it may be incompatible with other mods changing any .gui, .gfx files, images and sprites of the interface or map textures.*
 
+## 🚩 Disclaimer
+
+As I am *French* native my English may not be perfect !
+And I mainly work on this mod with a *1920x1080* screen in my native language. So you may encounter some weird things that I haven't seen if u have other *language* or *screen-size*.
+
+Don't hesitate to report bugs with screenshots, your language and screen-size specifications to help me fix it. And report preferably [`HERE`](https://github.com/Coyote-31/eu4_mod_Royal_Eagle_UI/issues).
+
 **Recommended mod :**
 [`The Great Exhibition`](https://steamcommunity.com/sharedfiles/filedetails/?id=2016264376)
 
