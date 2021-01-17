@@ -59,7 +59,8 @@ guiTypes = {
 			#c position = { x = 115 y = 135 }
 			position = { x = 115 y = 134 }
 			backGround=""
-			size = { x = 518 y = 510 }
+			#c size = { x = 518 y = 510 }
+			size = { x = 518 y = 555 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			scrollbartype = "standardlistbox_slider"
@@ -69,7 +70,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "close_button"
 			#c position = { x=296 y =660}
-			position = { x=296 y =666}
+			position = { x=296 y =718}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
@@ -85,7 +86,8 @@ guiTypes = {
 		name = "estate_privilege_entry"
 		backGround =""
 		position = { x=0 y=-15 }
-		size = { x=490 y=170 }
+		#c size = { x=490 y=170 }
+		size = { x=490 y=185 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -122,8 +124,7 @@ guiTypes = {
 			#c maxWidth = 225
 			maxWidth = 229
 			#c maxHeight = 100
-			maxHeight = 114
-			scrollbartype = "standardlistbox_slider"#c
+			maxHeight = 134
 		}
 
 		instantTextBoxType = {
@@ -138,8 +139,7 @@ guiTypes = {
 			#c maxWidth = 225
 			maxWidth = 235
 			#c maxHeight = 100
-			maxHeight = 114
-			scrollbartype = "standardlistbox_slider"#c
+			maxHeight = 134
 		}
 
 		instantTextBoxType = {
