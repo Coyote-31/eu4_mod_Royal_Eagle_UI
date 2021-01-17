@@ -73,6 +73,10 @@
  CV_INCOMES_TOTAL:0 "Total :"
  CV_EXPENSES_TOTAL:0 "Total :"
 
+ ## STABILITY VIEW ##
+ STATES_AND_TERRITORIES:0 "States & Territories"
+ CV_BREAK_COUNTRY:0 "Broken country"
+
  ## PROVINCE VIEW ##
  PROVVIEW_OCCUPIED_BY_YOU:0 "§GOccupied by you§!"
 
