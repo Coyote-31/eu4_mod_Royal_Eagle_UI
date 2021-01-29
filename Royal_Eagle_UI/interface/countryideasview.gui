@@ -295,36 +295,43 @@ guiTypes = {
 				name = "adm_ideaunlockgroups_listbox"
 				backGround = ""
 				#c position = { x=26 y=63 }
-				position = { x=24 y=68 }
-				size = { x=313 y=525 }
+				position = { x=21 y=68 }
+				#c size = { x=313 y=525 }
+				size = { x=313 y=507 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
+				offset = {x = 0 y = -14}
 			}
 			listboxType = {
 				name = "dip_ideaunlockgroups_listbox"
 				backGround = ""
-				position = { x=344 y=68 }
-				size = { x=313 y=525 }
+				#c position = { x=344 y=68 }
+				position = { x=343 y=68 }
+				#c size = { x=313 y=525 }
+				size = { x=313 y=507 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
+				offset = {x = 0 y = -14}
 			}
 			listboxType = {
 				name = "mil_ideaunlockgroups_listbox"
 				backGround = ""
 				#c position = { x=663 y=63 }
 				position = { x=665 y=68 }
-				size = { x=313 y=525 }
+				#c size = { x=313 y=525 }
+				size = { x=313 y=507 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
+				offset = {x = 0 y = -14}
 			}
 
 			iconType =
