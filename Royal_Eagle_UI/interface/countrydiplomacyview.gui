@@ -838,7 +838,8 @@ guiTypes = {
 			#c maxWidth = 60
 			maxWidth = 70
 			maxHeight = 26
-			format = left
+			#c format = left
+			format = center
 		}
 
 		iconType =
@@ -846,20 +847,20 @@ guiTypes = {
 			name ="heir_gender"
 			spriteType = "GFX_gender_icon"
 			#c position = { x = 15 y = 259 }
-			position = { x = 74 y = 248 }
+			position = { x = 94 y = 248 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "monarch_heir_name"
 			#c position = { x = 32 y = 257 }
-			position = { x = 89 y = 245 }
+			position = { x = 109 y = 245 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			#c maxWidth = 200
-			maxWidth = 250
+			maxWidth = 240
 			maxHeight = 26
 			format = left
 			fixedsize = yes
@@ -868,7 +869,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_heir_info"
 			#c position = { x =200 y = 257 }
-			position = { x =70 y = 263 }
+			position = { x =90 y = 263 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
