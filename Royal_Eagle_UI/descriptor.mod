@@ -11,8 +11,6 @@ tags={
 	"Gameplay"
 	"Graphics"
 	"Historical"
-	"Map"
-	"map"
 	"Military"
 	"Missions and Decisions"
 	"National Ideas"
