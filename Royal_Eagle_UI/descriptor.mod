@@ -26,5 +26,5 @@ tags={
 	"Utilities"
 }
 picture="thumbnail.png"
-supported_version="1.30.5.*"
+supported_version="1.30.4.*"
 remote_file_id="2346640696"

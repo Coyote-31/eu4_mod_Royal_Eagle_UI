@@ -26,6 +26,6 @@ tags={
 	"Utilities"
 }
 picture="thumbnail.png"
-supported_version="1.30.5.*"
+supported_version="1.30.4.*"
 path="mod/Royal_Eagle_UI"
 remote_file_id="2346640696"
