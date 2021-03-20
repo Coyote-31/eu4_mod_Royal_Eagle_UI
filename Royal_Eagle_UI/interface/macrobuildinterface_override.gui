@@ -1684,7 +1684,8 @@ guiTypes = {
 				font = "vic_18"
 				text = "MACRO_IMPROVE_RELATIONS_INFO"
 				maxWidth = 290
-				maxHeight = 52
+				#c maxHeight = 52
+				maxHeight = 60
 				format = centre
 				fixedsize = yes
 			}
@@ -3083,12 +3084,12 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "improve_rule_text"
 			#c position = { x= -10 y = -8 }
-			position = { x= -12 y = -8 }
+			position = { x= -112 y = -8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "Invalid Rule"
 			#c maxWidth =144
-			maxWidth =148
+			maxWidth =348
 			maxHeight = 32
 			format = center
 

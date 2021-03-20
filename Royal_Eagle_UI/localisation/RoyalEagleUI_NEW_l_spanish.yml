@@ -9,3 +9,11 @@
  LANDING_RECOMMENDED_COUNTRIES:0 "Paises recomendados"
  LANDING_DLC_DESCRIPTION:0 "Descripción"
  LANDING_DLC_FEATURES:0 "Contenido"
+
+ ## FRONT END ##
+ FE_MULTI_PLAYER:0 "Multijugador"
+ RANDOM_WORLD_START:0 "    Nuevo Mundo Aleatorio"
+ FE_NO_COUNTRY_SELECTED:0 "Ningún país"
+
+ ## TECHNOLOGY ##
+ TOTAL_TECH_PENALTY:0 "Malus tecnológico de instituciones"
