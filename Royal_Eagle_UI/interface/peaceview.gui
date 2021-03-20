@@ -645,7 +645,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "offer_score_label"
 				#c position = { x = 265 y = 498 }
-				position = { x = 257 y = 500 }
+				position = { x = 129 y = 500 }
 				textureFile = ""
 				#c font = "vic_22"
 				font = "vic_18s"
@@ -662,7 +662,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "offer_score"
 				#c position = { x = 317 y = 498 }
-				position = { x = 384 y = 498 }
+				position = { x = 256 y = 498 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -679,7 +679,7 @@ guiTypes = {
 				name ="terms_declined"
 				spriteType = "GFX_terms_declined_icon"
 				#c position = { x= 439 y = 490 }
-				position = { x= 442 y = 488 }
+				position = { x= 309 y = 487 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -688,7 +688,7 @@ guiTypes = {
 				name ="terms_accepted"
 				spriteType = "GFX_terms_accepted_icon"
 				#c position = { x= 439 y = 490 }
-				position = { x= 444 y = 488 }
+				position = { x= 311 y = 487 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -758,13 +758,15 @@ guiTypes = {
 			{
 				name ="icon_gold"
 				spriteType = "GFX_icon_gold"
-				position = { x= 129 y = 494 }
+				#c position = { x= 129 y = 494 }
+				position = { x= 352 y = 494 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "cash"
-				position = { x = 130 y = 500 }
+				#c position = { x = 130 y = 500 }
+				position = { x = 353 y = 500 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -777,7 +779,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "inccash"
 				#c position = { x = 228 y = 498 }
-				position = { x = 227 y = 498 }
+				position = { x = 450 y = 498 }
 				quadTextureSprite ="GFX_increase_button"
 				tooltip = ""
 				tooltipText =""
@@ -787,7 +789,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "deccash"
-				position = { x = 205 y = 498 }
+				#c position = { x = 205 y = 498 }
+				position = { x = 428 y = 498 }
 				quadTextureSprite ="GFX_decrease_button_left"
 				tooltip = ""
 				tooltipText =""
@@ -1386,7 +1389,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "offer_score_label"
 				#c position = { x = 265 y = 498 }
-				position = { x = 257 y = 800 }
+				position = { x = 129 y = 800 }
 				textureFile = ""
 				#c font = "vic_22"
 				font = "vic_18s"
@@ -1403,7 +1406,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "offer_score"
 				#c position = { x = 317 y = 498 }
-				position = { x = 384 y = 798 }
+				position = { x = 256 y = 798 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -1420,7 +1423,8 @@ guiTypes = {
 				name ="terms_declined"
 				spriteType = "GFX_terms_declined_icon"
 				#c position = { x= 439 y = 490 }
-				position = { x= 442 y = 788 }
+				#c position = { x= 442 y = 788 }
+				position = { x= 309 y = 787 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -1429,7 +1433,8 @@ guiTypes = {
 				name ="terms_accepted"
 				spriteType = "GFX_terms_accepted_icon"
 				#c position = { x= 439 y = 490 }
-				position = { x= 444 y = 788 }
+				#c position = { x= 444 y = 788 }
+				position = { x= 311 y = 787 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -1499,13 +1504,15 @@ guiTypes = {
 			{
 				name ="icon_gold"
 				spriteType = "GFX_icon_gold"
-				position = { x= 129 y = 794 }
+				#c position = { x= 129 y = 794 }
+				position = { x= 352 y = 794 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "cash"
-				position = { x = 130 y = 800 }
+				#c position = { x = 130 y = 800 }
+				position = { x = 353 y = 800 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1518,7 +1525,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "inccash"
 				#c position = { x = 228 y = 498 }
-				position = { x = 227 y = 798 }
+				position = { x = 450 y = 798 }
 				quadTextureSprite ="GFX_increase_button"
 				tooltip = ""
 				tooltipText =""
@@ -1528,7 +1535,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "deccash"
-				position = { x = 205 y = 798 }
+				#c position = { x = 205 y = 798 }
+				position = { x = 428 y = 798 }
 				quadTextureSprite ="GFX_decrease_button_left"
 				tooltip = ""
 				tooltipText =""
